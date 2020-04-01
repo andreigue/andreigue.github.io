@@ -20,14 +20,18 @@ Not only did building components in-house result in lower costs, but it also spe
 SpaceX has contracts with three major types of customers: commercial telecom companies, NASA, and the US military. All have different needs, but the end goal is to get whatever they need up into space. As SpaceX is reusing parts of their rockets, they offer competitive prices for launching, all while making a profit.
 
 For example, SpaceX’s main competitor, United Launch Alliance (ULA), which consists of Lockheed Martin and Boeing, charges around $400M for a military satellite launch, while SpaceX charges around $80M (5 times cheaper).
-Here is what’s next for SpaceX: the Big Falcon Rocket (BFR).
+
+![trees](..\images\spacexStarship.jpeg)
+_Here is what’s next for SpaceX: the Big Falcon Rocket (BFR)._
 
 ---
 
 ### Notes:
 
 ### 1 
-This was probably very difficult in the early stages, but with more practice and experience in in-house development, and with more people and more automated systems, things got easier.
+This was probably very difficult in the early stages, but with more practice and experience in in-house development, and with more people and more automated systems, things got easier. Actually, it was an extremely long road for them to get to where they are now. They've have lots of failures, as demonstrated in their video here.
+[![testhere](https://www.teslarati.com/wp-content/uploads/2019/06/Falcon-Heavy-B1052-B1053-LZ-landing-SpaceX-1-3.jpg)](https://www.youtube.com/watch?v=bvim4rsNHkQ)
+[![Click here or the image above to be redirected to the Youtube video!]()](https://www.youtube.com/watch?v=bvim4rsNHkQ)
 
 ### Sources:
 

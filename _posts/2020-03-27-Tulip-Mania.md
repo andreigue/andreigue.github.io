@@ -17,7 +17,7 @@ One day, some dutch (actually Flemish, but same thing) botanist planted a bunch 
 
 These flowers were touched by a disease which would change their color. This caused the petals to display flame-like multicolored stripes.
 
-![trees](..\images\tulips.jpg)
+![trees](..\images\bad-tulip.jpg)
 
 Although this was a disease, which is NOT a good thing, this introduced even more variety to an already unique-looking flower, and made these flowers more desirable to a population who were unaware of the disease.
 

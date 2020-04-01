@@ -1,12 +1,11 @@
 ---
 layout: posts
 permalink: /blog/
-title: # ""
+title: Welcome to my Blog!
 author_profile: true
 header:
     image: #"/images/typewriter.jpg/"
 ---
-# Welcome to my Blog!
 This is where I’ll be constantly posting about topics which interest me. This is an attempt to improve my lifestyle and to ensure that I keep learning.
 
 Here I cover topics in multiple fields, including but not limited to business, health, psychology, economics, technology and history. Most blogs typically focus on one central subject, but I couldn’t do that. There are way too many interesting fields for me to limit myself. I’m sure a lot of people can relate!
