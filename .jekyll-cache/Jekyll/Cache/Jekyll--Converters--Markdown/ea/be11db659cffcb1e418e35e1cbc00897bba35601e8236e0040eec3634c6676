@@ -1,0 +1,285 @@
+I"�<h1 id="welcome-to-my-blog">Welcome to my Blog!</h1>
+<p>This is where I’ll be constantly posting about topics which interest me. This is an attempt to improve my lifestyle and to ensure that I keep learning.</p>
+
+<p>Here I cover topics in multiple fields, including but not limited to business, health, psychology, economics, technology and history. Most blogs typically focus on one central subject, but I couldn’t do that. There are way too many interesting fields for me to limit myself. I’m sure a lot of people can relate!</p>
+
+<p>If you want to learn about something in specific, this is not the website for you. This is simply a record of my own learning experience. That said, anyone is welcome to wander around and see if anything interests them.</p>
+
+<h2 id="categories">Categories</h2>
+<ul>
+  <li>[Books] (COMING SOON)</li>
+  <li><a href="#business">Business</a></li>
+  <li><a href="#economics">Economics</a></li>
+  <li>[Interesting People] (COMING SOON)</li>
+  <li><a href="#history">History</a></li>
+  <li><a href="#science">Science</a></li>
+  <li><a href="#technology">Technology</a></li>
+  <li><a href="#thoughts">Thoughts</a></li>
+</ul>
+
+<!--- 
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+    </span>
+  </p>
+ --->
+
+<!--
+# Jekyll Group-By-Array 0.1.0
+# https://github.com/mushishi78/jekyll-group-by-array
+# © 2015 Max White <mushishi78@gmail.com>
+# MIT License
+-->
+
+<!-- Initialize -->
+
+<!-- Map -->
+
+<!-- Flatten -->
+
+<!-- Uniq -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- Push to group_names -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- Push to group_names -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- Push to group_names -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- Push to group_names -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- group_items -->
+
+<!-- Collect if contains -->
+
+<!-- Push to group_items -->
+
+<!-- Collect if contains -->
+
+<!-- Push to group_items -->
+
+<!-- Collect if contains -->
+
+<!-- Push to group_items -->
+
+<!-- Collect if contains -->
+
+<!-- Push to group_items -->
+
+<h2 id="business" class="archive__subtitle">Business</h2>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/basics-of-spacex/" rel="permalink">The Basics of SpaceX
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  3 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Let’s start with the man behind SpaceX, Elon Musk. In 1995, at the age of 28, he co-founded a software company called Zip2 and sold it for $340M 4 years late...</p>
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/John-D.-Rockefeller/" rel="permalink">John D. Rockefeller
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  4 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">John D. Rockefeller was born in 1839 in NYC. His father was of English and German descent and his mother was of Scots-Irish descent. When people speak of the...</p>
+  </article>
+</div>
+
+<h2 id="economics" class="archive__subtitle">Economics</h2>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/Tulip-Mania/" rel="permalink">Tulip Mania
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  9 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Here’s the situation. We’re in the 1590’s, in the Dutch Republic, aka the United Provinces (modern day Netherlands). Since the 1550’s, tulips had first been ...</p>
+  </article>
+</div>
+
+<h2 id="history" class="archive__subtitle">History</h2>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/operation-ajax/" rel="permalink">Operation Ajax (Iran)
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  4 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">It all started with the 35th Prime Minister of Iran, Mohammad Mosaddegh. This man was loved by the Iranian people and democratically voted to his position in...</p>
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/Tulip-Mania/" rel="permalink">Tulip Mania
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  9 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Here’s the situation. We’re in the 1590’s, in the Dutch Republic, aka the United Provinces (modern day Netherlands). Since the 1550’s, tulips had first been ...</p>
+  </article>
+</div>
+
+<h2 id="science" class="archive__subtitle">Science</h2>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/the-problems-with-fast-foods/" rel="permalink">The Problems With Fast Food
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  5 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Things found in their natural form are usually better than the ones we’ve messed with. Foods which are scientifically engineered to get us hooked are everywh...</p>
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/planet-of-the-trees/" rel="permalink">Planet of the Trees
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">The tallest tree in the world is the redwood tree located in the state of California. They can grow to be over a hundred meters tall. But why are they so tal...</p>
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/a-view-of-the-world-throug-the-lens-of-physics/" rel="permalink">A View of the World Through the Lens of Physics
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  7 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Here is a relatively long article I wrote back in my days of college, just thought I’d share it here.
+</p>
+  </article>
+</div>
+
+:ET

@@ -15,10 +15,10 @@ If you want to learn about something in specific, this is not the website for yo
 
 
 ## Categories
-- [Books (COMING SOON)]
+- [Books] (COMING SOON)
 - [Business](#business)
 - [Economics](#economics)
-- [Interesting People (COMING SOON)]
+- [Interesting People] (COMING SOON)
 - [History](#history)
 - [Science](#science)
 - [Technology](#technology)
