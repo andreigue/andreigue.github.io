@@ -22,6 +22,7 @@ SpaceX has contracts with three major types of customers: commercial telecom com
 For example, SpaceX’s main competitor, United Launch Alliance (ULA), which consists of Lockheed Martin and Boeing, charges around $400M for a military satellite launch, while SpaceX charges around $80M (5 times cheaper).
 
 ![trees](..\images\spacexStarship.jpeg)
+
 _Here is what’s next for SpaceX: the Big Falcon Rocket (BFR)._
 
 ---

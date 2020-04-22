@@ -5,7 +5,7 @@ header:
     image: #"/images/rockefeller.jpg"
 ---
 
-Things found in their natural form are usually better than the ones we've messed with. Foods which are scientifically engineered to get us hooked are everywhere (love this short video stating how foods cooked by corporations are different than foods cooked at home). In the most extreme of cases, take heroine, which comes from poppy seeds, cocaine from the coca plant [(1)](#1), and alcohol from grains or fruits. We are now capable of refining and concentrating harmless plants so much that it can make people lose complete control of themselves.
+Things found in their natural form are usually better than the ones we've messed with. Foods which are scientifically engineered to get us hooked are everywhere. In the most extreme of cases, take heroine, which comes from poppy seeds, cocaine from the coca plant [(1)](#1), and alcohol from grains or fruits. We are now capable of refining and concentrating harmless plants so much that it can make people lose complete control of themselves.
 
 We love our fried chicken, our french fries, our samosas, our pizza puffs, our hashbrowns, our deep-fried calamari, our doughnuts etc. Our prehistoric minds love foods high in fat, as they provide the biggest bang for your buck in terms of energy (at 9 calories per gram, versus carbs and proteins which 
 contain only 4). [(2)](#2)
