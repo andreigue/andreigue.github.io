@@ -1,6 +1,7 @@
 ---
 tags: [Technology]
-header: The First Real Spammers
+Title: The First Real Spammers
+header: 
     image: #"/images/rockefeller.jpg"
     excerpt: "History, Technology"
 ---
@@ -13,7 +14,7 @@ Open email relays were simple mail servers, that would take an email, and forwar
 
 Not surprisingly, spammers took advantage of this system and absued it. Open relays allowed them to reroute their emails through third-party email servers to avoid being detected and to use the large resources and capabilities of these open relay servers. What the spammers did was basically send one email which would contain a huge bcc (blind carbon copy) list to the open relay server, which would in turn sent that one email to everyone in the bcc list. 
 
-Open relays were started to be frowned upon by the tech community because of this increase in abuse of the system. Detection methods were starting to appear in order to block the spam emails sent through open relays. This was easy to do because the blind carbon copies would create exact replicas of the email, and this was easy to detect. ISPs used hash filters to detect the emails sent in bulk. What these filters would do is create a hash sum by using a hash function. Hash functions take an input (an email in this case), and outputs a unique degital fingerprint for that input. If you were to change one little thing in that input/file/email, then the hash function will output something completely different. This output is called a hash or a hash value [(3)](#3). So once an email is "summed up" into a hash value, that value can be compared with the values of other emails, and if they are the same, then it can be concluded that the same email was sent multiple times, and therefore is likely spam. 
+Open relays were started to be frowned upon by the tech community because of this increase in abuse of the system. Detection methods were starting to appear in order to block the spam emails sent through open relays. This was easy to do because the blind carbon copies would create exact replicas of the email, and this was easy to detect. ISPs used hash filters to detect the emails sent in bulk. What these filters would do is create a hash sum by using a hash function. Hash functions take an input (an email in this case), and outputs a unique degital fingerprint for that input. If you were to change one little thing in that input/file/email, then the hash function will output something completely different. This output is called a hash or a hash value [(3)](#3). So once an email is "summed up" into a hash value, that value can be compared with the values of other emails, and if they are the same, then it can be concluded that the same email was sent multiple times, and therefore it is likely spam. 
 
 In order to bypass this, spammers started using hash busters. These were programs which would randomly add characters to emails in order to change that email's hash sum, which would in turn, differentiate its hash value which the filters gave for every email, thus making them seem different to the filters. However, this defeated the purpose of using an open relay, because every copy of spam was "unique" and had to now be sent individually. 
 
