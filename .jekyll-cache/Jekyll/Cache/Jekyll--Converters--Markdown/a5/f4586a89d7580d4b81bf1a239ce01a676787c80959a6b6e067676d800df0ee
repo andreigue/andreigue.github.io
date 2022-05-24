@@ -1,5 +1,4 @@
-I"�<h1 id="welcome-to-my-blog">Welcome to my Blog!</h1>
-<p>This is where I’ll be constantly posting about topics which interest me. This is an attempt to improve my lifestyle and to ensure that I keep learning.</p>
+I"�!<p>This is where I’ll be constantly posting about topics which interest me. This is an attempt to improve my lifestyle and to ensure that I keep learning.</p>
 
 <p>Here I cover topics in multiple fields, including but not limited to business, health, psychology, economics, technology and history. Most blogs typically focus on one central subject, but I couldn’t do that. There are way too many interesting fields for me to limit myself. I’m sure a lot of people can relate!</p>
 
@@ -7,10 +6,10 @@
 
 <h2 id="categories">Categories</h2>
 <ul>
-  <li>[Books] (COMING SOON)</li>
+  <li>Books (COMING SOON)</li>
   <li><a href="#business">Business</a></li>
   <li><a href="#economics">Economics</a></li>
-  <li>[Interesting People] (COMING SOON)</li>
+  <li>Interesting People (COMING SOON)</li>
   <li><a href="#history">History</a></li>
   <li><a href="#science">Science</a></li>
   <li><a href="#technology">Technology</a></li>
@@ -71,7 +70,15 @@
 
 <!-- If not equal to previous then it must be unique as sorted -->
 
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- Push to group_names -->
+
 <!-- group_items -->
+
+<!-- Collect if contains -->
+
+<!-- Push to group_items -->
 
 <!-- Collect if contains -->
 
@@ -106,7 +113,7 @@
 
 
 
-  3 minute read
+  4 minute read
 
 </p>
     
@@ -279,6 +286,31 @@
     
     <p class="archive__item-excerpt" itemprop="description">Here is a relatively long article I wrote back in my days of college, just thought I’d share it here.
 </p>
+  </article>
+</div>
+
+<h2 id="technology" class="archive__subtitle">Technology</h2>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/the-first-real-spammers/" rel="permalink">The First Real Spammers
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  7 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">If you go to the “about” section of my website, you can see me kindly asking my lovely readers and passerbys, to not DDoS me. I’ll leave the explanation of D...</p>
   </article>
 </div>
 

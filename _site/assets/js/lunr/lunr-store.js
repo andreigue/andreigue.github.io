@@ -36,8 +36,20 @@ var store = [{
         "teaser": null
       },{
         "title": "The Problems With Fast Food",
-        "excerpt":"Things found in their natural form are usually better than the ones we’ve messed with. Foods which are scientifically engineered to get us hooked are everywhere (love this short video stating how foods cooked by corporations are different than foods cooked at home). In the most extreme of cases, take...","categories": [],
+        "excerpt":"Things found in their natural form are usually better than the ones we’ve messed with. Foods which are scientifically engineered to get us hooked are everywhere. In the most extreme of cases, take heroine, which comes from poppy seeds, cocaine from the coca plant (1), and alcohol from grains or...","categories": [],
         "tags": ["Science"],
         "url": "http://localhost:4000/the-problems-with-fast-foods/",
+        "teaser": null
+      },{
+        "title": "The First Real Spammers",
+        "excerpt":"If you go to the “about” section of my website, you can see me kindly asking my lovely readers and passerbys, to not DDoS me. I’ll leave the explanation of DDoSing for another time… but speaking of time, if I were to write my “about” page in the 1980s, I...","categories": [],
+        "tags": ["Technology"],
+        "url": "http://localhost:4000/the-first-real-spammers/",
+        "teaser": null
+      },{
+        "title": "Mitre Attack Framework",
+        "excerpt":" some content  ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/mitre-attack-framework/",
         "teaser": null
       }]
