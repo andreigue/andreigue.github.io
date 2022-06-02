@@ -20,7 +20,8 @@ IaaS provides access to everything down to the networking capabilities, storage,
 
 SaaS is the easiest to understand because we all come across it. PaaS is more relatable to programmers and folks in IT. For anyone whose done AI/ML-related projects, they may have used Google Colab. Rather than having to update and manage the AI/ML libraries manually, that is all done by Google. All the developer needs to do is focus on writing the code, rather than setting up and maintaining the runtime environment. Another example of a PaaS is Google App Engine, which is used for building web applications and mobile backend. PaaS essentially serves as a platform for the development or deployment of code to create a cloud-based applications.
 
-IaaS is even more "niche", with examples like AWS EC2 (Elastic Compute Cloud), OpenStack, and GCE (Google Compute Engine), all of which provide virtual servers
+IaaS is even more "niche", with examples like AWS EC2 (Elastic Compute Cloud), OpenStack, and GCE (Google Compute Engine), all of which provide virtual servers and virtual machines.
+
 ---
 
 ### Sources:
