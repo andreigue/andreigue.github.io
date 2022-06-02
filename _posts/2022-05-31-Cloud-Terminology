@@ -6,14 +6,12 @@ These are huge companies, and they can afford to spend billions on procuring ent
 
 Why cloud?
 
-To better understand why, it helps to see how we got here. In th 1990's, large companies would have rooms in their business solely for the purpose of storing data. Hence, the entire data center belongs to the company. The company has entire control over their data center; it's their servers, their databases, their routers, switches and firewalls. All of this is theirs, because they bought them. Now the question is, why didn't all companies just build their own centers, and buy their own equipment? 
+To better understand why, it helps to see how we got here. In th 1990's, large companies would have rooms in their business solely for the purpose of storing data. Hence, the entire data center belongs to the company. The company has entire control over their data center; it's their servers, their databases, their routers, switches and firewalls. All of this is theirs, because they bought them. Now the question is, why didn't all companies just build their own centers and buy their own equipment? Well the first reason was that investing in data center real estate is expensive.
 
-The answer is cost. Have a look for yourself at [the price of server racks](https://www.cdw.com/search/servers-server-management/servers/rack-servers/?w=SB2). 
+That is where co-location started to become a thing. In this scenario, the company has to buy their own server racks, but they can rent out space from a co-location provider. This co-location provider owns the real estate of the data center, and provides all the necessities like power, cooling, fire protection systems, and cabinets, to allow tenants to securely have access to their own equipment.
 
+Beyond the cost of owning physical space, there is also the cost of owning the physical IT equipment. Have a look for yourself at [the price of server racks](https://www.cdw.com/search/servers-server-management/servers/rack-servers/?w=SB2) and [the price of routers](https://www.cdw.com/search/networking/routers/data-routers/?w=RG4). It is because of these huge initial costs that companies looked for solutions beyond colocation. Furtheremore, what if something happened in the data center? Failure to prevent service downtime can lead to financial losses, lawsuits, and bad reputation. And that is where the virtual data centers came in.  
 
-
-It is important to note that buying your own equipment is not cheap. 
-As more tech companies started to emerge during the dot-com boom, and as more and more data started to appear, companies resorted to co-location.   
 
 
 There are three main types of cloud computing: IaaS, PaaS and SaaS. They differ in the amount of control given to the customer. 
@@ -22,11 +20,11 @@ IaaS provides access to networking capabilities, storage, and ultimately, comput
 ---
 
 ### Sources:
-[1] <https://aws.amazon.com/what-is-cloud-computing/>
+<https://aws.amazon.com/what-is-cloud-computing/>
 
-<https://www.livescience.com/14667-tall-trees-grow.html>
+<https://en.wikipedia.org/wiki/Colocation_centre>
 
-<https://www.quora.com/Is-there-a-reason-why-trees-grow-so-tall>
+
 
 ### Photo Credit:
 <https://www.quora.com/What-is-the-evolutionary-benefit-for-palm-trees-to-grow-so-tall>
