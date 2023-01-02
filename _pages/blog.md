@@ -21,7 +21,7 @@ If you want to learn about something in specific, this is not the website for yo
 - [History](#history)
 - [Science](#science)
 - [Technology](#technology)
-- [Thoughts](#thoughts)
+<!-- - [Thoughts](#thoughts) -->
 
 
 

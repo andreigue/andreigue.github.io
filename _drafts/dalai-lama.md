@@ -1,1 +1,0 @@
-dalai lama video from yes theory
