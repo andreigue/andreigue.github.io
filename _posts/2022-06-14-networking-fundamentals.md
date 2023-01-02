@@ -40,8 +40,8 @@ Interesting how so many (if not all) major technological advancements have origi
 
 
 ### Sources:
-[https://en.wikipedia.org/wiki/Protocol_Wars]
-[https://www.usg.edu/galileo/skills/unit07/internet07_02.phtml#:~:text=January%201%2C%201983%20is%20considered,Protocol%20(TCP%2FIP)]
+[https://en.wikipedia.org/wiki/Protocol_Wars](https://en.wikipedia.org/wiki/Protocol_Wars)
+[https://www.usg.edu/galileo/skills/unit07/internet07_02.phtml#:~:text=January%201%2C%201983%20is%20considered,Protocol%20(TCP%2FIP)](https://www.usg.edu/galileo/skills/unit07/internet07_02.phtml#:~:text=January%201%2C%201983%20is%20considered,Protocol%20(TCP%2FIP))
 
 
 
