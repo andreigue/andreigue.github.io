@@ -6,7 +6,10 @@ Once upon a time (1960's), two devices made by two different companies could not
 
 The International Organization for Standardization (ISO) recognized this problem, and created a template/model called (somewhat confusingly) the Open Systems Interconnect (OSI). The OSI model is simply a guide and didn't explain the "how". 
 
-As it turned out, the OSI model wasn't the only model proposed during the period. The U.S. Department of Defense (DoD) was also developing its own communication protocol, now known as the Transmission Control Protocol/Internet Protocol suite, or TCP/IP [(2)]. While OSI was just a model, TCP/IP 
+As it turned out, the OSI model wasn't the only model proposed during the period. The U.S. Department of Defense (DoD) was also developing its own communication protocol, now known as the Transmission Control Protocol/Internet Protocol suite, or TCP/IP [(2)]. More specifically, it was ARPA (Advanced Research Projects Agency), today known as DARPA (Defense ARPA), through partnerships with universities and various research groups, that developed the predecessor to the modern Internet. It was named ARPANET, and it was the first ever implementation of packet-switching (the year is 1969). Four 
+
+![Four nodes](..\images\arpanet.png)
+[https://www.historyofinformation.com/detail.php?entryid=3823](https://www.historyofinformation.com/detail.php?entryid=3823)
 
 This led to what is known today as the ["protocol wars"](https://en.wikipedia.org/wiki/Protocol_Wars)
 
@@ -36,13 +39,14 @@ when was lan created
 While the circuit switching infrastructure was already in place thanks to the telephone lines,  it really wasn't clear how to build a packet switching system. Packet switching basically entails sending a message in parts, through potentially different routes, and reassembling that message in the correct order at the destination. This technology has numerous benefits over the old technology, some of which are enabling the more efficient use of existing communication channels and being faster. On the other hand, circuit switching used a dedicated communication line between two parties. This meant that the entire channel was busy, even if it wasn't being used to its full capacity by the two parties.
 
 ### 2
-Interesting how so many (if not all) major technological advancements have originated in the defence sector. 
+It's interesting how so many (if not all) major technological advancements have originated in the defence sector. As the Cold War was escalating, in 1957, the USSR managed to send the first man-made satellite into orbit, called Sputnik (which is the russian word for "satellite"). The US followed suit a year later. That same year, President Dwight D. Eisenhower created the National Aeronautics and Space Administration (NASA), a federal agency dedicated to space exploration. ARPA (today known as DARPA) was also created that year. It was in 1961 that Yuri Gagarin of Russia became the first person to orbit the Earth inside Vostok 1 (which is the russian word for "East"). At this point, no one knew the implications of the space race, but the US was planning for the worst case scenario: a nuclear attack. And hence developing an efficient communication protocol from coast to coast was important. 
 
 
 ### Sources:
 [https://en.wikipedia.org/wiki/Protocol_Wars](https://en.wikipedia.org/wiki/Protocol_Wars)
 [https://www.usg.edu/galileo/skills/unit07/internet07_02.phtml#:~:text=January%201%2C%201983%20is%20considered,Protocol%20(TCP%2FIP)](https://www.usg.edu/galileo/skills/unit07/internet07_02.phtml#:~:text=January%201%2C%201983%20is%20considered,Protocol%20(TCP%2FIP))
-
+[https://www.history.com/topics/cold-war/space-race](https://www.history.com/topics/cold-war/space-race)
+[https://en.wikipedia.org/wiki/ARPANET](https://en.wikipedia.org/wiki/ARPANET)
 
 
 
