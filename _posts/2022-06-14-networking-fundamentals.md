@@ -1,3 +1,8 @@
+---
+title: Networking Fundamentals 1
+tags: [Technology]
+---
+
 In order for two computers to communicate, they  must somehow be connected to each other. Today, we take it for granted that I can buy a Lenovo laptop, and it has the ability to join the internet and communicate with your Asus PC right out of the box. Lenovo and Asus don't have a special partnership in order to make this happen. All they have to do is build their devices such that they follow world-wide accepted protocols for communucation.
 
 ### Some history
@@ -35,17 +40,6 @@ A switch operates at Layer 2 (L2) because in order to transmit the data to the r
 
 The router operates at Layer 3. While the switch allows multiple users to talk to one another within the same network, it is the router which allows different networks to connect to each other. If I want to visit www.kidcoder.ca, which is on a server somewhere outside of my home network, then I must use a router in order to leave my internal network. Since www.kidcoder.ca does not have the IP address in the range of 192.168.0.1 - 192.168.0.255 (or 192.168.0.1/24), this means that it is not in the internal network, and a switch will no longer be of any help. We will need the help of a router. Your router is also called a default gateway (think of it as a gateway to the outside world), and it will probably have a local IP address of 192.168.0.1 (since it is a device on your network). This is also where L3 comes into play since we are adding a new dimension to the situation. And when L3 data is moved around, we refer to them as "packets". [(5)]
 
-
-
-
-
-### Basic Home Network
-
-In your house, it all starts with the modem. The modem is provided by your ISP (Internet Service Provider), like Bell, Rogers, Telus or Videotron. You need an ISP to connect to the Internet. It passes data onto your modem (through a coaxial cable, a DSL cable, or more likely these days, a fiber optic cable). The modem converts the signal provided by the ISP into a digital ethernet signal which it passes onto the router. Typically, the modem and the router are two separate devices, but today some ISPs combine the two into a single device. The router itself is also a combination of several devices: a router, an access point (AP), and a switch. 
-
-The router is what separates the computers on your home network from the computers outside of the network. Thus, the router acts as an intermediary between your LAN (local area network) and the WAN (wide area network). The AP portion is what allows your devices to connect wirelessly to the router (sometimes called WAP for "wireless AP). The switch portion allows you to connect your devices to the ethernet ports using ethernet cables (rather than doing so wirelessly).  
-
-The router is the gateway to the outside world. It is what is protecting your LAN devices from preying eyes in the WAN. The router has a public IP address, and a private IP address. The public IP address is what the outside world sees. When your friend wants to send a message to your computer, he/she would need your router's public IP address. That is how you are identified on the Internet. That is why it is impor
 
 
 ### Notes:
