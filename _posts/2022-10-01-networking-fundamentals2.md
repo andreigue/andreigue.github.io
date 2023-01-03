@@ -7,7 +7,13 @@ In the first part of this series, I discussed about some of the fundamentals of 
 
 ### Data transmission
 
-Let's start from the beginning. Let's say 
+Let's start from the beginning. Let's say you want to go to kidcoder.ca. You type it out in the URL box. Because you are using the browser, you are actually interacting with the Application layer, L7. If we think in terms of the TCP/IP model, then L6 and L5 are bundled within L7.
+
+Then we move down the stack onto L4, or the Transport Layer. 
+
+What we've done so far is a process called "encapsulation". We have been adding header after header, placing one envelope into another. L7 was placed into the L4 envelope. L4 hidden in the L3, L3 hidden in the L2 envelope, and this L2 envelope, containing all the previous information, transforms into bits of 1s and 0s, travelling through the wires of the Internet, onto the destination device. This process of encapsulation can be visualized as follows:
+
+
 
 ### Basic Home Network
 

@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Andrei Guevorkian"
   avatar           : "/images/withElika.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a software engineering student who loves to build and write about random stuff!"
+  bio              : "I am a software engineering graduate who loves to build and write about random stuff!"
   location         : "Montreal, Qc."
   email            :
   links:
@@ -104,7 +104,7 @@ author:
       # url: mailto:your.name@email.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      # url: "https://kidcoder.ca"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
