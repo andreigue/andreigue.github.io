@@ -1,3 +1,10 @@
+---
+title: "Some past projects"
+permalink: /projects/
+#header: 
+ # image: "/images/retrowave.jpg"
+---
+
 ![View of networks](..\images\proj1.jpg)(https://youtu.be/ShEX6RL_HXA)
 [![Dynamic Malware Analysis using Cuckoo Sandbox University Project!]()](https://youtu.be/Nk4SSFfV1Rc)
 
