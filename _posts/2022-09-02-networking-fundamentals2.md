@@ -22,14 +22,14 @@ What we've done so far is a process called "encapsulation". We have been adding 
 
 Now that we have the frames ready to go, they are sent from my computer onto my switch, which reads the frame header, telling it to send the message to my router. Once the router receives it, it reads the L3 header, which tells it the destination IP address. Once the destination router is reached, the message is sent to the website hosting server. 
 
-The website's server knows about the TCP/IP model, and so when it receives the frame, it follows the standard protocol for reading it. What follows is the process of "de-encapsulation". It reads the L2 header (MAC address info), the L3 header (IP address info) and the L4 header (TCP port 443 is used). The L7 data is then read: the user wanted to access "www.kidcoder.ca".
+The website's server knows about the TCP/IP model, and so when it receives the frame, it follows the standard protocol for reading it. What follows is the process of "de-encapsulation" (or "decapsulation"). The server reads the L2 header (MAC address info), the L3 header (IP address info) and the L4 header (TCP port 443 is used). The L7 data is then read: the user wanted to access "www.kidcoder.ca".
 
 ![View of networks](..\images\decapsulation.jpg)
 [https://www.firewall.cx/networking-topics/the-osi-model/179-osi-data-encapsulation.html](https://www.firewall.cx/networking-topics/the-osi-model/179-osi-data-encapsulation.html)
 
-The website server proceeds to place all the L7 data into an envelope, and the encapsulation process begins all over again, but now from the server side. The server encapsulates the data into segments (L4), then into packets (L3), and finally into frames (L2). This is sent back to the user through the electrical signals of 1s and 0s. 
+The website server proceeds to place all the L7 data into an envelope (the raw HTTP data of the website), and the encapsulation process begins all over again, but now from the server side. The server encapsulates the data into segments (L4), then into packets (L3), and finally into frames (L2). This is sent back to the user through the electrical signals of 1s and 0s. 
 
-In summary, when I search for www.kidcoder.ca in my browser, the entire TCP/IP suite was used, with all the layers being used and encapsulated one by one until we get frames. These frames are sent across the physical network, going from switch to multiple routers to switch and then finally reaching the destination server (the one hosting www.kidcoder.ca). The server de-encapsulates the frame to read the L7 data (what the web browser wants). 
+In summary, when I search for www.kidcoder.ca in my browser, the entire TCP/IP suite is used, with all the layers being used and encapsulated one by one until I get frames. These frames are sent across the physical network, going from switch to multiple routers to switch and then finally reaching the destination server (the one hosting www.kidcoder.ca). The server decapsulates the frames to read the L7 data (what my web browser wants). In response, the web server responds by encapsulating the website information all the way down the TCP/IP suite into  frames, and sending these frames down my way. My browser decapsulates the frame, and I get to see the HTTPS website which I requested.   
 
 ### Notes:
 
