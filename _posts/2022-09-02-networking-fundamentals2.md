@@ -22,7 +22,7 @@ What we've done so far is a process called "encapsulation". We have been adding 
 
 Now that we have the frames ready to go, they are sent from my computer onto my switch, which reads the frame header, telling it to send the message to my router. Once the router receives it, it reads the L3 header, which tells it the destination IP address. Once the destination router is reached, the message is sent to the website hosting server. 
 
-The website's server knows about the TCP/IP model, and so when it receives the frame, it follows the standard protocol for reading it. What follows is the process of "de-encapsulation" (or "decapsulation"). The server reads the L2 header (MAC address info), the L3 header (IP address info) and the L4 header (TCP port 443 is used). The L7 data is then read: the user wanted to access "www.kidcoder.ca".
+The website's server knows about the TCP/IP model, and so when it receives the frame, it follows the standard protocol for reading it. What follows is the process of "de-encapsulation" (or "decapsulation"). The server reads the L2 header (MAC address info), the L3 header (IP address info) and the L4 header (TCP port 443 is used)[(2)](#2). It ensures that it is indeed the correct recipient of this message. The L7 data is then read: the user wanted to access "www.kidcoder.ca".
 
 ![View of networks](..\images\decapsulation.jpg)
 [https://www.firewall.cx/networking-topics/the-osi-model/179-osi-data-encapsulation.html](https://www.firewall.cx/networking-topics/the-osi-model/179-osi-data-encapsulation.html)
@@ -35,6 +35,9 @@ In summary, when I search for www.kidcoder.ca in my browser, the entire TCP/IP s
 
 ### 1 
 An example of a port that uses UDP is the DHCP ports 67, 68. DHCP (Dynamic Host Configuration Protocol) is used to automatically assign a private IP address to clients on a private network.
+
+### 2
+The segments have arrived in the correct order thanks to the router in the LAN of the server. This is because the TCP protocol was used, and so the router has to ensure that the server is receiving the data packets in the correct order. 
 
 ### Sources:
 [https://docs.oracle.com/cd/E19455-01/806-0916/ipov-32/index.html](https://docs.oracle.com/cd/E19455-01/806-0916/ipov-32/index.html)
