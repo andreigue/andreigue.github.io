@@ -6,11 +6,9 @@ author_profile: true
 header:
     image: #"/images/typewriter.jpg/"
 ---
-This is where I’ll be constantly posting about topics which interest me. This is an attempt to improve my lifestyle and to ensure that I keep learning.
+This is where I’ll be constantly posting about topics which interest me. This is a way to ensure that I keep learning, and my favorite way to learn is to explain.
 
-Here I cover topics in multiple fields, including but not limited to business, health, psychology, economics, technology and history. Most blogs typically focus on one central subject, but I couldn’t do that. There are way too many interesting fields for me to limit myself. I’m sure a lot of people can relate!
-
-If you want to learn about something in specific, this is not the website for you. This is simply a record of my own learning experience. That said, anyone is welcome to wander around and see if anything interests them.
+If you want to learn about something in specific, this is not the blog for you. This is simply a record of my own learning experience. Not all articles are meant to be read and understood from no initial knowledge about the topic. That said, anyone is welcome to wander around and see if anything interests them.
 
 
 ## Categories

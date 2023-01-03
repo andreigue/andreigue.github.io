@@ -7,6 +7,8 @@ In the first part of this series, I discussed about some of the fundamentals of 
 
 ### Data transmission
 
+Let's start from the beginning. Let's say 
+
 ### Basic Home Network
 
 In your house, it all starts with the modem. The modem is provided by your ISP (Internet Service Provider), like Bell, Rogers, Telus or Videotron. You need an ISP to connect to the Internet. It passes data onto your modem (through a coaxial cable, a DSL cable, or more likely these days, a fiber optic cable). The modem converts the signal provided by the ISP into a digital ethernet signal which it passes onto the router. Typically, the modem and the router are two separate devices, but today some ISPs combine the two into a single device. The router itself is also a combination of several devices: a router, an access point (AP), and a switch. 
