@@ -13,7 +13,7 @@ The Transport Layer will take the L7 data, divide into into smaller pieces calle
 
 Next we move onto L3: the Network layer. Here we deal with IP addresses and routers. An IP header is attached to the segments, and this data is now called a "packet", or sometimes a "datagram". At this level, we hold information such as source and destination IP addresses, packet length, etc. 
 
-This gets passed onto the layer 2: Data link. Here we deal with MAC addresses and switches. We add a L2 header and a footer, and now we have a "frame". All of the previous data has now been "encapsulated" into frames.
+This gets passed onto the layer 2: Data link. Here we deal with MAC addresses and switches. We add a L2 header and a footer, and now we have a "frame". All of the previous data has now been "encapsulated" into frames. [(2)](#2)
 
 What we've done so far is a process called "encapsulation". We have been adding header after header, placing one envelope into another. L7 was placed into the L4 envelope. L4 hidden in the L3, L3 hidden in the L2 envelope, and this L2 envelope, containing all the previous layers/information, transforms into bits of 1s and 0s, ready to travel through the wires (L1) to reach it's final destination. This process of encapsulation can be visualized as follows:
 
@@ -22,7 +22,7 @@ What we've done so far is a process called "encapsulation". We have been adding 
 
 Now that we have the frames ready to go, they are sent from my computer onto my switch, which reads the frame header, telling it to send the message to my router. Once the router receives it, it reads the L3 header, which tells it the destination IP address. Once the destination router is reached, the message is sent to the website hosting server. 
 
-The website's server knows about the TCP/IP model, and so when it receives the frame, it follows the standard protocol for reading it. What follows is the process of "de-encapsulation" (or "decapsulation"). The server reads the L2 header (MAC address info), the L3 header (IP address info) and the L4 header (TCP port 443 is used)[(2)](#2). It ensures that it is indeed the correct recipient of this message. The L7 data is then read: the user wanted to access "www.kidcoder.ca".
+The website's server knows about the TCP/IP model, and so when it receives the frame, it follows the standard protocol for reading it. What follows is the process of "de-encapsulation" (or "decapsulation"). The server reads the L2 header (MAC address info), the L3 header (IP address info) and the L4 header (TCP port 443 is used)[(3)](#3). It ensures that it is indeed the correct recipient of this message. The L7 data is then read: the user wanted to access "www.kidcoder.ca".
 
 ![View of networks](..\images\decapsulation.jpg)
 [https://www.firewall.cx/networking-topics/the-osi-model/179-osi-data-encapsulation.html](https://www.firewall.cx/networking-topics/the-osi-model/179-osi-data-encapsulation.html)
@@ -37,6 +37,9 @@ In summary, when I search for www.kidcoder.ca in my browser, the entire TCP/IP s
 An example of a port that uses UDP is the DHCP ports 67, 68. DHCP (Dynamic Host Configuration Protocol) is used to automatically assign a private IP address to clients on a private network.
 
 ### 2
+Frames, packets/datagrams, segments, these are all terms use to represent the data, depending on where it is on the TCP/IP stack. Protocol Data Unit (PDU) is the general term used for the data.
+
+### 3
 The segments have arrived in the correct order thanks to the router in the LAN of the server. This is because the TCP protocol was used, and so the router has to ensure that the server is receiving the data packets in the correct order. 
 
 ### Sources:

@@ -61,6 +61,12 @@ The four initial participants involved were: UCLA (University of California, Los
 ### 4
 As a sidenote, ARP (Address Resolution Protocol) also operates on L2. ARP is used to map IP addresses to MAC addresses. So when device A wants to communicate with device B (both on the same network), it only knows it's IP address. In order for devices to communicate within the same network, MAC addresses must be used. Device A will first check it's ARP cache to see if it knows the MAC address of device B. If it is not found in the ARP cache of device A, then device A will broadcast (through the switch) an ARP message asking all devices on the network "who has IP address XX.XX.XX.XX, and if that's you, send me your MAC address". Device B will respond to the ARP message and send device A it's MAC address, thus allowing for communication between the two devices.
 
+Note that the "broadcast" message occurs when the destination MAC of a message is FF:FF:FF:FF:FF:FF. 
+
+The same concept exists in the Network Layer when dealing with IP addresses, where a "broadcast address" is that which has all host address bits as 1. This means that for a given network address, the broadcast address is the largest possible IP address (similar to how all F's is the largest possible MAC address).
+
+For example, if we have 172.16.0.0/12, this means that the first 12 bits (the first octet and a half) represent the network portion. Converted to binary form, we have 10101100.00010000.00000000.00000000, and the corresponding broadcast address would be 10101100.00011111.11111111.11111111, which is the same as	172.31.255.255. 
+
 ### 5
 If I want to visit www.kidcoder.ca, I don't send a ping or something to the server. I use my browser. I type in the domain name. When I press enter, the query goes to my DNS, or Domain Name Server, which is found on my internal network. Same as before, if it's my first time communication with the DNS server, I must first get it's MAC address. To get it, an ARP message is sent. Once the DNS server returns the IP address for www.kidcoder.ca (that's the DNS response), my computer can send it out to my switch, which forwards it to the router, which then goes out to the kidcoder.ca's router (probably through many different paths), which responds to the HTTP GET request and returns the webpage back to my computer.   
 
