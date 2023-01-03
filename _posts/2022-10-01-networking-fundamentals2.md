@@ -11,7 +11,7 @@ Let's start from the beginning. Let's say you want to go to kidcoder.ca. You typ
 
 Then we move down the stack onto L4, or the Transport Layer. These packets will go through the firewall through a specific port. Here there are two main options: TCP or UDP. TCP (Transmission Control Protocol) is a connection-oriented protocol, which ensures that all data packets arrive at the destination, in the correct order. It is reliable, but slower than UDP. UDP (User Datagram Protocol) is a connectionless protocol, which sends data packets without checking if they arrive and without ensuring the correct order of arrival. Anytime you videocall someone (think Zoom, Skype, Discord), or livestream, UDP is used. These are applications where reduced latency and overhead is more important the reliability offered by TCP. Since we are searching up www.kidcoder.ca, which is a website, we are using HTTPS. HTTPS uses port 443, and it uses TCP. If kidcoder.ca was not using TLS/SSL encryption, then we would be using HTTP, and that defaults to port 80, which still uses TCP as the transport protocol. [(1)](#1)
 
-So what we have so far is the 
+So what we have so far is the L7 data with L4 data tagged onto it. 
 
 
 What we've done so far is a process called "encapsulation". We have been adding header after header, placing one envelope into another. L7 was placed into the L4 envelope. L4 hidden in the L3, L3 hidden in the L2 envelope, and this L2 envelope, containing all the previous information, transforms into bits of 1s and 0s, travelling through the wires of the Internet, onto the destination device. This process of encapsulation can be visualized as follows:
