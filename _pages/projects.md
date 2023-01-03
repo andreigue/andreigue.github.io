@@ -1,9 +1,13 @@
+
 ---
-title: "Some past projects"
+layout: posts
 permalink: /projects/
-#header: 
- # image: "/images/retrowave.jpg"
+title: Some past projects
+author_profile: true
+header:
+    image: #"/images/typewriter.jpg/"
 ---
+
 
 ![View of networks](..\images\proj1.jpg)(https://youtu.be/ShEX6RL_HXA)
 [![Dynamic Malware Analysis using Cuckoo Sandbox University Project!]()](https://youtu.be/Nk4SSFfV1Rc)
