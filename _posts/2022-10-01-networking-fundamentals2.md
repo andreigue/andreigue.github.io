@@ -7,11 +7,17 @@ In the first part of this series, I discussed about some of the fundamentals of 
 
 ### Data transmission
 
-Let's start from the beginning. Let's say you want to go to kidcoder.ca. You type it out in the URL box. Because you are using the browser, you are actually interacting with the Application layer, L7. If we think in terms of the TCP/IP model, then L6 and L5 are bundled within L7.
+Let's start from the beginning. Let's say you want to go to kidcoder.ca. You type it out in the URL box. Because you are using the browser, you are actually interacting with the Application layer, L7. If we think in terms of the TCP/IP model, then L6 and L5 are bundled within L7. This data (the website we want to look up, the browser we are using, the plugins we have available, etc) is bundled into an (imaginary) envelope
 
-Then we move down the stack onto L4, or the Transport Layer. 
+Then we move down the stack onto L4, or the Transport Layer. These packets will go through the firewall through a specific port. Here there are two main options: TCP or UDP. TCP (Transmission Control Protocol) is a connection-oriented protocol, which ensures that all data packets arrive at the destination, in the correct order. It is reliable, but slower than UDP. UDP (User Datagram Protocol) is a connectionless protocol, which sends data packets without checking if they arrive and without ensuring the correct order of arrival. Anytime you videocall someone (think Zoom, Skype, Discord), or livestream, UDP is used. These are applications where reduced latency and overhead is more important the reliability offered by TCP. Since we are searching up www.kidcoder.ca, which is a website, we are using HTTPS. HTTPS uses port 443, and it uses TCP. If kidcoder.ca was not using TLS/SSL encryption, then we would be using HTTP, and that defaults to port 80, which still uses TCP as the transport protocol. [(1)](#1)
+
+
+
 
 What we've done so far is a process called "encapsulation". We have been adding header after header, placing one envelope into another. L7 was placed into the L4 envelope. L4 hidden in the L3, L3 hidden in the L2 envelope, and this L2 envelope, containing all the previous information, transforms into bits of 1s and 0s, travelling through the wires of the Internet, onto the destination device. This process of encapsulation can be visualized as follows:
+
+![View of networks](..\images\encapsulation.jpg)
+[https://www.firewall.cx/networking-topics/the-osi-model/179-osi-data-encapsulation.html](https://www.firewall.cx/networking-topics/the-osi-model/179-osi-data-encapsulation.html)
 
 
 
@@ -27,6 +33,6 @@ The router is the gateway to the outside world. It is what is protecting your LA
 ### Notes:
 
 ### 1 
-
+An example of a port that uses UDP is the DHCP ports 67, 68. DHCP (Dynamic Host Configuration Protocol) is used to automatically assign a private IP address to clients on a private network.
 
 ### Sources:
