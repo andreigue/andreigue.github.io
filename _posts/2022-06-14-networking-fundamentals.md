@@ -17,26 +17,35 @@ On January 1, 1983, ARPANET has officially transitioned from to the more flexibl
 
 Meanwhile, what was known as the ["protocol wars"](https://en.wikipedia.org/wiki/Protocol_Wars) were coming to an end. As more vendors and institutions chose to go with the protocol that the DoD was backing, no one had shown a proof of concept for the OSI model. 
 
+### TCP/IP vs OSI model
+
+Today, the OSI model is just a conceptual tool, a model, which is used to diagnose systems. The networking model which we have implemented and is in direct use is called TCP/IP. Every computer which wants to talk to other computers supports and has implemented the infrastructure to support this model. Both these models have multiple functions, and so they are broken down into layers. 
+
+TCP/IP has 4 layers (from bottom to top): Network (deals with ethernet cables, and devices' MAC addresses), Internet (IP addresses and routers), Transport (TCP/UDP), and Application (HTTP is to be used for opening a website, for example). They might be called differently depending on the source, but in reality, we prefer to use the OSI model when talking about the layers.
+
+OSI has 7 layers (from bottom to top): Physical (ethernet cables, physical onnections), Data Link (MAC addresses), Network (IP addresses), Transport (TCP/UDP), Session (connection management, such as through website cookies), Presentation (format and display data properly), Application (user interface, such as HTTP for websites or SMTP for email).
+
+When IT professionals talk about layers, they are always talking about the OSI layers. For example, network engineers, will refer to the Application layer as Layer 7. That's just how it is, and for that reason it is important to learn both models.
+
+It's also good to know which device operates at which layers.
+
+Layer 1 (L1) is all about cables and the physical wiring between devices which fire electrical signals at incredibly fast speeds. 
+
+A switch operates at Layer 2 (L2) because in order to transmit the data to the right port, it must know the destination's MAC address (physical address of a device, unique to all devices). Switches have a table (called the CAM table, or "content addressable memory") which they use to link a port with a device using that device's MAC address. If connected to a router, devices also get a L3 address, or IP address (192.168.0.156 for example), but the switch, operating at L2, has no knowledge of the layers above it. IP addresses are invisible to the switch. It deals with the L2 addresses, namely the MAC address of devices. Finally, L2 data packets are called frames (technically they are "frames", but sometimes network engineers refer to them as packets, which is technically what L3 data is called). [(4)]
+
+The router operates at Layer 3. While the switch allows multiple users to talk to one another within the same network, it is the router which allows different networks to connect to each other. If I want to visit www.kidcoder.ca, which is on a server somewhere outside of my home network, then I must use a router in order to leave my internal network. Since www.kidcoder.ca does not have the IP address in the range of 192.168.0.1 - 192.168.0.255 (or 192.168.0.1/24), this means that it is not in the internal network, and a switch will no longer be of any help. We will need the help of a router. Your router is also called a default gateway (think of it as a gateway to the outside world), and it will probably have a local IP address of 192.168.0.1 (since it is a device on your network). This is also where L3 comes into play since we are adding a new dimension to the situation. And when L3 data is moved around, we refer to them as "packets". [(5)]
 
 
 
 
 
+### Basic Home Network
 
+In your house, it all starts with the modem. The modem is provided by your ISP (Internet Service Provider), like Bell, Rogers, Telus or Videotron. You need an ISP to connect to the Internet. It passes data onto your modem (through a coaxial cable, a DSL cable, or more likely these days, a fiber optic cable). The modem converts the signal provided by the ISP into a digital ethernet signal which it passes onto the router. Typically, the modem and the router are two separate devices, but today some ISPs combine the two into a single device. The router itself is also a combination of several devices: a router, an access point (AP), and a switch. 
 
+The router is what separates the computers on your home network from the computers outside of the network. Thus, the router acts as an intermediary between your LAN (local area network) and the WAN (wide area network). The AP portion is what allows your devices to connect wirelessly to the router (sometimes called WAP for "wireless AP). The switch portion allows you to connect your devices to the ethernet ports using ethernet cables (rather than doing so wirelessly).  
 
-https://www.youtube.com/watch?v=m4uzeX-ChFw
-DHCP, DNS, etc etc
-
-https://www.reddit.com/r/explainlikeimfive/comments/1xijs5/eli5_why_do_ip_addresses_end_in_255/
-
-
-
-
-
-### How to computers communicate with each on the LAN?
-when was lan created
-### What is a switch?
+The router is the gateway to the outside world. It is what is protecting your LAN devices from preying eyes in the WAN. The router has a public IP address, and a private IP address. The public IP address is what the outside world sees. When your friend wants to send a message to your computer, he/she would need your router's public IP address. That is how you are identified on the Internet. That is why it is impor
 
 
 ### Notes:
@@ -49,6 +58,12 @@ It's interesting how so many (if not all) major technological advancements have 
 
 ### 3
 The four initial participants involved were: UCLA (University of California, Los Angeles), the Stanford Research Institute (SRI), UCSB (University of California, Santa Barbara), and the University of Utah.
+
+### 4
+As a sidenote, ARP (Address Resolution Protocol) also operates on L2. ARP is used to map IP addresses to MAC addresses. So when device A wants to communicate with device B (both on the same network), it only knows it's IP address. In order for devices to communicate within the same network, MAC addresses must be used. Device A will first check it's ARP cache to see if it knows the MAC address of device B. If it is not found in the ARP cache of device A, then device A will broadcast (through the switch) an ARP message asking all devices on the network "who has IP address XX.XX.XX.XX, and if that's you, send me your MAC address". Device B will respond to the ARP message and send device A it's MAC address, thus allowing for communication between the two devices.
+
+### 5
+If I want to visit www.kidcoder.ca, I don't send a ping or something to the server. I use my browser. I type in the domain name. When I press enter, the query goes to my DNS, or Domain Name Server, which is found on my internal network. Same as before, if it's my first time communication with the DNS server, I must first get it's MAC address. To get it, an ARP message is sent. Once the DNS server returns the IP address for www.kidcoder.ca (that's the DNS response), my computer can send it out to my switch, which forwards it to the router, which then goes out to the kidcoder.ca's router (probably through many different paths), which responds to the HTTP GET request and returns the webpage back to my computer.   
 
 
 ### Sources:

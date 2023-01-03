@@ -1,3 +1,8 @@
+---
+title: IDS, IPS and WAF
+tags: [Technology]
+---
+
 ### I was browsing through Quora, and I saw someone answer the following question: What is IPS, and what is WAF? And how are they different? Here's my understanding...
 
 IPS stands for Intrusion Prevention System, a WAF stands for Web Application Firewall.
