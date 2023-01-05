@@ -4,7 +4,7 @@ tags: [Science]
 header:
     image: #"/images/rockefeller.jpg"
 ---
-#### _Here is a relatively long article I wrote back in my days of college, just thought I’d share it here._
+#### _Article which I wrote back in college, as seen [here](https://www.vaniercollege.qc.ca/science/through-the-lens-of-physics/)._,
 
 Humans are natural learners. From the day we arrive in this world, we are constantly exploring and seeking new patterns. Look at infants, and you will most often see curiosity in their eyes. They all embark on a quest to discover how the things around them work and behave. That is, in essence, the framework of physics. But now the following question arises: how does knowing the basics of physics improve the quality of life of the average person?
 

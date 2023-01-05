@@ -3,6 +3,8 @@ title: Networking Fundamentals 1
 tags: [Technology]
 ---
 
+#### _This article is not meant to be read with 0 knowledge of the topic._,
+
 In order for two computers to communicate, they  must somehow be connected to each other. Today, we take it for granted that I can buy a Lenovo laptop, and it has the ability to join the internet and communicate with your Asus PC right out of the box. Lenovo and Asus don't have a special partnership in order to make this happen. All they have to do is build their devices such that they follow world-wide accepted protocols for communucation.
 
 ### Some history
