@@ -1,5 +1,5 @@
 ---
-title: "Bitcoin Part 1: Reading the whitepaper"
+title: "Bitcoin Part 1: Reading the Whitepaper"
 tags: [Technology]
 ---
 
