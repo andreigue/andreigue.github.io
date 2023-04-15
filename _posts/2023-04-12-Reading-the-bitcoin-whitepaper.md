@@ -1,5 +1,16 @@
-# Summary
+---
+title: "Bitcoin Part 1: Reading the whitepaper"
+tags: [Technology]
+---
 
-"Bitcoin: A Peer-to-Peer Electronic Cash System", written by Satoshi Nakamoto, describes a peer-to-peer electronic payment system that is decentralized and enables financial transfers without the middleman (aka "the bank"). It was a revolutionary idea back when it was first published in 2008, in the midst of the financial crisis and just a month after the bankruptcy of Lehman Brothers (perfect timing considering that trust in traditional financial institutions was at an all-time low).
+#### _This is the second article in a series where my goal is to understand the blockchain, NFTS, and the related technologies._
 
-Simply put, the blockchain is a record-keeping mechanism.
+----------------------------
+
+# Reading the Bitcoin whitepaper
+
+I think the right and honest way to introduce Bitcoin is by going back to the paper that started it all: the [Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf). Now that we have the prerequisites covered, we can dive into the paper.
+
+# Introduction
+
+In the introduction, Satoshi starts off by 
