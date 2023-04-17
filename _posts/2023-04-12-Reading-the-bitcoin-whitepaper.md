@@ -5,6 +5,7 @@ tags: [Technology]
 
 #### _This is the third article in a series where my goal is to understand the blockchain, NFTS, and the related technologies._
 
+
 In this article, I will use the pronouns "he/him" to represent Satoshi Nakamoto, not because I am assuming his/her/their gender, but because it will make things simpler. Satoshi is more likely to be a group of people (they always use "we" in the whitepaper), but I will assume for simplicity that it is one person (because it sounds like one person).
 
 ----------------------------
@@ -27,7 +28,7 @@ And regarding the merchant/buyer, he writes _"Transactions that are computationa
 
 So how will transactions work on this network? 
 
-_"We define an electronic coin as a chain of digital signatures."_
+###### _"We define an electronic coin as a chain of digital signatures."_
 
  A digital signature is a way to prove that you own the private key
 
