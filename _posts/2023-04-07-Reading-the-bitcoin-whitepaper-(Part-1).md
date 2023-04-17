@@ -26,7 +26,7 @@ And finally, the reason why this "public key cryptography" method works is due t
 
 ## Hashing
 
-Hashing is the process of converting data of any size into a fixed-size string of characters, which is a unique representation of that data. The Bitcoin blockchain uses a hashing algorithm called SHA-256 (SHA stands for Secure Hash Algorithm). 
+ The Bitcoin blockchain uses a hashing algorithm called SHA-256 (SHA stands for Secure Hash Algorithm). 
 
 SHA-256 is used in several different parts of the Bitcoin network:
     
@@ -34,30 +34,37 @@ SHA-256 is used in several different parts of the Bitcoin network:
     
     2. SHA-256 is used in the creation of bitcoin addresses to improve security and privacy. (Source: 1)
 
+Hashing is the process of converting data of any size into a fixed-size string of characters, which is a unique representation of that data. For example, inputting "hello" into the SHA-256 hashing function gives us '2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824'.
+Changing the input by just a bit changes the hashing output (a.k.a the "hash" or "message digest") completely: inputting "helo" into the SHA-256 hashing function gives us 'f4e454f802b88d2f64168ff1742e8cf413fd677d38b87cbefb45821f8981b912'. Completely different output, and no two inputs will have the same output (theoretically). 
+
 We'll get into the details of how hashing is used in the next article.
 
 ## The double-spending problem
 
-When you put your house on the market, and a bunch of buyers come in to take a look, what stops you from telling Buyer A that you are selling him the house, and the next day telling Buyer B that you are selling her a house? So I would get the money from both Buyers, disappear, and let them deal with the mess. Well, I can't do that because when I sell the house to Buyer A, even though I'm not physically giving the house to him, the government keeps records of the ownership transfer. Every home purchase/sale is backed by records in a database which is ran by some government agency (the land registry office(?)). 
+When you put your house on the market, and a bunch of buyers come in to take a look, what stops you from telling Buyer A that you are selling him the house, and the next day telling Buyer B that you are selling her a house? So I would get the money from both Buyers, disappear, and let them deal with the mess. Well, I can't do that because when I sell the house to Buyer A, even though I'm not physically giving the house to him, the government keeps records of the ownership transfer. Every home purchase/sale is backed by records in a database which is ran by some government agency (the provincial land registry office). 
 
-In the example, the government (as well as mortgage lenders, attorneys, brokers) act as middlemen in order to ensure that the land/property transfer goes smoothly (and legally). 
+In the example, the government (as well as mortgage lenders, attorneys, brokers) act as middlemen in order to ensure that the land/property transfer goes smoothly. 
 
 But what if there was no middlemen? Well, then, maybe I would be able to lie to Buyer A and B, and get double the money.
 
-With Bitcoin however, there is no trusted third-party to oversee transactions. For that simple reason, the double-spending problem exists. And this problem had no solution, until Bitcoin showed up! 
+With Bitcoin, there is no trusted third-party to oversee transactions. For that simple reason, the double-spending problem exists. And this problem had no solution, until the Bitcoin whitepaper was published!
 
-Simply put, the blockchain works through a concesus mechanism where the majority of miners legitimize a transaction as valid. If you want to double-spend your bitcoin, you'll have to convince at least 51% of the miners in the world to jump on board with your plan. And even if you do convince them (if you somehow manage to find them), it's still not that simple.
+Simply put, the blockchain works through a concesus mechanism where the majority of miners legitimize a transaction as valid. If you want to double-spend your bitcoin, you'll have to convince at least 51% of the miners in the world to jump on board with your plan (or you have to control 51% of the mining power).
 
-Bitcoin provides secure, transparent, and immutable record-keeping, all without the need for centralized intermediaries! Consider other aspects of our lives. For example, when you buy a home, a real estate agent tags along for the ride with you, acting as a middleman between you and the seller. But can you look for homes and figure things out on your own? Sure you can, there's no need for a middleman. But there are pros and cons to both methods. 
+And this is no minute task. Because with a well-established blockchain like the bitcoin blockchain, which has been around for years and spans all around the world, this type of attack is extremely unlikely to occur. 
+
+## Some final thoughts
+
+Bitcoin provides secure, transparent, and immutable record-keeping, all without the need for centralized intermediaries. But it doesn't come without its (relatively small) negatives (more like inconveniences). Consider other aspects of our lives. For example, when you buy a home, a real estate agent tags along for the ride with you, acting as a middleman between you and the seller. But can you look for homes and figure things out on your own? Sure you can, there's no need for a middleman. But there are pros and cons to both methods. 
 
 Real estate agents have access to a wealth of knowledge and resources, including comprehensive databases of properties for sale, experience with negotiating deals, and knowledge of the local market (hopefully all, but you have to trust them). They can provide valuable guidance throughout the home-buying process and help you avoid costly mistakes. However, their services come at a cost (in the form of a commission fee). 
 
-Similarly, Bitcoin's decentralized and trustless system offers many benefits, such as increased transparency, security, and reduced fees. However, it also requires a certain level of technical expertise and responsibility on the part of the user to ensure the safety and security of their funds. It's definitely not for my grandmother.
+Similarly, Bitcoin's decentralized and trustless system offers many benefits, such as increased transparency, security, and reduced fees. However, it also requires a certain level of technical knowledge and responsibility on the part of the user to ensure the safety and security of their funds. It's definitely not for my grandmother.
 
 
 ---
 
-### Note:
+### Notes:
 
 ### 1
 Not only are quantum computers needed to break ECDSA, but the ones we have today are very far from being able to break this cryptographic algorithm. It is estimated that a quantum computer of around 2000-4000 high-quality qubits would be necessary to break Bitcoin's cryptography. Today's most powerful quantum computer operates at 433 qubits (IBM's Osprey). However, it's important to note that the number of qubits alone is not necessarily the only factor in determining a quantum computer's overall computational power (hencce why I previously wrote "high-quality" qubits).

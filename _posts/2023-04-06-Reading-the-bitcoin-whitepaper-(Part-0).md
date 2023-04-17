@@ -45,13 +45,13 @@ This further eroded the confidence and trust that regular people had in both the
 
 ## Perfect timing to enter. Introducing: Bitcoin and "triple-entry accounting"
 
-"Bitcoin: A Peer-to-Peer Electronic Cash System", written by Satoshi Nakamoto, describes a peer-to-peer electronic payment system that is decentralized and enables financial transfers without the middleman (aka "the bank"). It was a revolutionary idea back when it was first published in 2008, in the midst of the financial crisis and just a month after the bankruptcy of Lehman Brothers (right when trust in traditional financial institutions was at an all-time low).
+"[Bitcoin: A Peer-to-Peer Electronic Cash System]"(https://bitcoin.org/bitcoin.pdf), written by Satoshi Nakamoto, describes a peer-to-peer electronic payment system that is decentralized and enables financial transfers without the middleman (aka "the bank"). It was a revolutionary idea back when it was first published in 2008, in the midst of the financial crisis and just a month after the bankruptcy of Lehman Brothers (right when trust in traditional financial institutions was at an all-time low).
 
 While Bitcoin was introduced in 2008, the idea was not completely new. Ian Grigg published the paper "[Triple Entry Accounting](https://www.researchgate.net/publication/308640258_Triple_Entry_Accounting)" in 2005, which was before the creation of Bitcoin. In the paper, Grigg used the term "triple entry" to describe a system where a transaction is verified by a third party and added to the account ledgers of both parties, creating a new level of trust and transparency. Grigg did not use the term "blockchain" in the paper, but he did discuss the use of public-key cryptography and digital signatures to ensure the integrity of the system. Over 3 years later, this led to the development of the blockchain technology we know of today.
 
 ---
 
-### Note:
+### Notes:
 
 ### 1
 A shell company is a legal entity that has no active business operations, significant assets, or employees, and exists only on paper. It is typically created to serve as a vehicle for various financial transactions or other activities, such as holding assets, entering into contracts, or conducting other types of business. Shell companies can be used for legitimate purposes, such as simplifying complex business structures or protecting intellectual property, but they can also be used for illegal or unethical purposes, such as hiding assets, evading taxes, or laundering money.

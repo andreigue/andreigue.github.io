@@ -1,3 +1,18 @@
+---
+title: "How do company hacks/breaches occur?"
+tags: [Technology]
+---
+
+While learning about the bitcoin blockchain, you can't help but empathise with the idealistic ideas and noticing the problems with all our centralized solutions.
+
+
+
+wells fargo scandal
+
+facebook cambridge analytica
+
+dunkin donuts in india
+
 British Airlines
 https://www.bbc.com/news/technology-45446529
 
