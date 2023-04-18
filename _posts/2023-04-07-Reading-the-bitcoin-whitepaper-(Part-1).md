@@ -28,13 +28,9 @@ And finally, the reason why this "public key cryptography" method works is due t
 
  The Bitcoin blockchain uses a hashing algorithm called SHA-256 (SHA stands for Secure Hash Algorithm). 
 
-SHA-256 is used in several different parts of the Bitcoin network:
-    
-    1. Mining uses SHA-256 as the Proof of Work algorithm.
-    
-    2. SHA-256 is used in the creation of bitcoin addresses to improve security and privacy. (Source: 1)
+SHA-256 is used mainly during the mining step (the Proof of Work algorithm).
 
-Hashing is the process of converting data of any size into a fixed-size string of characters, which is a unique representation of that data. For example, inputting "hello" into the SHA-256 hashing function gives us '2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824'.
+Hashing is the process of converting data of any size (could be the number "0", could be all of Shakespeare's writings combined) into a fixed-size string of characters, which is a unique representation of that data. For example, inputting "hello" into the SHA-256 hashing function gives us '2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824'.
 Changing the input by just a bit changes the hashing output (a.k.a the "hash" or "message digest") completely: inputting "helo" into the SHA-256 hashing function gives us 'f4e454f802b88d2f64168ff1742e8cf413fd677d38b87cbefb45821f8981b912'. Completely different output, and no two inputs will have the same output (theoretically). 
 
 We'll get into the details of how hashing is used in the next article.

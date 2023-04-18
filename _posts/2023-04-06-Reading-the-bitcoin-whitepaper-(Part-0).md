@@ -33,7 +33,7 @@ In single-entry accounting, if the scribe didn't like Jimmy, he could just write
 
 Take the 2001 Enron scandal for example. Enron was a US energy/utilities company publicly traded on the stock market, and they wanted investors to believe that they were financially thriving. So what they did was erect a complex financial structure using offshore entities (essentially shell companies[(1)](#1), but more technically they're called SPVs, or "Special Purpose Vehicles"). These were legally separate from Enron, but were controlled by the company's executives. Enron used hundreds of these offshore entities, as well as some domestic shell companies, to hide debt and losses from its financial statements. How did they do it?
 
-Well, they employed numerous accounting tricks to inflate their numbers, but one thing Enron did was transfer their assets to the SPVs, which would issue debt to purchase those assets. Enron would receive cash from the sale of these assets to the SPVs, which they would use to pay down their own debt or report as revenue. So they basically pretended like they were making more sales and that their revenue was higher than it actually was. [(2)](2)
+Well, they employed numerous accounting tricks to inflate their numbers, but one thing Enron did was transfer their assets to the SPVs, which would issue debt to purchase those assets. Enron would receive cash from the sale of these assets to the SPVs, which they would use to pay down their own debt or report as revenue. So they basically pretended like they were making more sales and that their revenue was higher than it actually was. [(2)](#2)
 
 #### Trusting a central authority isn't ideal. Introducing: the 2008 housing market collapse
 
