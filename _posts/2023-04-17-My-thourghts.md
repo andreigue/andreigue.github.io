@@ -1,9 +1,9 @@
 ---
-title: "Bitcoin Part 1.1: My Initial Thoughts"
+title: "Bitcoin Part 1.1: Reading the Whitepaper"
 tags: [Technology]
 ---
 
-#### _This is the fourth article in a series where my goal is to understand the blockchain, NFTS, and the related technologies._
+#### _This is the fifth article in a series where my goal is to understand the blockchain, NFTS, and the related technologies._
 
 Before we move any further on facts, I wanted to share some of my thoughts/concerns so far about the blockchain, based on my current understanding of it.
 
