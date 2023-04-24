@@ -46,6 +46,7 @@ Let's not talk about this "P2P network". There are clear steps that the network 
 5. "Nodes accept the block only if all transactions in it are valid and not already spent". The details on this one are trickier [(2)](#2), but essentially, all other nodes will validate the block, and if valid...
 6. They will add this block to their version of the blockchain and continue the process, collecting transactions from nodes and building a block to hopefully eventually add to the chain.
 
+##### _"Nodes always consider the longest chain to be the correct one and will keep working on extending it. If two nodes broadcast different versions of the next block simultaneously, some nodes may receive one or the other first. In that case, they work on the first one they received, but save the other branch in case it becomes longer."_.
 
 
 
@@ -53,6 +54,25 @@ Let's not talk about this "P2P network". There are clear steps that the network 
 
 Now, why would anyone put up with running a node? Why should I spend money to buy computer hardware, or an ASIC (Application-Specific Integrated Circuit) miner, and spend money on electricity, in order to validate blocks on the blockchain? As it turns out, there is an incentive.
 
+When you add a block to the "legitimate" chain, you are rewarded with bitcoin. The first transaction of every block is not "Ann paying Bob for guitar lessons", no. The first transaction noted on every block in the blockchain has always and will always (until we run out of bitcoins to mine) be a gift from the Bitcoin network to the node which added that block to the blockchain. Once we reach the cap of 21 million bitcoins, then the nodes running the system will be gifted in another form: transaction fees.
+
+Today, this gift awarded to the miner of a block is 6.25 bitcoins. 4 years ago it was 12.5 btc, 4 years before that it was 25 btc, and 4 years before that it was 50 btc. Sometime in 2024, the reward will be 3.125 btc. The dates are fuzzy because the halving occurs after 210'000 blocks have been added to the blockchain, and that occurs approximately every 4 years.
+
+So the further we go in time, yes, there are more nodes on the network, all competing to mine the next block, but also the reward you get for doing the work is less and less (that of course depends on the price of 1 bitcoin, so not completely true). The idea, from my understanding, is to limit the introduction of new coins, so that as demand increases, supply doesn't increase as fast, and this leads to the price increase of every bitcoin.
+
+
+# 7. Reclaiming Disk Space
+
+The idea here is that if we have a coin that's moving from one owner to the next, we do not need to store every single transactions's hash. What matters at the end is who owns the coin. If Ann paid Bob, and then a week later Bob paid Charlie, well in order to make sure the system is intact and everyone has access to the coins that they own, we don't need to know that Ann used to own that coin last week... at least not directly. This information can be deducted, if need be, by the last transaction hash thanks to the Merkel tree.
+
+![trees](..\images\btc\img5.png)
+
+A tree has a root node (the Merkle root), and this root node will be a signature representing all of the transactions in a block. There is no need for computers on the node to store every transaction anymore. And by combining all transaction like this, we save disk space for every node. And all this while still maintaining our tamper-proof property (if I go back a few blocks and change one transaction, the Merkle root will be different, and my block be be invalidated, causing a ripple effect onto the following blocks). 
+
+
+Here is what Vitalik Buterin had to say about Merke Trees in Bitcoin:
+
+##### _"The Merkle tree protocol is arguably essential to long-term sustainability. A "full node" in the Bitcoin network, one that stores and processes the entirety of every block, takes up about 15 GB of disk space in the Bitcoin network as of April 2014, and is growing by over a gigabyte per month. Currently, this is viable for some desktop computers and not phones, and later on in the future only businesses and hobbyists will be able to participate."_.
 
 
 

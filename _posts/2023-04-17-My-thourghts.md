@@ -9,6 +9,7 @@ Before we move any further on facts, I wanted to share some of my thoughts/conce
 
 ----------------------------
 
+
 Given that the blockchain is a decentralized network of nodes, and all data stored on it is public record, can blockchain be used to replace every company which acts as a mediator in contracts? Say, for example, purchasing a house. Rather than signing the purchase agrement by hand, sending a copy to the attorney, and having him/her verify everything, why not get rid of the middleman, and do things in a peer-to-peer fashion, with all transactions stored on some blockchain? We'll have a tokenized version of ownership.
 
 On paper this looks fine. I will now have indisputable proof that I am the owner of my property. However, while the fact that this data point is stored in the thousands of nodes which constitute the blockchain is what makes it secure and indisputable, this also means that everyone has access to this information. This information is public record. And now we have to wonder that maybe certain information shouldn't be out in the wild.
