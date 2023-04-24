@@ -1,5 +1,5 @@
 ---
-title: "Bitcoin Part 1.1: Reading the Whitepaper"
+title: "The Bitcoin Whitepaper: My Initial Thoughts"
 tags: [Technology]
 ---
 

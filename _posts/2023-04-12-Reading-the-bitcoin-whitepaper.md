@@ -6,7 +6,7 @@ tags: [Technology]
 #### _This is the third article in a series where my goal is to understand the blockchain, NFTS, and the related technologies._
 
 
-In this article, I will use the pronouns "he/him" to represent Satoshi Nakamoto, not because I am assuming his/her/their gender, but because it will make things simpler. Satoshi is more likely to be a group of people (they always use "we" in the whitepaper), but I will assume for simplicity that it is one person (because it sounds like one person).
+In this article, I will use the pronouns "he/him" to represent Satoshi Nakamoto, not because I am assuming his/her/their gender, but because it will make things simpler. I would also note that although Satoshi uses "we" all throughout the paper, notably in science and math, it's quite common for academic papers to say "we" even though it was written by just one author.
 
 ----------------------------
 
