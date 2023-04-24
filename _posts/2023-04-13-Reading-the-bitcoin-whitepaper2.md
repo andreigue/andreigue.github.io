@@ -35,6 +35,20 @@ Let's say there is a group of malevolent miners (nodes) (people who are trying t
 
 # 5. Network
 
+Let's not talk about this "P2P network". There are clear steps that the network follows when Ann wants to send Bob some bitcoin.
+
+![trees](..\images\btc\img4.PNG)
+
+1. To reiterate, Ann will broadcast to every node that she is connected with, and all those nodes will share the transaction with all the nodes that they are connected with, so on and so forth until every node on the network is up to date. 
+2. Nodes are constantly on the lookout for transactions, because they need to fill up their block so that they can start looking for a corresponding nonce.
+3. Each node works on finding the nonce (by trying nonces and calculating the hash).
+4. Once a node finds a nonce for its block, it will broadcast the block to other nodes.
+5. "Nodes accept the block only if all transactions in it are valid and not already spent". The details on this one are trickier [(2)](#2), but essentially, all other nodes will validate the block, and if valid...
+6. They will add this block to their version of the blockchain and continue the process, collecting transactions from nodes and building a block to hopefully eventually add to the chain.
+
+
+
+
 # 6. Incentive
 
 Now, why would anyone put up with running a node? Why should I spend money to buy computer hardware, or an ASIC (Application-Specific Integrated Circuit) miner, and spend money on electricity, in order to validate blocks on the blockchain? As it turns out, there is an incentive.
@@ -51,3 +65,14 @@ Historically, CPU power has largely followed Moore's law, which predicts that th
 Processing power has historically followed Moore's law, which says that the number of transistors on a microchip doubles approximately every two years, resulting in a significant increase in processing power. Although it is unlikely that the trend will continue for long (due to physical limitations), the idea is that processor speed is always increasing.
 
 So if 10 years ago the network required you to find a hash with five 0's, with today's computational power, five 0's is a joke. The number of 0's keeps increasing to keep it difficult to find the winning hash. In fact, the system is set up so that the number of leading 0's is equivalent to whatever will make someone find the right nonce in about 10 minutes. So it depends on the "hash rate" of the network. If a block was generated in 8 minutes one time, then the next block will increase in difficulty.  
+
+# 2 
+How do we know if a block is valid? In other words, how do we know that every transaction Tx in the block have not already been put in some block before? Because if transaction Tx has already happened before, then having it occur again would mean we're "double-spending", and we don't want that.
+
+In order to solve this, we must know that every transaction has its own unique ID. The transaction's ID contains the ID of the block that it's in, and the transaction number within that block (so is it Tx #1, 2, 50, etc). What we can do is search every block in the block chain that came before to see if this particular transaction can be found somewhere. If not, then this transaction is an original and we can move on.
+
+In computer science, this is called an O(n) computation. The concept is hard to explain, but basically, we have to check every single block, and that is not the most efficient way of doing it. Instead, we can reduce this to O(log(n)) using the following method: 
+
+If you're a node, whenever you add a block to the chain, you had to have validate each transaction within that block. And so when you go through them, you can store them inside your RAM (for example). In your database, you can store the transaction IDs in ascending order. And no you have a sorted list of past transactions, and you have a new transaction which you want to check if it is in that list. So now you can run your favorite search algorithm. 
+
+Previously, we did what's known as "linear search", which is searching through every item. But now that we have a sorted list, we can do what's called a "binary search". In binary search, the list is divided in half at each step and the search continues in the half that may contain the desired item. This reduces the number of elements to search by half at each step, making this approach much faster than "linear search".
