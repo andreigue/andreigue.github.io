@@ -12,6 +12,22 @@ Now, what is an interface? An interface is simply a program, or a "view" of a co
 
 Then we have the computer enthusiasts. Instead of just using their computers simply for basic tasks like checking email, these people take it to the next level. They write code. They automate tedious tasks. They hack into their OS to make it more efficient. They themselves are more efficient with the computer. How?
 
-As it turns out, using the GUI is not the most efficient way of doing things sometimes. Sure, double clicking on an icon on your Desktop is easy, but 
+As it turns out, using the GUI is not the most efficient way of doing things sometimes. Sure, double clicking on an icon on your Desktop is easy, but sometimes, doing things through the terminal can be faster and more efficient. With the terminal, you can accomplish tasks with a few simple commands, instead of navigating your way through folders, and clicking through menus and options.
 
 ![CLI versus GUI](https://www.itrelease.com/wp-content/uploads/2017/11/GUI-vs-CLI.png)
+
+You can also perform more complex tasks through the CLI. For instance, you can use the CLI to search for specific files or folders on your computer, rename files or folders in bulk, or even modify system settings. One powerful command, for example, is the "dir" command which lists all the files and folders in the current directory. Let's try it out together right now (I will assume you have a Windows computer)!
+
+In the bottom left corner of your keyboard, you have the "Windows" key. Press that. Now a menu bar will open. Without clicking on anything (turns out, using the mouse for clicking isn't all that efficient), write "cmd". This will prompt you to open one of Window's terminals, the "Command Prompt" (there is also a different terminal called "PowerShell"). Now a black box will open. This is the terminal! Mine has the following written:
+
+**Microsoft Windows [Version 10.0.19044.2728]**
+**(c) Microsoft Corporation. All rights reserved.**
+
+**C:\Users\Andrei>**
+
+Yours will say something similar, but instead of "Andrei" it will be your name or whatever you named your computer. 
+
+What we have here is 
+
+Now let's write some commands.
+
