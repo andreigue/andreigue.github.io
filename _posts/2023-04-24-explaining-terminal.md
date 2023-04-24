@@ -16,18 +16,26 @@ As it turns out, using the GUI is not the most efficient way of doing things som
 
 ![CLI versus GUI](https://www.itrelease.com/wp-content/uploads/2017/11/GUI-vs-CLI.png)
 
-You can also perform more complex tasks through the CLI. For instance, you can use the CLI to search for specific files or folders on your computer, rename files or folders in bulk, or even modify system settings. One powerful command, for example, is the "dir" command which lists all the files and folders in the current directory. Let's try it out together right now (I will assume you have a Windows computer)!
+You can also perform more complex tasks through the CLI. For instance, you can use the CLI to search for specific files or folders on your computer, rename files or folders in bulk, or even modify system settings. Let's try it out together right now (I will assume you have a Windows computer)!
 
-In the bottom left corner of your keyboard, you have the "Windows" key. Press that. Now a menu bar will open. Without clicking on anything (turns out, using the mouse for clicking isn't all that efficient), write "cmd". This will prompt you to open one of Window's terminals, the "Command Prompt" (there is also a different terminal called "PowerShell"). Now a black box will open. This is the terminal! Mine has the following written:
+In the bottom left corner of your keyboard, you have the "Windows" key. Press that. Now a menu bar will open. Without clicking on anything (turns out, using the mouse for clicking isn't all that efficient), write "cmd". This will prompt you to open one of Window's terminals, the "Command Prompt" (there is also a different terminal called "PowerShell"). Now a black box will open. This is the terminal! 
+
+Yours will say something similar to mine:
 
 **Microsoft Windows [Version 10.0.19044.2728]**
 **(c) Microsoft Corporation. All rights reserved.**
 
 **C:\Users\Andrei>**
 
-Yours will say something similar, but instead of "Andrei" it will be your name or whatever you named your computer. 
+Instead of "Andrei" it will be your name or whatever you named your computer. "C:\Users\Andrei>" indicates the current directory that I am in ("directory" is another word for "folder"). This means that I am currently in a folder called "Andrei", and this folder is in another (parent) folder called "Users", and "Users" is inside the grand-daddy of all the folders on my computer: the C drive (a.k.a. the "root directory"). From here, we can execute various commands to interact with our computer.
 
-What we have here is 
+Let's start with a basic command: "dir". Type "dir" into the terminal and press enter. This command will display a list of all the files and folders in the current directory (I am in the "Andrei" folder). You will see a list of files and folders with their names, sizes, dates/times last accessed, and if it is a folder or not ("DIR" is for "directory"). You can now navigate to a "child directory" of the folder you are currently in. For example, by executing the "dir" command in the "Andrei" directory, I can see "Desktop" in the list. This means that I can use the "cd" command to "change directories" ("cd"). If I want to go to the "Desktop" folder, I will type "cd Desktop" and press enter. 
 
-Now let's write some commands.
+Now that I am inside of "Desktop", let's say I want to create a folder. The command to create a new folder is "mkdir". Type "mkdir test" and press enter. This command will create a new folder named "test" in the directory which you are in ("Desktop" in our case).
+
+And this is just scratching the surface with what we can do with the terminal. 
+
+The terminal also allows you to perform more advanced tasks such as networking and system management. For example, the "ping" command can be used to check the connectivity of a network host, while the "tasklist" command can be used to display a list of running processes.
+
+Overall, the Windows CLI is a powerful tool that can help you perform a wide range of tasks more efficiently. With practice, you can become more comfortable using the terminal and unlock its full potential.
 
