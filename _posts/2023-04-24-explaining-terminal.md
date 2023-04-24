@@ -12,6 +12,6 @@ Now, what is an interface? An interface is simply a program, or a "view" of a co
 
 Then we have the computer enthusiasts. Instead of just using their computers simply for basic tasks like checking email, these people take it to the next level. They write code. They automate tedious tasks. They hack into their OS to make it more efficient. They themselves are more efficient with the computer. How?
 
-As it turns out, using the GUI is not the most efficient way of doing things sometimes. Sure, opening
+As it turns out, using the GUI is not the most efficient way of doing things sometimes. Sure, double clicking on an icon on your Desktop is easy, but 
 
-[CLI versus GUI](https://www.itrelease.com/wp-content/uploads/2017/11/GUI-vs-CLI.png)
+![CLI versus GUI](https://www.itrelease.com/wp-content/uploads/2017/11/GUI-vs-CLI.png)
