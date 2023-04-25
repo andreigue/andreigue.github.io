@@ -116,10 +116,37 @@ Here, Satoshi simulates an attack on the Bitcoin network. He considers the case 
 
 Actually, maybe this part isn't so clear, so let me dive deeper into an example.
 
-Let's say I pay for a Lamborghini with bitcoin that I don't actually have. The dealership tells me "hold on, we want to wait a bit to make sure this transaction is valid, is accepted by everyone and exists on the blockchain". 
+### Attack on the Blockchain example
 
-That's a fair argument, let's wait.
+Let's say I pay for a Lamborghini with bitcoin. The dealership tells me "hold on, we want to wait a bit to make sure this transaction is valid, is accepted by everyone and exists on the blockchain". 
 
+That's a fair argument, we wait an hour, they're convinced, I get my Lambo and head home. 
+
+Now, I didn't actually want to pay for the Lambo. In order to break the Bitcoin system, and get my money back (and disappear the Lambo), I have to go back to the block BEFORE the one which contains my lambo purchase, and start a new chain from that point on. The first block that I will add to my blockchain will be exactly the same as the block which contained my transaction with the dealership, except I will remove that transaction. Basically, in my version of reality, this transaction never occurred, i.e. I never paid the dealership anything. 
+
+![trees](..\images\btc\img6.png)
+
+However, now that I changed something, this creates a ripple effect on the current block, and every future block. Now I have to mine all these blocks, and catch up with the legitimate blockchain (it's me against all the honest nodes of the world, and they have a head start). I basically have to get super lucky to find the right nonces for every block, until my chain is longer than the legitimate chain, at which point I announce to other nodes that I have a chain with more "proof-of-work" (i.e. it is longer than everyone else's), and the nodes on the network will accept my chain as the legitimate one and start to build on top of it.
+
+If I succeed, the dealership will see tomorrow that they indeed to not have access to the funds which I paid them. They panick, go online to check the blockchain history to verify their transaction with me, and see that it was never recorded and basically never existed... even though yesterday they saw that it was on there.
+
+In reality, this will not be happening. The chances are extremely low and the safety of the network grows exponentially as a function of the number of blocks ahead of the block which an attacker wants to change.
+
+![trees](..\images\btc\img7.png)
+
+In the snapshot above, **q** is the percentage of hash power which the attacker has compared to the rest of the system. So in this example, the attaker has 10% of all the hash power. **z** is the number of blocks in front of the block being attacked. So if there are no blocks in front of the block being attacked, i.e. there is no node in the system that has confirmed what is in the block, well then the probability of attacking it is 100% (the attacker's created block is as valid as the parallel block which is legitimate, but which also doesn't have any node confirm it yet). This is why you should do what the lambo dealership did, and wait for the network nodes to confirm the transaction to cement it in the blockchain.
+
+However, things start to turn for the worse once the legitimate block gets another block on top of it (z = 1), i.e. the network have confirmed it and built on top of it. Now the attacker has a 20% chance of catching up. So on and so forth with the other numbers. And from my understanding, the industry standard is to wait for 6 blocks (that's 1 hour of waiting) in order to be confident that the transaction in question is permanent and will not be reversed.
+
+The example below this one in the whitepaper shows that if the attacker has 30% of the cpu power, then his chances are much better (5 blocks deep, the attacker has 17% of a successful attack).
+
+However, all of this goes out the window if the attacker somehow manages to control at least 51% of the network's computing power. In which case Bitcoin becomes pointless and worthless.
+
+# 12. Conclusion
+
+##### _"Nodes can leave and rejoin the network at will, accepting the proof-of-work chain as proof of what happened while they were gone. They vote with their CPU power, expressing their acceptance of valid blocks by working on extending them and rejecting invalid blocks by refusing to work on them. Any needed rules and incentives can be enforced with this consensus mechanism."_
+
+Looks to me like a beautiful design.
 
 ---
 
