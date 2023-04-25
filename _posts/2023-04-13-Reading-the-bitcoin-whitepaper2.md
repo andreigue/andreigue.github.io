@@ -63,17 +63,62 @@ So the further we go in time, yes, there are more nodes on the network, all comp
 
 # 7. Reclaiming Disk Space
 
-The idea here is that if we have a coin that's moving from one owner to the next, we do not need to store every single transactions's hash. What matters at the end is who owns the coin. If Ann paid Bob, and then a week later Bob paid Charlie, well in order to make sure the system is intact and everyone has access to the coins that they own, we don't need to know that Ann used to own that coin last week... at least not directly. This information can be deducted, if need be, by the last transaction hash thanks to the Merkel tree.
+The idea here is that if we have a coin that's moving from one owner to the next, we do not need to store every single transactions's hash. What matters at the end is who owns the coin. If Ann pays Bob 1 bitcoin, and then a week later Bob pays Charlie that same bitcoin, well in order to make sure the system is intact and everyone has access to the coins that they own, we don't need to know that Ann used to own that coin last week... at least not directly. This information can be deducted, if need be, thanks to the Merkel tree (a.k.a. "hash tree").
 
 ![trees](..\images\btc\img5.png)
 
-A tree has a root node (the Merkle root), and this root node will be a signature representing all of the transactions in a block. There is no need for computers on the node to store every transaction anymore. And by combining all transaction like this, we save disk space for every node. And all this while still maintaining our tamper-proof property (if I go back a few blocks and change one transaction, the Merkle root will be different, and my block be be invalidated, causing a ripple effect onto the following blocks). 
+A tree has a root node (the "Merkle root"), and this root node will be a hash representing all of the transactions in a block. There is no need for nodes on the network to store every transaction anymore. And by combining all transaction in this manner, we save disk space for every node. And all this while still maintaining our tamper-proof property (if I go back a few blocks and change one transaction, the "root hash" will be different, and my block will be invalidated, causing a ripple effect onto the following blocks). 
 
+To hit the point home, in the image above, on the left, we have a block with 4 transactions. The Merkle tree is formed by concatenating the hashes of 2 subsequent transactions, and then repeating that with the hashes created, going up in the tree, until there is nothing left to combine; at that point, all the transactions are combined and summarized by the root hash. 
 
-Here is what Vitalik Buterin had to say about Merke Trees in Bitcoin:
+The image on the right shows what happens if will never need to reference transactions 0 1 and 2 ever again, so we remove them and store their hashes instead. The hashes of Tx0 and Tx1 can be condensed together to save further space. All in all, instead of storing 4 transactions, we are now storing 2 hashes and 1 transaction (Tx3); that's 3 items instead of four transactions. It doesn't seem like a big deal when dealing with 4 transactions, but in reality, a block on the Bitcoin blockchain today holds, on average, 2000 transactions. So while 25% of 4 items is only 1, 25% of 2000 items is 500.
+
+Here is what Vitalik Buterin had to say in the Ethereum whitepaper about the use of Merke Trees in Bitcoin:
 
 ##### _"The Merkle tree protocol is arguably essential to long-term sustainability. A "full node" in the Bitcoin network, one that stores and processes the entirety of every block, takes up about 15 GB of disk space in the Bitcoin network as of April 2014, and is growing by over a gigabyte per month. Currently, this is viable for some desktop computers and not phones, and later on in the future only businesses and hobbyists will be able to participate."_.
 
+# 8. Simplified Payment Verification
+
+The concept of the Merkle Tree ties in very closely with SPV because they both talk about efficiency. Section 7 showed us that nodes don't need to store all the data on all the previous blocks in the bloclchain. This section talks about how if you are a node on the network, you can participate in the network without knowing all the details of past transactions. This is useful for systems which are low on resources, such as a smartphone.
+
+##### _"A user only needs to keep a copy of the block headers of the longest proof-of-work chain, which he can get by querying network nodes until he's convinced he has the longest chain [...]. He can't check the transaction for himself, but by linking it to a place in the chain, he can see that a network node has accepted it, and blocks added after it further confirm the network has accepted it."_
+
+Basically, the blockchain network can now consist of  
+1. nodes which have the entirety of the blockchain, with every single transaction detail saved, 
+2. nodes which contain some amount of detail (keeping only the relevant transactions using the concept of Merkle Trees), and
+3. "Light" nodes, which only keep a copy of the block headers, without any of the details about the transactions which any of the blocks contain. They can however ask ("_query_") other (more "knowledgeable") nodes on the system if a certain transaction Tx has occurred.
+
+# 9. Combining and Splitting Value
+
+Not going to lie, I was happy to encounter this chapter. Because up until now, I have only been talking about moving one entire bitcoin from Ann to Bob and then moving that exact same bitcoin from Bob to Charlie. In reality, it is more likely that Bob will receive 1.28523 BTC from Ann, and that he will then have to send 0.762304 BTC to Charlie.
+
+This section shows that one transaction Tx can contain many inputs and will usually contain two outputs: the first output will be the receiver of the transaction, and the second output will be change (if any) sent back to the sender. Let's look at an example.
+
+Ann has 0.5 BTC, and wants to send Bob 0.3 BTC. This transaction will break up Ann's currency into two separate outputs: The 0.3 BTC owed to Bob, and the 0.2 BTC left behind. This 0.2 BTC will be sent back to Ann. Hence why there are two outputs most of the time.
+
+Today, we have the concept of "Unspent Transaction Output", or UTXO.
+
+_"A UTXO is essentially the unused part of a transaction. Every time a cryptocurrency transaction takes place, existing inputs are deleted and new outputs are created. Any outputs that aren't immediately spent become a UTXO that’s tied to the sender in the transaction."_ [(source)](https://learn.bybit.com/glossary/definition-utxo/) 
+
+To be honest, the details (with the public/private keys, how to check who has access to what, etc.) are kind of complicated, but even Satoshi doesn't get into it in the whitepaper so I won't either.
+
+# 10. Privacy
+
+Here, Satoshi talks about pseudonymity.
+
+##### _"The public can see that someone is sending an amount to someone else, but without information linking the transaction to anyone."_
+
+So your identity is separate from your bitcoin wallet (mostly not the case today)[(3)](#3).
+
+# 11. Calculations
+
+Here, Satoshi simulates an attack on the Bitcoin network. He considers the case where the attacker has less than 50% of the CPU power of the network, and proves that the attacker will have a very (extremely) hard time trying to hack the network; the attacker basically has to be extremely lucky with finding the nonces (as explained in section 4) and creating a separate chain of blocks from the legitimate chain, and adding the blocks onto that chain faster than the legitimate chain is growing.
+
+Actually, maybe this part isn't so clear, so let me dive deeper into an example.
+
+Let's say I pay for a Lamborghini with bitcoin that I don't actually have. The dealership tells me "hold on, we want to wait a bit to make sure this transaction is valid, is accepted by everyone and exists on the blockchain". 
+
+That's a fair argument, let's wait.
 
 
 ---
@@ -96,3 +141,9 @@ In computer science, this is called an O(n) computation. The concept is hard to 
 If you're a node, whenever you add a block to the chain, you had to have validate each transaction within that block. And so when you go through them, you can store them inside your RAM (for example). In your database, you can store the transaction IDs in ascending order. And no you have a sorted list of past transactions, and you have a new transaction which you want to check if it is in that list. So now you can run your favorite search algorithm. 
 
 Previously, we did what's known as "linear search", which is searching through every item. But now that we have a sorted list, we can do what's called a "binary search". In binary search, the list is divided in half at each step and the search continues in the half that may contain the desired item. This reduces the number of elements to search by half at each step, making this approach much faster than "linear search".
+
+# 3
+This paper was written in 2008. Back then, it was simpler to jump in and participate in the network through mining bitcoin. At the time, mining was relatively easy and required only a small amount of computing power.
+Regulated exchanges such as Coinbase and Binance didn't exist back then.
+
+In order to fund our Bitcoin wallets today, we must send our  money from our bank to the exchange, and then through the exchange we can put money in our digital wallet. Gone are the days where you could just join the Bitcoin network with a latptop, and earn bitcoin. So this section is a bit obsolete.
