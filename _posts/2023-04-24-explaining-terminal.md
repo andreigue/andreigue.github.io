@@ -2,7 +2,7 @@
 title: "Introduction to Terminals: Part 1"
 ---
 
-#### _I had an interview recently with a startup looking for a technical writer. During the interview, I was given 75 minutes to write an article aimed at mid-teens about terminals. Here is exactly what I came up with in that time. My goal was to teach all the way up to how to open Google Chrome using the terminal, rather than double-clicking on the Desktop icon. Feel free to critique me in person._
+#### _This article was written during a 75-minute interview I had for a technical writer position. The task was to write an article aimed at mid-teens about terminals. Here is exactly what I came up with in that time. My goal was to teach all the way up to how to open Google Chrome using the terminal, rather than double-clicking on the Desktop icon. Feel free to critique me in person._
 
 ----------------------------
 
