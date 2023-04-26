@@ -2,7 +2,7 @@
 title: "Introduction to Terminals: Part 1"
 ---
 
-#### _This is a first article in a series where we explain to you what is a terminal and how you can use it to awaken the coder inside of you and speed up your day-to-day life._
+#### _I had an interview recently with a startup looking for a technical writer. During the interview, I was given 75 minutes to write an article aimed at mid-teens about terminals. Here is exactly what I came up with in that time. My goal was to teach all the way up to how to open Google Chrome using the terminal, rather than double-clicking on the Desktop icon. Feel free to critique me in person._
 
 ----------------------------
 
