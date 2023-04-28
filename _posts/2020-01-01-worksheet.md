@@ -50,7 +50,7 @@ Quotes are defined by the  '>' symbol
     > This is an example quote
 -->
 
-> **TODO**. Create a quote
+> > Create a quote
 
 You can combine a header with a quote.
 
@@ -60,7 +60,7 @@ You can combine a header with a quote.
     > # H1 Quote
 -->
 
-> **TODO**. Create an H2 Quote 
+> > ## Create an H2 Quote 
 
 ---
 
@@ -69,28 +69,28 @@ You can combine a header with a quote.
 Add emphasis with asterisks '*' and underscores '_'
 Two before and after (no spaces) a section of texts makes it bold 
 
-<!--
+
     Example
 
     **Bold Text with asterisks**
     __Bold Text with underscores__
--->
 
-One before and after (no spaces) a section of texts makes it bold 
 
-<!-- 
+One before and after (no spaces) a section of texts makes it italicized 
+
+
     Example
 
     *Italicized Text with asterisks*
     _Italicized Text with underscores_
---> 
+ 
 You can also put Bold and Italicized text inline by surrounding a group of words.
 
-<!-- 
+
     Example
 
     This text is **bold** and this text is *italicized* 
--->
+
 
 > **TODO**. Create a bold sentence, an italicized sentence, and a sentence with both bold and italicized text inline
 
