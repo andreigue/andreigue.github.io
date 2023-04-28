@@ -50,7 +50,8 @@ Quotes are defined by the  '>' symbol
     > This is an example quote
 -->
 
-> > Create a quote
+> Create a quote
+> Testing a multiline quote just writing random stuff to fill up more than 2 lines should be good ye 
 
 You can combine a header with a quote.
 
@@ -60,7 +61,7 @@ You can combine a header with a quote.
     > # H1 Quote
 -->
 
-> > ## Create an H2 Quote 
+> ## Create an H2 Quote 
 
 ---
 
@@ -114,37 +115,42 @@ For what it's worth, I prefer dashes...
 ## Lists
 
 Create unordered lists using '-', '*', '+, 
-<!-- 
+
     Example with each 
 
     - item
     * item
     + item
-    - sdfsd
--->
+
 
 You can create sublists by indenting
-<!-- 
+
     Example
 
     - item
     - subitem
--->
+
 
 Create ordered lists using a number prefix
 
-<!-- 
+
     Example
 
     1. item 1
     2. item 2
     3. item 3 
--->
+
 
 > **TODO** Create an unordered list of your 5 favorite TV Shows 
 
-> **TODO** Create an ordered list of your top 5 Movies 
+- item 1
+- item 2
+- item 5
 
+> **TODO** Create an ordered list of your top 5 Movies 
+ 1. item 1
+ 2. item 2
+ 3. item 5
 ---
 
 ## Links
@@ -166,7 +172,11 @@ Create a link with text by surrounding text with brackets, [], and link immediat
 
 > **TODO** Create a link to your website, twitter, or github. with no text
 
+<https://andreigue.github.io/>
+
 > **TODO** Create a link with text to your website, twitter, or github
+
+[My blog](https://andreigue.github.io/)
 
 What if you needed to reuse a link several times?  Well, you could copy and paste that link each time.  That means, if you need to update the link, you will have to do it each time its used.  There's a better way!
 
@@ -253,6 +263,13 @@ You can do blocks of code by surroung it with 3 backticks (``` ```)
 -->
 
 > **TODO** Display a block of code from your favorite language
+
+```python
+"testing code"
+
+var1 = 1
+print(var1)
+```
 
 The above does not give language specific highlighting.  You can specify the programming language immediately following the opening 3 backticks.  You Should see a difference in highliting!
 
