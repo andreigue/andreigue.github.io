@@ -25,6 +25,22 @@ If the Facebook-Cambridge Analytica scandal taught us anything, it's that ordina
 
 If we expand blockchain's reach into other aspects of our lives, then anyone would be able to read/estimate how much money we have, where we visit, who we chat with, which airlines we use, which movies we watch, so on and so forth. Would you rather Netflix see and analyze your watch pattern, feed the data into their AI tools and show you new movie recommendations, or would you rather have anyone with access to the blockchain see which movie you watched yesterday? Because at the end of the day, everything you do on the blockchain leaves a permanent mark and can be traced back to you.
 
+## _Update 2023-04-28_
+
+The Bitcoin whitepaper doesn't implicitly talk about this, but it's still something that came up in my mind: what happens if a fake transaction is broadcasted? What stops me from saying that Jonny is sending me 10 bitcoins?
+
+Now that I'm writing it, the answer is pretty clear: I can't pretend to be Jonny. The previous owner of those 10 bitcoins has to sign and approve the transaction using his private key, which I don't have access to. If I were to broadcast such a message out to the network, sure the nodes will pick it up, but they go through steps to validate a transaction; they don't just turn a blind eye to the details and add everything they get to the block that they're working on.
+
+Nodes in the Bitcoin network are programmed to verify the validity of every transaction they receive, and they do this by checking that the transaction meets certain criteria, such as:
+
+- The transaction is properly formatted with the correct syntax and data structure
+- The transaction inputs are valid (i.e., they have not already been spent)
+- The transaction outputs are valid (i.e., they do not exceed the inputs)
+- The transaction is signed with the correct private key(s)
+
+If a node receives a transaction that fails to meet any of these criteria, it will reject the transaction and not include it in the block. And if a miner (for example, me) does try to include an invalid transaction in their block [(2)](#2), other nodes will reject the block thanks to the proof-of-work concept: the longest chain is the one that is the real chain.
+
+
 ---
 
 ### Notes:
@@ -34,3 +50,7 @@ And I'd argue that that is a big part on why gold's value is pretty stable and p
 
 I don't think we can say that with certainty about Bitcoin. Its future is not as clear. Blockchain technology will likely thrive and we will keep finding uses for it, but Bitcoin, it's hard to tell. If we enter a recession, will people be buying Bitcoin? And now, if we enter a recession, will people be buying gold? Yes, probably. Either NASA will be working on a new satellite, and if a cut in NASA's budget occurs, well then people will need it in their teeth, and if not, then I can guarantee that people will still be buying phones and electronics with gold in them. Industry applications are not that large for gold, but that's enough to build confidence in people about its value. We value what others value. If you're in prison, and you don't smoke, you will still accept a cigarette as a form of payment because you know that the entire cohort of section B smoke, and you know they will always want cigarettes. 
 
+# 2
+Actually, I don't even think that I'll be able to add a fake transaction, even to my block. 
+
+To participate in the Bitcoin network, I would need to follow the rules of the protocol, including verifying the validity of transactions. Having 51% of the computing power would give me the ability to create a longer blockchain and potentially conduct a double-spend attack, but it would not give me the ability to bypass the transaction verification process.
