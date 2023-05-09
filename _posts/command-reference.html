@@ -1,0 +1,68 @@
+---
+layout: default
+---
+<div class="command-box">
+  <div class="command-buttons">
+    <button class="command-button active" data-version="windows">Windows</button>
+    <button class="command-button" data-version="macos">macOS</button>
+  </div>
+  <div class="command-code" data-version="windows">
+    <pre><code>Windows version of the command</code></pre>
+  </div>
+  <div class="command-code hidden" data-version="macos">
+    <pre><code>macOS version of the command</code></pre>
+  </div>
+</div>
+
+<style>
+.command-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.command-buttons {
+  margin-bottom: 10px;
+}
+
+.command-button {
+  border: none;
+  background-color: transparent;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+
+.command-button.active {
+  border-bottom: 2px solid #007bff;
+}
+
+.command-code {
+  display: block;
+}
+
+.command-code.hidden {
+  display: none;
+}
+</style>
+
+<script>
+document.querySelectorAll('.command-button').forEach(function(button) {
+  button.addEventListener('click', function() {
+    var version = button.dataset.version;
+    document.querySelectorAll('.command-button').forEach(function(button) {
+      button.classList.remove('active');
+    });
+    button.classList.add('active');
+    document.querySelectorAll('.command-code').forEach(function(code) {
+      if (code.dataset.version === version) {
+        code.classList.remove('hidden');
+      } else {
+        code.classList.add('hidden');
+      }
+    });
+  });
+});
+</script>
