@@ -45,14 +45,14 @@ If a node receives a transaction that fails to meet any of these criteria, it wi
 
 ### Notes:
 
-# 1
+### 1
 And I'd argue that that is a big part on why gold's value is pretty stable and people consider it to be a safe investment. If ever people decide that gold isn't valuable (for whatever reason), and you have money in gold, well then in the worst case scenario, there are uses in various industries for this material, so there will always be some demand for it. It's relatively safe because its value will never be 0, as will likely always be demand for it. 
 
 I don't think we can say that with certainty about Bitcoin. Its future is not as clear. Blockchain technology will likely thrive and we will keep finding uses for it, but Bitcoin, it's hard to tell. If we enter a recession, will people be buying Bitcoin? I don't know. But now, if we enter a recession, will people be buying gold? Yes, probably. Either NASA will be working on a new satellite, and if a cut in NASA's budget occurs, well then people will need it in their teeth, and if not, then I can guarantee that people will still be buying phones and electronics with gold in them. Industry applications are not that large for gold, but that's enough to build confidence in people about its value. Other than industry uses, which are critical for technological advancement and the betterment of our lives, there is also jewelery. Gold is very much ingrained in certain cultures, such as in Hindu weddings.
 
 We value what others value. If you're in prison, and you don't smoke, you will still accept a cigarette as a form of payment because you know that the entire cohort of section B smoke, and you know they will always want cigarettes. 
 
-# 2
+### 2
 Actually, I don't even think that I'll be able to add a fake transaction, even to my block. 
 
 To participate in the Bitcoin network, I would need to follow the rules of the protocol, including verifying the validity of transactions. Having 51% of the computing power would give me the ability to create a longer blockchain and potentially conduct a double-spend attack, but it would not give me the ability to bypass the transaction verification process.
