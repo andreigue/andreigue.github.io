@@ -1,3 +1,24 @@
+# Visitor Location Logging and Display
+
+This project logs visitor locations using IPinfo and displays them on a map using Leaflet.js. The visitor data is stored in a JSON file in the repository and updated using GitHub Actions.
+
+## Overview
+
+1. IPinfo:
+
+  - Fetches geolocation data for visitors.
+  - Token is securely stored in GitHub Secrets.
+
+2. GitHub Actions:
+
+  - Automates the logging of visitor data.
+  - Commits updates to the visitors.json file in the repository.
+  - Uses GitHub Secrets for secure access to tokens.
+
+3. Leaflet.js:
+
+  - Displays visitor locations on an interactive map.
+
 # [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)
