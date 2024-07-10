@@ -3,7 +3,7 @@ name: Log Visitor Data
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   log-visitor:
