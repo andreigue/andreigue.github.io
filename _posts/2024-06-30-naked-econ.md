@@ -35,3 +35,10 @@ By selfish, I mean we all act in a way to be happier (as well off as possible), 
 ## Chapter 8. THe Power of Organized Interests
 
 
+Can mention israel here "special interest"
+
+https://www.youtube.com/watch?v=oQJt8dwvs78&t=59s
+https://www.youtube.com/watch?v=lUQ_0MubbcM
+
+I like this quote that I've heard somewhere: "Lobbying is basically legalized bribery".
+
