@@ -32,7 +32,7 @@ By selfish, I mean we all act in a way to be happier (as well off as possible), 
 
 ## Chapter 7: Financial Markets
 
-## Chapter 8. THe Power of Organized Interests
+## Chapter 8. The Power of Organized Interests
 
 
 Can mention israel here "special interest"
@@ -42,3 +42,5 @@ https://www.youtube.com/watch?v=lUQ_0MubbcM
 
 I like this quote that I've heard somewhere: "Lobbying is basically legalized bribery".
 
+Somewhere mentions luddites. Have to let creative destruction happen. Maybe chapter 8
+https://www.weforum.org/agenda/2020/09/short-history-jobs-automation/

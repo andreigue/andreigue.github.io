@@ -19,6 +19,8 @@ This project logs visitor locations using IPinfo and displays them on a map usin
 
   - Displays visitor locations on an interactive map.
 
+
+
 # [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mmistakes/minimal-mistakes/master/LICENSE)
