@@ -1,6 +1,6 @@
 ---
 title: "Naked Economics: Undressing the Dismal Science"
-tags: "book summary"
+tags: [Books, Economics]
 ---
 
 ## Chapter 1. The Power of Markets
@@ -147,7 +147,7 @@ https://www.weforum.org/agenda/2020/09/short-history-jobs-automation/
 
 #### 1
 
-By selfish, I mean we all act in a way to be happier (as well off as possible), and we all get there differently. Some people might be happy by purchasing a new car, while others are happier when they help someone cross the street, or volunteer somewhere. The latter have value as well, even if not monetary. This is the concept of utility in economics: the total satisfaction or benefit derived from consuming a good or service.
+By selfish, I mean we all seek our own happiness, and the path we take varies for each of us. Some people might be happy by purchasing a new car, while others are happier when they help someone cross the street, or volunteer somewhere. The latter have value as well, even if not monetary. This is the concept of utility in economics: the total satisfaction or benefit derived from consuming a good or service.
 
 [Return](#chapter-1-the-power-of-markets)
 
