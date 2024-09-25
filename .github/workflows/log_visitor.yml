@@ -23,8 +23,14 @@ jobs:
       env:
         IPINFO_TOKEN: ${{ secrets.IPINFO_TOKEN }}
       run: |
+        # Fetch visitor data
         VISITOR_DATA=$(curl https://ipinfo.io?token=${{ secrets.IPINFO_TOKEN }})
-        jq '. + [${VISITOR_DATA}]' visitors.json > updated_visitors.json
+        
+        # Debug: print fetched data to verify its content
+        echo $VISITOR_DATA
+        
+        # Append the fetched data to the visitors.json file
+        jq ". + [$VISITOR_DATA]" visitors.json > updated_visitors.json
 
     - name: Commit and push changes
       run: |
