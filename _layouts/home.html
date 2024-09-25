@@ -17,27 +17,3 @@ layout: archive
 {% endfor %}
 
 {% include paginator.html %}
-
-<!-- Map Div -->
-<div id="mapid" style="height: 500px; margin-top: 20px;"></div>
-
-<!-- Map Script -->
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    var map = L.map('mapid').setView([20, 0], 2);
-
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-    }).addTo(map);
-
-    fetchVisitorLocation().then(data => {
-      var latlon = data.loc.split(',');
-      var lat = parseFloat(latlon[0]);
-      var lon = parseFloat(latlon[1]);
-
-      L.marker([lat, lon]).addTo(map)
-        .bindPopup('You are here: ' + data.city + ', ' + data.region + ', ' + data.country)
-        .openPopup();
-    }).catch(error => console.log('Error fetching IP info: ', error));
-  });
-</script>
