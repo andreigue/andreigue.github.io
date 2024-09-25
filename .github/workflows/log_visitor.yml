@@ -10,13 +10,13 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3  # Updated to v3 to support Node 16
+      uses: actions/checkout@v3
 
     - name: Fetch visitor data
       run: |
         curl -H "Authorization: token ${{ secrets.GH_TOKEN }}" \
              -H "Accept: application/vnd.github.v3+json" \
-             https://api.github.com/repos/YOUR_USERNAME/YOUR_REPO/contents/_data/visitors.json \
+             https://api.github.com/repos/andreigue/andreigue.github.io/contents/_data/visitors.json \
              -o visitors.json
 
     - name: Log visitor data
@@ -24,7 +24,7 @@ jobs:
         IPINFO_TOKEN: ${{ secrets.IPINFO_TOKEN }}
       run: |
         VISITOR_DATA=$(curl https://ipinfo.io?token=${{ secrets.IPINFO_TOKEN }})
-        jq ". + [${VISITOR_DATA}]" visitors.json > updated_visitors.json
+        jq '. + [${VISITOR_DATA}]' visitors.json > updated_visitors.json
 
     - name: Commit and push changes
       run: |
@@ -32,10 +32,10 @@ jobs:
         UPDATED_CONTENT=$(base64 -w 0 updated_visitors.json)
         SHA=$(curl -H "Authorization: token ${{ secrets.GH_TOKEN }}" \
                 -H "Accept: application/vnd.github.v3+json" \
-                https://api.github.com/repos/YOUR_USERNAME/YOUR_REPO/contents/_data/visitors.json | jq -r .sha)
+                https://api.github.com/repos/andreigue/andreigue.github.io/contents/_data/visitors.json | jq -r .sha)
         curl -X PUT -H "Authorization: token ${{ secrets.GH_TOKEN }}" \
              -H "Accept: application/vnd.github.v3+json" \
-             https://api.github.com/repos/YOUR_USERNAME/YOUR_REPO/contents/_data/visitors.json \
+             https://api.github.com/repos/andreigue/andreigue.github.io/contents/_data/visitors.json \
              -d @- << EOF
         {
           "message": "${COMMIT_MESSAGE}",
