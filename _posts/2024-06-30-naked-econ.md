@@ -1,5 +1,6 @@
 ---
 title: "Naked Economics: Undressing the Dismal Science"
+subtitle: "Part 1: An Introduction to Economics"
 tags: [Books, Economics]
 ---
 
