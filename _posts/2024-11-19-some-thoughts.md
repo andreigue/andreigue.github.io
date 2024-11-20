@@ -1,5 +1,5 @@
 ---
-title: "Finding Logic in Irrationality"
+title: "An Unexpected Exception"
 ---
 
 I used to not understand car enthusiasts, wine enthusiasts, sneaker collectors, or art lovers. But now I do.
@@ -16,21 +16,25 @@ Introducing: the wristwatch.
 
 A perfect example of human irrationality. The time is everywhere around us now: phones, laptops, stoves, car displays. A mechanical timepiece on your wrist makes about as much sense as riding a horse to work (unless you're one of the few people who actually dive to the bottom of the ocean and require one).
 
-Let me paint you another picture: People spend thousands of dollars on watches, and some wait years on a waitlist for the privilege to spend \$50,000 on one. And here's the funny part: they all keep worse time than a \$30 quartz watch from the mall.
+But it gets better. People spend thousands of dollars on watches, and some wait years on a waitlist for the privilege to spend \$50,000 on one. 
+
+The best part? They all keep worse time than a \$30 quartz watch from the mall.
 
 But because we have already established that watches are redundant and irrational, arguing about accuracy does nothing. 
 
 Bringing up accuracy here is like criticizing a painting because it doesn't look as realistic as a photograph.
 
-It's like arguing that a Toyota Corolla is more reliable than a Pagani Zonda. Sure, it's true, but it completely misses the point of why people are drawn to expensive cars in the first place.
+It's like arguing that a Toyota is more reliable than a Pagani. Sure, it's true, but it completely misses the point of why people are drawn to expensive cars in the first place.
 
 I'm not a car guy. To me, the point of a car is to get me from point A to point B. I can do that in a Corolla. I don't need a Mercedes CLS 63 AMG to do so. But for some people, a car is more than a piece of metal on wheels. It's a chamber in which they spend hours a day, getting around the city. So they want to make that time special. They want something that brings them joy every time they sit in it (even if that joy might've stemmed from clever marketing and social conditioning). They want something unique that makes them recognizable. When friends see their car in a parking lot, they know that person has arrived. The car becomes an extension of who they are. Even though you're spending more on premium fuel and getting worse mileage, the emotional aspect weighs more than the extra money spent on fuel.
 
-So I get it. I'm not a car guy, but I get those people.
+So I get it.
 
 And a watch is even more useless.
 
-At least with an expensive car, you get tangible improvements: you can feel the acceleration push you back in your seat, the premium leather against your skin, the warmth of the heated steering wheel on cold mornings. With watches? Nothing like that. It's just some gears placed into a case, and they all do exactly the same thing: tell time.
+At least with an expensive car, you get tangible improvements: you can feel the acceleration push you back in your seat, the premium leather against your skin, the warmth of the heated steering wheel on cold mornings. 
+
+With watches? Nothing like that. It's just some gears and springs placed into a case, and they all do exactly the same thing: tell time.
 
 But again, the premise here is wrong because telling time isn't even the point anymore.
 
@@ -38,24 +42,39 @@ When you walk through a local artisan market, you don't expect to get the best d
 
 We respect skilled artisans, whether they've dedicated their lives to their craft or create simply for the love of it.
 
-This is not about efficiency anymore. One factory worker with access to specialized machinery will get more output than 50 artisans within the same time. This applies to almost any item.
+This is not about efficiency anymore. One factory worker with access to specialized machinery will produce more output than 50 artisans in the same time frame. This principle applies to almost any item.
 
 Take a watchmaker who spends a year crafting a single watch. When someone buys it for tens of thousands of dollars, people criticize the purchase. But that price reflects the time spent making it, the years of learning the craft, and the living costs of being based in expensive countries like Switzerland or Japan.
 
 But again, at least a handmade leather wallet is useful. 
 
-And again, to that I say: it's a romantic idea. 
+And again, to that I say: buying a watch is a romantic idea. 
 
 In a world full of disposable electronics and planned obsolescence, mechanical watches, to me at least, stand out. Each one contains countless moving parts, powered by nothing but gears and springs. Hand-assembled in many instances. 
 
-It's an art form, using technology to create something unnecessary. And that's okay. 
+It's an art form, using technology to create something unnecessary. And that's okay.
 
 It's technology created not to push boundaries, but purely to exist as art. Just like a painting doesn't need to advance visual representation to be worthwhile.
 
-I like to think of it like this: some people choose to engrave a tattoo onto their skin, marking an experience they want to remember. Their body becomes a book, telling their life story. When they're older, they can look at their body and see glimpses of their life events. To me, this is the most compelling argument for tattoos, but I would never do it myself, as I'm not confident that I will always want a permanent reminder of a temporary feeling. With a watch you wear daily, though, you get a similar personal connection without the permanence. While you might not afford as many watches as you can tattoos, this just means the milestones they represent will be fewer but more meaningful.
+I like to think of it like this: some people choose to engrave a tattoo onto their skin, marking an experience they want to remember. Their body becomes a book, telling their life story. When they're older, they can look at their body and see glimpses of their life events. To me, this is the most compelling argument for tattoos, but I would never do it myself, as I'm not confident that I will always want a permanent reminder of a temporary feeling. 
 
-It's about appreciating what you already have. 
-Consumerism. Not chasing the next thing. Enjoy what you have. 
+With a watch you wear daily, though, you get a similar personal connection without the permanence. While you might not afford as many watches as you can tattoos, this just means the milestones they represent will be fewer but more meaningful.
+
+The milestones worth celebrating vary for everyone, but let's keep perspective. Buying watches remains fundamentally consumerist, and without restraint it becomes pure materialism.
+
+And even if all this sounds too philosophical, at least a watch can upgrade your look.
+
+That's a pretty good worst-case scenario.
+
+Now I could continue on this point, saying how a nice watch from "a real watch brand" sends a message to the world, whether you like it or not. Walk into some business meeting with thousands of dollars wrapped around your wrist, and if the other person recognizes it, you're starting ahead without saying a word. When people see signs of financial success, they're more likely to listen. Sure, you could talk your way to that same credibility, but an expensive watch does that preliminary "get-to-know-you talk" partially for you.
+
+But obviously, you shouldn't buy a watch just for that.
+
+You do it because you personally want to.
+
+What I do is I casually browse online, keep a mental list of any watch within my budget that I like, and over months see which one I consistently gravitate towards. After that much time, I'm usually quite certain about my choice.
+
+I'm sharing this because the most important reasons should be internal, not external validation.
 
 ## A Note On Ultra-Luxury
 
@@ -70,58 +89,3 @@ Take Porsche's limited edition cars. You can't just buy a GT3 RS. You have to co
 The same goes for certain watches and handbags. You can't simply walk into a store and buy a Rolex Daytona or an Hermès Birkin, no matter how much money you have. You need a purchase history. You need to be deemed worthy. When money becomes more common, the truly wealthy need new ways to stay exclusive.
 
 Rich people today can buy almost anything they want. Everything is accessible to them. So when someone finally tells them *"no, you can't have this"*, it creates an interesting dynamic. Finally, a challenge. Finally, something they can't just throw money at. They have to prove themselves worthy again, like back when they were nobodies. They have to earn their spot, build relationships, show interest and loyalty to the brand. Money becomes just the entry fee to this game of acquiring a status object.
-
-
-
-
-
-
-
-unethical. Why do 100k watches exist in a world where millions can't afford to feed themselves.
-
-
-
-For some, watches are a competition. "Mine costs $5k". Don't compare yourself to others. Instead, have it be a playful competition with yourself. If you make a thousand thousand dollars (i.e. one million) one day, why not spend a handful of those thousands on something that will be with you forever.
-
-
-A mechanical watch relies on you. When you leave it on the counter, it will stop ticking.
-
-A quartz watch is just like any other piece of consumer electronic. It lives independant of you. It's dependant on electricity.
-Individual expression. what I collect is different from what you collect. I may have a yellow-faced watch because its eye catching, and you may have a white dialed watch because it fits with your outfits.
-
-You can also just ignore all this and wear a watch because it elevates your 
-look. 
-
-I like what I like. You like what you like. But we are both right. There is almost no wrong answer with watches. As long as you enjoy what you wear, it doesn't matter what others think.
-
-And I think, subconsciously, this is one of the reasons why I enjoy watches. ...
-
-
-You're never right or wrong buying a watch.
-It's hard to go wrong with buying a watch (you can go wrong matching it with the rest of your fit). As long as you enjoy it, it's all that matters.
-
-There are watches for any single budget, and that's what I like about watches compared to cars.
-
-However, we are not robots. We have many biases .. . And no one is perfect, and we have an idea of how the average person thinks. Sure, lots of people literally don't care about what you have on your wrist, but to most, a good looking watch, a nice outfit, .. . People will treat you differently. If the person you are talking to sees that you are financially successful, they are more likely to listen to what you have to say. Otherwise, you will have to do some talking to convince that you are worth listening to. Thousands of dollars wrapped around your wrist 
-
-We are not robots. We subconsciously gain confidence. People will treat you differently.
-
-To some, a watch is used to gain confidence. Or they have to spend some money to be motivated to make some more. Or they want other 
-
-
-Companion item. Once you reach a certain milestone in life, you get another one that you like. And then in 50 years, you can look at your collection, and each watch will feel like an old friend.
-
-
-They keep on ticking. Everything is disposable, and even built with planned obsolescence 
-
-## Or Maybe I'm Wrong
-
-japanese watchmakers like Seiko (and citizen? or who?) beat the Swiss at their own timekeeping competitions (give some details of this, how prominent swiss brans like omega rolex etc were competing among eachother, and then they let the japanese join? or what happened? Japanese started off doing bag, but then copied the designs and made them better and won the competitions? They  got 4th place or smthn? give timeline). 
-
-ANd then  quartz crisis of the 1970's?
-
-Maybe, just maybe, I got influenced into thinking all this, and I am trying to rationalize and explain the irrational. 
-
-Doesn't matter. I know I have not gone crazy because i am not spending any more than i can afford. And thats the key to eveerything. You can be into [name some crazy hobbies], as longas you prioritize things properly and do things within your means.
-
-At the very least, if all this is too esotheric for you, a watch is a nice addition to an outfit.
