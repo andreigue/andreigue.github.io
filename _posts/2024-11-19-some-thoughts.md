@@ -110,7 +110,7 @@ While the Swiss used battery-powered movements to protect their dominance in 196
 
 This is my favorite story about watches. And makes me respect Seiko so much. Because they don't even use all this unfairness in their marketing. They don't put the Swiss down for all this. You know the story, now you can go [read what they put on their website, under the 1967 date](https://www.seikowatches.com/us-en/special/heritage/).
 
-So next time you see a watch and it's not from Switzerland, remember there's more to watchmaking excellence than Swiss marketing would have you believe.
+So next time you see a watch and it's not from Switzerland, remember there's more to watchmaking than Swiss marketing would have you believe.
 
 ### Notes
 
