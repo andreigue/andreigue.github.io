@@ -89,3 +89,33 @@ Take Porsche's limited edition cars. You can't just buy a GT3 RS. You have to co
 The same goes for certain watches and handbags. You can't simply walk into a store and buy a Rolex Daytona or an Hermès Birkin, no matter how much money you have. You need a purchase history. You need to be deemed worthy. When money becomes more common, the truly wealthy need new ways to stay exclusive.
 
 Rich people today can buy almost anything they want. Everything is accessible to them. So when someone finally tells them *"no, you can't have this"*, it creates an interesting dynamic. Finally, a challenge. Finally, something they can't just throw money at. They have to prove themselves worthy again, like back when they were nobodies. They have to earn their spot, build relationships, show interest and loyalty to the brand. Money becomes just the entry fee to this game of acquiring a status object.
+
+## When Swiss Pride Met Japanese Precision
+
+There is a certain snobbery in the watch world about Swiss watches. Many people firmly believe that only Swiss watches can be considered "proper" timepieces, dismissing everything else as inferior. This bias makes the following story particularly satisfying.
+
+Precise timekeeping has always been crucial for navigation, especially at sea where timing errors can compound into dangerous miscalculations. This pursuit of accuracy led to chronometer competitions at astronomical observatories. By the 1960s, the most prestigious of these was held at the Neuchâtel Observatory, in Neuchâtel, Switzerland. Swiss manufacturers dominated these trials, with companies like Omega, Patek Philippe, and Zenith regularly achieving top results. The goal was simple: Create the most accurate mechanical movement possible, without regard for cost or practicality.
+
+This Swiss dominance continued unchallenged until Seiko, a Japanese company, decided to enter the race in 1964. Their first attempt resulted in their best movement placing 144th. After discovering their movements had gotten magnetized during transport, they began shipping them in anti-magnetic cases and planned routes farther from the Earth's magnetic north pole.
+
+Year after year, Seiko's rankings improved. From 114th place in 1965, they reached 9th in 1966. By 1967, they achieved places 4th to 13th. Then came the 1968 competition. The swiss simply canceled it midway through when it looked like Seiko might win, claiming they needed to "reevaluate the rules."
+
+While still in Switzerland with their competition-ready movements, Seiko entered the Geneva Observatory competition. There, they secured all positions from 4th to 10th place. The crazy part is that the Swiss took the top three spots using battery-powered movements, which are inherently more precise than mechanical ones. In other words, among purely mechanical watches, Seiko had actually achieved positions 1 through 7.
+
+This marked the end of the observatory chronometer competitions. 1968.
+
+When they revived the chronometer competition in 2009, they included an interesting requirement: All parts and watches entered must be manufactured in Europe. This basically barred any Asian manufacturers from participating, and, in my opinion, strips this competition of any credibility it might have once had.
+
+While the Swiss used battery-powered movements to protect their dominance in 1968, something bigger was coming. Just a year later, in 1969, Seiko released the Astron, the world's first fully-integrated [(Note 1)](#1) quartz watch. This sparked what Swiss watchmakers would later call the "quartz crisis". As electronic watches became cheaper, the mechanical watch industry in Switzerland nearly collapsed. In just a decade, two thirds of the jobs in the Swiss watchmaking industry vanished. Once a bunch of the dying companies were bought out (hence why there are like three companies that own most of the Swiss brands), they redefined what watches represent to consumers by appealing to the artistry and the craft rather than the precision.
+
+This is my favorite story about watches. And makes me respect Seiko so much. Because they don't even use all this unfairness in their marketing. They don't put the Swiss down for all this. You know the story, now you can go [read what they put on their website, under the 1967 date](https://www.seikowatches.com/us-en/special/heritage/).
+
+So next time you see a watch and it's not from Switzerland, remember there's more to watchmaking excellence than Swiss marketing would have you believe.
+
+### Notes
+
+#### 1
+
+The term "fully integrated quartz" in watchmaking means all the components (the quartz crystal oscillator, the integrated circuit, the stepping motor, and the display) were miniaturized and engineered to work together in a single wristwatch case. Earlier attempts at electronic watches used batteries or some electronic components (like the ones used to "win" the 1968 Geneva competition), but weren't able to integrate all these parts into a practical wristwatch.
+
+The Seiko Astron was revolutionary because it was the first to successfully combine all these elements into a complete, wearable quartz watch. Prior electronic or battery powered watches still relied on mechanical parts for some of their functions, while the Astron represented a completely new way of keeping time using quartz crystal technology.
