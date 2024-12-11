@@ -76,6 +76,8 @@ What I do is I casually browse online, keep a mental list of any watch within my
 
 I'm sharing this because the most important reasons should be internal, not external validation.
 
+But... most importantly, if you're going to become irrational, it has to be part-time. You have be rationally irrational.
+
 ## A Note On Ultra-Luxury
 
 Luxury has always been about distinguishing the ruling class.
@@ -92,23 +94,25 @@ Rich people today can buy almost anything they want. Everything is accessible to
 
 ## When Swiss Pride Met Japanese Precision
 
-There is a certain snobbery in the watch world about Swiss watches. Many people firmly believe that only Swiss watches can be considered "proper" timepieces, dismissing everything else as inferior. This bias makes the following story particularly satisfying.
+There is a certain snobbery in the watch world about Swiss watches. Some people believe that only Swiss watches can be considered "proper" watches, dismissing everything else as inferior. This bias makes the following story particularly satisfying.
 
-Precise timekeeping has always been crucial for navigation, especially at sea where timing errors can compound into dangerous miscalculations. This pursuit of accuracy led to chronometer competitions at astronomical observatories. By the 1960s, the most prestigious of these was held at the Neuchâtel Observatory, in Neuchâtel, Switzerland. Swiss manufacturers dominated these trials, with companies like Omega, Patek Philippe, and Zenith regularly achieving top results. The goal was simple: Create the most accurate mechanical movement possible, without regard for cost or practicality.
+Precise timekeeping has always been crucial for navigation, especially at sea where timing errors can compound into dangerous miscalculations. This pursuit of accuracy led to chronometer competitions at astronomical observatories. By the 1960s, the most prestigious of these was held at the Neuchâtel Observatory, in Neuchâtel, Switzerland. Swiss manufacturers dominated these competitions, with companies like Omega, Patek Philippe, and Zenith regularly achieving top results. The goal with these competitions was to create the most accurate mechanical movement possible, without regard for cost or practicality.
 
 This Swiss dominance continued unchallenged until Seiko, a Japanese company, decided to enter the race in 1964. Their first attempt resulted in their best movement placing 144th. After discovering their movements had gotten magnetized during transport, they began shipping them in anti-magnetic cases and planned routes farther from the Earth's magnetic north pole.
 
-Year after year, Seiko's rankings improved. From 114th place in 1965, they reached 9th in 1966. By 1967, they achieved places 4th to 13th. Then came the 1968 competition. The swiss simply canceled it midway through when it looked like Seiko might win, claiming they needed to "reevaluate the rules."
+Year after year, Seiko's rankings improved. From 114th place in 1965, they reached 9th in 1966. By 1967, they achieved places 4th through 13th. Then came to the 1968 competition. The swiss simply canceled it midway through when it looked like Seiko might win (obviously this is not an official story, I'm just speculating kind of), claiming they needed to "reevaluate the rules".
 
-While still in Switzerland with their competition-ready movements, Seiko entered the Geneva Observatory competition. There, they secured all positions from 4th to 10th place. The crazy part is that the Swiss took the top three spots using battery-powered movements, which are inherently more precise than mechanical ones. In other words, among purely mechanical watches, Seiko had actually achieved positions 1 through 7.
+While still in Switzerland with their competition-ready movements, Seiko entered the Geneva Observatory competition. There, they secured all positions from 4th to 10th place. The crazy part is that the Swiss took the top three spots using battery-powered movements, which are inherently more precise than mechanical ones. In other words, among purely mechanical watches, Seiko had actually achieved positions 1 through 7. They won.
 
 This marked the end of the observatory chronometer competitions. 1968.
 
 When they revived the chronometer competition in 2009, they included an interesting requirement: All parts and watches entered must be manufactured in Europe. This basically barred any Asian manufacturers from participating, and, in my opinion, strips this competition of any credibility it might have once had.
 
-While the Swiss used battery-powered movements to protect their dominance in 1968, something bigger was coming. Just a year later, in 1969, Seiko released the Astron, the world's first fully-integrated [(Note 1)](#1) quartz watch. This sparked what Swiss watchmakers would later call the "quartz crisis". As electronic watches became cheaper, the mechanical watch industry in Switzerland nearly collapsed. In just a decade, two thirds of the jobs in the Swiss watchmaking industry vanished. Once a bunch of the dying companies were bought out (hence why there are like three companies that own most of the Swiss brands), they redefined what watches represent to consumers by appealing to the artistry and the craft rather than the precision.
+While the Swiss used battery-powered movements to protect their dominance in 1968, something bigger was coming. Just a year later, in 1969, Seiko released the Astron, the world's first fully-integrated [(Note 1)](#1) quartz watch. 
 
-This is my favorite story about watches. And makes me respect Seiko so much. Because they don't even use all this unfairness in their marketing. They don't put the Swiss down for all this. You know the story, now you can go [read what they put on their website, under the 1967 date](https://www.seikowatches.com/us-en/special/heritage/).
+This led to what Swiss watchmakers would later call the "quartz crisis". As electronic watches became cheaper, the mechanical watch industry in Switzerland nearly collapsed. In just a decade, two thirds of the jobs in the Swiss watchmaking industry vanished. Once a bunch of the dying companies were bought out (hence why there are like three companies that own most of the Swiss brands today), they redefined what watches represent to consumers by appealing to the artistry and the craft rather than the precision.
+
+This is my favorite story about watches. And makes me respect Seiko so much. Because they don't even use all this in their marketing. They don't put the Swiss down for all this. You know the story, now you can go [read what they put on their website, under the 1967 date](https://www.seikowatches.com/us-en/special/heritage/).
 
 So next time you see a watch and it's not from Switzerland, remember there's more to watchmaking than Swiss marketing would have you believe.
 
