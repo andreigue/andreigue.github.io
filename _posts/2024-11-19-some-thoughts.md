@@ -76,8 +76,6 @@ What I do is I casually browse online, keep a mental list of any watch within my
 
 I'm sharing this because the most important reasons should be internal, not external validation.
 
-But... most importantly, if you're going to become irrational, it has to be part-time. You have be rationally irrational.
-
 ## A Note On Ultra-Luxury
 
 Luxury has always been about distinguishing the ruling class.
