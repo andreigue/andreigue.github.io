@@ -1,5 +1,6 @@
 ---
 title: "An Unexpected Exception"
+tags: [Random]
 ---
 
 I used to not understand car enthusiasts, wine enthusiasts, sneaker collectors, or art lovers. But now I do.
