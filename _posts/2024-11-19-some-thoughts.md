@@ -45,21 +45,31 @@ We respect skilled artisans, whether they've dedicated their lives to their craf
 
 This is not about efficiency anymore. One factory worker with access to specialized machinery will produce more output than 50 artisans in the same time frame. This principle applies to almost any item.
 
-Take a watchmaker who spends a year crafting a single watch. When someone buys it for tens of thousands of dollars, people criticize the purchase. But that price reflects the time spent making it, the years of learning the craft, and the living costs of being based in expensive countries like Switzerland or Japan.
+Take a watchmaker who spends a year crafting a single watch. When someone buys it for over $100k, people criticize the purchase. But that price reflects the time spent making it, the years of learning the craft, and the living costs of being based in expensive countries like Switzerland or Japan.
 
 But again, at least a handmade leather wallet is useful. 
 
 And again, to that I say: buying a watch is a romantic idea. 
 
-In a world full of disposable electronics and planned obsolescence, mechanical watches, to me at least, stand out. Each one contains countless moving parts, powered by nothing but gears and springs. Hand-assembled in many instances. 
+In a world full of disposable electronics and planned obsolescence, mechanical watches, to me at least, stand out. Each one contains countless moving parts, powered by nothing but gears and springs. Hand-assembled at times. 
 
 It's an art form, using technology to create something unnecessary. And that's okay.
 
-It's technology created not to push boundaries, but purely to exist as art. Just like a painting doesn't need to advance visual representation to be worthwhile.
+It’s technology created not to push boundaries in a practical sense, but purely to exist as art. Just like a painting doesn’t need to revolutionize visual representation to be worthwhile, a watch doesn’t need to improve timekeeping to justify its existence.
 
-I like to think of it like this: some people choose to engrave a tattoo onto their skin, marking an experience they want to remember. Their body becomes a book, telling their life story. When they're older, they can look at their body and see glimpses of their life events. To me, this is the most compelling argument for tattoos, but I would never do it myself, as I'm not confident that I will always want a permanent reminder of a temporary feeling. 
+That said, watchmaking still pushes boundaries, but only for the sake of beauty, tradition, or technical challenge.
 
-With a watch you wear daily, though, you get a similar personal connection without the permanence. While you might not afford as many watches as you can tattoos, this just means the milestones they represent will be fewer but more meaningful.
+![RM watch](../images/Richard-Mille-RM-UP-01-Ferrari-Thinnest-Mechanical-Watch-1.75mm-Record-8.jpg)
+
+Some try to make the thinnest watch ever, like the Richard Mille RM UP-01, which is just 1.75 millimeters thick. Others build watches that show the phase of the moon, track multiple time zones at once, or automatically adjust for the length of each month, even in leap years.
+
+None of this is necessary. That is what makes it interesting. It is not about telling time. It exists because someone wanted to, not because anyone needed it (although some features are actually useful, such as tracking multiple time zones).
+
+## Why I Choose Watches Over Tattoos
+
+This is how I see watch collecting: some people choose to engrave a tattoo onto their skin, marking an experience they want to remember. Their body becomes a book, telling their life story. When they're older, they can look at their body and see glimpses of their life events. To me, this is the most compelling argument for tattoos, but I would never do it myself, as I'm not confident that I will always want a permanent reminder of a temporary feeling. 
+
+With a watch you wear daily though, you get a similar personal connection without the permanence. While you might not afford as many watches as you can tattoos, this just means the milestones they represent will be fewer but more meaningful.
 
 The milestones worth celebrating vary for everyone, but let's keep perspective. Buying watches remains fundamentally consumerist, and without restraint it becomes pure materialism.
 
@@ -99,7 +109,7 @@ Precise timekeeping has always been crucial for navigation, especially at sea wh
 
 This Swiss dominance continued unchallenged until Seiko, a Japanese company, decided to enter the race in 1964. Their first attempt resulted in their best movement placing 144th. After discovering their movements had gotten magnetized during transport, they began shipping them in anti-magnetic cases and planned routes farther from the Earth's magnetic north pole.
 
-Year after year, Seiko's rankings improved. From 114th place in 1965, they reached 9th in 1966. By 1967, they achieved places 4th through 13th. Then came to the 1968 competition. The swiss simply canceled it midway through when it looked like Seiko might win (obviously this is not an official story, I'm just speculating kind of), claiming they needed to "reevaluate the rules".
+Year after year, Seiko's rankings improved. From 114th place in 1965, they reached 9th in 1966. By 1967, they achieved places 4th through 13th. Then came to the 1968 competition. The swiss simply canceled it midway through when it looked like Seiko might win (obviously this is not an official story), claiming they needed to "reevaluate the rules".
 
 While still in Switzerland with their competition-ready movements, Seiko entered the Geneva Observatory competition. There, they secured all positions from 4th to 10th place. The crazy part is that the Swiss took the top three spots using battery-powered movements, which are inherently more precise than mechanical ones. In other words, among purely mechanical watches, Seiko had actually achieved positions 1 through 7. They won.
 
@@ -107,7 +117,7 @@ This marked the end of the observatory chronometer competitions. 1968.
 
 When they revived the chronometer competition in 2009, they included an interesting requirement: All parts and watches entered must be manufactured in Europe. This basically barred any Asian manufacturers from participating, and, in my opinion, strips this competition of any credibility it might have once had.
 
-While the Swiss used battery-powered movements to protect their dominance in 1968, something bigger was coming. Just a year later, in 1969, Seiko released the Astron, the world's first fully-integrated [(Note 1)](#1) quartz watch. 
+While the Swiss used battery-powered movements to protect their dominance in 1968, something ironic was about to happen. Just a year later, in 1969, Seiko released the Astron, the world's first fully-integrated [(Note 1)](#1) quartz watch. 
 
 This led to what Swiss watchmakers would later call the "quartz crisis". As electronic watches became cheaper, the mechanical watch industry in Switzerland nearly collapsed. In just a decade, two thirds of the jobs in the Swiss watchmaking industry vanished. Once a bunch of the dying companies were bought out (hence why there are like three companies that own most of the Swiss brands today), they redefined what watches represent to consumers by appealing to the artistry and the craft rather than the precision.
 
