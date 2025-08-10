@@ -21,9 +21,18 @@ _If you haven’t seen the Falcon Heavy, STOP READING and WATCH THIS._
 [![testhere](https://www.teslarati.com/wp-content/uploads/2019/06/Falcon-Heavy-B1052-B1053-LZ-landing-SpaceX-1-3.jpg)](https://youtu.be/A0FZIwabctw)
 [![Click here or the image above to be redirected to the Youtube video!]()](https://youtu.be/A0FZIwabctw)
 
+
+test1 
+
 <iframe width="560" height="315"
   src="https://youtu.be/A0FZIwabctw"
   title="Akhtamar boat ride"
   frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen>
 </iframe>
+
+
+test
+
+{% include video id="A0FZIwabctw" provider="youtube" %}
