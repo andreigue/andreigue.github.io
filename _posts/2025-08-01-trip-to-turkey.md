@@ -36,3 +36,8 @@ test1
 test
 
 {% include video id="A0FZIwabctw" provider="youtube" %}
+
+test short
+
+{% include video id="bAtqSc2y-wY" provider="youtube" %}
+
