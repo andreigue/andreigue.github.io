@@ -8,18 +8,18 @@ header:
 ---
 This is where I’ll be constantly posting about topics which interest me. This is a way to ensure that I keep learning, and my favorite way to learn is to explain.
 
-If you want to learn about something in specific, this is not the blog for you. This is simply a record of my own learning experience. Not all articles are meant to be read and understood with no initial knowledge of the topic ( [this article]({% post_url 2022-06-14-networking-fundamentals %}) came to mind). That said, anyone is welcome to wander around and see if anything interests them.
+If you want to learn about something in specific, this is not the blog for you. This is simply a record of my own learning experience. Not all articles are meant to be read and understood with no initial knowledge of the topic ([this article]({% post_url 2022-06-14-networking-fundamentals %}) came to mind). That said, anyone is welcome to wander around and see if anything interests them.
 
 
 ## Categories
-- Books (COMING SOON)
+- [Books](#books)
 - [Business](#business)
 - [Economics](#economics)
 <!-- - Interesting People (COMING SOON) -->
 - [History](#history)
 - [Science](#science)
 - [Technology](#technology)
-<!-- - [Thoughts](#thoughts) -->
+- [Thoughts](#thoughts)
 
 
 
