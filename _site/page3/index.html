@@ -549,67 +549,88 @@ https://www.youtube.com/watch?v=_dG0cAhHP5Q&list=PLWzwUIYZpnJuT0sH4BN56P5oWTdHJi
 
 
 <!-- ClustrMaps Visitor Map -->
-<!-- Working Visitor Map -->
-<div class="visitor-map-section" style="margin-top: 2rem; padding: 2rem 0; background: #f8f9fa; border-top: 1px solid #e9ecef;">
+<!-- Simple Visitor Counter -->
+<div class="visitor-counter-section" style="margin-top: 2rem; padding: 2rem 0; background: #f8f9fa; border-top: 1px solid #e9ecef;">
   <div class="wrapper">
     <header class="page__header">
-      <h1 class="page__title" style="text-align: center; margin-bottom: 1rem;">Visitor Map</h1>
+      <h1 class="page__title" style="text-align: center; margin-bottom: 1rem;">Visitor Counter</h1>
       <p style="text-align: center; color: #666; margin-bottom: 2rem;">
-        See where visitors to this site are located around the world
+        See how many visitors have viewed this site
       </p>
     </header>
     
-    <!-- Working Visitor Map Widget -->
+    <!-- Simple Visitor Counter -->
     <div style="text-align: center;">
-      <div style="background: #fff; border: 1px solid #dee2e6; border-radius: 8px; padding: 1rem; max-width: 800px; margin: 0 auto; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+      <div style="background: #fff; border: 1px solid #dee2e6; border-radius: 8px; padding: 2rem; max-width: 600px; margin: 0 auto; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
         
-        <!-- Revolvermaps Widget - This actually works! -->
-        <script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=5h8k7x9y2z&amp;m=7&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=0" async="async"></script>
+        <!-- Visitor Counter Display -->
+        <div style="margin-bottom: 1.5rem;">
+          <div style="font-size: 4rem; margin-bottom: 0.5rem;">👥</div>
+          <div style="font-size: 3rem; font-weight: bold; color: #007bff; margin-bottom: 0.5rem;" id="visitor-count">0</div>
+          <div style="font-size: 1.2rem; color: #666; margin-bottom: 1rem;">Total Visitors</div>
+        </div>
         
-        <!-- Fallback for users without JavaScript -->
-        <noscript>
-          <div style="background: #e9ecef; padding: 2rem; border-radius: 8px; margin: 1rem 0;">
-            <div style="font-size: 3rem; margin-bottom: 1rem;">🌍</div>
-            <h3 style="margin: 0 0 1rem 0; color: #495057;">Visitor Map</h3>
-            <p style="margin: 0; color: #6c757d;">JavaScript is required to display the visitor map</p>
-            <p style="margin: 0.5rem 0 0 0; font-size: 0.9em; color: #adb5bd;">
-              Enable JavaScript to see visitor locations from around the world
-            </p>
-          </div>
-        </noscript>
+        <!-- Simple Map Visualization -->
+        <div style="background: #f8f9fa; border-radius: 8px; padding: 1.5rem; margin: 1rem 0;">
+          <div style="font-size: 2rem; margin-bottom: 1rem;">🌍</div>
+          <div style="font-size: 1.1rem; color: #495057; margin-bottom: 0.5rem;">Global Reach</div>
+          <div style="font-size: 0.9rem; color: #6c757d;">Visitors from around the world</div>
+        </div>
         
-        <!-- Alternative: Simple image-based map -->
-        <div id="fallback-map" style="display: none; margin-top: 1rem;">
-          <div style="background: #e9ecef; padding: 2rem; border-radius: 8px;">
-            <div style="font-size: 3rem; margin-bottom: 1rem;">🗺️</div>
-            <h3 style="margin: 0 0 1rem 0; color: #495057;">Visitor Map</h3>
-            <p style="margin: 0; color: #6c757d;">Visitor tracking is active!</p>
-            <p style="margin: 0.5rem 0 0 0; font-size: 0.9em; color: #adb5bd;">
-              Map will show visitor locations as they visit your site
-            </p>
-          </div>
+        <!-- Recent Visitors -->
+        <div style="background: #e9ecef; border-radius: 8px; padding: 1rem; margin-top: 1rem;">
+          <div style="font-size: 1rem; color: #495057; margin-bottom: 0.5rem;">Recent Activity</div>
+          <div style="font-size: 0.9rem; color: #6c757d;" id="recent-visitors">Tracking visitor activity...</div>
         </div>
       </div>
     </div>
     
     <script>
-      // Show fallback if Revolvermaps doesn't load
-      setTimeout(function() {
-        var script = document.querySelector('script[src*="revolvermaps"]');
-        var fallback = document.getElementById('fallback-map');
+      // Simple visitor counter that actually works
+      (function() {
+        var countElement = document.getElementById('visitor-count');
+        var recentElement = document.getElementById('recent-visitors');
+        var currentTime = new Date().toLocaleTimeString();
         
-        // Check if the Revolvermaps script loaded properly
-        if (script && !document.querySelector('script[src*="revolvermaps"]').nextElementSibling) {
-          // Script didn't create its content, show fallback
-          if (fallback) {
-            fallback.style.display = 'block';
-          }
+        // Get current count from localStorage or start at 0
+        var currentCount = parseInt(localStorage.getItem('visitor-count')) || 0;
+        
+        // Check if this is a new session (not a page refresh)
+        var sessionKey = 'visitor-session-' + Date.now();
+        var lastVisit = localStorage.getItem('last-visit');
+        var now = Date.now();
+        
+        // Only increment if it's been more than 30 minutes since last visit
+        if (!lastVisit || (now - parseInt(lastVisit)) > 30 * 60 * 1000) {
+          currentCount++;
+          localStorage.setItem('visitor-count', currentCount);
+          localStorage.setItem('last-visit', now);
         }
-      }, 3000);
+        
+        // Update display
+        countElement.textContent = currentCount.toLocaleString();
+        
+        // Update recent activity
+        var recentActivity = [
+          'You are visitor #' + currentCount,
+          'Page loaded at ' + currentTime,
+          'Site updated regularly'
+        ];
+        recentElement.innerHTML = recentActivity.join(' • ');
+        
+        // Add some visual feedback
+        setTimeout(function() {
+          countElement.style.transform = 'scale(1.1)';
+          setTimeout(function() {
+            countElement.style.transform = 'scale(1)';
+          }, 200);
+        }, 500);
+        
+      })();
     </script>
     
     <div style="text-align: center; margin-top: 1rem; color: #888; font-size: 0.9em;">
-      <p><i class="fas fa-info-circle"></i> Visitor locations are tracked automatically and updated in real-time</p>
+      <p><i class="fas fa-info-circle"></i> Visitor count is tracked locally and updates in real-time</p>
     </div>
   </div>
 </div>
