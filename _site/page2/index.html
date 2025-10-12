@@ -560,21 +560,25 @@ https://www.youtube.com/watch?v=_dG0cAhHP5Q&list=PLWzwUIYZpnJuT0sH4BN56P5oWTdHJi
       </p>
     </header>
     
-    <!-- ClustrMaps Widget - Multiple Fallback Options -->
+    <!-- Embedded Visitor Map -->
     <div style="text-align: center;">
-      <!-- Option 1: Direct ClustrMaps Link -->
-      <a href="http://www.clustrmaps.com/map/Andreigue.github.io" title="Visit tracker for Andreigue.github.io" target="_blank">
-        <div style="background: #f8f9fa; border: 2px dashed #dee2e6; padding: 2rem; border-radius: 8px; max-width: 600px; margin: 0 auto;">
-          <div style="font-size: 3rem; margin-bottom: 1rem;">🌍</div>
-          <h3 style="margin: 0 0 1rem 0; color: #495057;">Visitor Map</h3>
-          <p style="margin: 0; color: #6c757d;">Click to view visitor locations on ClustrMaps</p>
-          <p style="margin: 0.5rem 0 0 0; font-size: 0.9em; color: #adb5bd;">This will open in a new tab and show your site's visitor map</p>
-        </div>
-      </a>
-      
-      <!-- Option 2: Hidden ClustrMaps Image (if it loads) -->
-      <div style="display: none;" id="clustrmaps-image-container">
-        <img src="https://www.clustrmaps.com/map_v2.png?d=RvkwUaNgpYVyZhZQW9c5uLsuNfSiQBEPl8k8qjtAkFI" alt="Visitor Map" style="border:0; max-width: 100%; height: auto;" onload="this.style.display='block'; document.getElementById('clustrmaps-fallback').style.display='none';" onerror="this.style.display='none';" />
+      <!-- ClustrMaps Embedded Widget -->
+      <div style="background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 8px; padding: 1rem; max-width: 800px; margin: 0 auto;">
+        <script type="text/javascript" id="clustrmaps" src="https://clustrmaps.com/map_v2.js?d=RvkwUaNgpYVyZhZQW9c5uLsuNfSiQBEPl8k8qjtAkFI&cl=ffffff&w=a"></script>
+        
+        <!-- Fallback if script doesn't load -->
+        <noscript>
+          <div style="background: #e9ecef; padding: 2rem; border-radius: 8px; margin: 1rem 0;">
+            <div style="font-size: 3rem; margin-bottom: 1rem;">🌍</div>
+            <h3 style="margin: 0 0 1rem 0; color: #495057;">Visitor Map</h3>
+            <p style="margin: 0; color: #6c757d;">JavaScript is required to display the visitor map</p>
+            <p style="margin: 0.5rem 0 0 0; font-size: 0.9em; color: #adb5bd;">
+              <a href="https://clustrmaps.com/map/andreigue.github.io" target="_blank" style="color: #007bff; text-decoration: underline;">
+                Click here to view visitor map on ClustrMaps
+              </a>
+            </p>
+          </div>
+        </noscript>
       </div>
     </div>
     
@@ -586,34 +590,41 @@ https://www.youtube.com/watch?v=_dG0cAhHP5Q&list=PLWzwUIYZpnJuT0sH4BN56P5oWTdHJi
     </div>
     
     <script>
-      // Debug and enhance ClustrMaps loading
+      // Debug ClustrMaps embedded widget loading
       setTimeout(function() {
         var debugDiv = document.getElementById('clustrmaps-debug');
         var debugInfo = document.getElementById('debug-info');
         
         if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
-          debugInfo.innerHTML = 'Local development detected - ClustrMaps link will work on live site';
+          debugInfo.innerHTML = 'Local development - ClustrMaps embedded widget will work on live site';
           debugDiv.style.display = 'block';
         } else {
-          // Check if ClustrMaps image loaded
-          var clustrmapsImg = document.querySelector('img[alt="Visitor Map"]');
-          if (clustrmapsImg && clustrmapsImg.complete && clustrmapsImg.naturalHeight !== 0) {
-            debugInfo.innerHTML = 'ClustrMaps image loaded successfully!';
+          // Check if ClustrMaps widget loaded (look for iframe or map elements)
+          var clustrmapsIframe = document.querySelector('iframe[src*="clustrmaps"]');
+          var clustrmapsWidget = document.querySelector('[id*="clustrmaps"] iframe, [id*="clustrmaps"] img');
+          
+          if (clustrmapsIframe || clustrmapsWidget) {
+            debugInfo.innerHTML = 'ClustrMaps embedded widget loaded successfully!';
             debugDiv.style.display = 'none'; // Hide if working
           } else {
-            debugInfo.innerHTML = 'ClustrMaps image not loading - using fallback link instead';
+            debugInfo.innerHTML = 'ClustrMaps widget not loading - may need time or visitor data';
             debugDiv.style.display = 'block';
           }
         }
-      }, 3000);
-      
-      // Try to load ClustrMaps image in background
-      setTimeout(function() {
-        var imgContainer = document.getElementById('clustrmaps-image-container');
-        if (imgContainer) {
-          imgContainer.style.display = 'block';
-        }
       }, 5000);
+      
+      // Additional check after more time
+      setTimeout(function() {
+        var debugDiv = document.getElementById('clustrmaps-debug');
+        var debugInfo = document.getElementById('debug-info');
+        
+        if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
+          var clustrmapsWidget = document.querySelector('[id*="clustrmaps"] iframe, [id*="clustrmaps"] img');
+          if (!clustrmapsWidget && debugDiv.style.display !== 'none') {
+            debugInfo.innerHTML = 'ClustrMaps may need visitor data to display - try refreshing after some visitors';
+          }
+        }
+      }, 10000);
     </script>
     
     <div style="text-align: center; margin-top: 1rem; color: #888; font-size: 0.9em;">
