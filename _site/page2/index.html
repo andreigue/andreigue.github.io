@@ -21,14 +21,14 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Andrei Guevorkian">
 <meta property="og:title" content="Andrei Guevorkian">
-<meta property="og:url" content="http://0.0.0.0:4000/page2/">
+<meta property="og:url" content="https://andreigue.github.io//page2/">
 
 
   <meta property="og:description" content="Personal Portfolio and Blog. ">
 
 
 
-  <meta property="og:image" content="http://0.0.0.0:4000/images/mtl.jpg">
+  <meta property="og:image" content="https://andreigue.github.io//images/mtl.jpg">
 
 
 
@@ -43,13 +43,13 @@
   
 
 
-<link rel="canonical" href="http://0.0.0.0:4000/page2/">
+<link rel="canonical" href="https://andreigue.github.io//page2/">
 
 
-  <link rel="prev" href="http://0.0.0.0:4000/">
+  <link rel="prev" href="https://andreigue.github.io//">
 
 
-  <link rel="next" href="http://0.0.0.0:4000/page3/">
+  <link rel="next" href="https://andreigue.github.io//page3/">
 
 
 <script type="application/ld+json">
@@ -58,7 +58,7 @@
     
       "@type": "Person",
       "name": "Andrei Guevorkian",
-      "url": "http://0.0.0.0:4000/"
+      "url": "https://andreigue.github.io//"
     
   }
 </script>
@@ -560,23 +560,41 @@ https://www.youtube.com/watch?v=_dG0cAhHP5Q&list=PLWzwUIYZpnJuT0sH4BN56P5oWTdHJi
       </p>
     </header>
     
-    <!-- ClustrMaps Widget -->
+    <!-- ClustrMaps Widget - Image-based Version (More Reliable) -->
     <div style="text-align: center;">
-      <script type="text/javascript" id="clustrmaps" src="https://clustrmaps.com/map_v2.js?d=RvkwUaNgpYVyZhZQW9c5uLsuNfSiQBEPl8k8qjtAkFI"></script>
+      <a href="http://www.clustrmaps.com/map/Andreigue.github.io" title="Visit tracker for Andreigue.github.io">
+        <img src="https://www.clustrmaps.com/map_v2.png?d=RvkwUaNgpYVyZhZQW9c5uLsuNfSiQBEPl8k8qjtAkFI" alt="Visitor Map" style="border:0; max-width: 100%; height: auto;" />
+      </a>
     </div>
     
-    <!-- Fallback for local development -->
-    <div id="clustrmaps-fallback" style="display: none; text-align: center; padding: 2rem; background: #f0f0f0; border-radius: 8px; margin: 1rem 0;">
-      <p><strong>ClustrMaps Widget</strong></p>
-      <p>This will show visitor locations when deployed to GitHub Pages.</p>
-      <p><small>Local development doesn't support ClustrMaps due to HTTPS requirements.</small></p>
+    <!-- Debug and Fallback -->
+    <div id="clustrmaps-debug" style="display: none; text-align: center; padding: 2rem; background: #f0f0f0; border-radius: 8px; margin: 1rem 0;">
+      <p><strong>ClustrMaps Status</strong></p>
+      <p id="debug-info">Loading...</p>
+      <p><small>If you see this message, ClustrMaps may not be loading properly.</small></p>
     </div>
     
     <script>
-      // Show fallback message for local development
-      if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
-        document.getElementById('clustrmaps-fallback').style.display = 'block';
-      }
+      // Debug ClustrMaps loading
+      setTimeout(function() {
+        var debugDiv = document.getElementById('clustrmaps-debug');
+        var debugInfo = document.getElementById('debug-info');
+        
+        if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+          debugInfo.innerHTML = 'Local development detected - ClustrMaps image may not load properly on localhost';
+          debugDiv.style.display = 'block';
+        } else {
+          // Check if ClustrMaps image loaded
+          var clustrmapsImg = document.querySelector('img[alt="Visitor Map"]');
+          if (clustrmapsImg && clustrmapsImg.complete && clustrmapsImg.naturalHeight !== 0) {
+            debugInfo.innerHTML = 'ClustrMaps loaded successfully!';
+            debugDiv.style.display = 'none'; // Hide if working
+          } else {
+            debugInfo.innerHTML = 'ClustrMaps image not loading - may need time to appear';
+            debugDiv.style.display = 'block';
+          }
+        }
+      }, 3000);
     </script>
     
     <div style="text-align: center; margin-top: 1rem; color: #888; font-size: 0.9em;">
