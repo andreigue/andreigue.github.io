@@ -7,10 +7,11 @@
 -->
 <html lang="en" class="no-js">
   <head>
-    <meta charset="utf-8">
+    <!-- _includes/head.html -->
+<meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>Mitre Attack Framework - Andrei Guevorkian</title>
-<meta name="description" content=" some content ">
+<meta name="description" content="What is MITRE  ATT&amp;CK? ">
 
 
   <meta name="author" content="Andrei Guevorkian">
@@ -20,29 +21,29 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Andrei Guevorkian">
 <meta property="og:title" content="Mitre Attack Framework">
-<meta property="og:url" content="http://localhost:4000/mitre-attack-framework/">
+<meta property="og:url" content="http://0.0.0.0:4000/mitre-attack-framework/">
 
 
-  <meta property="og:description" content=" some content ">
-
-
-
-
-
-
-
-  <meta property="article:published_time" content="2022-05-03T00:00:00-04:00">
+  <meta property="og:description" content="What is MITRE  ATT&amp;CK? ">
 
 
 
 
 
-  
+
+
+  <meta property="article:published_time" content="2022-05-03T00:00:00+04:00">
+
+
+
+
 
   
 
+  
 
-<link rel="canonical" href="http://localhost:4000/mitre-attack-framework/">
+
+<link rel="canonical" href="http://0.0.0.0:4000/mitre-attack-framework/">
 
 
 
@@ -53,7 +54,7 @@
     
       "@type": "Person",
       "name": "Andrei Guevorkian",
-      "url": "http://localhost:4000/"
+      "url": "http://0.0.0.0:4000/"
     
   }
 </script>
@@ -165,8 +166,8 @@
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="Mitre Attack Framework">
-    <meta itemprop="description" content="some content">
-    <meta itemprop="datePublished" content="2022-05-03T00:00:00-04:00">
+    <meta itemprop="description" content="What is MITRE  ATT&amp;CK?">
+    <meta itemprop="datePublished" content="2022-05-03T00:00:00+04:00">
     
 
     <div class="page__inner-wrap">
@@ -180,7 +181,7 @@
 
 
 
-  less than 1 minute read
+  4 minute read
 
 </p>
           
@@ -189,8 +190,55 @@
 
       <section class="page__content" itemprop="text">
         
-        
-<p>some content</p>
+        <h3 id="what-is-mitre--attck">What is MITRE  ATT&amp;CK?</h3>
+
+<p>MITRE, or The MITRE Corporation, is a government funded research organization based in Massachusetts and Virginia. It is a nonprofit group involved in commercial (Microsoft and Fujitsu), as well as top-secret projects for many U.S. governemental agencies in the fields of aviation (the FAA), defense (the U.S. Air Force), health (U.S. Public Health Services), and cyber security. Its cyber-related projects are funded by NIST, or National Institute of Standards and Technology.</p>
+
+<p>ATT&amp;CK (pronounced “attack”) on the other hand stands for “Adversarial Tactics, Techniques and Common Knowledge”. It is a framework created by MITRE in 2013, describing the entire process of a cyber-attack, from the conception of the attack to the final impact it has on the victim company. It is a way for organizations to understand how a hacker group carries out its actions, i.e. <strong>it show the process from the hacker’s point of view</strong>. Today, it is used all over the world, making it the common “language” used by security analysts and industry professionals in general; when a term is used, everyone knows exactly what is meant.</p>
+
+<p>The ATT&amp;CK framework is based on real world observations, and so it is continuously evolving; as attackers use new methodologies, the framework gets updated in order to include these new attack tactics. To convey all the details about attacks, MITRE has created the ATT&amp;CK Matrix. There are two versions of it, but I will simply cover the broader one, known as the Enterprise Matrix. This table has 14 columns (the more basic one has 11), each representing a part of the “attack chain”. They are</p>
+
+<ol>
+  <li><strong>Reconnaissance</strong>: gathering information to plan future adversary operations, i.e., information about the target organization</li>
+  <li><strong>Resource Development</strong>: establishing resources to support operations, i.e., setting up command and control infrastructure</li>
+  <li><strong>Initial Access</strong>: trying to get into your network, i.e., spear phishing</li>
+  <li><strong>Execution</strong>: trying the run malicious code, i.e., running a remote access tool</li>
+  <li><strong>Persistence</strong>: trying to maintain their foothold, i.e., changing configurations</li>
+  <li><strong>Privilege Escalation</strong>: trying to gain higher-level permissions, i.e., leveraging a vulnerability to elevate access</li>
+  <li><strong>Defense Evasion</strong>: trying to avoid being detected, i.e., using trusted processes to hide malware</li>
+  <li><strong>Credential Access</strong>: stealing accounts names and passwords, i.e., keylogging</li>
+  <li><strong>Discovery</strong>: trying to figure out your environment, i.e., exploring what they can control</li>
+  <li><strong>Lateral Movement</strong>: moving through your environment, i.e., using legitimate credentials to pivot through multiple systems</li>
+  <li><strong>Collection</strong>: gathering data of interest to the adversary goal, i.e., accessing data in cloud storage</li>
+  <li><strong>Command and Control</strong>: communicating with compromised systems to control them, i.e., mimicking normal web traffic to communicate with a victim network</li>
+  <li><strong>Exfiltration</strong>: stealing data, i.e., transfer data to cloud account</li>
+  <li><strong>Impact</strong>: manipulate, interrupt, or destroy systems and data, i.e., encrypting data with ransomware</li>
+</ol>
+
+<p>Here they are in more detail:</p>
+
+<p><img src="..\images\att&amp;ckMatrix.png" alt="ATT&amp;CK Matrix" /></p>
+
+<p>Every column, i.e. the (possible) phases of the attack, have a number of techniques which the attackers are capable of using while attempting that specific phase of the attack. Although not directly shown in this matrix, a lot of the techniques also have sub-techniques, i.e. more details about what could specifically happen. Those are the techniques in the matrix which have a small number next to them, and a dark grey highlighting on the side with two white lines in it. Those would normally be clickable and expandable if they were not in an image format. Here is an example:</p>
+
+<p><img src="..\images\IA phishing_subtechn.png" alt="Phishing technique broken down further" /></p>
+
+<p><img src="..\images\attack_flow.png" alt="ATT&amp;CK Matrix possible flow" /></p>
+
+<h3 id="what-is-the-difference-between-mitre-attck-and-the-lockheed-martin-cyber-kill-chain">What is the difference between MITRE ATT&amp;CK and the Lockheed Martin Cyber Kill Chain?</h3>
+
+<p>Both are frameworks designed in order to understand adversarial behavior throughout a cyber attack. 
+The Cyber Kill Chain lays out a higher level framework than ATT&amp;CK: reconnaissance, weaponization, delivery, exploitation, command and control, and actions/executions. It doesn’t get into specific details of tactics (the “what”) or techniques (the “how”). And because it is not specific, it does not get updated like the MITRE ATT&amp;CK framework does.</p>
+
+<hr />
+
+<h3 id="sources">Sources:</h3>
+
+<p><a href="https://www.trellix.com/en-us/security-awareness/cybersecurity/what-is-mitre-attack-framework.html">https://www.trellix.com/en-us/security-awareness/cybersecurity/what-is-mitre-attack-framework.html</a></p>
+
+<h3 id="photo-credit">Photo Credit:</h3>
+
+<p><a href="https://www.f5.com/labs/articles/education/mitre-attack-what-it-is-how-it-works-who-uses-it-and-why">https://www.f5.com/labs/articles/education/mitre-attack-what-it-is-how-it-works-who-uses-it-and-why</a></p>
 
         
       </section>
@@ -201,7 +249,7 @@
 
 
         
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-05-03T00:00:00-04:00">May 3, 2022</time></p>
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-05-03T00:00:00+04:00">May 3, 2022</time></p>
         
       </footer>
 
@@ -210,11 +258,11 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=Mitre+Attack+Framework%20http%3A%2F%2Flocalhost%3A4000%2Fmitre-attack-framework%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=Mitre+Attack+Framework%20http%3A%2F%2F0.0.0.0%3A4000%2Fmitre-attack-framework%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fmitre-attack-framework%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F0.0.0.0%3A4000%2Fmitre-attack-framework%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fmitre-attack-framework%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2F0.0.0.0%3A4000%2Fmitre-attack-framework%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
@@ -225,7 +273,8 @@
 ">Previous</a>
     
     
-      <a href="#" class="pagination--pager disabled">Next</a>
+      <a href="/cloud-technology-basics/" class="pagination--pager" title="Cloud Technology Basics
+">Next</a>
     
   </nav>
 
@@ -249,7 +298,7 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/the-first-real-spammers/" rel="permalink">The First Real Spammers
+        <a href="/trip-to-turkey/" rel="permalink">Through the Ruins of Western Armenia
 </a>
       
     </h2>
@@ -259,11 +308,12 @@
 
 
 
-  7 minute read
+  23 minute read
 
 </p>
     
-    <p class="archive__item-excerpt" itemprop="description">If you go to the “about” section of my website, you can see me kindly asking my lovely readers and passerbys, to not DDoS me. I’ll leave the explanation of D...</p>
+    <p class="archive__item-excerpt" itemprop="description">Why I’m Writing This
+</p>
   </article>
 </div>
 
@@ -277,7 +327,7 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/the-problems-with-fast-foods/" rel="permalink">The Problems With Fast Food
+        <a href="/aipac/" rel="permalink">Influence of Lobby Groups in the US
 </a>
       
     </h2>
@@ -287,11 +337,11 @@
 
 
 
-  5 minute read
+  30 minute read
 
 </p>
     
-    <p class="archive__item-excerpt" itemprop="description">Things found in their natural form are usually better than the ones we’ve messed with. Foods which are scientifically engineered to get us hooked are everywh...</p>
+    <p class="archive__item-excerpt" itemprop="description">So I was writing this as a “side note” in the article of “Naked Econ Summary Part 3”, specifically after Chapter 8, but it got way too long, and so I put thi...</p>
   </article>
 </div>
 
@@ -305,7 +355,7 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/planet-of-the-trees/" rel="permalink">Planet of the Trees
+        <a href="/naked-econ-3/" rel="permalink">Part 3 of Reading Naked Economics
 </a>
       
     </h2>
@@ -315,11 +365,11 @@
 
 
 
-  2 minute read
+  17 minute read
 
 </p>
     
-    <p class="archive__item-excerpt" itemprop="description">The tallest tree in the world is the redwood tree located in the state of California. They can grow to be over a hundred meters tall. But why are they so tal...</p>
+    <p class="archive__item-excerpt" itemprop="description">This is Part 3 of my summary of “Naked Economics: Undressing the Dismal Science”. It covers more topics, including politics, globalization, trade, and develo...</p>
   </article>
 </div>
 
@@ -333,7 +383,7 @@
     
     <h2 class="archive__item-title" itemprop="headline">
       
-        <a href="/basics-of-spacex/" rel="permalink">The Basics of SpaceX
+        <a href="/some-thoughts/" rel="permalink">An Unexpected Exception
 </a>
       
     </h2>
@@ -343,11 +393,12 @@
 
 
 
-  4 minute read
+  16 minute read
 
 </p>
     
-    <p class="archive__item-excerpt" itemprop="description">Let’s start with the man behind SpaceX, Elon Musk. In 1995, at the age of 28, he co-founded a software company called Zip2 and sold it for $340M 4 years late...</p>
+    <p class="archive__item-excerpt" itemprop="description">I used to not understand car enthusiasts, wine enthusiasts, sneaker collectors, or art lovers. But now I do.
+</p>
   </article>
 </div>
 
@@ -398,7 +449,7 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2022 Andrei Guevorkian. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2025 Andrei Guevorkian. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>

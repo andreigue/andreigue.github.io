@@ -1,0 +1,499 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.19.1 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <!-- _includes/head.html -->
+<meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>The Bitcoin Whitepaper: My Initial Thoughts - Andrei Guevorkian</title>
+<meta name="description" content="This is the fifth article in a series where my goal is to understand the blockchain, NFTS, and the related technologies. ">
+
+
+  <meta name="author" content="Andrei Guevorkian">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Andrei Guevorkian">
+<meta property="og:title" content="The Bitcoin Whitepaper: My Initial Thoughts">
+<meta property="og:url" content="http://0.0.0.0:4000/My-thourghts/">
+
+
+  <meta property="og:description" content="This is the fifth article in a series where my goal is to understand the blockchain, NFTS, and the related technologies. ">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2023-04-17T00:00:00+04:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://0.0.0.0:4000/My-thourghts/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Andrei Guevorkian",
+      "url": "http://0.0.0.0:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Andrei Guevorkian Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Andrei Guevorkian
+          <span class="site-subtitle">Personal Portfolio and Blog.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/blog/">Blog</a>
+            </li><li class="masthead__menu-item">
+              <a href="/projects/">Projects</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="The Bitcoin Whitepaper: My Initial Thoughts">
+    <meta itemprop="description" content="This is the fifth article in a series where my goal is to understand the blockchain, NFTS, and the related technologies.">
+    <meta itemprop="datePublished" content="2023-04-17T00:00:00+04:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">The Bitcoin Whitepaper: My Initial Thoughts
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  11 minute read
+
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <h4 id="this-is-the-fifth-article-in-a-series-where-my-goal-is-to-understand-the-blockchain-nfts-and-the-related-technologies"><em>This is the fifth article in a series where my goal is to understand the blockchain, NFTS, and the related technologies.</em></h4>
+
+<p>Before we move any further on <strong>facts</strong>, I wanted to share some of my <strong>thoughts</strong>/concerns so far about blockchain and Bitcoin, based on my current understanding of it.</p>
+
+<hr />
+
+<p>From my understanding (not just by reading the whitepaper), Bitcoin is a digital asset used as a store of value (rather than being a currency). Similar to gold, but without any industry applications… but it’s much more divisible. And portable. And hideable… but at the same time it can’t be used in jewelry, nor in electronics, nor in dentistry, nor in aerospace (gold is used to coat certain satellite components to protect them from solar radiation, pretty cool eh?). <a href="#1">(1)</a></p>
+
+<p>Bitcoin. It’s value comes from the fact that there are other people who would buy it. If the price goes down to 20k, there will be people who will think “that’s a steal”. If the value goes up to 60k, there will be people who will start to sell. Maybe in a near-distance future, the price range won’t be ±40k, but will start to settle down. But who knows. Because honestly, how do we put a number on this protocol? A bitcoin is definitely worth something, but to put an exact number on it makes no sense. While we can read a company’s balance sheet, look at its expected sales, etc. and deduce an approximate valuation, it’s a bit harder to put a number on transaction rules which are enforced by thousands of nodes around the world, all using up electrical power in order to sustain the system full of strangers whom they’ve never met before. It’s truly a beautiful invention, but it’s hard to pinpoint its intrinsic value.</p>
+
+<p>In some sense you can argue that its intrinsic value is meant to slightly keep increasing due to its (slightly) deflationary nature. However, that assumes that interest levels (of the people, not the monetary policy tool) stay constant, or better yet, rise, among the general population. And that’s not too hard to see happen. Since once you get Bitcoin, you can’t “un-get” it. Once you see the beauty of it, you can’t unsee it. The true fan club (and not those people in it to make a quick buck) can only grow (this growth can be stunted by external factors such as governmental regulations, as mentioned in the next paragraph).</p>
+
+<p>However, despite all this positive talk, and despite me thinking that Bitcoin is a beautiful creation, I think that a big part of Bitcoin’s and other cryptocurrencies price appreciation is due to hype and people trying to make a quick profit, RATHER THAN being tied to a fundamental demand for the underlying technology (“market value” vs “intrinsic value”). It’s really dependant on very superficial factors such as media coverage, celebrity endorsements, overall economic conditions, and government regulation; the first three having a more short-term effect, and the latter having a stronger impact on the value of Bitcoin I’d argue (if the government makes it illegal to transact in bitcoin tomorrow, I doubt many people will dabble in it).</p>
+
+<p>I also don’t buy Satoshi’s big idea that middlemen are all that bad. He made a big deal about how “a seller can get scammed by a buyer if the seller sends the product and the buyer disputes the purchase with the bank leaving the seller without both the item and the money”. I’m not saying they’re perfect, but I’d argue that most people would like to have an assurance that IF they forget their password to their account, they can recover it. IF they mispell the email address for an e-transfer, the bank can cancel the transaction. And sometimes, you just need to sue the person you are transacting with. As a law-abiding citizen, you would prefer to live in a country where the law is applicable at all times. Such a regulatory environment cannot have roots within a blockchain. Governments and centralized authorities will always have a place in our world. (I guess this is not an attack on Bitcoin per se anymore, it’s more about the idea that blockchain technology does have it’s limitations in use cases).</p>
+
+<p>And just a few words about the blockchain: while blockchain technology offers many benefits, it is important to recognize its limitations when it comes to storing sensitive information. While the transactions on the Bitcoin network may seem “random” and hidden,  they are pseudonymous, meaning that the identity of the users behind the transactions is not directly revealed, but can be deduced.</p>
+
+<p>If the Facebook-Cambridge Analytica scandal taught us anything, it’s that ordinary civilians are uncomfortable and frustrated with how their personal data is shared left and right without their consent. People clearly value privacy and control over their data.</p>
+
+<p>If we expand blockchain’s reach into other aspects of our lives, then anyone would be able to read/estimate how much money we have, where we visit, who we chat with, which airlines we use, which movies we watch, so on and so forth. Would you rather Netflix see and analyze your watch pattern, feed the data into their AI tools and show you new movie recommendations, or would you rather have anyone with access to the blockchain see which movie you watched yesterday? Because at the end of the day, everything you do on the blockchain leaves a permanent mark and can be traced back to you.</p>
+
+<h2 id="update-2023-04-28"><em>Update 2023-04-28</em></h2>
+
+<p>The Bitcoin whitepaper doesn’t implicitly talk about this, but it’s still something that came up in my mind: what happens if a fake transaction is broadcasted? What stops me from saying that Jonny is sending me 10 bitcoins?</p>
+
+<p>Now that I’m writing it, the answer is pretty clear: I can’t pretend to be Jonny. The previous owner of those 10 bitcoins has to sign and approve the transaction using his private key, which I don’t have access to. If I were to broadcast such a message out to the network, sure the nodes will pick it up, but they go through steps to validate a transaction; they don’t just turn a blind eye to the details and add everything they get to the block that they’re working on.</p>
+
+<p>Nodes in the Bitcoin network are programmed to verify the validity of every transaction they receive, and they do this by checking that the transaction meets certain criteria, such as:</p>
+
+<ul>
+  <li>The transaction is properly formatted with the correct syntax and data structure</li>
+  <li>The transaction inputs are valid (i.e. they have not already been spent)</li>
+  <li>The transaction outputs are valid (i.e. they do not exceed the inputs)</li>
+  <li>The transaction is signed with the correct private key(s)</li>
+</ul>
+
+<p>If a node receives a transaction that fails to meet any of these criteria, it will reject the transaction and not include it in the block. And if a miner (for example, me) does try to include an invalid transaction in their block <a href="#2">(2)</a>, other nodes will reject the block thanks to the proof-of-work concept: the longest chain is the one that is the real chain.</p>
+
+<hr />
+
+<h3 id="notes">Notes:</h3>
+
+<h3 id="1">1</h3>
+<p>And I’d argue that that is a big part on why gold’s value is pretty stable and people consider it to be a safe investment. If ever people decide that gold isn’t valuable (for whatever reason), and you have money in gold, well then in the worst case scenario, there are uses in various industries for this material, so there will always be some demand for it. It’s relatively safe because its value will never be 0, as will likely always be demand for it.</p>
+
+<p>I don’t think we can say that with certainty about Bitcoin. Its future is not as clear. Blockchain technology will likely thrive and we will keep finding uses for it, but Bitcoin, it’s hard to tell. If we enter a recession, will people be buying Bitcoin? I don’t know. But now, if we enter a recession, will people be buying gold? Yes, probably. Either NASA will be working on a new satellite, and if a cut in NASA’s budget occurs, well then people will need it in their teeth, and if not, then I can guarantee that people will still be buying phones and electronics with gold in them. Industry applications are not that large for gold, but that’s enough to build confidence in people about its value. Other than industry uses, which are critical for technological advancement and the betterment of our lives, there is also jewelery. Gold is very much ingrained in certain cultures, such as in Hindu weddings.</p>
+
+<p>We value what others value. If you’re in prison, and you don’t smoke, you will still accept a cigarette as a form of payment because you know that the entire cohort of section B smoke, and you know they will always want cigarettes.</p>
+
+<h3 id="2">2</h3>
+<p>Actually, I don’t even think that I’ll be able to add a fake transaction, even to my block.</p>
+
+<p>To participate in the Bitcoin network, I would need to follow the rules of the protocol, including verifying the validity of transactions. Having 51% of the computing power would give me the ability to create a longer blockchain and potentially conduct a double-spend attack, but it would not give me the ability to bypass the transaction verification process.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#technology" class="page__taxonomy-item" rel="tag">Technology</a>
+    
+    </span>
+  </p>
+
+
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2023-04-17T00:00:00+04:00">April 17, 2023</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=The+Bitcoin+Whitepaper%3A+My+Initial+Thoughts%20http%3A%2F%2F0.0.0.0%3A4000%2FMy-thourghts%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F0.0.0.0%3A4000%2FMy-thourghts%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2F0.0.0.0%3A4000%2FMy-thourghts%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/Reading-the-bitcoin-whitepaper2/" class="pagination--pager" title="Bitcoin Part 1.1: Continuing Reading the Whitepaper
+">Previous</a>
+    
+    
+      <a href="/naked-econ-1/" class="pagination--pager" title="Part 1 of Reading Naked Economics
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/trip-to-turkey/" rel="permalink">Through the Ruins of Western Armenia
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  23 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Why I’m Writing This
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/aipac/" rel="permalink">Influence of Lobby Groups in the US
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  30 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">So I was writing this as a “side note” in the article of “Naked Econ Summary Part 3”, specifically after Chapter 8, but it got way too long, and so I put thi...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/naked-econ-3/" rel="permalink">Part 3 of Reading Naked Economics
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  17 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">This is Part 3 of my summary of “Naked Economics: Undressing the Dismal Science”. It covers more topics, including politics, globalization, trade, and develo...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/some-thoughts/" rel="permalink">An Unexpected Exception
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  16 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">I used to not understand car enthusiasts, wine enthusiasts, sneaker collectors, or art lovers. But now I do.
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+          <li><a href="https://github.com/andreigue" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2025 Andrei Guevorkian. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

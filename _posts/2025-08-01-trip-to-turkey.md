@@ -51,11 +51,27 @@ test short
 
 {% include video id="bAtqSc2y-wY" provider="youtube" %}
 
-It's funny because I name other places by their Turkish names followed by the Armenian names. And this would've happened here if the Turkish government would change the name Ani to Anı (pronunciation changes), which they apparently did consider/attempt doing. They would've said that "anı" means "memory" in Turkish, which would give it an easy symbolic undertone. But thankfully the name Ani is too entrenched in history. At this point it would draw too much negative attention to Turkey and would bring to light all the Turkification it has done to Armenian sites.
+It's funny/sad because I name other places by their Turkish names followed by the Armenian names. And this would've happened here if the Turkish government would change the name Ani to Anı (pronunciation changes), which they apparently did consider/attempt doing. They would've said that "anı" means "memory" in Turkish, which would give it a symbolic undertone. But thankfully the name Ani is too entrenched in history. At this point it would draw too much negative attention to Turkey and would bring to light all the Turkification it has done to Armenian sites.
 
 Ani was built during the era of Bagratid Armenia (885–1045 AD). Bagratid Armenia was a medieval Armenian kingdom founded by Ashot I Bagratuni, and it marked the first independent Armenian state after centuries of foreign rule (mostly Arab and Byzantine domination). Its capital moved around, but in 961 AD, Ani became the capital. Take a moment to look at [this very important and informative link of capitals of various Armenian kingdoms](https://en.wikipedia.org/wiki/Historical_capitals_of_Armenia).
 
-At its peak, Ani had 100'000 inhabitants, rivaling Constantinople and Baghdad in beauty and wealth.
+[At its peak](https://en.wikipedia.org/wiki/Ani#/media/File:Bagratuni_Armenia_1000-en.svg), Ani had potentially 100'000 inhabitants, rivaling Constantinople and Baghdad in beauty and wealth. At this point I should note also that although it is named "the city of 1001 churches", it didn't actually have that many. As [Wikipedia](https://en.wikipedia.org/wiki/Ani) has it, "to date, 50 churches, 33 cave chapels and 20 chapels have been excavated by archaeologists and historians."
+
+In 1045 AD, Ani was surrendered without much resistance to the Byzantine Empire, who wanted this front to defend against the Seljuks.
+
+In 1064 AD however, the Seljuks captured Ani and many inhabitants were killed or enslaved, and much of the city was destroyed. This was the start of the decline of Ani. (This conquest played a significant role in the movement of Armenian into Cilicia, which was officially established as a principality in 1080 AD, and was a full-on kingdom between 1198 and 1375.)
+
+Then in 1072 the Shaddadids (a Mulsim Kurdish dynasty) bought Ani from the Seljuks. They ruled until 1199, so a lot of intermarriages occurred all throughout historic Armenia.
+
+Afterwards, the Georgians took control, and encouraged Armenians to settle back. They even let Armenian nobles rule (Zakarid princes).
+
+Ultimately, it all came down in 1236 AD after the Mongols entered Ani during their expansion into the Caucasus. Unlike the Seljuk's, who massacred tens of thousands, Mongols often took cities for taxation. To be exact, they stormed Ani, killed many defenders, and looted churches and homes. Then, they imposed heavy taxes on the survivors instead of wiping the city out.
+
+The city faced further damage from a significant earthquake in 1319, which further contributed to its decline. By the 15th–17th centuries, Ani was largely abandoned. Small Kurdish, Persian, and Turkish communities lived among the ruins.
+
+What do we see there today? The most significant is the Cathedral of Ani, 
+
+
 
 ## The Trajectory
 
@@ -86,10 +102,27 @@ Another note on the way to Van is, I didn't really appreciate it in the moment, 
 ![Mt Ararat from Igdir](../images/turkey/mt-ararat.jpg)
 Source: [https://ku.m.wikipedia.org/wiki/W%C3%AAne:I%C4%9Fd%C4%B1r_ve_A%C4%9Fr%C4%B1_Da%C4%9F%C4%B1.jpg]
 
-Then we visited the island of Akhtamar.
+While staying in Van, we visited the island of Akhtamar, ... 
 
+When visiting Akhtamar, we had these churches on our list but I guess we spent too much time in Akhtamar, since we spontaneously decided to swim there after seeing others doing so.
 
 ![Churches we were supposed to see](../images/turkey/maps/churches%20in%20van%20region.JPG)
+
+You feel extremely greasy from the lake, and at first we thought it's because they dump some industrial waste into the water or something, but turns out that that is the natural chemical composition of that lake. It's what is known as a soda lake, which is any lake with a pH of between 9 and 12. It's just rich in particular salts which makes the water highly alkaline (Lake Van has a pH of 9.7), and when our skins touches these salts, and leaves a soapy feeling. As long as you don't have any cuts on your skin, and you shower afterwards, there is no problem.
+
+For fun I checked what would happen if you were to drink the water from Lake Van. If you take a few sips, your stomach acid (pH ~ 1.5-3.5) would immediately neutralize it.
+
+![Van to Elazig trip](../images/turkey/maps/van-elazig.JPG)
+
+Bitlis
+Muş
+Yukarıyongalı
+
+We spent two nights in Van, and headed towards Elazig, where we had the hotel booked for one night. On the way there we stopped at Mush, and a small village called Yukariyongali. We drove past the lake XYZ, where tens of thousands of armenians were killed during the genocide, It was a top 3 killing ground.
+
+The next day, from Elazig we drove t
+
+
 
 
 ## Cappadocia
@@ -97,6 +130,12 @@ Then we visited the island of Akhtamar.
 I don't expect many people to know this, but Cappadocia was once inhabited by Armenians. I learned this during the trip itself when I started to zoom into Cappadocia on Google Maps, and started to notice churches. These were not Armenian churches, bu
 
 It turns out that in 1021, the last king of Vaspurakan, Gagik Artsruni, handed the kingdom over to the Byzantine Empire in exchange for land in Cappadocia, due to pressure from Turkish invasions. 
+
+## Erzurum and the case of the Armenian-Turkish relations library
+
+We weren't prepared to debate, but next time I'd like to keep the following ideas in mind:
+
+1. Have Armenians ever lived in Nakhichevan. How were there khachkars then in Jugha? Do you think it was right to destroy them? Why?
 
 ## A Potential Future Trip
 
@@ -152,7 +191,7 @@ So as you can see, sometimes they tried to find similar words that meant somethi
 
 By the way, if you scroll down to the various maps [on this website](https://www.wikiwand.com/en/articles/Place_name_changes_in_Turkey#Greek), you will see which ethnicities lived where in Turkey. I highly encourage a quick look at it.
 
-Now what about a place like Van? Van stayed Van, probably because Van was so ancient and tied to the ancient kingdom of Urartu, which Turks don't even believe are related to modern Armenians. And something like Nakhichevan? Nakhijevan means "first resting place" in Armenian, as it is thought that after landing on Mount Ararat, Noah first settled in the Nakhijevan area. Nakhichevan is one of the oldest continuously inhabited places in the region, mentioned by Greek, Persian, Armenian, and Arab historians for over two thousand years. So changing it outright would be a bit awkward, and what the Turks/Azeris say instead is that it's of ancient Turkic origin (Naxçıvan), rather than Armenian. And so they can say that, [destroy the tens of thousands of Armenian artifacts](https://en.wikipedia.org/wiki/Armenian_cemetery_in_Julfa), and claim continuity of their rule over that land. 
+Now what about a place like Van? Van stayed Van, probably because Van was so ancient and tied to the ancient kingdom of Urartu, which Turks don't even believe are related to modern Armenians. And something like Nakhichevan? Nakhijevan means "first resting place" in Armenian, as it is thought that after landing on Mount Ararat, Noah first settled in the Nakhijevan area. Nakhichevan is one of the oldest continuously inhabited places in the region, mentioned by Greek, Persian, Armenian, and Arab historians for over two thousand years. So changing it outright would be a bit awkward, and what the Turks/Azeris say instead is that it's of ancient Turkic origin (Naxçıvan), rather than Armenian. And so they can say that, [destroy the tens of thousands of Armenian artifacts](https://en.wikipedia.org/wiki/Armenian_cemetery_in_Julfa), and claim continuity of their rule over that land. Unfortunately for them, this part of history is recent enough that it is [well documented from outside sources](https://archive.archaeology.org/online/features/djulfa/).
 
 One last point I'll mention is that many of these places were called differently by the various minorities present in the region, such as Dikranagert/Amed. But the point is that these names were passed down through generations of natives and bear thousands of years of history, while the new name (Diyarbakir) was made up by a committee in an office to obscure history and attempt to cover up a century of ethnic cleansing.
 

@@ -1,0 +1,423 @@
+I"(1<h1 id="markdown-starter-worksheet">Markdown Starter Worksheet</h1>
+<p>The main goal of MarkDown is to be easily written and easily read.  It uses “plain text” formatting and can be converted to HTML.  The most common use case I’ve come across to use Markdown is for ReadMe files, used, for example, for Github repos.  Markdown can also be used to create email.</p>
+
+<p>Markdown, in comparison to HTML, is much simpler to read and write.  The average person can typically understand markdown and would be able to learn and write it much quicker than HTML.</p>
+
+<p>Specifically, Visual Studio Code uses the <a href="http://commonmark.org/">CommonMark</a> Markdown specification.</p>
+
+<h2 id="sections">Sections</h2>
+<ul>
+  <li><a href="#headers">Headers</a></li>
+  <li><a href="#quotes">Quotes</a></li>
+  <li><a href="#emphasis">Emphasis</a></li>
+  <li><a href="#horizontal-rule">Horizontal Rule</a></li>
+  <li><a href="#lists">Lists</a></li>
+  <li><a href="#links">Links</a></li>
+  <li><a href="#images">Images</a></li>
+  <li><a href="#code">Code</a></li>
+  <li><a href="#tables">Tables</a></li>
+  <li><a href="#custom-html">Custom HTML</a></li>
+  <li><a href="#custom-css">Custom CSS</a></li>
+  <li><a href="#additional-resources">Additional Resources</a></li>
+</ul>
+
+<hr />
+
+<h2 id="headers">Headers</h2>
+<p>Headers are defined by the ‘#’symbol.  One ‘#’ for H1, two for H2, etc.</p>
+
+<!-- 
+    Example
+
+    # H1 Header 
+-->
+<blockquote>
+  <h1 id="create-an-h1">Create an H1</h1>
+</blockquote>
+
+<blockquote>
+  <h2 id="create-an-h2">Create an H2</h2>
+</blockquote>
+
+<blockquote>
+  <h3 id="create-an-h3">Create an H3</h3>
+</blockquote>
+
+<blockquote>
+  <h4 id="create-an-h4">Create an H4</h4>
+</blockquote>
+
+<hr />
+
+<h2 id="quotes">Quotes</h2>
+
+<p>Quotes are defined by the  ‘&gt;’ symbol</p>
+
+<!--
+    Example
+
+    > This is an example quote
+-->
+
+<blockquote>
+  <p>Create a quote
+Testing a multiline quote just writing random stuff to fill up more than 2 lines should be good ye</p>
+</blockquote>
+
+<p>You can combine a header with a quote.</p>
+
+<!-- 
+    Example
+
+    > # H1 Quote
+-->
+
+<blockquote>
+  <h2 id="create-an-h2-quote">Create an H2 Quote</h2>
+</blockquote>
+
+<hr />
+
+<h2 id="emphasis">Emphasis</h2>
+
+<p>Add emphasis with asterisks ‘*’ and underscores ‘_’
+Two before and after (no spaces) a section of texts makes it bold</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Example
+
+**Bold Text with asterisks**
+__Bold Text with underscores__
+</code></pre></div></div>
+
+<p>One before and after (no spaces) a section of texts makes it italicized</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Example
+
+*Italicized Text with asterisks*
+_Italicized Text with underscores_
+</code></pre></div></div>
+
+<p>You can also put Bold and Italicized text inline by surrounding a group of words.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Example
+
+This text is **bold** and this text is *italicized* 
+</code></pre></div></div>
+
+<blockquote>
+  <p><strong>TODO</strong>. Create a bold sentence, an italicized sentence, and a sentence with both bold and italicized text inline</p>
+</blockquote>
+
+<h2 id="horizontal-rule">Horizontal Rule</h2>
+<p>A horizontal rule gives a visible line break.  You can create one by putting three or more hypens, asterisks, or underscores (-, *, _).</p>
+
+<p>For what it’s worth, I prefer dashes…</p>
+
+<!-- 
+    Example
+
+    ---
+    ***
+    ___
+-->
+
+<blockquote>
+  <p><strong>TODO</strong> Create a horizontal rule</p>
+</blockquote>
+
+<hr />
+
+<h2 id="lists">Lists</h2>
+
+<p>Create unordered lists using ‘-‘, ‘*’, ‘+,</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Example with each 
+
+- item
+* item
++ item
+</code></pre></div></div>
+
+<p>You can create sublists by indenting</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Example
+
+- item
+- subitem
+</code></pre></div></div>
+
+<p>Create ordered lists using a number prefix</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Example
+
+1. item 1
+2. item 2
+3. item 3 
+</code></pre></div></div>
+
+<blockquote>
+  <p><strong>TODO</strong> Create an unordered list of your 5 favorite TV Shows</p>
+</blockquote>
+
+<ul>
+  <li>item 1</li>
+  <li>item 2</li>
+  <li>item 5</li>
+</ul>
+
+<blockquote>
+  <p><strong>TODO</strong> Create an ordered list of your top 5 Movies</p>
+  <ol>
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>
+      <h2 id="item-5">item 5</h2>
+    </li>
+  </ol>
+</blockquote>
+
+<h2 id="links">Links</h2>
+
+<p>Create a link by surrounding it with angle bracket
+&lt;!– 
+    Example</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;http://www.jamesqquick.com&gt;  --&gt;
+</code></pre></div></div>
+
+<p>Create a link with text by surrounding text with brackets, [], and link immediately following with parenthesis ()</p>
+
+<!-- 
+    Example
+
+    [James Q Quick](http://www.jamesqquick.com) 
+-->
+
+<blockquote>
+  <p><strong>TODO</strong> Create a link to your website, twitter, or github. with no text</p>
+</blockquote>
+
+<p><a href="https://andreigue.github.io/">https://andreigue.github.io/</a></p>
+
+<blockquote>
+  <p><strong>TODO</strong> Create a link with text to your website, twitter, or github</p>
+</blockquote>
+
+<p><a href="https://andreigue.github.io/">My blog</a></p>
+
+<p>What if you needed to reuse a link several times?  Well, you could copy and paste that link each time.  That means, if you need to update the link, you will have to do it each time its used.  There’s a better way!</p>
+
+<p>Create reference style links by defining your link with the a ‘key’ inside of brackets, colon, space, and the link</p>
+
+<!-- 
+    Example
+
+    [1]: http://jamesqquick.com/ 
+-->
+
+<p>Then use the reference style link by using your text inside of brackets followed by the link ‘key’ inside of bracket.</p>
+
+<!-- 
+    Example
+
+    [My Website][1] 
+-->
+
+<blockquote>
+  <p><strong>TODO</strong> Create a reference link to your website and reference it three times</p>
+</blockquote>
+
+<p>You can also link to other locations on your markdown page.  Remember, your MarkDown will get converted to HTML, so you can, in theory, use a anchor tag to link to an element with a specific ID.  You can find an example of this in the list of sections at the top of this document.</p>
+
+<p>When we create a header tag for example, it implicitly creates an id property.</p>
+
+<p>Ex ‘# Header’ becomes <code class="highlighter-rouge">&lt;h1 id="header"&gt;Header&lt;/h1&gt;</code></p>
+
+<p>Names will be converted to ids by replacing spaces with hyphens and uppercase letters with lowercase letters (think css naming convention).</p>
+
+<p>Ex ‘Header Info’ becomes header-info</p>
+
+<blockquote>
+  <p><strong>TODO</strong> Create a link to another part of your page.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="images">Images</h2>
+
+<p>Defining an image is similar to defining a link, except you prefix it with ‘!’</p>
+
+<!-- 
+    Example
+
+    ![James Quick](https://pbs.twimg.com/profile_images/887455546890211329/tAoS7KUm_400x400.jpg) 
+-->
+
+<p>Just like links, you can define images by reference in the same format.</p>
+
+<p>Define the reference</p>
+
+<!-- 
+    Example
+
+    [profile]: https://pbs.twimg.com/profile_images/887455546890211329/tAoS7KUm_400x400.jpg 
+-->
+
+<p>Use the reference</p>
+
+<!-- 
+    Example
+
+    ![James Quick][profile] 
+-->
+
+<blockquote>
+  <p><strong>TODO</strong> Create a reference link to your profile picture and then reference it.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="code">Code</h2>
+
+<p>You can do inline code with <code class="highlighter-rouge">backticks</code> (``)</p>
+
+<blockquote>
+  <p><strong>TODO</strong> Display a line of text with inline code</p>
+</blockquote>
+
+<p>You can do blocks of code by surroung it with 3 backticks (<code class="highlighter-rouge"></code>)</p>
+
+<!-- 
+    Example
+
+    ``` 
+    var num = 0;
+    var num2 = 0;
+```
+-->
+
+<blockquote>
+  <p><strong>TODO</strong> Display a block of code from your favorite language</p>
+</blockquote>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"testing code"</span>
+
+<span class="n">var1</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="k">print</span><span class="p">(</span><span class="n">var1</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>The above does not give language specific highlighting.  You can specify the programming language immediately following the opening 3 backticks.  You Should see a difference in highliting!</p>
+
+<!-- 
+    Example Javascript
+
+    ```javascript
+    var num = 0;
+    var num2 = 0;
+    ``` 
+-->
+
+<!--
+    Example HTML
+
+    ```html 
+    <div>
+        <p>This is an html example</p>
+    </div>
+    ```
+-->
+
+<blockquote>
+  <p><strong>TODO</strong> Display a block of code from your favorite language while specifying the language</p>
+</blockquote>
+
+<hr />
+
+<h2 id="tables">Tables</h2>
+<p>Tables are useful for displaying rows and columns of data.  Column headers can be defined in between pipes (|).  Headers are separated from table content with a row of dashes (-) (still separated by pipes), and there must be at least 3 dashes between each header.  The row data follows beneath (still separated by pipes).</p>
+
+<!-- 
+    Example
+
+    | Header 1    | Header 2    | Header 3    |
+    | ----------- | ----------- | ----------- |
+    | Row 1 Col 1 | Row 1 Col 2 | Row 1 Col 3 | 
+-->
+
+<p>The column definitions and row definitions do not have to have the exact same width sizes, but it would be much more readable.  Notice the output of the following two tables are the same, but the second (the raw markdown) is much more readable.</p>
+
+<!-- 
+    Example
+
+    | Header 1 | Header 2 |
+    | ----| ---|
+    |Loooooooooooooong item 1 | looooooooooong item 2 | 
+-->
+
+<!-- 
+    Example
+
+    | Header 1                | Header 2              |
+    | ----------------------- | --------------------- |
+    |Loooooooooooooong item 1 | looooooooooong item 2 | -->
+
+<blockquote>
+  <p><strong>TODO</strong> Create a table with three columns and two rows</p>
+</blockquote>
+
+<p>You can also align (Center, left, right) the text in a column by using colons (:) in the line breaks between headers and rows.  No colon means the default <strong>left alignment</strong>.  Colons on each side signifies <strong>center alignment</strong>.  And a trailing colon means <strong>right alignment</strong>.</p>
+
+<blockquote>
+  <p><strong>TODO</strong> Create a table with three columns, one aligned left, one aligned center, and one aligned right</p>
+</blockquote>
+
+<!-- 
+    Example
+    
+    | Header | Header 1 | Header 2  |
+    | ------ | :------: | --------: |
+    | Aligned Left | Aligned Center | Aligned Right | 
+-->
+
+<hr />
+
+<h2 id="custom-html">Custom HTML</h2>
+
+<p>Since MarkDown gets automatically converted to HTML, you can add raw HTML directly to your MarkDown.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;p&gt;</span>Sample HTML Div<span class="nt">&lt;/p&gt;</span>
+</code></pre></div></div>
+
+<p>Creates this</p>
+
+<p>Sample HTML Div</p>
+
+<blockquote>
+  <p><strong>TODO</strong> If you are comfortable with HTML, add some raw HTML.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="custom-css">Custom CSS</h2>
+
+<p>You can also add custom CSS to your MarkDown to add additional styling to your document. You can also include CSS by including a style tag.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nt">&lt;style&gt;</span>
+        <span class="nt">body</span> <span class="p">{</span>
+            <span class="nl">color</span><span class="p">:</span><span class="no">red</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="nt">&lt;/style&gt;</span>
+</code></pre></div></div>
+<blockquote>
+  <p><strong>TODO</strong> If you are comfortable with CSS, give your page some style.</p>
+</blockquote>
+
+<hr />
+
+<h2 id="additional-resources">Additional Resources</h2>
+<ul>
+  <li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images">Markdown Cheat Sheet - Adam P on Github</a></li>
+  <li><a href="https://daringfireball.net/projects/markdown/syntax">Daring Fireball Markdown Syntax</a></li>
+  <li><a href="https://code.visualstudio.com/docs/languages/markdown">MarkDown in Visual Studio Code</a></li>
+</ul>
+:ET

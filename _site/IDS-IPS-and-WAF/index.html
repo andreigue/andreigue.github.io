@@ -1,0 +1,487 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.19.1 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <!-- _includes/head.html -->
+<meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>IDS, IPS and WAF - Andrei Guevorkian</title>
+<meta name="description" content="I was browsing through Quora, and I saw someone answer the following question: What is IPS, and what is WAF? And how are they different? Here’s my understanding… ">
+
+
+  <meta name="author" content="Andrei Guevorkian">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Andrei Guevorkian">
+<meta property="og:title" content="IDS, IPS and WAF">
+<meta property="og:url" content="http://0.0.0.0:4000/IDS-IPS-and-WAF/">
+
+
+  <meta property="og:description" content="I was browsing through Quora, and I saw someone answer the following question: What is IPS, and what is WAF? And how are they different? Here’s my understanding… ">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2022-06-07T00:00:00+04:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://0.0.0.0:4000/IDS-IPS-and-WAF/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Andrei Guevorkian",
+      "url": "http://0.0.0.0:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Andrei Guevorkian Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Andrei Guevorkian
+          <span class="site-subtitle">Personal Portfolio and Blog.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/blog/">Blog</a>
+            </li><li class="masthead__menu-item">
+              <a href="/projects/">Projects</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="IDS, IPS and WAF">
+    <meta itemprop="description" content="I was browsing through Quora, and I saw someone answer the following question: What is IPS, and what is WAF? And how are they different? Here’s my understanding…">
+    <meta itemprop="datePublished" content="2022-06-07T00:00:00+04:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">IDS, IPS and WAF
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  7 minute read
+
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <h3 id="i-was-browsing-through-quora-and-i-saw-someone-answer-the-following-question-what-is-ips-and-what-is-waf-and-how-are-they-different-heres-my-understanding">I was browsing through Quora, and I saw someone answer the following question: What is IPS, and what is WAF? And how are they different? Here’s my understanding…</h3>
+
+<p>IPS stands for Intrusion Prevention System, a WAF stands for Web Application Firewall.</p>
+
+<h3 id="before-talking-about-ips-i-have-to-mention-its-predecessor-although-not-obsolete-the-ids-or-intrusion-detection-system">Before talking about IPS, I have to mention its predecessor (although not obsolete), the IDS, or Intrusion Detection System.</h3>
+
+<p>IDS is a passive system that scans network traffic and attempts to identify any dangerous or suspicious traffic. After detection, it alerts (via email, for example) the security team, or the dedicated network administrator personnel, who can view the alert and take any further required steps. The IPS does everything which the IDS does, but instead of just detecting and recording possible threats, it attempts to prevent them from causing damage within the network. But because IDS is a large subset of the IPS, and still has a place in a secure network, I will dive deeper into it.</p>
+
+<p>The IDS (and IPS) is not perfect, as <a href="https://www.youtube.com/watch?v=7gZYbIr_Qj4">shown in this video</a>, but nevertheless it is typically used as a backup to a firewall. In other words, an IDS/IPS will likely be located in between a company’s firewall and the rest of its network.</p>
+
+<h3 id="if-the-ips-does-everything-that-the-ids-does-and-more-why-cant-we-just-use-an-ips-on-its-own">If the IPS does everything that the IDS does and more, why can’t we just use an IPS on its own?</h3>
+
+<p>To understand why IPSes can’t simply replace IDSes, think about the following situation: because the IDS/IPS is not perfect, we will likely get false positives (thinking that a legitimate and benign network traffic is malicious) and false negatives (thinking that a threat is benign). More specifically, because the IPS is an active system which aims to eliminate a threat, if we get a false positive, the IPS will prevent the legitimate traffic from getting through. On the other hand, and IDS will simply flag it as suspicious, and a network admin can take a closer look at it.</p>
+
+<h3 id="how-can-idses-be-categorized">How can IDSes be categorized?</h3>
+
+<p>There are two types of IDSes: HIDS (host-based IDS), which performs intrusion detection for a single computer/device, and the more common NIDS (network-based IDS), which resides on a node on the network.</p>
+
+<p>The IDS can further be split into two categories: signature-based (SIDS) and anomaly-based (AIDS).</p>
+
+<p>SIDS monitors all the packets traversing the network and compares them against a database of “signatures” of known malicious threats, similar to how an antivirus detects malware. A malware signature is a unique string representing a specific type of malware, essentially encoding the behaviors and characteristics of that malware. So an SIDS essentially looks at a sequence of network traffic, and compares it to the database of signatures. If there’s a match, then the system gets triggered, and an alert is sent. If there is no match, then the SIDS assumes that everything is okay.</p>
+
+<p>Signature-based detection methods cannot detect new malware, including variants of existing malware. The database must continuously be updated as new malware is discovered around the world. More precisely, since 2011, the amount of new malware signatures increases by approximately 10 million per year. Currently, signature databases may contain billions of entries, which in turn negatively affects the perfomance of purely signature-based detection methods.</p>
+
+<p>AIDS monitors network traffic and compares the general behavior to that of “normal traffic”. Instead of using specific signatures and attributes of a threat, anomaly-based (a.k.a. “heuristic-based” or “behavior-based”) detection techniques infer malicious intent based on general observations, typically using “intrustion detection rules”, and sometimes along with Machine Learning. It will consider things like traffic bandwidth, protocols, ports, on top of odd behavior such as deleting a large number of files, monitoring keystrokes, changing settings, etc. While SIDS is rigid and takes care of the basics, AIDS improves upon the limitations of SIDS, especially in the detection of newer threats.</p>
+
+<h3 id="what-about-waf">What about WAF?</h3>
+
+<p>If IDS/IPS deals with the data on levels 3 and 4 of the OSI model, then WAF deals with data on levels 5, 6 and 7 <a href="#1">(1)</a>. IDS/IPS is not aware of what happens at the higher levels; therefore, it won’t be able to make a judgement of a particular network packet based on the user or session. In other words, it can’t say “User A is requesting access to web service S. I’ve seen this user from many previous requests accessing web service T, and historically, this has been a normal user, therefore this traffic is probably fine”. The IDS/IPS operates at a lower level, and does not see these things. The WAF, on the other hand, is user, session, and application-aware. WAF is able to keep track of each user requesting access to the web application, along with the opened sessions (Layer 5 is known as the Session Layer) and the details of the application involved, including what services it offers. WAFs are built around the OWASP Top 10 list, which is a list of the most common web application security vulnerabilities. These include injection attacks, cross-site scripting, sensitive data exposure, etc.</p>
+
+<p>While WAF mainly deals with web traffic (think HTTP/HTTPS), it is also capable of catching odd behavior through other ports and protocols, such as FTP and SMTP. WAF would be able to detect if there are too many login attempts done using FTP, or too much incoming junk email coming through SMTP.</p>
+
+<h3 id="whats-the-conclusion">What’s the conclusion?</h3>
+
+<p>The conclusion is that there is no one solution which protects an organization from all types of attacks. More layers of defence within an  organization’s network means more security, but it also means slower movement of data. Both defence mechanisms are very important, and it would be unwise to simply depend on one; rather, many defence mechanisms should be put in place to form a more holistic defence against a range of attacks.</p>
+
+<h3 id="notes">Notes:</h3>
+
+<h3 id="1">1</h3>
+<p>A normal (network-based) firewall also operates on Layers 3 and 4. They will take care of IP addresses and ports using Access Control Lists (ACLs). The problem with the typical firewall is that there are attacks which go beyond Layers 3 and 4, i.e. Layers 5, 6, 7. HTTP flood attacks and slowloris attacks (both are DDoS attacks) could be done through allowed IP and ports numbers, hence bypassing the traditional network firewall. The nature of such attacks are not aimed at the network layer, but at the application itself. They can be legitimate HTTP traffic, but still cause harm.</p>
+
+<p>In reality, if all application were perfectly written, then there would be no need WAFs. Regular firewalls would’ve been enough. However, the reality is that most web applications are either not built and designed with security in mind, or they are legacy applications which were once solid, but are now insecure.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#technology" class="page__taxonomy-item" rel="tag">Technology</a>
+    
+    </span>
+  </p>
+
+
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-06-07T00:00:00+04:00">June 7, 2022</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=IDS%2C+IPS+and+WAF%20http%3A%2F%2F0.0.0.0%3A4000%2FIDS-IPS-and-WAF%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F0.0.0.0%3A4000%2FIDS-IPS-and-WAF%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2F0.0.0.0%3A4000%2FIDS-IPS-and-WAF%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/cloud-technology-basics/" class="pagination--pager" title="Cloud Technology Basics
+">Previous</a>
+    
+    
+      <a href="/networking-fundamentals/" class="pagination--pager" title="Networking Fundamentals 1
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/trip-to-turkey/" rel="permalink">Through the Ruins of Western Armenia
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  23 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Why I’m Writing This
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/aipac/" rel="permalink">Influence of Lobby Groups in the US
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  30 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">So I was writing this as a “side note” in the article of “Naked Econ Summary Part 3”, specifically after Chapter 8, but it got way too long, and so I put thi...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/naked-econ-3/" rel="permalink">Part 3 of Reading Naked Economics
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  17 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">This is Part 3 of my summary of “Naked Economics: Undressing the Dismal Science”. It covers more topics, including politics, globalization, trade, and develo...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/some-thoughts/" rel="permalink">An Unexpected Exception
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  16 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">I used to not understand car enthusiasts, wine enthusiasts, sneaker collectors, or art lovers. But now I do.
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+          <li><a href="https://github.com/andreigue" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2025 Andrei Guevorkian. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,790 @@
+I"�R<p>This is where I’ll be constantly posting about topics which interest me. This is a way to ensure that I keep learning, and my favorite way to learn is to explain.</p>
+
+<p>If you want to learn about something in specific, this is not the blog for you. This is simply a record of my own learning experience. Not all articles are meant to be read and understood with no initial knowledge of the topic (<a href="/networking-fundamentals/">this article</a> came to mind). That said, anyone is welcome to wander around and see if anything interests them.</p>
+
+<h2 id="categories">Categories</h2>
+<ul>
+  <li><a href="#books">Books</a></li>
+  <li><a href="#business">Business</a></li>
+  <li><a href="#economics">Economics</a>
+<!-- - Interesting People (COMING SOON) --></li>
+  <li><a href="#history">History</a></li>
+  <li><a href="#science">Science</a></li>
+  <li><a href="#technology">Technology</a></li>
+  <li><a href="#thoughts">Thoughts</a></li>
+</ul>
+
+<!--- 
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+    </span>
+  </p>
+ --->
+
+<!--
+# Jekyll Group-By-Array 0.1.0
+# https://github.com/mushishi78/jekyll-group-by-array
+# © 2015 Max White <mushishi78@gmail.com>
+# MIT License
+-->
+
+<!-- Initialize -->
+
+<!-- Map -->
+
+<!-- Flatten -->
+
+<!-- Uniq -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- Push to group_names -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- Push to group_names -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- Push to group_names -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- Push to group_names -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- Push to group_names -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- Push to group_names -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- Push to group_names -->
+
+<!-- If not equal to previous then it must be unique as sorted -->
+
+<!-- group_items -->
+
+<!-- Collect if contains -->
+
+<!-- Push to group_items -->
+
+<!-- Collect if contains -->
+
+<!-- Push to group_items -->
+
+<!-- Collect if contains -->
+
+<!-- Push to group_items -->
+
+<!-- Collect if contains -->
+
+<!-- Push to group_items -->
+
+<!-- Collect if contains -->
+
+<!-- Push to group_items -->
+
+<!-- Collect if contains -->
+
+<!-- Push to group_items -->
+
+<!-- Collect if contains -->
+
+<!-- Push to group_items -->
+
+<h2 id="books" class="archive__subtitle">Books</h2>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/naked-econ-3/" rel="permalink">Part 3 of Reading Naked Economics
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  16 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">This is Part 3 of my summary of “Naked Economics: Undressing the Dismal Science”. It covers more topics, including politics, globalization, trade, and develo...</p>
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/naked-econ-2/" rel="permalink">Part 2 of Reading Naked Economics
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  23 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">This is Part 2 of my summary of “Naked Economics: Undressing the Dismal Science”. It only covers Chapter 7: Financial Markets, starting with a summary of the...</p>
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/naked-econ-1/" rel="permalink">Part 1 of Reading Naked Economics
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  65 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">This is Part 1 of my detailed summary of “Naked Economics: Undressing the Dismal Science”. It covers foundational topics in economics, focusing on markets, i...</p>
+  </article>
+</div>
+
+<h2 id="business" class="archive__subtitle">Business</h2>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/basics-of-spacex/" rel="permalink">The Basics of SpaceX
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  4 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Let’s start with the man behind SpaceX, Elon Musk. In 1995, at the age of 28, he co-founded a software company called Zip2 and sold it for $340M 4 years late...</p>
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/John-D.-Rockefeller/" rel="permalink">John D. Rockefeller
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  4 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">John D. Rockefeller was born in 1839 in NYC. His father was of English and German descent and his mother was of Scots-Irish descent. When people speak of the...</p>
+  </article>
+</div>
+
+<h2 id="economics" class="archive__subtitle">Economics</h2>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/aipac/" rel="permalink">Influence of Lobby Groups in the US
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  30 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">So I was writing this as a “side note” in the article of “Naked Econ Summary Part 3”, specifically after Chapter 8, but it got way too long, and so I put thi...</p>
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/naked-econ-3/" rel="permalink">Part 3 of Reading Naked Economics
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  16 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">This is Part 3 of my summary of “Naked Economics: Undressing the Dismal Science”. It covers more topics, including politics, globalization, trade, and develo...</p>
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/naked-econ-2/" rel="permalink">Part 2 of Reading Naked Economics
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  23 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">This is Part 2 of my summary of “Naked Economics: Undressing the Dismal Science”. It only covers Chapter 7: Financial Markets, starting with a summary of the...</p>
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/naked-econ-1/" rel="permalink">Part 1 of Reading Naked Economics
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  65 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">This is Part 1 of my detailed summary of “Naked Economics: Undressing the Dismal Science”. It covers foundational topics in economics, focusing on markets, i...</p>
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/Tulip-Mania/" rel="permalink">Tulip Mania
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  9 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Here’s the situation. We’re in the 1590’s, in the Dutch Republic, aka the United Provinces (modern day Netherlands). Since the 1550’s, tulips had first been ...</p>
+  </article>
+</div>
+
+<h2 id="history" class="archive__subtitle">History</h2>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/trip-to-turkey/" rel="permalink">Through the Ruins of Western Armenia
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  22 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Why I’m Writing This
+</p>
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/operation-ajax/" rel="permalink">Operation Ajax (Iran)
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  4 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">It all started with the 35th Prime Minister of Iran, Mohammad Mosaddegh. This man was loved by the Iranian people and democratically voted to his position in...</p>
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/Tulip-Mania/" rel="permalink">Tulip Mania
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  9 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Here’s the situation. We’re in the 1590’s, in the Dutch Republic, aka the United Provinces (modern day Netherlands). Since the 1550’s, tulips had first been ...</p>
+  </article>
+</div>
+
+<h2 id="science" class="archive__subtitle">Science</h2>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/the-problems-with-fast-foods/" rel="permalink">The Problems With Fast Food
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  5 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Things found in their natural form are usually better than the ones we’ve messed with. Foods which are scientifically engineered to get us hooked are everywh...</p>
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/planet-of-the-trees/" rel="permalink">Planet of the Trees
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  2 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">The tallest tree in the world is the redwood tree located in the state of California. They can grow to be over a hundred meters tall. But why are they so tal...</p>
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/a-view-of-the-world-throug-the-lens-of-physics/" rel="permalink">A View of the World Through the Lens of Physics
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  7 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Article which I wrote back in college, as seen here.,
+</p>
+  </article>
+</div>
+
+<h2 id="technology" class="archive__subtitle">Technology</h2>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/My-thourghts/" rel="permalink">The Bitcoin Whitepaper: My Initial Thoughts
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  11 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">This is the fifth article in a series where my goal is to understand the blockchain, NFTS, and the related technologies.
+</p>
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/Reading-the-bitcoin-whitepaper2/" rel="permalink">Bitcoin Part 1.1: Continuing Reading the Whitepaper
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  30 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">This is the fourth article in a series where my goal is to understand the blockchain, NFTS, and the related technologies.
+</p>
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/Reading-the-bitcoin-whitepaper/" rel="permalink">Bitcoin Part 1.0: Reading the Whitepaper
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  20 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">This is the third article in a series where my goal is to understand the blockchain, NFTS, and the related technologies.
+</p>
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/Reading-the-bitcoin-whitepaper-(Part-1)/" rel="permalink">Bitcoin Part 0: Technical Prerequisites
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  10 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">This is the second article in a series where my goal is to understand the blockchain, NFTS, and the related technologies.
+</p>
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/Reading-the-bitcoin-whitepaper-(Part-0)/" rel="permalink">Bitcoin Part -1: History
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  9 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">This is the first article in a series where my goal is to understand the blockchain, NFTS, and the related technologies.
+</p>
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/networking-fundamentals2/" rel="permalink">Networking Fundamentals 2
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  7 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">In the first part of this series, I discussed about some of the fundamentals of the OSI model’s 7 layers. We dove deeper into Layer 2 and Layer 3, and we can...</p>
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/networking-fundamentals/" rel="permalink">Networking Fundamentals 1
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  12 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">This article is not meant to be read with 0 knowledge of the topic.
+</p>
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/IDS-IPS-and-WAF/" rel="permalink">IDS, IPS and WAF
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  7 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">I was browsing through Quora, and I saw someone answer the following question: What is IPS, and what is WAF? And how are they different? Here’s my understand...</p>
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/the-first-real-spammers/" rel="permalink">The First Real Spammers
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  7 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">If you go to the “about” section of my website, you can see me kindly asking my lovely readers and passerbys, to not DDoS me. I’ll leave the explanation of D...</p>
+  </article>
+</div>
+
+<h2 id="thoughts" class="archive__subtitle">Thoughts</h2>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/trip-to-turkey/" rel="permalink">Through the Ruins of Western Armenia
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  22 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Why I’m Writing This
+</p>
+  </article>
+</div>
+
+<div class="list__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/some-thoughts/" rel="permalink">An Unexpected Exception
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  16 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">I used to not understand car enthusiasts, wine enthusiasts, sneaker collectors, or art lovers. But now I do.
+</p>
+  </article>
+</div>
+
+:ET

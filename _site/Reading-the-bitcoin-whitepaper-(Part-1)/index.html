@@ -1,0 +1,514 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.19.1 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <!-- _includes/head.html -->
+<meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Bitcoin Part 0: Technical Prerequisites - Andrei Guevorkian</title>
+<meta name="description" content="This is the second article in a series where my goal is to understand the blockchain, NFTS, and the related technologies. ">
+
+
+  <meta name="author" content="Andrei Guevorkian">
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Andrei Guevorkian">
+<meta property="og:title" content="Bitcoin Part 0: Technical Prerequisites">
+<meta property="og:url" content="http://0.0.0.0:4000/Reading-the-bitcoin-whitepaper-(Part-1)/">
+
+
+  <meta property="og:description" content="This is the second article in a series where my goal is to understand the blockchain, NFTS, and the related technologies. ">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2023-04-07T00:00:00+04:00">
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://0.0.0.0:4000/Reading-the-bitcoin-whitepaper-(Part-1)/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Andrei Guevorkian",
+      "url": "http://0.0.0.0:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Andrei Guevorkian Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Andrei Guevorkian
+          <span class="site-subtitle">Personal Portfolio and Blog.</span>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/blog/">Blog</a>
+            </li><li class="masthead__menu-item">
+              <a href="/projects/">Projects</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Bitcoin Part 0: Technical Prerequisites">
+    <meta itemprop="description" content="This is the second article in a series where my goal is to understand the blockchain, NFTS, and the related technologies.">
+    <meta itemprop="datePublished" content="2023-04-07T00:00:00+04:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Bitcoin Part 0: Technical Prerequisites
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  10 minute read
+
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <h4 id="this-is-the-second-article-in-a-series-where-my-goal-is-to-understand-the-blockchain-nfts-and-the-related-technologies"><em>This is the second article in a series where my goal is to understand the blockchain, NFTS, and the related technologies.</em></h4>
+
+<hr />
+
+<h2 id="encryption-and-digital-signatures">Encryption and digital signatures</h2>
+
+<p>In the world of cryptography, there is something called “public key cryptography”, a.k.a. “asymmetric cryptography”. Since this is used in the blockchain, let’s go over it.</p>
+
+<p>When you open a Bitcoin wallet, you are given a private key. This “private key” is what you will use to prove to others that you are who you say you are. It is private, and only you should have it. Once the private key is generated, a public key is derived from it mathematically (using Elliptic Curve Digital Signature Algorithm, or ECDSA). This one is public, and so everyone can have access to it. Any message encrypted with the private key can only be decrypted with the corresponding public key, and, similarly, any message encrypted with the public key can only be decrypted with the corresponding private key.</p>
+
+<p>This pair of keys can make two things happen (depending on which one is used to encrypt):</p>
+
+<ol>
+  <li>
+    <p>Let’s say Ann wants to send Bob a secret message. Ann wants only Bob to be able to read it. To do that, she will take Bob’s publicly available public key, and encrypt her messsage. The message is now encrypted. The only way to unencrypt the message, is to use the private key associated with the public key used to encrypt the message; Ann used Bob’s public key to encrypt the messsage, and so only Bob’s private key can be used to decrypt the message. Luckily, only Bob has access to his private key, which means that only Bob can decrypt and read the secret message. In cybersecurity, this is called “data confidentiality”; this is the idea that the data is only accessible to the intended recipient.</p>
+  </li>
+  <li>
+    <p>Let’s say Ann wants to send Bob a message, but the message isn’t secret. In other words, she doesn’t care if her message gets intercepted and read by someone else. Confidentiality is not of a concern to her. However, Ann wants to prove that she wrote the message. She wants to add her “signature” on the message. So what Ann will do is write the message, encrypt it with her private key, send it to Bob, and if Bob can successfully decrypt the message using Ann’s public key, that proves that Ann was the sender of the message. This is what is known as “authentication”. The only key that could’ve encrypted the message was Ann’s private key, which is only in Ann’s possession. On top of “authentication”, this also proves “data integrity”, i.e. the message has not been tampered with while in transit. Why is that the case? Because if someone were to capture Ann’s message and change its content content (since everyone has access to her public key), when Bob will try to decrypt the message with Ann’s public key, it would result in gibberish. If Bob is successfully able to decrypt the message with Ann’s public key, this proves that the message was encrypted using Ann’s private key, and only Ann has access to it. Effectively, Ann signed her message, thus providing both authentication and integrity.</p>
+  </li>
+</ol>
+
+<p>In summary, you can’t just say “Hey, this is Bob, and I am sending Ann 5 BTC” because anyone could make that claim. Instead, you use your private key to generate a digital signature that proves that you are the legitimate owner of the funds being sent, and that you authorized the transaction.</p>
+
+<p>And finally, the reason why this “public key cryptography” method works is due to the fact that the public/private key pair creation is a one-way street: it is easy to generate a public key from a private key, but it is practically impossible to generate the private key from the public key<a href="#1">(1)</a>. Effectively, no one can pretend that they are Ann. The day that computers will be able to derive the private key from the public key, Bitcoin (and all secure communication protocols), will become insecure and be worthless <a href="#2">(2)</a>.</p>
+
+<h2 id="hashing">Hashing</h2>
+
+<p>The Bitcoin blockchain uses a hashing algorithm called SHA-256 (SHA stands for Secure Hash Algorithm).</p>
+
+<p>SHA-256 is used mainly during the mining step (the Proof of Work algorithm).</p>
+
+<p>Hashing is the process of converting data of any size (could be the number “0”, could be all of Shakespeare’s writings combined) into a fixed-size string of characters, which is a unique representation of that data. For example, inputting “hello” into the SHA-256 hashing function gives us ‘2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824’.
+Changing the input by just a bit changes the hashing output (a.k.a the “hash” or “message digest”) completely: inputting “helo” into the SHA-256 hashing function gives us ‘f4e454f802b88d2f64168ff1742e8cf413fd677d38b87cbefb45821f8981b912’. Completely different output, and no two inputs will have the same output (theoretically).</p>
+
+<p>We’ll get into the details of how hashing is used in the next article.</p>
+
+<h2 id="the-double-spending-problem">The double-spending problem</h2>
+
+<p>When you put your house on the market, and a bunch of buyers come in to take a look, what stops you from telling Buyer A that you are selling him the house, and the next day telling Buyer B that you are selling her a house? So I would get the money from both Buyers, disappear, and let them deal with the mess. Well, I can’t do that because when I sell the house to Buyer A, even though I’m not physically giving the house to him, the government keeps records of the ownership transfer. Every home purchase/sale is backed by records in a database which is ran by some government agency (the provincial land registry office).</p>
+
+<p>In the example, the government (as well as mortgage lenders, attorneys, brokers) act as middlemen in order to ensure that the land/property transfer goes smoothly.</p>
+
+<p>But what if there was no middlemen? Well, then, maybe I would be able to lie to Buyer A and B, and get double the money.</p>
+
+<p>With Bitcoin, there is no trusted third-party to oversee transactions. For that simple reason, the double-spending problem exists. And this problem had no solution, until the Bitcoin whitepaper was published!</p>
+
+<p>Simply put, the blockchain works through a concesus mechanism where the majority of miners legitimize a transaction as valid. If you want to double-spend your bitcoin, you’ll have to convince at least 51% of the miners in the world to jump on board with your plan (or you have to control 51% of the mining power).</p>
+
+<p>And this is no minute task. Because with a well-established blockchain like the bitcoin blockchain, which has been around for years and spans all around the world, this type of attack is extremely unlikely to occur.</p>
+
+<h2 id="some-final-thoughts">Some final thoughts</h2>
+
+<p>Bitcoin provides secure, transparent, and immutable record-keeping, all without the need for centralized intermediaries. But it doesn’t come without its (relatively small) negatives (more like inconveniences). Consider other aspects of our lives. For example, when you buy a home, a real estate agent tags along for the ride with you, acting as a middleman between you and the seller. But can you look for homes and figure things out on your own? Sure you can, there’s no need for a middleman. But there are pros and cons to both methods.</p>
+
+<p>Real estate agents have access to a wealth of knowledge and resources, including comprehensive databases of properties for sale, experience with negotiating deals, and knowledge of the local market (hopefully all, but you have to trust them). They can provide valuable guidance throughout the home-buying process and help you avoid costly mistakes. However, their services come at a cost (in the form of a commission fee).</p>
+
+<p>Similarly, Bitcoin’s decentralized and trustless system offers many benefits, such as increased transparency, security, and reduced fees. However, it also requires a certain level of technical knowledge and responsibility on the part of the user to ensure the safety and security of their funds. It’s definitely not for my grandmother.</p>
+
+<hr />
+
+<h3 id="notes">Notes:</h3>
+
+<h3 id="1">1</h3>
+<p>Not only are quantum computers needed to break ECDSA, but the ones we have today are very far from being able to break this cryptographic algorithm. It is estimated that a quantum computer of around 2000-4000 high-quality qubits would be necessary to break Bitcoin’s cryptography. Today’s most powerful quantum computer operates at 433 qubits (IBM’s Osprey). However, it’s important to note that the number of qubits alone is not necessarily the only factor in determining a quantum computer’s overall computational power (hencce why I previously wrote “high-quality” qubits).</p>
+
+<p>Also I would like to mention that while quantum computers are developing, so too are the encryption techniques. If quantum computers will one day be able to break today’s cryptography, then maybe they can be used to retrieve the coins of those wallets that are lost or forgotten, and all active wallets can be upgraded in their encryption, as to not be vulnerable to quantum computers. It can be like mining Bitcoin in the years after 2140, when there will be no more new Bitcoin to mine, and so companies can develop quantum computers with one incentive being the mining of “lost” Bitcoin.</p>
+
+<h3 id="2">2</h3>
+<p>As I’ve once heard said, “when Satoshi’s coins move, we will know that quantum computers have become powerful enough to compromise the security of Bitcoin”, or something along those lines.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="/tags/#technology" class="page__taxonomy-item" rel="tag">Technology</a>
+    
+    </span>
+  </p>
+
+
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2023-04-07T00:00:00+04:00">April 7, 2023</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Bitcoin+Part+0%3A+Technical+Prerequisites%20http%3A%2F%2F0.0.0.0%3A4000%2FReading-the-bitcoin-whitepaper-%28Part-1%29%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F0.0.0.0%3A4000%2FReading-the-bitcoin-whitepaper-%28Part-1%29%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2F0.0.0.0%3A4000%2FReading-the-bitcoin-whitepaper-%28Part-1%29%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/Reading-the-bitcoin-whitepaper-(Part-0)/" class="pagination--pager" title="Bitcoin Part -1: History
+">Previous</a>
+    
+    
+      <a href="/Reading-the-bitcoin-whitepaper/" class="pagination--pager" title="Bitcoin Part 1.0: Reading the Whitepaper
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You may also enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/trip-to-turkey/" rel="permalink">Through the Ruins of Western Armenia
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  23 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Why I’m Writing This
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/aipac/" rel="permalink">Influence of Lobby Groups in the US
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  30 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">So I was writing this as a “side note” in the article of “Naked Econ Summary Part 3”, specifically after Chapter 8, but it got way too long, and so I put thi...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/naked-econ-3/" rel="permalink">Part 3 of Reading Naked Economics
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  17 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">This is Part 3 of my summary of “Naked Economics: Undressing the Dismal Science”. It covers more topics, including politics, globalization, trade, and develo...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="/some-thoughts/" rel="permalink">An Unexpected Exception
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  16 minute read
+
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">I used to not understand car enthusiasts, wine enthusiasts, sneaker collectors, or art lovers. But now I do.
+</p>
+  </article>
+</div>
+
+        
+      </div>
+    </div>
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+
+    
+      
+        
+      
+        
+          <li><a href="https://github.com/andreigue" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2025 Andrei Guevorkian. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>
