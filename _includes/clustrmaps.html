@@ -8,11 +8,22 @@
       </p>
     </header>
     
-    <!-- ClustrMaps Widget - Image-based Version (More Reliable) -->
+    <!-- ClustrMaps Widget - Multiple Fallback Options -->
     <div style="text-align: center;">
-      <a href="http://www.clustrmaps.com/map/Andreigue.github.io" title="Visit tracker for Andreigue.github.io">
-        <img src="https://www.clustrmaps.com/map_v2.png?d=RvkwUaNgpYVyZhZQW9c5uLsuNfSiQBEPl8k8qjtAkFI" alt="Visitor Map" style="border:0; max-width: 100%; height: auto;" />
+      <!-- Option 1: Direct ClustrMaps Link -->
+      <a href="http://www.clustrmaps.com/map/Andreigue.github.io" title="Visit tracker for Andreigue.github.io" target="_blank">
+        <div style="background: #f8f9fa; border: 2px dashed #dee2e6; padding: 2rem; border-radius: 8px; max-width: 600px; margin: 0 auto;">
+          <div style="font-size: 3rem; margin-bottom: 1rem;">🌍</div>
+          <h3 style="margin: 0 0 1rem 0; color: #495057;">Visitor Map</h3>
+          <p style="margin: 0; color: #6c757d;">Click to view visitor locations on ClustrMaps</p>
+          <p style="margin: 0.5rem 0 0 0; font-size: 0.9em; color: #adb5bd;">This will open in a new tab and show your site's visitor map</p>
+        </div>
       </a>
+      
+      <!-- Option 2: Hidden ClustrMaps Image (if it loads) -->
+      <div style="display: none;" id="clustrmaps-image-container">
+        <img src="https://www.clustrmaps.com/map_v2.png?d=RvkwUaNgpYVyZhZQW9c5uLsuNfSiQBEPl8k8qjtAkFI" alt="Visitor Map" style="border:0; max-width: 100%; height: auto;" onload="this.style.display='block'; document.getElementById('clustrmaps-fallback').style.display='none';" onerror="this.style.display='none';" />
+      </div>
     </div>
     
     <!-- Debug and Fallback -->
@@ -23,26 +34,34 @@
     </div>
     
     <script>
-      // Debug ClustrMaps loading
+      // Debug and enhance ClustrMaps loading
       setTimeout(function() {
         var debugDiv = document.getElementById('clustrmaps-debug');
         var debugInfo = document.getElementById('debug-info');
         
         if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
-          debugInfo.innerHTML = 'Local development detected - ClustrMaps image may not load properly on localhost';
+          debugInfo.innerHTML = 'Local development detected - ClustrMaps link will work on live site';
           debugDiv.style.display = 'block';
         } else {
           // Check if ClustrMaps image loaded
           var clustrmapsImg = document.querySelector('img[alt="Visitor Map"]');
           if (clustrmapsImg && clustrmapsImg.complete && clustrmapsImg.naturalHeight !== 0) {
-            debugInfo.innerHTML = 'ClustrMaps loaded successfully!';
+            debugInfo.innerHTML = 'ClustrMaps image loaded successfully!';
             debugDiv.style.display = 'none'; // Hide if working
           } else {
-            debugInfo.innerHTML = 'ClustrMaps image not loading - may need time to appear';
+            debugInfo.innerHTML = 'ClustrMaps image not loading - using fallback link instead';
             debugDiv.style.display = 'block';
           }
         }
       }, 3000);
+      
+      // Try to load ClustrMaps image in background
+      setTimeout(function() {
+        var imgContainer = document.getElementById('clustrmaps-image-container');
+        if (imgContainer) {
+          imgContainer.style.display = 'block';
+        }
+      }, 5000);
     </script>
     
     <div style="text-align: center; margin-top: 1rem; color: #888; font-size: 0.9em;">
