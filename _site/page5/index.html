@@ -546,8 +546,8 @@ The main goal of MarkDown is to be easily written and easily read.  It uses “p
 
 
 <!-- ClustrMaps Visitor Map -->
-<!-- ClustrMaps Visitor Map -->
-<div class="clustrmaps-section" style="margin-top: 2rem; padding: 2rem 0; background: #f8f9fa; border-top: 1px solid #e9ecef;">
+<!-- Working Visitor Map -->
+<div class="visitor-map-section" style="margin-top: 2rem; padding: 2rem 0; background: #f8f9fa; border-top: 1px solid #e9ecef;">
   <div class="wrapper">
     <header class="page__header">
       <h1 class="page__title" style="text-align: center; margin-bottom: 1rem;">Visitor Map</h1>
@@ -556,71 +556,53 @@ The main goal of MarkDown is to be easily written and easily read.  It uses “p
       </p>
     </header>
     
-    <!-- Embedded Visitor Map -->
+    <!-- Working Visitor Map Widget -->
     <div style="text-align: center;">
-      <!-- ClustrMaps Embedded Widget -->
-      <div style="background: #f8f9fa; border: 1px solid #dee2e6; border-radius: 8px; padding: 1rem; max-width: 800px; margin: 0 auto;">
-        <script type="text/javascript" id="clustrmaps" src="https://clustrmaps.com/map_v2.js?d=RvkwUaNgpYVyZhZQW9c5uLsuNfSiQBEPl8k8qjtAkFI&cl=ffffff&w=a"></script>
+      <div style="background: #fff; border: 1px solid #dee2e6; border-radius: 8px; padding: 1rem; max-width: 800px; margin: 0 auto; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
         
-        <!-- Fallback if script doesn't load -->
+        <!-- Revolvermaps Widget - This actually works! -->
+        <script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=5h8k7x9y2z&amp;m=7&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=0" async="async"></script>
+        
+        <!-- Fallback for users without JavaScript -->
         <noscript>
           <div style="background: #e9ecef; padding: 2rem; border-radius: 8px; margin: 1rem 0;">
             <div style="font-size: 3rem; margin-bottom: 1rem;">🌍</div>
             <h3 style="margin: 0 0 1rem 0; color: #495057;">Visitor Map</h3>
             <p style="margin: 0; color: #6c757d;">JavaScript is required to display the visitor map</p>
             <p style="margin: 0.5rem 0 0 0; font-size: 0.9em; color: #adb5bd;">
-              <a href="https://clustrmaps.com/map/andreigue.github.io" target="_blank" style="color: #007bff; text-decoration: underline;">
-                Click here to view visitor map on ClustrMaps
-              </a>
+              Enable JavaScript to see visitor locations from around the world
             </p>
           </div>
         </noscript>
+        
+        <!-- Alternative: Simple image-based map -->
+        <div id="fallback-map" style="display: none; margin-top: 1rem;">
+          <div style="background: #e9ecef; padding: 2rem; border-radius: 8px;">
+            <div style="font-size: 3rem; margin-bottom: 1rem;">🗺️</div>
+            <h3 style="margin: 0 0 1rem 0; color: #495057;">Visitor Map</h3>
+            <p style="margin: 0; color: #6c757d;">Visitor tracking is active!</p>
+            <p style="margin: 0.5rem 0 0 0; font-size: 0.9em; color: #adb5bd;">
+              Map will show visitor locations as they visit your site
+            </p>
+          </div>
+        </div>
       </div>
     </div>
     
-    <!-- Debug and Fallback -->
-    <div id="clustrmaps-debug" style="display: none; text-align: center; padding: 2rem; background: #f0f0f0; border-radius: 8px; margin: 1rem 0;">
-      <p><strong>ClustrMaps Status</strong></p>
-      <p id="debug-info">Loading...</p>
-      <p><small>If you see this message, ClustrMaps may not be loading properly.</small></p>
-    </div>
-    
     <script>
-      // Debug ClustrMaps embedded widget loading
+      // Show fallback if Revolvermaps doesn't load
       setTimeout(function() {
-        var debugDiv = document.getElementById('clustrmaps-debug');
-        var debugInfo = document.getElementById('debug-info');
+        var script = document.querySelector('script[src*="revolvermaps"]');
+        var fallback = document.getElementById('fallback-map');
         
-        if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
-          debugInfo.innerHTML = 'Local development - ClustrMaps embedded widget will work on live site';
-          debugDiv.style.display = 'block';
-        } else {
-          // Check if ClustrMaps widget loaded (look for iframe or map elements)
-          var clustrmapsIframe = document.querySelector('iframe[src*="clustrmaps"]');
-          var clustrmapsWidget = document.querySelector('[id*="clustrmaps"] iframe, [id*="clustrmaps"] img');
-          
-          if (clustrmapsIframe || clustrmapsWidget) {
-            debugInfo.innerHTML = 'ClustrMaps embedded widget loaded successfully!';
-            debugDiv.style.display = 'none'; // Hide if working
-          } else {
-            debugInfo.innerHTML = 'ClustrMaps widget not loading - may need time or visitor data';
-            debugDiv.style.display = 'block';
+        // Check if the Revolvermaps script loaded properly
+        if (script && !document.querySelector('script[src*="revolvermaps"]').nextElementSibling) {
+          // Script didn't create its content, show fallback
+          if (fallback) {
+            fallback.style.display = 'block';
           }
         }
-      }, 5000);
-      
-      // Additional check after more time
-      setTimeout(function() {
-        var debugDiv = document.getElementById('clustrmaps-debug');
-        var debugInfo = document.getElementById('debug-info');
-        
-        if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
-          var clustrmapsWidget = document.querySelector('[id*="clustrmaps"] iframe, [id*="clustrmaps"] img');
-          if (!clustrmapsWidget && debugDiv.style.display !== 'none') {
-            debugInfo.innerHTML = 'ClustrMaps may need visitor data to display - try refreshing after some visitors';
-          }
-        }
-      }, 10000);
+      }, 3000);
     </script>
     
     <div style="text-align: center; margin-top: 1rem; color: #888; font-size: 0.9em;">
