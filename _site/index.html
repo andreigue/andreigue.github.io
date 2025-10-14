@@ -560,12 +560,12 @@ https://www.youtube.com/watch?v=_dG0cAhHP5Q&list=PLWzwUIYZpnJuT0sH4BN56P5oWTdHJi
       </p>
     </header>
     
-    <!-- ClustrMaps Map Widget -->
+    <!-- ClustrMaps Map Widget - Full Width -->
     <div style="text-align: center;">
-      <div style="background: #fff; border: 2px solid #dee2e6; border-radius: 12px; padding: 3rem; max-width: 1200px; margin: 0 auto; box-shadow: 0 4px 8px rgba(0,0,0,0.15);">
+      <div style="background: #fff; border: 2px solid #dee2e6; border-radius: 12px; padding: 2rem; width: 100%; margin: 0 auto; box-shadow: 0 4px 8px rgba(0,0,0,0.15);">
         
-        <!-- ClustrMaps Widget Code - Much Bigger Size -->
-        <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=RvkwUaNgpYVyZhZQW9c5uLsuNfSiQBEPl8k8qjtAkFI&cl=ffffff&w=800&h=400&t=n"></script>
+        <!-- ClustrMaps Widget Code - Maximum Size -->
+        <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=RvkwUaNgpYVyZhZQW9c5uLsuNfSiQBEPl8k8qjtAkFI&cl=ffffff&w=100%&h=500&t=n"></script>
         
         <!-- Fallback for when ClustrMaps loads -->
         <noscript>
@@ -585,22 +585,33 @@ https://www.youtube.com/watch?v=_dG0cAhHP5Q&list=PLWzwUIYZpnJuT0sH4BN56P5oWTdHJi
     </div>
     
     <script>
-      // Add visitor message
+      // Add visitor message - wait for ClustrMaps to load
       (function() {
         var visitorMessage = document.getElementById('visitor-message');
-        var currentCount = parseInt(localStorage.getItem('visitor-count')) || 0;
         
-        // Only increment if it's been more than 30 minutes since last visit
-        var lastVisit = localStorage.getItem('last-visit');
-        var now = Date.now();
-        
-        if (!lastVisit || (now - parseInt(lastVisit)) > 30 * 60 * 1000) {
-          currentCount++;
-          localStorage.setItem('visitor-count', currentCount);
-          localStorage.setItem('last-visit', now);
-        }
-        
-        visitorMessage.textContent = 'You are visitor #' + currentCount + ' • Page loaded at ' + new Date().toLocaleTimeString();
+        // Try to get real ClustrMaps data after a delay
+        setTimeout(function() {
+          try {
+            // Look for ClustrMaps data in the page
+            var clustrmapsData = window.clustrmaps || {};
+            var totalVisitors = clustrmapsData.totalVisitors || 'loading...';
+            
+            visitorMessage.textContent = 'Total visitors: ' + totalVisitors + ' • Page loaded at ' + new Date().toLocaleTimeString();
+          } catch(e) {
+            // Fallback to local counter
+            var currentCount = parseInt(localStorage.getItem('visitor-count')) || 1;
+            var lastVisit = localStorage.getItem('last-visit');
+            var now = Date.now();
+            
+            if (!lastVisit || (now - parseInt(lastVisit)) > 30 * 60 * 1000) {
+              currentCount++;
+              localStorage.setItem('visitor-count', currentCount);
+              localStorage.setItem('last-visit', now);
+            }
+            
+            visitorMessage.textContent = 'You are visitor #' + currentCount + ' • Page loaded at ' + new Date().toLocaleTimeString();
+          }
+        }, 3000);
       })();
     </script>
   </div>
