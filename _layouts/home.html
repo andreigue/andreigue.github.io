@@ -18,5 +18,7 @@ layout: archive
 
 {% include paginator.html %}
 
-<!-- ClustrMaps Visitor Map -->
+<!-- ClustrMaps Visitor Map - Only on first page -->
+{% if paginator.page == 1 or paginator.page == nil %}
 {% include clustrmaps-bottom.html %}
+{% endif %}
