@@ -564,8 +564,8 @@ https://www.youtube.com/watch?v=_dG0cAhHP5Q&list=PLWzwUIYZpnJuT0sH4BN56P5oWTdHJi
     <div style="text-align: center;">
       <div style="background: #fff; border: 2px solid #dee2e6; border-radius: 12px; padding: 3rem; max-width: 1200px; margin: 0 auto; box-shadow: 0 4px 8px rgba(0,0,0,0.15);">
         
-        <!-- ClustrMaps Widget Code - Bigger Size -->
-        <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=RvkwUaNgpYVyZhZQW9c5uLsuNfSiQBEPl8k8qjtAkFI&cl=ffffff&w=a&t=n"></script>
+        <!-- ClustrMaps Widget Code - Much Bigger Size -->
+        <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=RvkwUaNgpYVyZhZQW9c5uLsuNfSiQBEPl8k8qjtAkFI&cl=ffffff&w=800&h=400&t=n"></script>
         
         <!-- Fallback for when ClustrMaps loads -->
         <noscript>
@@ -580,8 +580,29 @@ https://www.youtube.com/watch?v=_dG0cAhHP5Q&list=PLWzwUIYZpnJuT0sH4BN56P5oWTdHJi
     
     <!-- Visitor Counter Info -->
     <div style="text-align: center; margin-top: 2rem; color: #888; font-size: 1em;">
+      <p id="visitor-message" style="margin-bottom: 1rem; color: #007bff; font-weight: bold;"></p>
       <p><i class="fas fa-info-circle"></i> Real-time visitor tracking • City-level location data • No personal information stored</p>
     </div>
+    
+    <script>
+      // Add visitor message
+      (function() {
+        var visitorMessage = document.getElementById('visitor-message');
+        var currentCount = parseInt(localStorage.getItem('visitor-count')) || 0;
+        
+        // Only increment if it's been more than 30 minutes since last visit
+        var lastVisit = localStorage.getItem('last-visit');
+        var now = Date.now();
+        
+        if (!lastVisit || (now - parseInt(lastVisit)) > 30 * 60 * 1000) {
+          currentCount++;
+          localStorage.setItem('visitor-count', currentCount);
+          localStorage.setItem('last-visit', now);
+        }
+        
+        visitorMessage.textContent = 'You are visitor #' + currentCount + ' • Page loaded at ' + new Date().toLocaleTimeString();
+      })();
+    </script>
   </div>
 </div>
 
