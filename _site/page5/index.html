@@ -21,14 +21,14 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Andrei Guevorkian">
 <meta property="og:title" content="Andrei Guevorkian">
-<meta property="og:url" content="https://andreigue.github.io//page5/">
+<meta property="og:url" content="http://0.0.0.0:4000/page5/">
 
 
   <meta property="og:description" content="Personal Portfolio and Blog. ">
 
 
 
-  <meta property="og:image" content="https://andreigue.github.io//images/mtl.jpg">
+  <meta property="og:image" content="http://0.0.0.0:4000/images/mtl.jpg">
 
 
 
@@ -43,10 +43,10 @@
   
 
 
-<link rel="canonical" href="https://andreigue.github.io//page5/">
+<link rel="canonical" href="http://0.0.0.0:4000/page5/">
 
 
-  <link rel="prev" href="https://andreigue.github.io//page4/">
+  <link rel="prev" href="http://0.0.0.0:4000/page4/">
 
 
 
@@ -56,7 +56,7 @@
     
       "@type": "Person",
       "name": "Andrei Guevorkian",
-      "url": "https://andreigue.github.io//"
+      "url": "http://0.0.0.0:4000/"
     
   }
 </script>
@@ -546,88 +546,38 @@ The main goal of MarkDown is to be easily written and easily read.  It uses “p
 
 
 <!-- ClustrMaps Visitor Map -->
-<!-- Simple Visitor Counter -->
-<div class="visitor-counter-section" style="margin-top: 2rem; padding: 2rem 0; background: #f8f9fa; border-top: 1px solid #e9ecef;">
+<!-- ClustrMaps Widget for Bottom of Page -->
+<div class="clustrmaps-bottom-section" style="margin-top: 3rem; padding: 2rem 0; background: #f8f9fa; border-top: 1px solid #e9ecef;">
   <div class="wrapper">
     <header class="page__header">
-      <h1 class="page__title" style="text-align: center; margin-bottom: 1rem;">Visitor Counter</h1>
+      <h1 class="page__title" style="text-align: center; margin-bottom: 1rem;">Visitor Map</h1>
       <p style="text-align: center; color: #666; margin-bottom: 2rem;">
-        See how many visitors have viewed this site
+        See where your visitors are coming from around the world
       </p>
     </header>
     
-    <!-- Simple Visitor Counter -->
+    <!-- ClustrMaps Map Widget -->
     <div style="text-align: center;">
-      <div style="background: #fff; border: 1px solid #dee2e6; border-radius: 8px; padding: 2rem; max-width: 600px; margin: 0 auto; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+      <div style="background: #fff; border: 1px solid #dee2e6; border-radius: 8px; padding: 2rem; max-width: 800px; margin: 0 auto; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
         
-        <!-- Visitor Counter Display -->
-        <div style="margin-bottom: 1.5rem;">
-          <div style="font-size: 4rem; margin-bottom: 0.5rem;">👥</div>
-          <div style="font-size: 3rem; font-weight: bold; color: #007bff; margin-bottom: 0.5rem;" id="visitor-count">0</div>
-          <div style="font-size: 1.2rem; color: #666; margin-bottom: 1rem;">Total Visitors</div>
-        </div>
+        <!-- ClustrMaps Widget Code -->
+        <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=RvkwUaNgpYVyZhZQW9c5uLsuNfSiQBEPl8k8qjtAkFI&cl=ffffff&w=a"></script>
         
-        <!-- Simple Map Visualization -->
-        <div style="background: #f8f9fa; border-radius: 8px; padding: 1.5rem; margin: 1rem 0;">
-          <div style="font-size: 2rem; margin-bottom: 1rem;">🌍</div>
-          <div style="font-size: 1.1rem; color: #495057; margin-bottom: 0.5rem;">Global Reach</div>
-          <div style="font-size: 0.9rem; color: #6c757d;">Visitors from around the world</div>
-        </div>
         
-        <!-- Recent Visitors -->
-        <div style="background: #e9ecef; border-radius: 8px; padding: 1rem; margin-top: 1rem;">
-          <div style="font-size: 1rem; color: #495057; margin-bottom: 0.5rem;">Recent Activity</div>
-          <div style="font-size: 0.9rem; color: #6c757d;" id="recent-visitors">Tracking visitor activity...</div>
-        </div>
+        <!-- Fallback for when ClustrMaps loads -->
+        <noscript>
+          <div style="background: #f8f9fa; border-radius: 6px; padding: 3rem; text-align: center; color: #666;">
+            <div style="font-size: 2rem; margin-bottom: 1rem;">🌍</div>
+            <p style="font-size: 1.1rem; margin-bottom: 0.5rem;">Visitor Map</p>
+            <p style="font-size: 0.9rem;">Enable JavaScript to see visitor locations</p>
+          </div>
+        </noscript>
       </div>
     </div>
     
-    <script>
-      // Simple visitor counter that actually works
-      (function() {
-        var countElement = document.getElementById('visitor-count');
-        var recentElement = document.getElementById('recent-visitors');
-        var currentTime = new Date().toLocaleTimeString();
-        
-        // Get current count from localStorage or start at 0
-        var currentCount = parseInt(localStorage.getItem('visitor-count')) || 0;
-        
-        // Check if this is a new session (not a page refresh)
-        var sessionKey = 'visitor-session-' + Date.now();
-        var lastVisit = localStorage.getItem('last-visit');
-        var now = Date.now();
-        
-        // Only increment if it's been more than 30 minutes since last visit
-        if (!lastVisit || (now - parseInt(lastVisit)) > 30 * 60 * 1000) {
-          currentCount++;
-          localStorage.setItem('visitor-count', currentCount);
-          localStorage.setItem('last-visit', now);
-        }
-        
-        // Update display
-        countElement.textContent = currentCount.toLocaleString();
-        
-        // Update recent activity
-        var recentActivity = [
-          'You are visitor #' + currentCount,
-          'Page loaded at ' + currentTime,
-          'Site updated regularly'
-        ];
-        recentElement.innerHTML = recentActivity.join(' • ');
-        
-        // Add some visual feedback
-        setTimeout(function() {
-          countElement.style.transform = 'scale(1.1)';
-          setTimeout(function() {
-            countElement.style.transform = 'scale(1)';
-          }, 200);
-        }, 500);
-        
-      })();
-    </script>
-    
+    <!-- Visitor Counter Info -->
     <div style="text-align: center; margin-top: 1rem; color: #888; font-size: 0.9em;">
-      <p><i class="fas fa-info-circle"></i> Visitor count is tracked locally and updates in real-time</p>
+      <p><i class="fas fa-info-circle"></i> Real-time visitor tracking • City-level location data • No personal information stored</p>
     </div>
   </div>
 </div>

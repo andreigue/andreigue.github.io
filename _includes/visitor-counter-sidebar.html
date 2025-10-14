@@ -1,0 +1,53 @@
+<!-- ClustrMaps Widget for Sidebar -->
+<div class="clustrmaps-widget" style="background: #fff; border: 1px solid #dee2e6; border-radius: 8px; padding: 1rem; margin: 1rem 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  
+  <!-- ClustrMaps Map Widget -->
+  <div style="text-align: center;">
+    <div style="margin-bottom: 1rem;">
+      <h3 style="margin: 0 0 0.5rem 0; font-size: 1.1rem; color: #333;">Visitor Map</h3>
+      <p style="margin: 0; font-size: 0.8rem; color: #666;">Real-time visitor locations</p>
+    </div>
+    
+    <!-- ClustrMaps Widget Code -->
+    <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=0e1633&w=300&t=n&d=YOUR_SITE_ID&co=ffffff&ct=808080&cmo=3acc3a&cmn=ff5353"></script>
+    
+    <!-- Fallback for when ClustrMaps loads -->
+    <noscript>
+      <div style="background: #f8f9fa; border-radius: 6px; padding: 2rem; text-align: center; color: #666;">
+        <p>Visitor map loading...</p>
+        <p style="font-size: 0.8rem;">Enable JavaScript to see visitor locations</p>
+      </div>
+    </noscript>
+  </div>
+  
+  <!-- Simple visitor counter as backup -->
+  <div style="background: #f8f9fa; border-radius: 6px; padding: 0.8rem; text-align: center; margin-top: 1rem;">
+    <div style="font-size: 0.8rem; color: #495057;" id="sidebar-recent-visitors">Loading visitor info...</div>
+  </div>
+  
+  <script>
+    // Simple visitor counter as backup
+    (function() {
+      var recentElement = document.getElementById('sidebar-recent-visitors');
+      var currentTime = new Date().toLocaleTimeString();
+      
+      // Get current count from localStorage or start at 0
+      var currentCount = parseInt(localStorage.getItem('visitor-count')) || 0;
+      
+      // Check if this is a new session (not a page refresh)
+      var lastVisit = localStorage.getItem('last-visit');
+      var now = Date.now();
+      
+      // Only increment if it's been more than 30 minutes since last visit
+      if (!lastVisit || (now - parseInt(lastVisit)) > 30 * 60 * 1000) {
+        currentCount++;
+        localStorage.setItem('visitor-count', currentCount);
+        localStorage.setItem('last-visit', now);
+      }
+      
+      // Update recent activity
+      recentElement.textContent = 'You are visitor #' + currentCount + ' • ' + currentTime;
+      
+    })();
+  </script>
+</div>
