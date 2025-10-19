@@ -124,9 +124,10 @@ The next day, from Elazig we drove to the village of Gurun, where we slept for 4
 
 Next we stopped in middle of Erzincan and Erzurum, in Grand Karagul Hotel for 2 nights.
 
-We spent the final night in Kars.
+We spent the final night in Kars. 
 
 
+## Erzincan 
 
 ## Cappadocia
 
