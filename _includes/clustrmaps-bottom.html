@@ -15,12 +15,6 @@
         <!-- ClustrMaps Widget Code -->
         <script type="text/javascript" id="clustrmaps" src="https://clustrmaps.com/map_v2.js?d=RvkwUaNgpYVyZhZQW9c5uLsuNfSiQBEPl8k8qjtAkFI&cl=ffffff&w=a"></script>
         
-        <!-- Loading indicator -->
-        <div id="map-loading" style="background: #f8f9fa; border-radius: 8px; padding: 3rem; text-align: center; color: #666; display: block;">
-          <div style="font-size: 2rem; margin-bottom: 1rem;">🌍</div>
-          <p style="font-size: 1.1rem; margin-bottom: 0.5rem;">Loading Visitor Map...</p>
-          <p style="font-size: 0.9rem;">This may take a few moments</p>
-        </div>
 
         
         <!-- Fallback for when ClustrMaps loads -->
@@ -41,27 +35,9 @@
     </div>
     
     <script>
-      // Handle map loading and visitor message
+      // Simple visitor message
       (function() {
         var visitorMessage = document.getElementById('visitor-message');
-        var loadingDiv = document.getElementById('map-loading');
-        var mapContainer = document.getElementById('clustrmaps');
-        
-        // Hide loading indicator when map loads
-        var checkForMap = setInterval(function() {
-          if (mapContainer && mapContainer.children.length > 0) {
-            loadingDiv.style.display = 'none';
-            clearInterval(checkForMap);
-          }
-        }, 1000);
-        
-        // Stop checking after 10 seconds
-        setTimeout(function() {
-          clearInterval(checkForMap);
-          if (loadingDiv.style.display !== 'none') {
-            loadingDiv.innerHTML = '<div style="font-size: 2rem; margin-bottom: 1rem;">🌍</div><p style="font-size: 1.1rem; margin-bottom: 0.5rem;">Map Loading...</p><p style="font-size: 0.9rem;">ClustrMaps may need time to initialize</p>';
-          }
-        }, 10000);
         
         // Try to get real ClustrMaps data
         setTimeout(function() {
@@ -85,7 +61,7 @@
             
             visitorMessage.textContent = 'You are visitor #' + currentCount + ' • Page loaded at ' + new Date().toLocaleTimeString();
           }
-        }, 5000);
+        }, 3000);
       })();
     </script>
   </div>

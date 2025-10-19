@@ -120,8 +120,11 @@ Yukarıyongalı
 
 We spent two nights in Van, and headed towards Elazig, where we had the hotel booked for one night. On the way there we stopped at Mush, and a small village called Yukariyongali. We drove past the lake XYZ, where tens of thousands of armenians were killed during the genocide, It was a top 3 killing ground.
 
-The next day, from Elazig we drove t
+The next day, from Elazig we drove to the village of Gurun, where we slept for 4 days. On one of the days we went Westward to Kayseri and Cappadocia. 
 
+Next we stopped in middle of Erzincan and Erzurum, in Grand Karagul Hotel for 2 nights.
+
+We spent the final night in Kars.
 
 
 
