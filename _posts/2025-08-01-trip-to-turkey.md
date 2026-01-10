@@ -202,7 +202,7 @@ Anyway, in 1071 the Battle of Manzikert happens. The Seljuks defeat the Byzantin
 
 But long before 1071, the Byzantine Empire had been deliberately resettling Armenians into Cilicia and nearby regions. From the tenth century onward, Armenian soldiers, nobles, and their families were moved into southern Anatolia as part of Byzantine military and administrative policy. The empire used Armenians to garrison frontier zones, guard mountain passes, and stabilize regions that were difficult to control directly. This meant that by the early eleventh century, Armenian communities already existed in Cilicia, with churches, estates, and local networks.
 
-And with the Battle of Manzikert, there was one last push of the Armenians towards Cilicia, which looked appetizing not only due to the established presence of Armenians already there, but also because of the Mediterranean Sea access, the Taurus mountains blocking the Seljuks as well as being easy to defend from that side, and good, fertile land.
+And with the Battle of Manzikert, there was one last push of Armenians toward Cilicia (I have to mention it wasn't a one-time event, but rather a multi-decade transition). It looked attractive not only because Armenian communities were already established there, but also because it offered access to the Mediterranean (to enable trade and connection), protection from the Seljuks through the Taurus Mountains, and fertile land.
 
 Once enough manpower has been collected, Armenian leaders in Cilicia begin to turn this demographic and military presence into political control. They seize fortresses and take control of mountain passes. Eventually, a new Armenia, the Armenian Kingdom of Cilicia (1198 - 1375), was formed.
 
