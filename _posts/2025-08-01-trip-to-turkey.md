@@ -11,11 +11,11 @@ And that is one reason I am writing this. Documenting this trip is a small form 
 
 I am not from these towns myself, but my friends are. And so we decided to go see them.
 
-THe purpose of this trip was to see everything armenian. To see what the armenians have built, as well as the nature that they have seen. If there was beautiful nature along the way, we'd stop. If there was a beautiful mosque along the way, we'd stop. Because Turkey has a beautiful culture, despite ... (their denial, their dark past around which they (change)). ...!!!!!!!!!!!!!!!!!!!!!!!!!
+The purpose of this trip was to simply see everything Armenian. To walk where Armenians once walked, to stand among the stones they placed, and to witness the landscapes that once surrounded their homes. If there was beautiful nature along the way, we stopped. If there was a beautiful mosque, we stopped. Because Turkey is a beautiful country, and it holds a rich culture, even if that culture rests on a foundation that refuses to acknowledge its past.
 
 ## What Turkey Does Not Show You
 
-Secondly, something I learned firsthand during this trip, is that Turkey does not invite you to notice the Armenian past. Often, all we had were Google Maps pins to follow, leading us to seemingly random places that felt like they were waiting to be repurposed or erased (probably through abandonment/neglect).
+Secondly, something I learned firsthand during this trip, is that Turkey does not invite you to notice the Armenian past. Often, all we had were Google Maps pins to follow, leading us to seemingly random places that felt like they were waiting to be repurposed or erased (probably through abandonment or neglect).
 
 Signs point elsewhere, museums and official placards mention other empires, and any link with Armenians is conveniently omitted.
 
@@ -126,14 +126,87 @@ Next we stopped in middle of Erzincan and Erzurum, in Grand Karagul Hotel for 2 
 
 We spent the final night in Kars. 
 
+## Akhtamar
+
+Akhtamar is an island in Lake Van
+
+The Cathedral of the Holy Cross on Akhtamar was built between 915 and 921 by [King Gagik I Artsruni](https://en.wikipedia.org/wiki/Gagik_I_Artsruni), King of Vaspurakan. (Note that this is a different king from [Gagik I Bagratuni](https://en.wikipedia.org/wiki/Gagik_I_of_Armenia), king of Bagratuni. This was a period of many Armenian states, ruled by different Armenian dynasties, and Vaspurakan was one of those, along with Syunik, Artsakh, and idk what else potentially).
+
+![Vaspurakan](../images/turkey/Bagratuni_Armenia.png)
+
+As a sidenote, take a look at some of the art on the walls of the Akhtamar Church depicting [King Gagik I Artsruni](https://en.wikipedia.org/wiki/Gagik_I_Artsruni).
+
+It was the seat of an independent Armenian Catholicosate from the 10th until 1895. This fact is a big deal, because there have only been three Catholicosates in the history of Armenia: Etchmiadzin, Akhtamar, and later, Cilicia. Just like the Byzantine Empire had multiple Patriarchates like in Constantinople, Antioch, Alexandria, and Jerusalem, each governing a region but recognizing a shared theological framework, the Armenian Church followed a similar logic.
+
+Today we only have one Catholicos for all Armenians, seated at Mother See of Holy Etchmiadzin. He is the supreme head of the Armenian Apostolic Church worldwide. Technically there is a second one, but he is second in rank, so it's not the same. I'm talking about the Catholicos of the Great House of Cilicia, seated in Antelias, Lebanon. (https://www.armenianorthodoxchurch.org/en).
+
+Before I explain why, it's important to know the following:
+
+After the fall of the Bagratid kingdom and later the Seljuk invasions, Armenian political life shifted westward. When Armenians established the Armenian Kingdom of Cilicia, the Catholicos of All Armenians physically moved there in the 11th century.
+
+Similarly, after the Armenian Genocide, the majority of Armenians lived outside modern Armenia. The Cilician Catholicosate became the most effective structure for Lebanon, Syria, Cyprus, Iran, etc.
+
+If you are interested to learn more, I think this is an [amazing website](https://www.armenianorthodoxchurch.org/en/the-armenian-church/history).
+
+Anyway, regarding the Akhtamar church, Turkey closed the it in 2005 for restoration, and reopened it in 2007 as a museum. A cross was initially not allowed on top, caused backlash from Armenians worldwide. The cross was finally added in 2010 after international pressure.
+
+You can read more about it on its [wikipedia page](https://en.wikipedia.org/wiki/Cathedral_of_the_Holy_Cross,_Aghtamar).
 
 ## Erzincan 
 
 ## Cappadocia
 
-I don't expect many people to know this, but Cappadocia was once inhabited by Armenians. I learned this during the trip itself when I started to zoom into Cappadocia on Google Maps, and started to notice churches. These were not Armenian churches, bu
+I don't expect many people to know this, but Cappadocia was once inhabited by Armenians. I learned this during the trip itself when I started to zoom into Cappadocia on Google Maps while we were driving there, and started to notice churches. These were not Armenian churches, but it's still a hint. So I started to dig deeper.
 
-It turns out that in 1021, the last king of Vaspurakan, Gagik Artsruni, handed the kingdom over to the Byzantine Empire in exchange for land in Cappadocia, due to pressure from Turkish invasions. 
+First, the basic thing about Cappadocia that makes the rest of this story possible:
+
+The region is made of soft volcanic tuff (the same tuff that Armenians like to build their buildings with). Volcanoes in the region laid down layers of ash and rock, which got compressed over time. Then erosion (wind, water and gravity) carved it into those shapes people call fairy chimneys. The important point is the tuff is soft enough to carve with hand tools, but stable enough to hold shape if you carve it properly. That means you can carve houses, storage rooms, churches, monasteries, tunnels, and entire underground complexes. 
+
+So what did this region go through, historically?
+
+Although smaller farming communities lived there before, the earliest known major civilization in the region were the Hittites (c. 1700–1200 BCE). 
+
+You could see in [this video](https://www.youtube.com/watch?v=bs03z0Lsu9g), if you fastforward to approximately the year 1700BC, that the Hittite Empire, even though we've never heard of it, was one of the largest of its time. 
+
+Then the Hittite Empire fell, and the land continued to be inhabited by local communities.
+
+Then the Persian Achaemenid Empire (c. 550 to 330 BCE) arrived and gobbled up that area and the people living there. It turns out that this area was renowned for its horse breeding and supplying the Persian empire with its horses. Because off this, this area was given the name Katpatuka, which in ancient Persian mean “land of beautiful horses”. It was just another satrapy ("province") which they arbitrarily drew lines on a map in order to administer for tax and organization purposes. Katpatuka also had local elites who were under imperial oversight.  
+
+Then the Greeks adapted it into Kappadokia, and Romans into Cappadocia. So the name that reaches us is filtered through Persian administration and Greek writing.
+
+As per [Wikipedia](https://en.wikipedia.org/wiki/Achaemenid_Empire), "[in] 330 BC, amidst a military campaign that began in 336 BC, the Achaemenid Empire was conquered in its entirety by Alexander the Great, who annexed it to his Macedonian Empire. Upon Alexander's death, which sparked the beginning of the Hellenistic period in 323 BC, the majority of the former Achaemenid Empire's territories came under the rule of the Seleucid Empire and the Ptolemaic Kingdom."
+
+But the satrapy of Katpatuka (which was by then known as Καππαδοκίας (Kappadokia) in Greek, or Cappadocia as the Romans would write it) quickly gained independence and became the Kingdom of Cappadocia (330 BCE to 17 CE). For many of those years, it wasn't an independent kingdom though, but often a vassal or client state, either of the Seleucid Empire, or later the Roman Republic, and then the Roman Empire (starting in 27BC).
+
+In 17 CE, Rome annexed Cappadocia and turned it into the province of Cappadocia.
+
+From then on, it was no longer a kingdom, but it remained a clearly defined region in Roman and Byzantine maps for centuries. And after the Romans, it fell into the hands of other smaller kingdoms, until the Ottomans took it to themselves.
+
+### Where Armenians Fit Into Cappadocia
+
+And that is a summary of the history of Cappadocia as a region. Now the question is where Armenians fit into this picture, because if you are walking through Cappadocia today, the number of churches is striking. There are far more churches carved into the rock here than in most parts of Turkey. That alone tells you that this was a heavily Christian region for some time.
+
+This is where we have to start looking into the underground world of Cappadocia. While the Hittites were probably carving early underground structures for food storage and hiding valuables, it is possible that at the end of that empire, and the post-Hittite fragmented communities would start expanding the underground spaces to hide from raids and attacks (which became more common now that there is no central government), but it was very short term and at a small scale. No giant, permanent, underground cities yet. Just "emergency cities" used to evade danger.
+
+Same thing during the Persian and Hellenistic periods (c. 550 BC to 200 CE).
+
+At some point though, Christianity spreads to the people of that region, and since the Roman Empire only legalized Christianity under Emperor Constantine in 313, the early Christians expanded the underground space to build underground chapels and hidden worship spaces. So here we see the start of these spaces being used as organized community shelters, and being used for longer periods of time, so they also had to include ventilation shafts and even wells. Once Christianity was legalized, the community started carving churches outside, making them visible, which are some of the ones we can visit today in that region (such as the Tokalı Kilise, or Buckle Church, in Göreme).
+
+But the underground spaces which were already carved out turned out especially useful with the approach of the Muslims (think c. 650 to 950). The Arab Caliphates of Rashidun, Umayyad, and Abbasid armies raided Anatolia repeatedly, and Cappadocia happened to be at the forefront of that sometimes. And this is where the huge underground cities like Derinkuyu and Kaymaklı grew to hold thousands of people with a dozen levels of layers going down. Archaeologists estimate that Derinkuyu (the deepest and most complex one) could shelter about 15'000 to 20'000 people, plus animals and food stores. And there are dozens of such (but smaller) underground cities in Cappadocia.
+
+And it turns out that in 1021, the last king of Vaspurakan (the kingdom centered around lake Van), the son of King Gagik I Artsruni (who I mentioned earlier in the Akhtamar section), Senekerim-Hovhannes Artsruni, handed his kingdom over to the Byzantine Empire in exchange for lands further west, including in Cappadocia. This decision came under increasing pressure from Seljuk advancements from the east and the weakening ability of Armenian kingdoms to defend their borders independently.
+
+And this situation gives us a glimpse into how empires behave, which you can read more about if interested in the note. [(Note 3)](#3)
+
+Anyway, in 1071 the Battle of Manzikert happens. The Seljuks defeat the Byzantines, and Byzantine control of Anatolia begins to weaken. This battle is a popular and important one, because regions that had felt like the interior of the empire suddenly start to feel exposed. Roads become unsafe. Anatolia is no longer a stable area.
+
+But long before 1071, the Byzantine Empire had been deliberately resettling Armenians into Cilicia and nearby regions. From the tenth century onward, Armenian soldiers, nobles, and their families were moved into southern Anatolia as part of Byzantine military and administrative policy. The empire used Armenians to garrison frontier zones, guard mountain passes, and stabilize regions that were difficult to control directly. This meant that by the early eleventh century, Armenian communities already existed in Cilicia, with churches, estates, and local networks.
+
+And with the Battle of Manzikert, there was one last push of the Armenians towards Cilicia, which looked appetizing not only due to the established presence of Armenians already there, but also because of the Mediterranean Sea access, the Taurus mountains blocking the Seljuks as well as being easy to defend from that side, and good, fertile land.
+
+Once enough manpower has been collected, Armenian leaders in Cilicia begin to turn this demographic and military presence into political control. They seize fortresses and take control of mountain passes. Eventually, a new Armenia, the Armenian Kingdom of Cilicia (1198 - 1375), was formed.
+
+So, to conclude, although Cappadocia was never an Armenian kingdom, and it was never a core Armenian homeland, it became a place of settlement, refuge, and transition for them. Just as any Christian group would've found solace in those lands and underground cities.
 
 ## Erzurum and the case of the Armenian-Turkish relations library
 
@@ -159,7 +232,7 @@ In 285 CE, the Roman Empire was divided in two for easier rule: one emperor in t
 
 Greeks have always referred to Constantinople as “the city", and they have continued doing so when the Turks arrived. Over time, the Turks have heard countless times the phrase "εἰς τὴν Πόλιν" ("is tin pólin") which means "to the city" in Ancient Greek. In turkish pronunciation, that became Istanbul. By the nineteenth century, "Istanbul" was already widely used among Turks, while “Constantinople” remained in foreign and official documents.
 
-After the fall of the Ottoman Empire in 1922, the new leader, Mustafa Kemal Atatürk carried out a wide set of modernization reforms. One of them was language reform. The Arabic script was abandoned and a Latin alphabet was introduced in 1928. Alongside this came the standardization of place names.
+After the fall of the Ottoman Empire in 1922, the new leader, Mustafa Kemal Atatürk, carried out a wide set of modernization reforms. One of them was language reform. The Arabic script was abandoned and a Latin alphabet was introduced in 1928. Alongside this came the standardization of place names.
 
 In 1930 the Turkish government formally asked the international community to use “Istanbul” instead of “Constantinople.” This was done through an official notice to foreign governments, embassies, and international postal services.
 
@@ -176,9 +249,10 @@ Here are some examples of the name changes:
 - The Armenian island of Aghtamar (about the legend of Princess Tamar) became Akdamar (white vein). 
 - Dikranagert (named after king Tigran), in 1937, was made into "Diyarbakır" (“land of copper” in Turkish). By the way, this city was known as "Amed" by Kurds and Assyrians. There is also claim that it used to be called "Diyar Bakr", meaning “land of the Bakr tribe,” used by Arabs from early medieval times. So Diyarbakır could just be its reinterpretation of that (nonetheless, they gave it a new meaning).
 - Karin became Erzurum, which comes from Arabic Arz al-Rum (land of the Romans).
-- Sepastia became Sivas.
+- Sebastia became Sivas.
 - Kharpert became Harput, and the new city of Elazığ was built next to it.
 - Erznka became Erzincan.
+- What Armenians know as Kesaria, which comes from the Roman "Caesarea", is today known as Kayseri.
 - Mount Masis, also known as Ararat, became Ağrı.
 - The ancient city known to Greeks as Smyrna (destroyed in 1922) was renamed Izmir (again,  foreign governments were asked to adopt this new Turkish name).
 - Georgian town of Vitz'e renamed to Fındıklı ("place with hazelnuts" in Turkish).
@@ -193,7 +267,7 @@ And here:
 
 So as you can see, sometimes they tried to find similar words that meant something in Turkish, and make it seem like it was a gradual and natural change in language, adopted by the inhabitants. But in reality, it's been ordered one day to change. They tweak the sound and spelling into a Turkish form, keeping it recognizable and Turkifying it at the same time. The old identity gets quietly phased out, and over time, younger generations grow up thinking the Turkish form was the real name all along.
 
-By the way, if you scroll down to the various maps [on this website](https://www.wikiwand.com/en/articles/Place_name_changes_in_Turkey#Greek), you will see which ethnicities lived where in Turkey. I highly encourage a quick look at it.
+By the way, if you scroll down to the various maps [on this website](https://www.wikiwand.com/en/articles/Place_name_changes_in_Turkey#Greek) or the corresponding [wikipedia page](https://en.wikipedia.org/wiki/Place_name_changes_in_Turkey), you will see which ethnicities lived where in Turkey. I highly encourage a quick look at it.
 
 Now what about a place like Van? Van stayed Van, probably because Van was so ancient and tied to the ancient kingdom of Urartu, which Turks don't even believe are related to modern Armenians. And something like Nakhichevan? Nakhijevan means "first resting place" in Armenian, as it is thought that after landing on Mount Ararat, Noah first settled in the Nakhijevan area. Nakhichevan is one of the oldest continuously inhabited places in the region, mentioned by Greek, Persian, Armenian, and Arab historians for over two thousand years. So changing it outright would be a bit awkward, and what the Turks/Azeris say instead is that it's of ancient Turkic origin (Naxçıvan), rather than Armenian. And so they can say that, [destroy the tens of thousands of Armenian artifacts](https://en.wikipedia.org/wiki/Armenian_cemetery_in_Julfa), and claim continuity of their rule over that land. Unfortunately for them, this part of history is recent enough that it is [well documented from outside sources](https://archive.archaeology.org/online/features/djulfa/).
 
@@ -211,7 +285,7 @@ The region called Javakheti, in Georgia, is majority Armenian (50%+). Towns like
 
 ![Armenian population in Georgia](../images/turkey/Ethnic-Armenians-in-Georgia-Map.jpg)
 
-That region has been historically Armenian for centuries. It was part of many Armenian kingdoms (I'm not good at this but it can be traced back to the Urartians from the 9th–6th century BCE. And if you don't consider the Urartians as Armenians, then there's the Orontid Dynasty, which is considered the first Armenian dynasty, from the 6th–2nd century BCE). So ever since then, there were Armenians living in those lands; throughout Mongol, Persian, Ottoman, and finally Russian rule.
+That region has been historically Armenian for centuries. It was part of many Armenian kingdoms (I'm not good at this but it can be traced back to the Urartians from the 9th–6th century BCE. And if you don't consider the Urartians as Armenians, then there's the Orontid Dynasty, which is considered the first Armenian dynasty, from the 6th–2nd century BCE). So ever since then, there were Armenians living in those lands; through Mongol, Persian, Ottoman, and finally Russian rule.
 
 Especially after the 1828 Russo-Turkish War, when the Russians took the territory from the Ottomans, many Armenians fled the Ottoman Empire into that region, and settled there permanently.
 
@@ -221,7 +295,7 @@ Fast forward to 1917, when the Russian Empire collapsed. At that point, this was
 
 Georgia declared its independence on May 26, 1918, and the First Republic of Armenia declared it on May 28, 1918.
 
-Javakheti's population was overwhelmingly Armenian at that point, but when the Russian forces retreated, Georgian troops swiftly went in and took control. The Armenian locals weren't happy, but Armenia couldn’t do anything about it; it was busy fighting the Ottoman invasion of May–June 1918 (which included the famous Battle of Sardarabad in May 21-29). If Armenia had lost that battle, there may not have been an Armenia at all. 
+Javakheti's population was overwhelmingly Armenian at that point, but when the Russian forces retreated, Georgian troops swiftly went in and took control. The Armenian locals weren't happy, but Armenia couldn’t do anything about it; it was busy fighting the Ottoman invasion of May–June 1918 (which included the famous Battle of Sardarabad in May 21-29). If Armenia had lost that battle, there may not have been an Armenia at all today. 
 
 So Georgia in a way took advantage of that situation, and also ended up taking the region of Lori (they claimed that region based on the fact that it was part of the georgian Kingdom of Kartli-Kakheti, which existed before the Russian annexation, from 1762 to 1801). In December 1918, there was a short "war" for Lori and Javakheti regions (both of which had Armenian-majority populations.).
 
@@ -232,3 +306,17 @@ Anyway, in 1920-1921, the Red Army invaded both countries, and now it was the ul
 Why did the Soviets give Javakheti to the Georgian SSR? Well, one reason is that before the Russian Empire annexed Georgia, that land did belong to the Georgian Kingdom of Kartli-Kakheti. Secondly, just like with Karabakh, the Soviets wanted to intentionally mix ethnic groups across internal republic borders (a classic imperial tactic used to prevent unified nationalism and to create dependence on central authority). Thirdly, and probably most importantly, the Georgian SSR was a larger republic, with more resources, access to the Black Sea, and natural mountain barriers separating it from the Ottomans. So giving Javakheti to Georgia was a strategic move by the Soviets to secure loyalty from the Georgians.
 
 [Return](#the-trajectory)
+
+### 3
+
+Byzantium wanted to absorb Armenian kingdoms without constantly fighting them. Territory is best taken through negotiation. But once you absorb a kingdom, you also inherit the problem of defending it. Eastern Anatolia is long, mountainous, and expensive to secure. So relocating a local king and his elite westward is a way to neutralize an independent power base on the frontier (this classic imperial strategy is explained next) and bring loyal Christian populations into regions where the empire can control and protect them more easily.
+
+An independent power base means a local ruler, with land and soldiers and a loyal population, operating on the edge of an empire, where the empire's grip is weakest. Because if politics change, they can switch sides, rebel, or negotiate with the enemy. So relocating a local king and his elite westward was a way to dismantle an independent power base on the frontier without open war. The population becomes integrated into Byzantine society, where they are welcomed. The Armenian army is broken and integrated into the Byzantine army. The Armenian nobility become imperial landholders, retaining status, rank and honor. All they lost was the ability to act independently.
+
+So relocation creates dependency, integration, and loyalty to imperial structures. This is very clean. 
+
+And Cappadocia is one of those interior regions. It is better connected. It is safer than the extreme frontier. It already has Byzantine administration and military infrastructure. So placing them there benefits imperial stability. 
+
+By the way, the Byzantines weren't doing charity work and just providing refuge for the Armenians from future Seljuk attacks. And Armenians were not random peasants in this context. Armenians had been integrated into Byzantine military and administration for centuries. Many Armenian nobles served the empire. They were valuable as soldiers and as organized communities. So resettlement is not only about removing them from danger. It is also about placing them where they benefit imperial stability.
+
+[Return](#where-armenians-fit-into-cappadocia)
