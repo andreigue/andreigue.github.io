@@ -130,7 +130,7 @@ We spent the final night in Kars.
 
 Akhtamar is an island in Lake Van
 
-The Cathedral of the Holy Cross on Akhtamar was built between 915 and 921 by [King Gagik I Artsruni](https://en.wikipedia.org/wiki/Gagik_I_Artsruni), King of Vaspurakan. (Note that this is a different king from [Gagik I Bagratuni](https://en.wikipedia.org/wiki/Gagik_I_of_Armenia), king of Bagratuni. This was a period of many Armenian states, ruled by different Armenian dynasties, and Vaspurakan was one of those, along with Syunik, Artsakh, and idk what else potentially).
+The Cathedral of the Holy Cross on Akhtamar was built between 915 and 921 by [King Gagik I Artsruni](https://en.wikipedia.org/wiki/Gagik_I_Artsruni), King of Vaspurakan (908 - 1021). (Note that this is a different king from [Gagik I Bagratuni](https://en.wikipedia.org/wiki/Gagik_I_of_Armenia), king of Bagratuni. This was a period of many Armenian states, ruled by different Armenian dynasties, and Vaspurakan was one of those, along with Syunik, Artsakh, and idk what else potentially).
 
 ![Vaspurakan](../images/turkey/Bagratuni_Armenia.png)
 
@@ -180,7 +180,7 @@ But the satrapy of Katpatuka (which was by then known as Καππαδοκίας 
 
 In 17 CE, Rome annexed Cappadocia and turned it into the province of Cappadocia.
 
-From then on, it was no longer a kingdom, but it remained a clearly defined region in Roman and Byzantine maps for centuries. And after the Romans, it fell into the hands of other smaller kingdoms, until the Ottomans took it to themselves.
+From then on, it was no longer a kingdom, but it remained a clearly defined region in Roman and Byzantine maps for centuries. And after the Romans, it fell into the hands of other smaller kingdoms, until the Seljuks and Ottomans took it to themselves.
 
 ### Where Armenians Fit Into Cappadocia
 
@@ -194,17 +194,19 @@ At some point though, Christianity spreads to the people of that region, and sin
 
 But the underground spaces which were already carved out turned out especially useful with the approach of the Muslims (think c. 650 to 950). The Arab Caliphates of Rashidun, Umayyad, and Abbasid armies raided Anatolia repeatedly, and Cappadocia happened to be at the forefront of that sometimes. And this is where the huge underground cities like Derinkuyu and Kaymaklı grew to hold thousands of people with a dozen levels of layers going down. Archaeologists estimate that Derinkuyu (the deepest and most complex one) could shelter about 15'000 to 20'000 people, plus animals and food stores. And there are dozens of such (but smaller) underground cities in Cappadocia.
 
-And it turns out that in 1021, the last king of Vaspurakan (the kingdom centered around lake Van), the son of King Gagik I Artsruni (who I mentioned earlier in the Akhtamar section), Senekerim-Hovhannes Artsruni, handed his kingdom over to the Byzantine Empire in exchange for lands further west, including in Cappadocia. This decision came under increasing pressure from Seljuk advancements from the east and the weakening ability of Armenian kingdoms to defend their borders independently.
+And it turns out that in 1021, the last king of Vaspurakan (the kingdom centered around lake Van, 908 - 1021), the son of King Gagik I Artsruni (who I mentioned earlier in the Akhtamar section), Senekerim-Hovhannes Artsruni, handed his kingdom over to the Byzantine Empire in exchange for lands further west, including in Cappadocia. This decision came under increasing pressure from Seljuk advancements from the east and the weakening ability of Armenian kingdoms to defend their borders independently.
 
 And this situation gives us a glimpse into how empires behave, which you can read more about if interested in the note. [(Note 3)](#3)
 
-Anyway, in 1071 the Battle of Manzikert happens. The Seljuks defeat the Byzantines, and Byzantine control of Anatolia begins to weaken. This battle is a popular and important one, because regions that had felt like the interior of the empire suddenly start to feel exposed. Roads become unsafe. Anatolia is no longer a stable area.
+Anyway, in 1071 the [Battle of Manzikert](https://en.wikipedia.org/wiki/Battle_of_Manzikert) happens. The Seljuks defeat the Byzantines, and Byzantine control of Anatolia begins to weaken. From this point on, there was no more "frontier chaos", no more unpredictability. Random raids were replaced with (relatively) stable taxation, and so the underground systems slowly stopped being cared for and maintained, until, a few generations later, they just became abandoned cavities.
+
+This battle is a popular and important one, because regions that had felt like the interior of the empire suddenly start to feel exposed. Roads become unsafe. Anatolia is no longer a stable area.
 
 But long before 1071, the Byzantine Empire had been deliberately resettling Armenians into Cilicia and nearby regions. From the tenth century onward, Armenian soldiers, nobles, and their families were moved into southern Anatolia as part of Byzantine military and administrative policy. The empire used Armenians to garrison frontier zones, guard mountain passes, and stabilize regions that were difficult to control directly. This meant that by the early eleventh century, Armenian communities already existed in Cilicia, with churches, estates, and local networks.
 
 And with the Battle of Manzikert, there was one last push of Armenians toward Cilicia (I have to mention it wasn't a one-time event, but rather a multi-decade transition). It looked attractive not only because Armenian communities were already established there, but also because it offered access to the Mediterranean (to enable trade and connection), protection from the Seljuks through the Taurus Mountains, and fertile land.
 
-Once enough manpower has been collected, Armenian leaders in Cilicia begin to turn this demographic and military presence into political control. They seize fortresses and take control of mountain passes. Eventually, a new Armenia, the Armenian Kingdom of Cilicia (1198 - 1375), was formed.
+Once enough manpower has been gathered, Armenian leaders in Cilicia begin to turn this demographic and military presence into political control. They seize fortresses and take control of mountain passes. Eventually, a new Armenia, the Armenian Kingdom of Cilicia (1198 - 1375), was formed.
 
 So, to conclude, although Cappadocia was never an Armenian kingdom, and it was never a core Armenian homeland, it became a place of settlement, refuge, and transition for them. Just as any Christian group would've found solace in those lands and underground cities.
 
@@ -220,9 +222,13 @@ Let's look at this map again.
 
 ![Map of Armenians in Ottoman Empire](../images/turkey/Armenians_in_the_Ottoman_Empire_(1870s).png)
 
-If you're goal is this follow "Armenianess", well then it's quite obvious that the southern portion is where you'd want to be. Going all to way to Adana, visiting Batman, Diyarbakır (Tigranakert), Mardin, Şanlıurfa (Urfa), Gaziantep and much more (which I'd have to research about) along the way.
+If you're goal is this follow "Armenianess", well then it's quite obvious that the southern portion is where you'd want to be. Going all to way to Adana, visiting Batman, Diyarbakır (Tigranakert), Mardin, Şanlıurfa (Urfa), Kahramanmaraş, Gaziantep and much more (which I'd have to research about) along the way. 
 
-Another potentially interesting trip could include traveling closer to the northern coastline of Turkey. The Hemshin Muslims in Rize (through Artvin I imagine) are an interesting group to visit as well.
+And if you do go in this direction, an absolute must is the village of Vakıflı, as well as the mountain nearby. The population is 100-150, and they are mostly ethnically Armenian, and they speak Western Armenian (and Turkish). And if you look close by on the map, you will see that Mount Musa is nearby. The same mountain on which 4000 Armenians from 7 villages took arms and resisted the Ottomans for 53 days until they were rescued by the French. This was during the Armenian Genocide by the way, and there's a famous book that talks about it called The Forty Days of Musa Dagh by Franz Werfel.
+
+Anyway, those rescued Armenians were taken to a refugee camp in Port Said, Egypt. After WW1, as part of the Treaty of Sèvres of 1920, that area which is today Turkey's Hatay Province, was part of the French-administered Syrian territory. And since it was now controlled by the French, those Armenian refugees went back to their homes around Mount Musa (not only, since it was estimated that 11% of Hatay's 220'000 population was Armenian, and ~40% were Turks). Mustafa Kemal Atatürk claimed that Hatay was Turkish and should be part of the new Republic of Turkey, and the French wanted to secure Turkey's neutrality before WW2, allowed the creation of a transitional country called Hatay State, which existed between between September 1938 and June 1939. Anyway, Hatay State was annexed by Turkey, and so since 1939 it's part of Turkey. And once that happened, most Armenians left (especially to Anjar, Lebanon), and only some families in Vakıflı stayed. And today's 100-150 inhabitants of Vakıflı are the descendents of those people who went back and never left.
+
+Another potentially interesting trip would include traveling closer to the northern coastline of Turkey. The Hemshin Muslims in Rize and Artvin are an interesting group to learn about as well. They were Armenians who converted to Islam during the Ottoman rule. The name comes from the region of Hemshin, or Hemşin, near Rize. According to [this source](https://en.wikipedia.org/wiki/Hem%C5%9Fin), there was the Armenian price Hamam in the 8th century who led a group of Armenians up north from the Arab invasions in Vaspurakan. And he named city Hamamshen, meaning "Hamam's hamlet" in Armenian. So that's where today's Hemşin name comes from, and they even speak an Armenian dialiect called [Homshetsi](https://en.wikipedia.org/wiki/Homshetsi_dialect), but it's complicated because one language was turkified, and then some eastern part speak something closer to Armenian. Worth exploring if interested.
 
 ### 1
 
