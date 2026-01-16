@@ -7,6 +7,8 @@ tags: [History, Thoughts]
 
 First of all, I want to acknowledge something. What we saw on this trip will not last forever. If my great grandchildren visit eastern Turkey, they will find fewer traces of a past armenian presence than we did. The ruins will be fewer, the outlines fainter, and the carvings thinner. And some places will be completely gone. What can still be touched today may one day exist only in photographs and in the words of those who took the time to record it. An example of this is city names. [(Note 1)](#1)
 
+By the way, even today the Azerbaijan government continues this pattern. President Ilham Aliyev and state media regularly refer to Armenian cities and regions using Azerbaijani or Turkic names, even when those places are internationally recognized as part of Armenia, such as Lake Sevan (which they call Lake Goycha), and Yerevan (which they call Irevan). This is done under the pretense that Armenians live on historically Azerbaijani land. And unfortunately without international law, disputes like these are not settled by history or truth, but by strength.
+
 And that is one reason I am writing this. Documenting this trip is a small form of preservation. And for the (over) 95% of Armenians from the diaspora who will never set foot in the villages their great grandparents fled from, all they have are stories like these. For them, these places exist only in black and white photographs and in documentaries.
 
 I am not from these towns myself, but my friends are. And so we decided to go see them.
@@ -27,41 +29,17 @@ Without these tangible reminders, the story of Armenians in these lands will rel
 
 # Ani
 
-_If you haven’t seen the Falcon Heavy, STOP READING and WATCH THIS._
-[![testhere](https://www.teslarati.com/wp-content/uploads/2019/06/Falcon-Heavy-B1052-B1053-LZ-landing-SpaceX-1-3.jpg)](https://youtu.be/A0FZIwabctw)
-[![Click here or the image above to be redirected to the Youtube video!]()](https://youtu.be/A0FZIwabctw)
+It's funny/sad because I name other places by their Turkish names followed by the Armenian names. And this would've happened here if the Turkish government would change the name Ani to Anı (pronunciation changes), which they apparently did consider/attempt doing. They would've said that "anı" means "memory" in Turkish, which would give it a symbolic undertone. But thankfully the name Ani is too entrenched in history. At this point it would draw too much negative attention to Turkey and would bring to light all the Turkification it has done to Armenian (and others such as Greek and Arab) sites.
 
+Ani was built during the era of Bagratid Armenia (885–1045 AD). Bagratid Armenia was a medieval Armenian kingdom founded by Ashot I Bagratuni, and it marked the first independent Armenian state after centuries of foreign rule (mostly Byzantine and Arab domination). Its capital moved around, but in 961 AD, Ani became the capital. Take a moment to look at [this very important and informative link of capitals of various Armenian kingdoms](https://en.wikipedia.org/wiki/Historical_capitals_of_Armenia).
 
-test1 
-
-<iframe width="560" height="315"
-  src="https://youtu.be/A0FZIwabctw"
-  title="Akhtamar boat ride"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen>
-</iframe>
-
-
-test
-
-{% include video id="A0FZIwabctw" provider="youtube" %}
-
-test short
-
-{% include video id="bAtqSc2y-wY" provider="youtube" %}
-
-It's funny/sad because I name other places by their Turkish names followed by the Armenian names. And this would've happened here if the Turkish government would change the name Ani to Anı (pronunciation changes), which they apparently did consider/attempt doing. They would've said that "anı" means "memory" in Turkish, which would give it a symbolic undertone. But thankfully the name Ani is too entrenched in history. At this point it would draw too much negative attention to Turkey and would bring to light all the Turkification it has done to Armenian sites.
-
-Ani was built during the era of Bagratid Armenia (885–1045 AD). Bagratid Armenia was a medieval Armenian kingdom founded by Ashot I Bagratuni, and it marked the first independent Armenian state after centuries of foreign rule (mostly Arab and Byzantine domination). Its capital moved around, but in 961 AD, Ani became the capital. Take a moment to look at [this very important and informative link of capitals of various Armenian kingdoms](https://en.wikipedia.org/wiki/Historical_capitals_of_Armenia).
-
-[At its peak](https://en.wikipedia.org/wiki/Ani#/media/File:Bagratuni_Armenia_1000-en.svg), Ani had potentially 100'000 inhabitants, rivaling Constantinople and Baghdad in beauty and wealth. At this point I should note also that although it is named "the city of 1001 churches", it didn't actually have that many. As [Wikipedia](https://en.wikipedia.org/wiki/Ani) has it, "to date, 50 churches, 33 cave chapels and 20 chapels have been excavated by archaeologists and historians."
+[At its peak](https://en.wikipedia.org/wiki/Ani#/media/File:Bagratuni_Armenia_1000-en.svg), Ani had potentially 100'000 inhabitants, rivaling Constantinople and Baghdad in beauty and wealth. At this point I should note also that although it is named "the city of 1001 churches", it didn't actually have that many. As [Wikipedia](https://en.wikipedia.org/wiki/Ani) has it, "to date, 50 churches, 33 cave chapels and 20 chapels have been excavated by archaeologists and historians".
 
 In 1045 AD, Ani was surrendered without much resistance to the Byzantine Empire, who wanted this front to defend against the Seljuks.
 
 In 1064 AD however, the Seljuks captured Ani and many inhabitants were killed or enslaved, and much of the city was destroyed. This was the start of the decline of Ani. (This conquest played a significant role in the movement of Armenian into Cilicia, which was officially established as a principality in 1080 AD, and was a full-on kingdom between 1198 and 1375.)
 
-Then in 1072 the Shaddadids (a Mulsim Kurdish dynasty) bought Ani from the Seljuks. They ruled until 1199, so a lot of intermarriages occurred all throughout historic Armenia.
+Then in 1072, the Seljuks transferred Ani to the Shaddadids, a Muslim Kurdish dynasty, as a vassal state. The Seljuk Empire was already enormous, stretching from Iran into Anatolia, and they had no interest in directly administering every distant frontier city. Instead, they entrusted Ani to a loyal local dynasty to rule it on their behalf and defend it against Byzantines and Georgians. The Shaddadids held Ani until 1199, ruling over a still largely Armenian city in which Armenian, Kurdish, and Muslim elites shared power, administration, and at times intermarried.
 
 Afterwards, the Georgians took control, and encouraged Armenians to settle back. They even let Armenian nobles rule (Zakarid princes).
 
@@ -69,8 +47,11 @@ Ultimately, it all came down in 1236 AD after the Mongols entered Ani during the
 
 The city faced further damage from a significant earthquake in 1319, which further contributed to its decline. By the 15th–17th centuries, Ani was largely abandoned. Small Kurdish, Persian, and Turkish communities lived among the ruins.
 
-What do we see there today? The most significant is the Cathedral of Ani, 
+What do we see there today? The most significant is the Cathedral of Ani (989–1001), designed by Trdat the Architect, or Trdat Chartarapet (Տրդատ Ճարտարապետ) in Armenian. Its dome collapsed in an earthquake in 1319 and it has stood roofless ever since, but today scaffolding surrounds it as part of Turkey’s restoration project at Ani.
 
+It should be noted however that these restorations are controversial. Critics argue that Turkey often presents Armenian monuments in ways that dilute or obscure their origins, sometimes rebranding them with Turkish names or emphasizing later Islamic phases while downplaying their Christian Armenian identity. For example, they had proposed to use the Ani Cathedral as a mosque, which people see as part of a broader pattern of cultural erasure rather than neutral preservation.
+
+Trdat the Architect became famous when the Byzantine emperor Basil II invited him to lead the reconstruction of Hagia Sophia’s central dome in Constantinople after it was damaged by an earthquake in 989. It was one of the greatest engineering challenges of the medieval world, and his success made him famous far beyond Armenia, with his methods studied and imitated for centuries.
 
 
 ## The Trajectory
