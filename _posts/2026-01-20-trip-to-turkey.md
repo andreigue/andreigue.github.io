@@ -27,52 +27,29 @@ Without these tangible reminders, the story of Armenians in these lands will rel
 
 # Beginning our Trip
 
-# Ani
-
-It's funny/sad because I name other places by their Turkish names followed by the Armenian names. And this would've happened here if the Turkish government would change the name Ani to Anı (pronunciation changes), which they apparently did consider/attempt doing. They would've said that "anı" means "memory" in Turkish, which would give it a symbolic undertone. But thankfully the name Ani is too entrenched in history. At this point it would draw too much negative attention to Turkey and would bring to light all the Turkification it has done to Armenian (and others such as Greek and Arab) sites.
-
-Ani was built during the era of Bagratid Armenia (885–1045 AD). Bagratid Armenia was a medieval Armenian kingdom founded by Ashot I Bagratuni, and it marked the first independent Armenian state after centuries of foreign rule (mostly Byzantine and Arab domination). Its capital moved around, but in 961 AD, Ani became the capital. Take a moment to look at [this very important and informative link of capitals of various Armenian kingdoms](https://en.wikipedia.org/wiki/Historical_capitals_of_Armenia).
-
-[At its peak](https://en.wikipedia.org/wiki/Ani#/media/File:Bagratuni_Armenia_1000-en.svg), Ani had potentially 100'000 inhabitants, rivaling Constantinople and Baghdad in beauty and wealth. At this point I should note also that although it is named "the city of 1001 churches", it didn't actually have that many. As [Wikipedia](https://en.wikipedia.org/wiki/Ani) has it, "to date, 50 churches, 33 cave chapels and 20 chapels have been excavated by archaeologists and historians".
-
-In 1045 AD, Ani was surrendered without much resistance to the Byzantine Empire, who wanted this front to defend against the Seljuks.
-
-In 1064 AD however, the Seljuks captured Ani and many inhabitants were killed or enslaved, and much of the city was destroyed. This was the start of the decline of Ani. (This conquest played a significant role in the movement of Armenian into Cilicia, which was officially established as a principality in 1080 AD, and was a full-on kingdom between 1198 and 1375.)
-
-Then in 1072, the Seljuks transferred Ani to the Shaddadids, a Muslim Kurdish dynasty, as a vassal state. The Seljuk Empire was already enormous, stretching from Iran into Anatolia, and they had no interest in directly administering every distant frontier city. Instead, they entrusted Ani to a loyal local dynasty to rule it on their behalf and defend it against Byzantines and Georgians. The Shaddadids held Ani until 1199, ruling over a still largely Armenian city in which Armenian, Kurdish, and Muslim elites shared power, administration, and at times intermarried.
-
-Afterwards, the Georgians took control, and encouraged Armenians to settle back. They even let Armenian nobles rule (Zakarid princes).
-
-Ultimately, it all came down in 1236 AD after the Mongols entered Ani during their expansion into the Caucasus. Unlike the Seljuk's, who massacred tens of thousands, Mongols often took cities for taxation. To be exact, they stormed Ani, killed many defenders, and looted churches and homes. Then, they imposed heavy taxes on the survivors instead of wiping the city out.
-
-The city faced further damage from a significant earthquake in 1319, which further contributed to its decline. By the 15th–17th centuries, Ani was largely abandoned. Small Kurdish, Persian, and Turkish communities lived among the ruins.
-
-What do we see there today? The most significant is the Cathedral of Ani (989–1001), designed by Trdat the Architect, or Trdat Chartarapet (Տրդատ Ճարտարապետ) in Armenian. Its dome collapsed in an earthquake in 1319 and it has stood roofless ever since, but today scaffolding surrounds it as part of Turkey’s restoration project at Ani.
-
-It should be noted however that these restorations are controversial. Critics argue that Turkey often presents Armenian monuments in ways that dilute or obscure their origins, sometimes rebranding them with Turkish names or emphasizing later Islamic phases while downplaying their Christian Armenian identity. For example, they had proposed to use the Ani Cathedral as a mosque, which people see as part of a broader pattern of cultural erasure rather than neutral preservation.
-
-Trdat the Architect became famous when the Byzantine emperor Basil II invited him to lead the reconstruction of Hagia Sophia’s central dome in Constantinople after it was damaged by an earthquake in 989. It was one of the greatest engineering challenges of the medieval world, and his success made him famous far beyond Armenia, with his methods studied and imitated for centuries.
-
-
 ## The Trajectory
 
 First of all, keep in mind this map:
 
 ![Map of Armenians in Ottoman Empire](../images/turkey/Armenians_in_the_Ottoman_Empire_(1870s).png)
 
-Because you will 
+As Armenians we intuitively know this map, because we hear from our surroundings "my father's side is from Bitlis", "my maternal grandmother's side is from Kars", "my grandparents are both from Mush", etc. 
 
-![Gyumri to Kars](../images/turkey/maps/gyumri-kars.JPG)
+And here is the trajectory:
 
-We were picked up by our driver Tigran at 4:30AM from Gyumri, and got to the Turkish border at 7AM. 
+![Full trip](../images/turkey/maps/full-trip.JPG)
+
+Here is the approximate destinations we went to:
+
+Gyumri, Kars, Ani, Iğdır, Van, Akthamar Island, Bitlis, Muş, Yukarıyongalı (tiny Zaza village), Elâzığ, Harput, Malatya, Gürün, Kayseri, Ürgüp (Cappadocia), Gürün, Kemah Gorge, Erzincan, Erzurum, Kars, Akhalkalaki, Gyumri.
+
+I will not go into everything here, but I'll come notes about the trip:
+
+We had a driver take us to the Georgian-Turkish border
 
 We went through the armenian portion of Georgia, and I'll go on a little tangent about the Armenian portion of Georgia. [(Note 2)](#2)
 
-Once we passed the Turkish border, we then called our taxi contact in Turkey, and left the border at 8AM (time zone shifts by an hour in Turkey). Anyway, we got to the Kars airport at 9AM (GMT+03:00), and waited until 10:30AM for Avis (car rental company) to give us our car. 
-
-![Kars to Ani to Van](../images/turkey/maps/kars-van.JPG)
-
-At 10:30AM we head to Ani, walk around for 3 hours (bring some water with you), and head toward Van. 
+Once we passed the Turkish border, we then called our taxi contact in Turkey, and left the border at 8AM (time zone shifts by an hour in Turkey). Anyway, we got to the Kars airport at 9AM (GMT+03:00), and waited until 10:30AM for Avis (car rental company) to give us our car.
 
 First of all, I highly recommend doing what [these guys did](https://www.youtube.com/watch?v=b3cJGvvnraU&list=PLcvSvkQpP-ACKxrp15AMdBDOT3BDUy36A&index=11&t=537), and that's go to check out [this church](https://artofwayfaring.com/destinations/khtzkonk-beskilise-monastery/) on the way to Van. Just be safe out there when hiking mountains, always be prepared for snakes or wild animals.
 
@@ -106,6 +83,33 @@ The next day, from Elazig we drove to the village of Gurun, where we slept for 4
 Next we stopped in middle of Erzincan and Erzurum, in Grand Karagul Hotel for 2 nights.
 
 We spent the final night in Kars. 
+
+
+# Ani
+
+It's funny/sad because I name other places by their Turkish names followed by the Armenian names. And this would've happened here if the Turkish government would change the name Ani to Anı (pronunciation changes), which they apparently did consider/attempt doing. They would've said that "anı" means "memory" in Turkish, which would give it a symbolic undertone. But thankfully the name Ani is too entrenched in history. At this point it would draw too much negative attention to Turkey and would bring to light all the Turkification it has done to Armenian (and others such as Greek and Arab) sites.
+
+Ani was built during the era of Bagratid Armenia (885–1045 AD). Bagratid Armenia was a medieval Armenian kingdom founded by Ashot I Bagratuni, and it marked the first independent Armenian state after centuries of foreign rule (mostly Byzantine and Arab domination). Its capital moved around, but in 961 AD, Ani became the capital. Take a moment to look at [this very important and informative link of capitals of various Armenian kingdoms](https://en.wikipedia.org/wiki/Historical_capitals_of_Armenia).
+
+[At its peak](https://en.wikipedia.org/wiki/Ani#/media/File:Bagratuni_Armenia_1000-en.svg), Ani had potentially 100'000 inhabitants, rivaling Constantinople and Baghdad in beauty and wealth. At this point I should note also that although it is named "the city of 1001 churches", it didn't actually have that many. As [Wikipedia](https://en.wikipedia.org/wiki/Ani) has it, "to date, 50 churches, 33 cave chapels and 20 chapels have been excavated by archaeologists and historians".
+
+In 1045 AD, Ani was surrendered without much resistance to the Byzantine Empire, who wanted this front to defend against the Seljuks.
+
+In 1064 AD however, the Seljuks captured Ani and many inhabitants were killed or enslaved, and much of the city was destroyed. This was the start of the decline of Ani. (This conquest played a significant role in the movement of Armenian into Cilicia, which was officially established as a principality in 1080 AD, and was a full-on kingdom between 1198 and 1375.)
+
+Then in 1072, the Seljuks transferred Ani to the Shaddadids, a Muslim Kurdish dynasty, as a vassal state. The Seljuk Empire was already enormous, stretching from Iran into Anatolia, and they had no interest in directly administering every distant frontier city. Instead, they entrusted Ani to a loyal local dynasty to rule it on their behalf and defend it against Byzantines and Georgians. The Shaddadids held Ani until 1199, ruling over a still largely Armenian city in which Armenian, Kurdish, and Muslim elites shared power, administration, and at times intermarried.
+
+Afterwards, the Georgians took control, and encouraged Armenians to settle back. They even let Armenian nobles rule (Zakarid princes).
+
+Ultimately, it all came down in 1236 AD after the Mongols entered Ani during their expansion into the Caucasus. Unlike the Seljuk's, who massacred tens of thousands, Mongols often took cities for taxation. To be exact, they stormed Ani, killed many defenders, and looted churches and homes. Then, they imposed heavy taxes on the survivors instead of wiping the city out.
+
+The city faced further damage from a significant earthquake in 1319, which further contributed to its decline. By the 15th–17th centuries, Ani was largely abandoned. Small Kurdish, Persian, and Turkish communities lived among the ruins.
+
+What do we see there today? The most significant is the Cathedral of Ani (989–1001), designed by Trdat the Architect, or Trdat Chartarapet (Տրդատ Ճարտարապետ) in Armenian. Its dome collapsed in an earthquake in 1319 and it has stood roofless ever since, but today scaffolding surrounds it as part of Turkey’s restoration project at Ani.
+
+It should be noted however that these restorations are controversial. Critics argue that Turkey often presents Armenian monuments in ways that dilute or obscure their origins, sometimes rebranding them with Turkish names or emphasizing later Islamic phases while downplaying their Christian Armenian identity. For example, they had proposed to use the Ani Cathedral as a mosque, which people see as part of a broader pattern of cultural erasure rather than neutral preservation.
+
+Trdat the Architect became famous when the Byzantine emperor Basil II invited him to lead the reconstruction of Hagia Sophia’s central dome in Constantinople after it was damaged by an earthquake in 989. It was one of the greatest engineering challenges of the medieval world, and his success made him famous far beyond Armenia, with his methods studied and imitated for centuries.
 
 ## Akhtamar
 
