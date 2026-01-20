@@ -111,11 +111,9 @@ And what does that say about you?
 
 It says that you copied. Some answers (maybe even most) you got right, but some you will inevitably get wrong, just like your "group".
 
+I'm just saying I'd rather come to a wrong answer, but have copied no one, than to have copied a group, felt a sense of belonging to that group, and copied their thoughts, even if their (and by extension mine) conclusion is right. I want to have my own thoughts. My own line of reasoning. My own conclusions. 
 
-5. ?????????????????sentence flow not good. "copy" used too much, sentence too long, too complex?????????????????????????
-I'm just saying I (I'd???) rather come to a wrong answer, but have copied no one, than to have copied a group, felt a sense of belonging to that group, and copy their thoughts, even if the conclusion is right. I want to have my own thoughts. My own line of reasoning. My own conclusions. 
-
-If I meet someone who has all of my same stances (not having an opinion on something is also a stance), then I will be incredibly weirded out, and will keep probing until I find the dissimilarity. Because there has to be one. The world is just too complex, has too many variables, has (add smthn to emphasize complexity), for two people, two independently thinking people, 
+If I meet someone who has all of my same stances (not having an opinion on something is also a stance), then I will be incredibly weirded out, and will keep probing until I find the dissimilarity. Because there has to be one. The world is too complex, too layered, too full of hidden variables for two independently thinking people to align perfectly.
 
 It's okay to not have it all figured out at the age of 20. 30. 40. 50. 60. 70. 80. 90. Chill.
 
