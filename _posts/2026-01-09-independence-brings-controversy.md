@@ -92,7 +92,7 @@ In 1400, disease was blamed on God because science was barely developed.<br>
 In 1800, owning slaves was considered normal as Black people were widely believed to be biologically inferior.<br>
 In 1900, women had no political rights because they were considered too emotional and irrational.<br>
 In 1950, segregation was legal because mixing races was viewed as destabilizing.<br>
-In 2000, homosexuality was illegal and socially taboo because it was viewed as immoral or pathological.  
+In 2000, homosexuality was illegal and socially taboo because it was viewed as immoral or pathological.<br>
 In 2010, language that’s now unacceptable was thrown around casually because people were less concerned with how language affected others.
 
 So, looking back, we can tell that society didn't have it all figured out at any point in the past. And I can assure you that they were all very confident in their opinions. But they were still all wrong about many things.
@@ -101,12 +101,11 @@ Now, what are the chances that today, in 2026, we have it all figured out and al
 
 I'm not just saying some news channel. I'm talking about you as an individual.
 
-3. ?????????????????//cehck the use of "believe in" vs "believe"!?????????????????????????
+Extremely unlikely. At this very moment, there is something you believe deeply that has fundamental issues, that in the future (because in hindsight everything is so obvious), your grandchildren will frown upon you.
 
-Extremely unlikely. In this very moment, there is something you believe in(remove in?????) deeply that has fundamental issues, that in the future (because in hindsight everything is so obvious), your grandchildren will frown upon you.
+Now ask yourself this question:
 
-4. ????????????????????????????????? link to group? kinda random jump??????????????????????/
-What  are the chances that you, an individual, believe in ALL the exact same things that another group of people believe in? And because we have established that everyone makes mistakes,what are the chances that you are committing all the same mistakes as that group, but have come to them independently?
+What  are the chances that you, an individual, hold ALL the exact same beliefs as a particular group of people? And since we have already established that everyone makes mistakes, what are the chances that you are INDEPENDENTLY committing all the same mistakes as that group?
 
 And what does that say about you? 
 
