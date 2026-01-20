@@ -88,10 +88,10 @@ Was society right about everything at any of those points?
 
 Obviously not.
 
-In 1400, disease was blamed on God because science was barely developed.  
-In 1800, owning slaves was considered normal as Black people were widely believed to be biologically inferior.  
-In 1900, women had no political rights because they were considered too emotional and irrational.  
-In 1950, segregation was legal because mixing races was viewed as destabilizing.  
+In 1400, disease was blamed on God because science was barely developed.<br>
+In 1800, owning slaves was considered normal as Black people were widely believed to be biologically inferior.<br>
+In 1900, women had no political rights because they were considered too emotional and irrational.<br>
+In 1950, segregation was legal because mixing races was viewed as destabilizing.<br>
 In 2000, homosexuality was illegal and socially taboo because it was viewed as immoral or pathological.  
 In 2010, language that’s now unacceptable was thrown around casually because people were less concerned with how language affected others.
 
