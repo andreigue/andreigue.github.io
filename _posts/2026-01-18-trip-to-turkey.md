@@ -33,13 +33,13 @@ First of all, keep in mind this map:
 
 ![Map of Armenians in Ottoman Empire](../images/turkey/Armenians_in_the_Ottoman_Empire_(1870s).png)
 
-As Armenians we intuitively know this map, because we hear from our surroundings "my father's side is from Bitlis", "my maternal grandmother's side is from Kars", "my grandparents are both from Mush", etc. 
+As Armenians we intuitively know this map, because we hear from our surroundings "my father's side is from Bitlis", "my maternal grandmother's side is from Kars", "my grandparents are both from Mush", etc. We hear the names of all these places. So we know where Armenians come from in Eastern Turkey.
 
-And here is the trajectory:
+Anyway, here is the trajectory we took:
 
 ![Full trip](../images/turkey/maps/full-trip.JPG)
 
-Here is the approximate destinations we went to:
+Here are the approximate destinations we went to:
 
 Gyumri, Kars, Ani, Iğdır, Van, Akthamar Island, Bitlis, Muş, Yukarıyongalı (tiny Zaza village), Elâzığ, Harput, Malatya, Gürün, Kayseri, Ürgüp (Cappadocia), Gürün, Kemah Gorge, Erzincan, Erzurum, Kars, Akhalkalaki, Gyumri.
 
@@ -111,9 +111,9 @@ It should be noted however that these restorations are controversial. Critics ar
 
 Trdat the Architect became famous when the Byzantine emperor Basil II invited him to lead the reconstruction of Hagia Sophia’s central dome in Constantinople after it was damaged by an earthquake in 989. It was one of the greatest engineering challenges of the medieval world, and his success made him famous far beyond Armenia, with his methods studied and imitated for centuries.
 
-## Akhtamar
+# Akhtamar
 
-Akhtamar is an island in Lake Van
+Akhtamar is an island in Lake Van ???????????????????????????????????????
 
 The Cathedral of the Holy Cross on Akhtamar was built between 915 and 921 by [King Gagik I Artsruni](https://en.wikipedia.org/wiki/Gagik_I_Artsruni), King of Vaspurakan (908 - 1021). (Note that this is a different king from [Gagik I Bagratuni](https://en.wikipedia.org/wiki/Gagik_I_of_Armenia), king of Bagratuni. This was a period of many Armenian states, ruled by different Armenian dynasties, and Vaspurakan was one of those, along with Syunik, Artsakh, and idk what else potentially).
 
@@ -207,13 +207,15 @@ Let's look at this map again.
 
 ![Map of Armenians in Ottoman Empire](../images/turkey/Armenians_in_the_Ottoman_Empire_(1870s).png)
 
-If you're goal is this follow "Armenianess", well then it's quite obvious that the southern portion is where you'd want to be. Going all to way to Adana, visiting Batman, Diyarbakır (Tigranakert), Mardin, Şanlıurfa (Urfa), Kahramanmaraş, Gaziantep and much more (which I'd have to research about) along the way. 
+If you're goal is this follow "Armenianess", well then it's quite obvious that the southern portion is where you'd want to be. Going all to way to Adana, visiting Batman, Diyarbakır (Tigranakert), Mardin, Şanlıurfa (Urfa), Kahramanmaraş (Marash), Gaziantep and much more (which I'd have to research about) along the way. 
 
 And if you do go in this direction, an absolute must is the village of Vakıflı, as well as the mountain nearby. The population is 100-150, and they are mostly ethnically Armenian, and they speak Western Armenian (and Turkish). And if you look close by on the map, you will see that Mount Musa is nearby. The same mountain on which 4000 Armenians from 7 villages took arms and resisted the Ottomans for 53 days until they were rescued by the French. This was during the Armenian Genocide by the way, and there's a famous book that talks about it called The Forty Days of Musa Dagh by Franz Werfel.
 
 Anyway, those rescued Armenians were taken to a refugee camp in Port Said, Egypt. After WW1, as part of the Treaty of Sèvres of 1920, that area which is today Turkey's Hatay Province, was part of the French-administered Syrian territory. And since it was now controlled by the French, those Armenian refugees went back to their homes around Mount Musa (not only, since it was estimated that 11% of Hatay's 220'000 population was Armenian, and ~40% were Turks). Mustafa Kemal Atatürk claimed that Hatay was Turkish and should be part of the new Republic of Turkey, and the French wanted to secure Turkey's neutrality before WW2, allowed the creation of a transitional country called Hatay State, which existed between between September 1938 and June 1939. Anyway, Hatay State was annexed by Turkey, and so since 1939 it's part of Turkey. And once that happened, most Armenians left (especially to Anjar, Lebanon), and only some families in Vakıflı stayed. And today's 100-150 inhabitants of Vakıflı are the descendents of those people who went back and never left.
 
 Another potentially interesting trip would include traveling closer to the northern coastline of Turkey. The Hemshin Muslims in Rize and Artvin are an interesting group to learn about as well. They were Armenians who converted to Islam during the Ottoman rule. The name comes from the region of Hemshin, or Hemşin, near Rize. According to [this source](https://en.wikipedia.org/wiki/Hem%C5%9Fin), there was the Armenian price Hamam in the 8th century who led a group of Armenians up north from the Arab invasions in Vaspurakan. And he named city Hamamshen, meaning "Hamam's hamlet" in Armenian. So that's where today's Hemşin name comes from, and they even speak an Armenian dialiect called [Homshetsi](https://en.wikipedia.org/wiki/Homshetsi_dialect), but it's complicated because one language was turkified, and then some eastern part speak something closer to Armenian. Worth exploring if interested.
+
+Finally, I would recommend to explore all the Byzantine churches in Cappadocia, underground and above ground (to be honest I didn't look into what's possible, so can't recommend anything in specific).
 
 ### 1
 
