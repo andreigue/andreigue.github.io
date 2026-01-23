@@ -18,9 +18,9 @@ minimal_mistakes_skin    : default # "air", "aqua", "contrast", "dark", "dirt", 
 locale                   : "en-US"
 title                    : "Andrei Guevorkian"
 title_separator          : "-"
-subtitle                 : "Personal Portfolio and Blog." # site tagline that appears below site title in masthead
+subtitle                 : "Personal Portfolio and Blog" # site tagline that appears below site title in masthead
 name                     : "Andrei Guevorkian"
-description              : "Personal Portfolio and Blog."
+description              : "Personal Portfolio and Blog"
 url                      : "https://andreigue.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "andreigue/andreigue.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -72,7 +72,7 @@ naver_site_verification  :
 twitter:
   username               :
 facebook:
-  username               : "Andrei Guevorkian"
+  username               :
   app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Andrei Guevorkian"
   avatar           : "/images/withElika.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a software engineering graduate who loves to build and write about random stuff!"
+  bio              : "Writing is my way of thinking. These are notes to myself, shared openly."
   location         : "Ottawa, ON."
   email            :
   links:
@@ -110,7 +110,7 @@ author:
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://www.facebook.com/profile.php?id=100010971887975"
+      # url: "https://www.facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/andreigue"

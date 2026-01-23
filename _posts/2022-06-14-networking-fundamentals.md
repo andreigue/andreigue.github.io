@@ -11,7 +11,7 @@ In order for two computers to communicate, they  must somehow be connected to ea
 
 ### Some history
 
-Once upon a time (1960's), two devices made by two different companies could not talk to eachother. There was no standard way to communicate between networks, operating systems, and computers. IBM was working on their own proprietary network design and OS, allowing an IBM machine to only talk to another IBM machine. Note that packet switching was starting to become a prevailent idea [(1)](#1), just missing the step from theoretical to practical in order to combat the older circuit switching technology.
+Once upon a time (1960s), two devices made by two different companies could not talk to eachother. There was no standard way to communicate between networks, operating systems, and computers. IBM was working on their own proprietary network design and OS, allowing an IBM machine to only talk to another IBM machine. Note that packet switching was starting to become a prevailent idea [(1)](#1), just missing the step from theoretical to practical in order to combat the older circuit switching technology.
 
 The International Organization for Standardization (ISO) recognized this problem, and created a template/model called (somewhat confusingly) the Open Systems Interconnect (OSI). The OSI model is simply a guide and didn't explain the "how". 
 

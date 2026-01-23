@@ -1,5 +1,5 @@
 ---
-title: "An Unexpected Exception"
+title: "The Most Useless Object I Own"
 tags: [Thoughts]
 ---
 
@@ -7,7 +7,7 @@ I used to not understand car enthusiasts, wine enthusiasts, sneaker collectors, 
 
 Not because I now enjoy these things myself, but because I got into something that is, in my opinion, more extreme than the interests listed above. I think I picked up an edge case; I've reached a boundary of interests, and so anything within the boundary is understandable now. I didn't even know this edge case existed. I didn't know it was a thing. And I certainly didn't think that it could be a thing.
 
-## The Most Useless Object I Own
+## An Unexpected Exception
 
 I absolutely abhor materialism.
 
