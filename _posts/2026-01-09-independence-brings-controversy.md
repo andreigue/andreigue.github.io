@@ -118,3 +118,14 @@ If I meet someone who has all of my same stances (not having an opinion on somet
 It's okay to not have it all figured out at the age of 20. 30. 40. 50. 60. 70. 80. 90. Chill.
 
 You don't need to have an opinion on every single topic. You don't need to be involved in everything. There are way too many topics in the world. And this is not a simple algebra problem. This involves humans. One human is already so complex. To figure out how to deal with millions... be humble. Don't be so attached to ideas.
+
+**[January 23, 2026 Update]** I wrote this article with a liberal/progressive person in mind (not any specific one). A person who value signals, i.e.
+Someone with "correct opinions". "Be kind to one another". I had in mind environments where consensus is enforced through social pressure, reputational risk, and moral language. 
+
+I guess I wrote this article with the progressive/liberal/"big-city thinking" in mind. I was thinking about people who value signal. In an extreme case, think of a multinational corporation which sees that LGBTQ movements are popular, and so they join the parade as a corporation. I doubt the CEO or anyone at the highest levels care about gay people. But ... .
+
+Rejecting mainstream consensus is not the same as thinking independently. 
+
+I guess I chose the wording for this article maybe for some "poignant" effect, but the point is not that every independent thinker must and will absolutely have at least one controversial opinion. No. But...
+
+A non-independent thinker will have no controversial opinions.
