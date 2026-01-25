@@ -19,7 +19,7 @@ The purpose of this trip was to simply see everything Armenian. To walk where Ar
 
 Secondly, something I learned firsthand during this trip, is that Turkey does not invite you to notice the Armenian past. Often, all we had were Google Maps pins to follow, leading us to seemingly random places that felt like they were waiting to be repurposed or erased (probably through abandonment or neglect).
 
-Signs point elsewhere, museums and official placards mention other empires, and any link with Armenians is conveniently omitted.
+Signs point elsewhere, [museums and official placards mention other empires, and any link with Armenians is conveniently downplayed or completely omitted.](#2)
 
 A fallen church is not just stones on the ground. It is a witness that can no longer testify.
 
@@ -33,13 +33,15 @@ First of all, keep in mind this map:
 
 ![Map of Armenians in Ottoman Empire](../images/turkey/Armenians_in_the_Ottoman_Empire_(1870s).png)
 
-As Armenians we intuitively know this map, because we hear from our surroundings "my father's side is from Bitlis", "my maternal grandmother's side is from Kars", "my grandparents are both from Mush", etc. We hear the names of all these places. So we know where Armenians come from in Eastern Turkey.
+This is a map of the percentage of Armenians in various regions of the Ottoman Empire before the genocide.
+
+As Armenians we intuitively know this map, because we hear from our surroundings "my father's side is from Bitlis", "my maternal grandmother's side is from Kars", "my grandparents are both from Mush", etc. We hear the names of all these places. So over time we may pick up some patterns.
 
 Anyway, here is the trajectory we took:
 
 ![Full trip](../images/turkey/maps/full-trip.JPG)
 
-Here are the approximate destinations we went to:
+We passed through the following cities:
 
 Gyumri, Kars, Ani, Iğdır, Van, Akthamar Island, Bitlis, Muş, Yukarıyongalı (tiny Zaza village), Elâzığ, Harput, Malatya, Gürün, Kayseri, Ürgüp (Cappadocia), Gürün, Kemah Gorge, Erzincan, Erzurum, Kars, Akhalkalaki, Gyumri.
 
@@ -47,43 +49,9 @@ I will not go into everything here, but I'll come notes about the trip:
 
 We had a driver take us to the Georgian-Turkish border
 
-We went through the armenian portion of Georgia, and I'll go on a little tangent about the Armenian portion of Georgia. [(Note 2)](#2)
+We went through the armenian portion of Georgia, and I'll go on a little tangent about the Armenian portion of Georgia. [(Note 3)](#3)
 
-Once we passed the Turkish border, we then called our taxi contact in Turkey, and left the border at 8AM (time zone shifts by an hour in Turkey). Anyway, we got to the Kars airport at 9AM (GMT+03:00), and waited until 10:30AM for Avis (car rental company) to give us our car.
-
-First of all, I highly recommend doing what [these guys did](https://www.youtube.com/watch?v=b3cJGvvnraU&list=PLcvSvkQpP-ACKxrp15AMdBDOT3BDUy36A&index=11&t=537), and that's go to check out [this church](https://artofwayfaring.com/destinations/khtzkonk-beskilise-monastery/) on the way to Van. Just be safe out there when hiking mountains, always be prepared for snakes or wild animals.
-
-![Besh Kilise](../images/turkey/besh-kilise.JPG)
-
-Another note on the way to Van is, I didn't really appreciate it in the moment, but the view of mount Ararat is the best from the city of Iğdır. Because you think that it'll get better, and you want to get behind Sis and Masis, but the behind is hidden by other mountains. So take a stop at/near Iğdır to look at Masis (the bigger of the two mountains).
-
-![Mt Ararat from Igdir](../images/turkey/mt-ararat.jpg)
-Source: [https://ku.m.wikipedia.org/wiki/W%C3%AAne:I%C4%9Fd%C4%B1r_ve_A%C4%9Fr%C4%B1_Da%C4%9F%C4%B1.jpg]
-
-While staying in Van, we visited the island of Akhtamar, ... 
-
-When visiting Akhtamar, we had these churches on our list but I guess we spent too much time in Akhtamar, since we spontaneously decided to swim there after seeing others doing so.
-
-![Churches we were supposed to see](../images/turkey/maps/churches%20in%20van%20region.JPG)
-
-You feel extremely greasy from the lake, and at first we thought it's because they dump some industrial waste into the water or something, but turns out that that is the natural chemical composition of that lake. It's what is known as a soda lake, which is any lake with a pH of between 9 and 12. It's just rich in particular salts which makes the water highly alkaline (Lake Van has a pH of 9.7), and when our skins touches these salts, and leaves a soapy feeling. As long as you don't have any cuts on your skin, and you shower afterwards, there is no problem.
-
-For fun I checked what would happen if you were to drink the water from Lake Van. If you take a few sips, your stomach acid (pH ~ 1.5-3.5) would immediately neutralize it.
-
-![Van to Elazig trip](../images/turkey/maps/van-elazig.JPG)
-
-Bitlis
-Muş
-Yukarıyongalı
-
-We spent two nights in Van, and headed towards Elazig, where we had the hotel booked for one night. On the way there we stopped at Mush, and a small village called Yukariyongali. We drove past the lake XYZ, where tens of thousands of armenians were killed during the genocide, It was a top 3 killing ground.
-
-The next day, from Elazig we drove to the village of Gurun, where we slept for 4 days. On one of the days we went Westward to Kayseri and Cappadocia. 
-
-Next we stopped in middle of Erzincan and Erzurum, in Grand Karagul Hotel for 2 nights.
-
-We spent the final night in Kars. 
-
+I was going to write the route and every interesting thing we saw, but I decided to focus on the history of some of the places, and notes for a future trip to Turkey [are left at the end](#a-potential-future-trip).
 
 # Ani
 
@@ -93,7 +61,9 @@ Ani was built during the era of Bagratid Armenia (885–1045 AD). Bagratid Armen
 
 [At its peak](https://en.wikipedia.org/wiki/Ani#/media/File:Bagratuni_Armenia_1000-en.svg), Ani had potentially 100'000 inhabitants, rivaling Constantinople and Baghdad in beauty and wealth. At this point I should note also that although it is named "the city of 1001 churches", it didn't actually have that many. As [Wikipedia](https://en.wikipedia.org/wiki/Ani) has it, "to date, 50 churches, 33 cave chapels and 20 chapels have been excavated by archaeologists and historians".
 
-In 1045 AD, Ani was surrendered without much resistance to the Byzantine Empire, who wanted this front to defend against the Seljuks.
+In 1045 AD, Ani was surrendered without much resistance to the Byzantine Empire, who wanted this front to defend against the Seljuks. How this "surrender without much resistance" happened is actually quite interesting, with some treachery involved. Basically, King Hovhannes-Smbat I (r. 1020–1041) promised the Byzantines succession of Ani after his death. But once he died, King Gagik II (r. 1042–1045) took over and rejected Byzantine claims to the land. Gagik II wanted to keep the kingdom independent. The Byzantines tried multiple times to take Armenia by force and intimidation, but failed. Finally, since there were also Byzantine-sympathizers within the Armenian elite, they were able to invite King Gagik II (r. 1042–1045) to Constantinople under the false pretense of diplomacy, and imprison him instead. Gagik II was 19-20 at the time.
+
+You can read more about that [here](https://www.armenianbd.com/news/view/gagik-ii-of-armenia.html) and [here](https://en.wikipedia.org/wiki/Gagik_II_of_Armenia).
 
 In 1064 AD however, the Seljuks captured Ani and many inhabitants were killed or enslaved, and much of the city was destroyed. This was the start of the decline of Ani. (This conquest played a significant role in the movement of Armenian into Cilicia, which was officially established as a principality in 1080 AD, and was a full-on kingdom between 1198 and 1375.)
 
@@ -113,9 +83,9 @@ Trdat the Architect became famous when the Byzantine emperor Basil II invited hi
 
 # Akhtamar
 
-Akhtamar is an island in Lake Van ???????????????????????????????????????
+Akhtamar is an island in Lake Van. It is home to a very special church.
 
-The Cathedral of the Holy Cross on Akhtamar was built between 915 and 921 by [King Gagik I Artsruni](https://en.wikipedia.org/wiki/Gagik_I_Artsruni), King of Vaspurakan (908 - 1021). (Note that this is a different king from [Gagik I Bagratuni](https://en.wikipedia.org/wiki/Gagik_I_of_Armenia), king of Bagratuni. This was a period of many Armenian states, ruled by different Armenian dynasties, and Vaspurakan was one of those, along with Syunik, Artsakh, and idk what else potentially).
+The Cathedral of the Holy Cross on Akhtamar was built between 915 and 921 during the reign [King Gagik I Artsruni](https://en.wikipedia.org/wiki/Gagik_I_Artsruni), King of [Vaspurakan](https://en.wikipedia.org/wiki/Kingdom_of_Vaspurakan) (which existed from 908 - 1021, until the last king, [Senekerim-Hovhannes Artsruni](Senekerim-Hovhannes Artsruni ceded it to the Byzantines)). (Note that this is a different king from [Gagik I Bagratuni](https://en.wikipedia.org/wiki/Gagik_I_of_Armenia), king of Bagratuni. This was a period of many Armenian states, ruled by different Armenian dynasties, and Vaspurakan was one of those, along with Syunik, Artsakh, and idk what else potentially).
 
 ![Vaspurakan](../images/turkey/Bagratuni_Armenia.png)
 
@@ -137,7 +107,11 @@ Anyway, regarding the Akhtamar church, Turkey closed the it in 2005 for restorat
 
 You can read more about it on its [wikipedia page](https://en.wikipedia.org/wiki/Cathedral_of_the_Holy_Cross,_Aghtamar).
 
-## Erzincan 
+# Yukarıyongalı
+
+I'm just writing about what is of interest to me in the moment. I think this is top 5 most interesting parts of the entire trip. Yukarıyongalı is a seemingly random village on some random mountain, 130km West of Tatvan, by lake Van.
+
+
 
 ## Cappadocia
 
@@ -181,7 +155,7 @@ But the underground spaces which were already carved out turned out especially u
 
 And it turns out that in 1021, the last king of Vaspurakan (the kingdom centered around lake Van, 908 - 1021), the son of King Gagik I Artsruni (who I mentioned earlier in the Akhtamar section), Senekerim-Hovhannes Artsruni, handed his kingdom over to the Byzantine Empire in exchange for lands further west, including in Cappadocia. This decision came under increasing pressure from Seljuk advancements from the east and the weakening ability of Armenian kingdoms to defend their borders independently.
 
-And this situation gives us a glimpse into how empires behave, which you can read more about if interested in the note. [(Note 3)](#3)
+And this situation gives us a glimpse into how empires behave, which you can read more about if interested in the note. [(Note 4)](#4)
 
 Anyway, in 1071 the [Battle of Manzikert](https://en.wikipedia.org/wiki/Battle_of_Manzikert) happens. The Seljuks defeat the Byzantines, and Byzantine control of Anatolia begins to weaken. From this point on, there was no more "frontier chaos", no more unpredictability. Random raids were replaced with (relatively) stable taxation, and so the underground systems slowly stopped being cared for and maintained, until, a few generations later, they just became abandoned cavities.
 
@@ -194,12 +168,6 @@ And with the Battle of Manzikert, there was one last push of Armenians toward Ci
 Once enough manpower has been gathered, Armenian leaders in Cilicia begin to turn this demographic and military presence into political control. They seize fortresses and take control of mountain passes. Eventually, a new Armenia, the Armenian Kingdom of Cilicia (1198 - 1375), was formed.
 
 So, to conclude, although Cappadocia was never an Armenian kingdom, and it was never a core Armenian homeland, it became a place of settlement, refuge, and transition for them. Just as any Christian group would've found solace in those lands and underground cities.
-
-## Erzurum and the case of the Armenian-Turkish relations library
-
-We weren't prepared to debate, but next time I'd like to keep the following ideas in mind:
-
-1. Have Armenians ever lived in Nakhichevan. How were there khachkars then in Jugha? Do you think it was right to destroy them? Why?
 
 ## A Potential Future Trip
 
@@ -214,6 +182,27 @@ And if you do go in this direction, an absolute must is the village of Vakıflı
 Anyway, those rescued Armenians were taken to a refugee camp in Port Said, Egypt. After WW1, as part of the Treaty of Sèvres of 1920, that area which is today Turkey's Hatay Province, was part of the French-administered Syrian territory. And since it was now controlled by the French, those Armenian refugees went back to their homes around Mount Musa (not only, since it was estimated that 11% of Hatay's 220'000 population was Armenian, and ~40% were Turks). Mustafa Kemal Atatürk claimed that Hatay was Turkish and should be part of the new Republic of Turkey, and the French wanted to secure Turkey's neutrality before WW2, allowed the creation of a transitional country called Hatay State, which existed between between September 1938 and June 1939. Anyway, Hatay State was annexed by Turkey, and so since 1939 it's part of Turkey. And once that happened, most Armenians left (especially to Anjar, Lebanon), and only some families in Vakıflı stayed. And today's 100-150 inhabitants of Vakıflı are the descendents of those people who went back and never left.
 
 Another potentially interesting trip would include traveling closer to the northern coastline of Turkey. The Hemshin Muslims in Rize and Artvin are an interesting group to learn about as well. They were Armenians who converted to Islam during the Ottoman rule. The name comes from the region of Hemshin, or Hemşin, near Rize. According to [this source](https://en.wikipedia.org/wiki/Hem%C5%9Fin), there was the Armenian price Hamam in the 8th century who led a group of Armenians up north from the Arab invasions in Vaspurakan. And he named city Hamamshen, meaning "Hamam's hamlet" in Armenian. So that's where today's Hemşin name comes from, and they even speak an Armenian dialiect called [Homshetsi](https://en.wikipedia.org/wiki/Homshetsi_dialect), but it's complicated because one language was turkified, and then some eastern part speak something closer to Armenian. Worth exploring if interested.
+
+I think if someone likes to hike, and has time, it would be cool to go from the designated Ani archeological site, to the Red Church and Horomos. Kizkale church (Kızkalesi) seems also very interesting, just I haven't found it on Google Maps, not sure where it is, but I'm sure if you dig deeper you will find it. Because [this website](http://virtualani.org/kizkale/index.htm) talks about it, and [these guys walk to it](https://www.youtube.com/watch?v=dW7lSq474cM&t=420s).
+
+![Offroad churches](../images/turkey/ani/offroad-hike.png)
+
+I'd recommend doing what [these guys did](https://www.youtube.com/watch?v=b3cJGvvnraU&list=PLcvSvkQpP-ACKxrp15AMdBDOT3BDUy36A&index=11&t=537), and that's go to check out [this church](https://artofwayfaring.com/destinations/khtzkonk-beskilise-monastery/) on the way to Van. Just be safe out there when hiking mountains, always be prepared for snakes or wild animals.
+
+![Besh Kilise](../images/turkey/besh-kilise.JPG)
+
+Another note on the way to Van is, I didn't really appreciate it in the moment, but the view of mount Ararat is the best from the city of Iğdır. Because you think that it'll get better, and you want to get behind Sis and Masis, but the behind is hidden by other mountains. So take a stop at/near Iğdır to look at Masis (the bigger of the two mountains).
+
+![Mt Ararat from Igdir](../images/turkey/mt-ararat.jpg)
+Source: [https://ku.m.wikipedia.org/wiki/W%C3%AAne:I%C4%9Fd%C4%B1r_ve_A%C4%9Fr%C4%B1_Da%C4%9F%C4%B1.jpg]
+
+When visiting Akhtamar, we had these churches on our list but I guess we spent too much time in Akhtamar, since we spontaneously decided to swim there after seeing others doing so.
+
+![Churches we were supposed to see](../images/turkey/maps/churches%20in%20van%20region.JPG)
+
+You feel extremely greasy from the lake, and at first we thought it's because they dump some industrial waste into the water or something, but turns out that that is the natural chemical composition of that lake. It's what is known as a soda lake, which is any lake with a pH of between 9 and 12. It's just rich in particular salts which makes the water highly alkaline (Lake Van has a pH of 9.7), and when our skins touches these salts, and leaves a soapy feeling. As long as you don't have any cuts on your skin, and you shower afterwards, there is no problem.
+
+For fun I checked what would happen if you were to drink the water from Lake Van. If you take a few sips, your stomach acid (pH ~ 1.5-3.5) would immediately neutralize it.
 
 Finally, I would recommend to explore all the Byzantine churches in Cappadocia, underground and above ground (to be honest I didn't look into what's possible, so can't recommend anything in specific).
 
@@ -274,6 +263,29 @@ Destroy, erase, rename, repeat.
 
 ### 2
 
+Even in a clearly Armenian place like Ani, look at the signs they have there:
+
+![Besh Kilise](../images/turkey/ani/ani-sign.jpeg)
+![Besh Kilise](../images/turkey/ani/seljuk-lion.jpeg)
+![Besh Kilise](../images/turkey/ani/missing-armenian.jpeg)
+
+To say a territory is under some empire is one thing, but to mention the people who lived there is another. Being an Armenian living around that area at the time, you could one day be under the Romans, another day under the Persians, another day under the Muslim caliphate, and another under the Armenian Kingdom. [Watch it happen here.](https://www.youtube.com/watch?v=5eIADs7Ct-Q&t=300s) But your day to day as a citizen doesn't change that much. The empires didn't micromanage each of their territories. So to say "this land has belonged to all these kingdoms" strips a layer of truth. A constant is removed. And that constant are the Armenian people who lived there. For millennia. That entire region is called the Armenian Highlands for a reason.
+
+The first sign, second paragraph. It says "Kamsarakan people". Google who those are. Reading this you'd think the people in question in the second paragraph are different from the people in the third paragraph. Says "Tridat III (Great Tridat), King of Arşak, [...]".  The 'ş' makes things seem like it's some Turkish empire. This is supposed to be the English translation of their Turkish text on the left (not visible in the photograph). We don't have the letter 'ş' in English. Did they ask an intern to work on this? I don't understand. But anyway, beyond that, even if they wrote "King of Arshak", that's not a real title. It's Trdat III of the Arshakuni (Arsacid) dynasty. Not "Tridat", not "Arşak". Then they say "Arşavir", who is actually "Arshavir II Kamsarakan" from my understanding. I don't want to go too much into it. But in general,
+
+An Armenian king did not rule directly everywhere, but rather relied on "nakharars" (which back then was used for "hereditary nobles") to govern regions. An exemplary structure would be having the King (Arshakuni), and regional noble families (Kamsarakan, Mamikonian, Bagratuni, etc.). Each noble family ruled its lands hereditarily. And if a king weakened or disappeared, nakharars became somewhat independent (I didn't look into the details). And that's exactly what happened in 428, when the Arshakuni kingdom collapsed, and Armenia had no king for 450 years. So during that time, the nakharar houses competed, adapted, and survived. And the Bagratunis steadily accumulated power, until they became the dominant "Armenian house", and were titled the kings of Armenia in 885, and found the Bagratuni Kingdom of Armenia (the medieval Kingdom or Armenia), which lasted until 1045.
+
+Back to the sign. The biggest disrespect in my opinion is in the third paragraph, where they write "Armenian Bey of Ashot Misaker (Flesh Eather)". Usually people lie when it comes to actions, like "person X did this" when person X didn't do it. But these guys manage to lie on a name... twice in that little excerpt. I don't know how. "Bey" is a Turkic title used centuries later by the Seljuks and Ottomans. It was not used in 9th-10th-century Armenia. I don't know how they could justify writing this. How could this historically rich site, being a UNESCO World Heritage Site, be projecting a later Turkic title backward in time. On Armenians, who never had this title. Anyway. Actually I just realized why they finally used the word "Armenian". Because they never do. It's the only time I see it... It's because they wanted to emphasize the fact that this "Bey of Ashot" is a "flesh eater", implying he was brutal and would eat his enemies (and maybe his own peoples!!!) flesh. Anyway, while in English we may use "meat" to imply "human flesh", I don't think it's the same in Armenian. "Mis" in armenian is specifically the meat of an animal. If he were cannibalistic, he'd be named otherwise. But he was named Misaker because he would refuse to refrain from eating meat during Lent. That's the explanation I found online. And on that note, it's funny how they omitted that Ashot III (who they mention at the end of the third paragraph) is also known as [Ashot the Merciful](https://en.wikipedia.org/wiki/Ashot_III_of_Armenia). He was the king (953–977) who greatly expanded Ani, led its massive growth, turned it into a Silk Road city, turned it into the "City of 1001 Churches", and began the golden age of Armenia.
+
+What's the point of trying to erase the history of a place? What's the point of making it seem like Armenian are bad? Why not just talk about history in a balanced manner? The land is theres today anyway.
+
+Anyway, regarding the second picture, Google "Great Seljuk Empire symbol" or "flag". And then Google "Bagratuni kingdom flag". Simple. 
+
+And regarding the third picture, we see "Simbat", "Gagik", "Tridat". First of all... it's [Smbat](https://en.wikipedia.org/wiki/Smbat_II_of_Armenia), and it's [Trdat](https://en.wikipedia.org/wiki/Trdat_(architect)). Second, this was the main cathedral of Ani, the capital of the Kingdom of Armenia. The seat of the Armenian Catholicos at Ani. This is the equivalent of Azerbaijan capturing Armenia today, replacing the cross on top of the Etchmiadzin cathedral with a crescent, and writing "Liberation Mosque (Eçmiədzin)". (Liberation of course because they'd think they liberated the land from the pesky Armenians).
+
+
+### 3
+
 The region called Javakheti, in Georgia, is majority Armenian (50%+). Towns like Akhalkalaki and Ninotsminda are 95%+ Armenian.
 
 ![Armenian population in Georgia](../images/turkey/Ethnic-Armenians-in-Georgia-Map.jpg)
@@ -300,7 +312,7 @@ Why did the Soviets give Javakheti to the Georgian SSR? Well, one reason is that
 
 [Return](#the-trajectory)
 
-### 3
+### 4
 
 Byzantium wanted to absorb Armenian kingdoms without constantly fighting them. Territory is best taken through negotiation. But once you absorb a kingdom, you also inherit the problem of defending it. Eastern Anatolia is long, mountainous, and expensive to secure. So relocating a local king and his elite westward is a way to neutralize an independent power base on the frontier (this classic imperial strategy is explained next) and bring loyal Christian populations into regions where the empire can control and protect them more easily.
 
