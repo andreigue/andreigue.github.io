@@ -111,6 +111,15 @@ You can read more about it on its [wikipedia page](https://en.wikipedia.org/wiki
 
 I'm just writing about what is of interest to me in the moment. I think this is top 5 most interesting parts of the entire trip. Yukarıyongalı is a seemingly random village on some random mountain, 130km West of Tatvan, by lake Van.
 
+We accidently came across this place because one of us spotted "Surb Karapet Monastery" on Google Maps when searching where to go. So we just followed the GPS up onto a mountain, into a village of a couple of hundreds of people.
+
+We explored a bit, until we were approached by a man who turned out to be Zaza. This was a Zaza village.
+
+
+
+![Vaspurakan](../images/turkey/zaza-village.jpeg)
+![Vaspurakan](../images/turkey/zaza-village1.png)
+![Vaspurakan](../images/turkey/zaza-village2.png)
 
 
 ## Cappadocia
