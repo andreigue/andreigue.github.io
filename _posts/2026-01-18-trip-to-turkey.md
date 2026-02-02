@@ -109,18 +109,101 @@ You can read more about it on its [wikipedia page](https://en.wikipedia.org/wiki
 
 # Yukarıyongalı
 
-I'm just writing about what is of interest to me in the moment. I think this is top 5 most interesting parts of the entire trip. Yukarıyongalı is a seemingly random village on some random mountain, 130km West of Tatvan, by lake Van.
+I think this is top 5 most interesting parts of the entire trip for me. Yukarıyongalı is a seemingly random village on some random mountain, in the province of Muş, 130km West of Lake Van.
 
-We accidently came across this place because one of us spotted "Surb Karapet Monastery" on Google Maps when searching where to go. So we just followed the GPS up onto a mountain, into a village of a couple of hundreds of people.
+We accidently came across this place because one of us spotted [Surb Garapet Monastery](https://en.wikipedia.org/wiki/Surb_Karapet_Monastery) on Google Maps when searching where to go. It turns out this monastery was the most important Armenian monastery in Western Armenia before the genocide (second only to Etchmiadzin in all of Armenian lands), as well as a stronghold of the Mamikonians, and it is said to [house the tombs of several Mamikonian princes](https://en.wikipedia.org/wiki/Mamikonian), as well as the remains of John the Baptist (the person who baptisez Jesus in the Jordan River), placed there by the founder and person who brought Christianity to Armenia, Gregory the Illuminator (I recommend reading about his story, and I just learned that [Hripsime](https://en.wikipedia.org/wiki/Saint_Hripsime_Church) and [Gayane](https://en.wikipedia.org/wiki/Saint_Gayane_Church) were among the first christians martyred in Armenia under [King Trdat](https://en.wikipedia.org/wiki/Tiridates_III_of_Armenia), as they escaped persecution in Rome and the churches were erected in their names as well as where they were martyred). Anyway, this monastery had a lot of significance to Armenians. Read the monastery's [Wikipedia page](https://en.wikipedia.org/wiki/Surb_Karapet_Monastery) for more info.
 
-We explored a bit, until we were approached by a man who turned out to be Zaza. This was a Zaza village.
+So we just followed the GPS up onto a mountain, into a village of a couple hundred people. We explored a bit, until we were approached by a man who told us he was Zaza. This was a Zaza village.
 
+![Zaza man](../images/turkey/zaza2.jpg)
 
+We didn't know much about Zazas at the time, but we knew for a fact that this used to be an Armenian village. First of all because of the ruined monastery, but also because of all the stones with Armenian khachkars and inscriptions reused and embedded throughout the village.
 
-![Vaspurakan](../images/turkey/zaza-village.jpeg)
-![Vaspurakan](../images/turkey/zaza-village1.png)
-![Vaspurakan](../images/turkey/zaza-village2.png)
+![Zaza armenian stone](../images/turkey/zaza-village.jpeg)
+![Zaza armenian stone](../images/turkey/zaza-village1-1.jpg)
+![Zaza armenian stone](../images/turkey/zaza6.jpg)
+![Zaza armenian stone](../images/turkey/zaza-village2.png)
+![Zaza armenian stone](../images/turkey/zaza5.jpg)
 
+[Check out the Google Maps more pictures.](https://www.google.com/maps/place/Surb+Karapet+Monastery/@38.9607374,41.1918011,3a,75y,90t/data=!3m8!1e2!3m6!1sCIHM0ogKEICAgICEpbbtAw!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgeougc-cs%2FABOP9psqhkA25sBsVhddPHjnJsKa4phDgKiRnxmsld0fk7L0ADS9In4KrGrdjaO0NXmts4CbCK64Z5xJutFlogUjsT2wBbOoivqHxZs5PFQqIwK7Xy2epqFoM-qpNWRdmx_nBjxs4L0!7i1315!8i2048!4m8!3m7!1s0x40725ca98d32f51f:0x4a888c0ee493b255!8m2!3d38.9607374!4d41.1918011!9m1!1b1!16s%2Fm%2F064k91c?entry=ttu&g_ep=EgoyMDI2MDEyMS4wIKXMDSoKLDEwMDc5MjA3MUgBUAM%3D)
+
+But it was interesting that these people didn't try to hide the fact that Armenians were there before. Maybe they don't care, maybe they enjoy showing Armenians around (we tried paying our Zaza friend but he really didn't want to accept any money for showing us around), maybe they simply see it as part of the village rather than something to explain, or maybe it's also possible that there have been Armenian women and children absorbed into this community, and the bricklayer wanted that fact to stay in mind. Because it's not like they were out of stones. They only used a very small portion of Armenian-inscribed stones, and they could've easily been hidden, and even chiseled out. But they're just leaving it there.
+
+There is no doubt that some Zaza tribes and individuals participated in violence during 1915. This included killings, looting, and taking over abandoned property. But just like for any group, it's not fair to say that they all did. Zazas as a group are different from Kurds (as I'll explain shortly), and they did not carry out a systematic extermination of Armenians in the way the Ottoman state and some Kurdish militias did. In this specific case, [Wikipedia says](https://en.wikipedia.org/wiki/Surb_Karapet_Monastery) "[this village] remained abandoned until the 1960s when Kurdish families settled on the site".
+
+By the way, in the Wiki article, you can ctrl+f "zaza" and will see it being mentioned in the footnotes.
+
+![Armenian genocide map](../images/turkey/Armenian_Genocide_Map-en.svg.png)
+
+Looking at maps that show the geographic spread of the Armenian Genocide, Mush clearly stands out as a major center of mass killing. Yukarıyongalı is only 25-30km away from Mush, which makes it hard to assume that the village was untouched by violence. And in fact, according to Wikipedia (which gets its source elsewhere, which I didn't bother to look into), Armenians from nearby villages used the monastery as a refuge ground, and resisted for 2 months, but were then massacred. Allegedly 5000 Armenians were massacred there.
+
+As a final note about our visit, we tried very lightly to push and ease into the Armenian question, but the man implied that he doesn't know what happened to the Armenians. Now that I think about it, I'm not even sure if he had mentioned the word "Armenian". And this was a common situation for us in Turkey, where we were very careful to ease into the the Armenian question with citizens, as we didn't know people's political beliefs. So if the topic came up because our motives became too obvious, I would even sometimes pretend like only one of my grandmothers is Armenian, to show I'm just curious about this topic. And especially in a remote area like Yukarıyongalı, I think it's best to be conservative, and safe.
+
+## Who are the Zaza
+
+If you do a population survey in Turkey today (total population of 85M), you'd get that 70-75% (60M) are Turks, 15-20% (15M) are Kurds, ~2% (1.5M) are Arabs, ~1% are Circassians, ~1% are Laz, ~0.5% are Georgians, ~0.01% are Armenians, 0.03% are Assyrians Syriacs. You could maybe see something like this. Approximately.
+
+Now check out [this interactive map](https://umap.openstreetmap.fr/zh/map/ethnic-map-of-turkey-not-completed_1060042#6/38.848/35.266) of the different ethnicies in Turkey. If you're too lazy to click off, you can just view this map:
+
+![Turkey ethnicity map](../images/turkey/turkey-ethnicity-map.jpg)
+
+And the colors represent the following groups:
+- Red: Turks
+- Yellow: Kurds
+- Brown: Arabs
+- Light Blue: Zazas
+- Dark Green: Caucasian immigrants
+- Light Green: Georgians
+- Purple (Dark Blue): Laz
+- Cyan: Armenians [(I mention Hemshen Armenians in this section)](#a-potential-future-trip)
+
+What quickly stands out is that Zazas appear as their own category. Yet in most population surveys, Zazas are bundled together with Kurds.
+
+They live in Tunceli ([Dersim](https://en.wikipedia.org/wiki/Dersim_massacre)(they've experienced a massacre in 1938-39 under Atatürk, and the Dersim province was renamed to Tunceli)) and parts of Mush regions. And the Tunceli province is the only province in Turkey, out of the 81 provinces, where Zazas are the majority. Zazas are [Alevi](https://en.wikipedia.org/wiki/Kurdish_Alevism) (religion), which is something closer to Sufism and Yazidism.
+
+Going back to Zazas. Culturally and politically, Zazas are oftentimes grouped with Kurds due to shared geography, shared marginalization, and shared political movements. Some Zazas identify strongly as Kurdish. Others explicitly reject that label and see themselves as a distinct people. [(Note on Turkish/Zaza relations)](#4)
+
+Zazas speak Zazaki. Zazaki is a Northwestern Iranian language related to Kurdish. But Kurdish is also not just one language.
+
+![kurdish-languages-map](../images/turkey/Kurdish-languages.png)
+
+Out of the 30-35 million Kurds worldwide, 55%+ speak Kurmanji ("Northern Kurdish" as some places refer to it), 30% speak Sorani ("Central Kurdish"), and 5% speak Gorani (one of the "Southern Kurdish" dialects). This last one is the one most closely related to Zazaki. As you can see here, in the bottom right corner:
+
+![kurdish-languages-map](../images/turkey/zazaki-gorani-iranian-language-tree.jpg)
+
+While all belong to the Northwestern Iranian language group, Zazaki and Gorani are often treated as distinct from Kurdish proper in linguistic classifications, as you can see above.
+
+As an example, here are the languages side-by-side:
+
+English: The weather is nice today.
+Kurmanji: îro hewa xweş e.
+Sorani: ئەمڕۆ هەوا خۆشە. (pronounced as: em-rô ha-wâ kho-sha)
+Zazaki: ewro hewa xoş e.
+Gorani: ewro hawâ xoş e.
+
+Mutual intelligibility between Zazaki and Gorani is the highest among all pairings discussed here. Other pairs generally require some exposure (which they do get because media and schooling is often in Kurmanji or Sorani, as they have more speakers) and learning, though the learning curve is not very steep.
+
+And here is the bigger picture, zooming out of the Indo-Iranian tree, because this is a subgroup of the Indo-European family:
+
+![indo-european-languages-map](../images/turkey/indo-european-languages.png)
+
+**Fun fact about the Kurdish language:** From 1921 to 1928, Kurmanji Kurdish spoken by Kurdish communities (mostly Yazidi Kurds) inside Soviet Armenia was written with a version of the Armenian alphabet in the Armenian SSR. Kurdish newspapers, political pamphlets, children's books. [Look at how](https://www.omniglot.com/writing/kurdish.htm) they modified Armenian letters to make their own sounds. The Soviets did this for three main reasons: 
+
+- The Armenian infrastructure (schools, press, etc.) already existed, so it was practical.
+- The USSR was secularizing everyone. And Islam is a very strong religion, and Arabic is associated with Islam. So the Soviets wanted to move the Kurdish literacy away from Arabic script.
+- Many Kurds living in the area were already familiar with Armenian script through everyday life surrounded by Armenians, Armenian businesses, administrative duties, etc.
+
+Then, between 1928–1940, Kurdish was written in Latin alphabet, and after 1940, it was forced into Cyrillic. Today from my understanding they went back to latin letters.
+
+The women and children of Yukarıyongalı:
+
+![Zaza women](../images/turkey/zaza4.jpg)
+![Zaza children](../images/turkey/zaza3.jpg)
+
+Just a note to my future self in case I read this. I came across these and would read it if I had the time. Read these if interested:
+- [https://en.wikipedia.org/wiki/Western_Armenia]
+- [https://en.wikipedia.org/wiki/Turkish_invasion_of_Armenia]
+- [https://en.wikipedia.org/wiki/Soviet_invasion_of_Armenia]
 
 ## Cappadocia
 
@@ -164,7 +247,7 @@ But the underground spaces which were already carved out turned out especially u
 
 And it turns out that in 1021, the last king of Vaspurakan (the kingdom centered around lake Van, 908 - 1021), the son of King Gagik I Artsruni (who I mentioned earlier in the Akhtamar section), Senekerim-Hovhannes Artsruni, handed his kingdom over to the Byzantine Empire in exchange for lands further west, including in Cappadocia. This decision came under increasing pressure from Seljuk advancements from the east and the weakening ability of Armenian kingdoms to defend their borders independently.
 
-And this situation gives us a glimpse into how empires behave, which you can read more about if interested in the note. [(Note 4)](#4)
+And this situation gives us a glimpse into how empires behave, which you can read more about if interested in the note. [(Note 4)](#5)
 
 Anyway, in 1071 the [Battle of Manzikert](https://en.wikipedia.org/wiki/Battle_of_Manzikert) happens. The Seljuks defeat the Byzantines, and Byzantine control of Anatolia begins to weaken. From this point on, there was no more "frontier chaos", no more unpredictability. Random raids were replaced with (relatively) stable taxation, and so the underground systems slowly stopped being cared for and maintained, until, a few generations later, they just became abandoned cavities.
 
@@ -184,13 +267,19 @@ Let's look at this map again.
 
 ![Map of Armenians in Ottoman Empire](../images/turkey/Armenians_in_the_Ottoman_Empire_(1870s).png)
 
-If you're goal is this follow "Armenianess", well then it's quite obvious that the southern portion is where you'd want to be. Going all to way to Adana, visiting Batman, Diyarbakır (Tigranakert), Mardin, Şanlıurfa (Urfa), Kahramanmaraş (Marash), Gaziantep and much more (which I'd have to research about) along the way. 
+If my goal is to follow "Armenianess", well then it's quite obvious that the southern portion is where I'd go next time. Going all to way to Adana, visiting Batman, Diyarbakır (Tigranakert), Mardin, Şanlıurfa (Urfa), Kahramanmaraş (Marash), Gaziantep and much more (which I'd have to research about) along the way.
+
+Actually, this is such [an amazing website which lists all the Armenian sites in Turkey (and Georgia and Iran and the ME too)](https://armeniapedia.org/wiki/Map_of_Armenian_Sites_in_Turkey) which I only found out while researching for this article.
 
 And if you do go in this direction, an absolute must is the village of Vakıflı, as well as the mountain nearby. The population is 100-150, and they are mostly ethnically Armenian, and they speak Western Armenian (and Turkish). And if you look close by on the map, you will see that Mount Musa is nearby. The same mountain on which 4000 Armenians from 7 villages took arms and resisted the Ottomans for 53 days until they were rescued by the French. This was during the Armenian Genocide by the way, and there's a famous book that talks about it called The Forty Days of Musa Dagh by Franz Werfel.
 
 Anyway, those rescued Armenians were taken to a refugee camp in Port Said, Egypt. After WW1, as part of the Treaty of Sèvres of 1920, that area which is today Turkey's Hatay Province, was part of the French-administered Syrian territory. And since it was now controlled by the French, those Armenian refugees went back to their homes around Mount Musa (not only, since it was estimated that 11% of Hatay's 220'000 population was Armenian, and ~40% were Turks). Mustafa Kemal Atatürk claimed that Hatay was Turkish and should be part of the new Republic of Turkey, and the French wanted to secure Turkey's neutrality before WW2, allowed the creation of a transitional country called Hatay State, which existed between between September 1938 and June 1939. Anyway, Hatay State was annexed by Turkey, and so since 1939 it's part of Turkey. And once that happened, most Armenians left (especially to Anjar, Lebanon), and only some families in Vakıflı stayed. And today's 100-150 inhabitants of Vakıflı are the descendents of those people who went back and never left.
 
 Another potentially interesting trip would include traveling closer to the northern coastline of Turkey. The Hemshin Muslims in Rize and Artvin are an interesting group to learn about as well. They were Armenians who converted to Islam during the Ottoman rule. The name comes from the region of Hemshin, or Hemşin, near Rize. According to [this source](https://en.wikipedia.org/wiki/Hem%C5%9Fin), there was the Armenian price Hamam in the 8th century who led a group of Armenians up north from the Arab invasions in Vaspurakan. And he named city Hamamshen, meaning "Hamam's hamlet" in Armenian. So that's where today's Hemşin name comes from, and they even speak an Armenian dialiect called [Homshetsi](https://en.wikipedia.org/wiki/Homshetsi_dialect), but it's complicated because one language was turkified, and then some eastern part speak something closer to Armenian. Worth exploring if interested.
+
+[January 28, 2026 Update] Taken directly from [this article](https://armenianweekly.com/2018/01/02/hidden-armenians-bedrosyan/) (which I recommend reading in its entirety):
+
+*"Until recently, most Hamshen people had a strong nationalistic—even racist—allegiance to Turkey. In conversation with a Hamshen woman, I was amazed to hear the following: “Yes Hay chem. Yes Turk em” (“I am not Armenian. I am a Turk.”)—in Armenian!"*
 
 I think if someone likes to hike, and has time, it would be cool to go from the designated Ani archeological site, to the Red Church and Horomos. Kizkale church (Kızkalesi) seems also very interesting, just I haven't found it on Google Maps, not sure where it is, but I'm sure if you dig deeper you will find it. Because [this website](http://virtualani.org/kizkale/index.htm) talks about it, and [these guys walk to it](https://www.youtube.com/watch?v=dW7lSq474cM&t=420s).
 
@@ -205,7 +294,7 @@ Another note on the way to Van is, I didn't really appreciate it in the moment, 
 ![Mt Ararat from Igdir](../images/turkey/mt-ararat.jpg)
 Source: [https://ku.m.wikipedia.org/wiki/W%C3%AAne:I%C4%9Fd%C4%B1r_ve_A%C4%9Fr%C4%B1_Da%C4%9F%C4%B1.jpg]
 
-When visiting Akhtamar, we had these churches on our list but I guess we spent too much time in Akhtamar, since we spontaneously decided to swim there after seeing others doing so.
+When visiting Akhtamar, we had these churches on our list but I guess we spent too much time in Akhtamar, since we spontaneously decided to swim there after seeing others doing so (highly recommend, if weather insists).
 
 ![Churches we were supposed to see](../images/turkey/maps/churches%20in%20van%20region.JPG)
 
@@ -280,7 +369,7 @@ Even in a clearly Armenian place like Ani, look at the signs they have there:
 
 To say a territory is under some empire is one thing, but to mention the people who lived there is another. Being an Armenian living around that area at the time, you could one day be under the Romans, another day under the Persians, another day under the Muslim caliphate, and another under the Armenian Kingdom. [Watch it happen here.](https://www.youtube.com/watch?v=5eIADs7Ct-Q&t=300s) But your day to day as a citizen doesn't change that much. The empires didn't micromanage each of their territories. So to say "this land has belonged to all these kingdoms" strips a layer of truth. A constant is removed. And that constant are the Armenian people who lived there. For millennia. That entire region is called the Armenian Highlands for a reason.
 
-The first sign, second paragraph. It says "Kamsarakan people". Google who those are. Reading this you'd think the people in question in the second paragraph are different from the people in the third paragraph. Says "Tridat III (Great Tridat), King of Arşak, [...]".  The 'ş' makes things seem like it's some Turkish empire. This is supposed to be the English translation of their Turkish text on the left (not visible in the photograph). We don't have the letter 'ş' in English. Did they ask an intern to work on this? I don't understand. But anyway, beyond that, even if they wrote "King of Arshak", that's not a real title. It's Trdat III of the Arshakuni (Arsacid) dynasty. Not "Tridat", not "Arşak". Then they say "Arşavir", who is actually "Arshavir II Kamsarakan" from my understanding. I don't want to go too much into it. But in general,
+The first sign, second paragraph. It says "Kamsarakan people". Google who those are. Reading this you'd think the people in question in the second paragraph are different from the people in the third paragraph. Says "Tridat III (Great Tridat), King of Arşak, [...]".  The 'ş' makes things seem like it's some Turkish empire. This is supposed to be the English translation of their Turkish text on the left (not visible in the photograph). We don't have the letter 'ş' in English. Did they ask an intern to work on this? I don't understand. But anyway, beyond that, even if they wrote "King of Arshak", that's not a real title. It's [Trdat III of the Arshakuni (Arsacid) dynasty](https://en.wikipedia.org/wiki/Tiridates_III_of_Armenia). Not "Tridat", not "Arşak". Then they say "Arşavir", who is actually "Arshavir II Kamsarakan" from my understanding. I don't want to go too much into it. But in general,
 
 An Armenian king did not rule directly everywhere, but rather relied on "nakharars" (which back then was used for "hereditary nobles") to govern regions. An exemplary structure would be having the King (Arshakuni), and regional noble families (Kamsarakan, Mamikonian, Bagratuni, etc.). Each noble family ruled its lands hereditarily. And if a king weakened or disappeared, nakharars became somewhat independent (I didn't look into the details). And that's exactly what happened in 428, when the Arshakuni kingdom collapsed, and Armenia had no king for 450 years. So during that time, the nakharar houses competed, adapted, and survived. And the Bagratunis steadily accumulated power, until they became the dominant "Armenian house", and were titled the kings of Armenia in 885, and found the Bagratuni Kingdom of Armenia (the medieval Kingdom or Armenia), which lasted until 1045.
 
@@ -322,6 +411,16 @@ Why did the Soviets give Javakheti to the Georgian SSR? Well, one reason is that
 [Return](#the-trajectory)
 
 ### 4
+
+So Zazas and Kurds are clearly ethnically different. There is no natural ethnic unity. They just unite over the fact of having a common enemy: the Turkish state. Kurdish politics in Turkey revolves around the demands of cultural, political, and linguistic recognition/rights/autonomy. And those are the same demands asked by Zazas, so it is not uncommon to see Zazas fighting for the PKK (Partiya Karkerên Kurdistanê, or Kurdistan Workers' Party). Language differences and ethnic nuances don't matter when dealing with a bigger threat. Political alignment is what matters. If you fought the Turkish state under a Kurdish banner, you were Kurdish politically. And this reinforced the idea that Zazas are just like Kurds, so they get bunched up in the same category. Some Zazas see this as a practical coalition and a political necessity. 
+
+It's like in Canada if you actually want to vote for the Green Party, but you know they won't win, so you vote for the Liberal or NDP party because at least they have a shot. Or if you want to vote for the People's Party of Canada (PPC) but vote for the Conservative party instead.
+
+Anyway. Zazas. Some Zazas aren't happy with being part of the Kurdish grouping because their language is not Kurdish, their history is distinct, and they just see this inclusion as mirroring Turkish assimilation; they see Kurdish identity as another dominant umbrella swallowing a smaller group.
+
+[Return](#who-are-the-zaza)
+
+### 5
 
 Byzantium wanted to absorb Armenian kingdoms without constantly fighting them. Territory is best taken through negotiation. But once you absorb a kingdom, you also inherit the problem of defending it. Eastern Anatolia is long, mountainous, and expensive to secure. So relocating a local king and his elite westward is a way to neutralize an independent power base on the frontier (this classic imperial strategy is explained next) and bring loyal Christian populations into regions where the empire can control and protect them more easily.
 

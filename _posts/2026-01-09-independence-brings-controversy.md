@@ -32,9 +32,9 @@ Now let's say two students write the following:
 x = 3/3
 x = 1
 ```
-Again, two students wrote this in the exact same way. Not only is this a specific error (dividing only a part of the equation by 5), but this is also a very specific way of progression, in that they both decided to skip the step of `4 - 1`, but wrote `3/3`, instead of just writing `1`.
+Again, two students wrote this in the exact same way. Not only is this a specific error (dividing only a part of the equation by 5), but this is also a very specific way of progression, in that they both decided to skip the intermediary step of `4 - 1`, but decided to explicity write the intermediary step of `3/3` (instead of just writing `1`).
 
-But let's just focus on the error for now.  Out of the dozens of errors that could've been made, they both made this same one.
+But let's just focus on the error for this hypothetical scenario. Out of the dozens of errors that could've been made, they both made this same one.
 
 Oh, and the teacher is now telling me that in fact, they made the exact same mistakes on all their wrong answers... what a funny coincidence. Oh and they're sitting next to one another? Okay the probability of cheating is quite close to 100% now.
 
@@ -42,7 +42,7 @@ So, to drive the point home, there is only one correct answer, but there are man
 
 Why though? Why is it that identical wrong answers give away that there is some copying involved?
 
-Why does independent thinking leave different fingerprints, even when the conclusion is wrong?
+Why does independent thinking leave different fingerprints?
 
 To start, at least in math and the hard sciences, there is only one correct answer. There is one thing that 'x' is, there is one speed at which the ball falls, there is one formula for the water molecule.
 
@@ -50,29 +50,33 @@ Many students will answer `x = 5` because the average student will converge on t
 
 However, you can be wrong in 10 different ways, even on a simple problem as the one above.
 
-You could've been mistaken at the very beginning by forgetting the `-5` and doing: `3x + 5 = 20` => `3x = 20` => `x = 6.67`. 
+You could've been mistaken at the very beginning by ignoring (for whatever reason) the `+ 5` and doing: 
+`3x + 5 = 20` => `3x = 20` => `x = 6.67`. 
 
-You could've made the mistake at the end by subtracting the 3 instead of dividing by it: `3x + 5 = 20` => `3x = 20 - 5` => `3x = 15` => `x = 15 - 3` => `x = 12`
+You could've made the mistake at the end by subtracting the 3 instead of dividing by it: 
+`3x + 5 = 20` => `3x = 20 - 5` => `3x = 15` => `x = 15 - 3` => `x = 12`
 
-You could've subtracted the 5 on the left, and added it on the right: `3x + 5 = 20` => `3x = 20 + 5` => `3x = 25` => `x = 25/3` => `x = 8.33`
+You could've subtracted the 5 on the left, but added it on the right: 
+`3x + 5 = 20` => `3x = 20 + 5` => `3x = 25` => `x = 25/3` => `x = 8.33`
 
-You could've made the combination of the second and third mistakes: `3x + 5 = 20` => `3x = 20 + 5` => `3x = 25` => `x = 25 - 3` => `x = 22`
+You could've made the combination of the second and third mistakes: 
+`3x + 5 = 20` => `3x = 20 + 5` => `3x = 25` => `x = 25 - 3` => `x = 22`
 
-Anyway, these are just three examples out of dozens.
+Anyway, these are just a few examples out of dozens.
 
 I was going to derive some statistics to show how unlikely it is for two students to repeatedly take the same wrong paths, but just very briefly:
 
 If there are 10 wrong paths, and they are all equally likely to be taken (which is an oversimplification), then the likelihood for two students to take the same wrong path is 10%. The likelihood that this happens twice drops to 1%. Three questions: 0.1%. You get the pattern.
 
-Now let's add a small complexity in the form of a simple assumption: there is a wrong path that is a common "gotcha" for students on any given question, as 60% of students who are wrong fall into it. Then the probability of two students both independently falling into that same trap is:
+Now let's add a small complexity in the form of a simple assumption: there is a wrong path that is a common "gotcha" for students on any given question, as 60% of students who are wrong fall into this trap. Then the probability of two students both independently falling into that same trap is:
 
 0.6² => 36%
 
 If this happens twice, the likelihood of this being by chance is 4.7% (0.36²). Three questions: 0.6% (0.36³).
 
-And assuming two students keep taking this "commonly taken path", the likelihood of cheating still grows exponentially. After only three identical wrong answers, the probability of this happening by chance drops to 0.6%.
+And assuming two students keep taking this "commonly taken path", the likelihood of cheating still grows exponentially. After only three identical wrong answers, the probability of this happening by chance drops is 0.6%.
 
-This is the most forgiving model possible. The best-case scenario for coincidence. It assumes the mistake is popular, predictable, and easy to fall into. And yet, repetition still makes coincidence extremely unlikely.
+And this is the most forgiving model possible. The best-case scenario for coincidence. It assumes the mistake is popular, predictable, and easy to fall into. And yet, repetition still makes coincidence extremely unlikely.
 
 Anyway, if you didn't get this part, no worries, we can still move on.
 
@@ -111,13 +115,13 @@ And what does that say about you?
 
 It says that you copied. Some answers (maybe even most) you got right, but some you will inevitably get wrong, just like your "group".
 
-I'm just saying I'd rather come to a wrong answer, but have copied no one, than to have copied a group, felt a sense of belonging to that group, and copied their thoughts, even if their (and by extension mine) conclusion is right. I want to have my own thoughts. My own line of reasoning. My own conclusions. 
+I'm just saying I'd rather come to a wrong answer, but have copied no one, than to have copied a group, felt a sense of belonging to that group, and copied their thoughts, even if their (and by extension mine) conclusions are right. I want to have my own thoughts. My own line of reasoning. My own conclusions. 
 
 If I meet someone who has all of my same stances (not having an opinion on something is also a stance), then I will be incredibly weirded out, and will keep probing until I find the dissimilarity. Because there has to be one. The world is too complex, too layered, too full of hidden variables for two independently thinking people to align perfectly.
 
 It's okay to not have it all figured out at the age of 20. 30. 40. 50. 60. 70. 80. 90. Chill.
 
-You don't need to have an opinion on every single topic. You don't need to be involved in everything. There are way too many topics in the world. And this is not a simple algebra problem. This involves humans. One human is already so complex. To figure out how to deal with millions... be humble. Don't be so attached to ideas.
+You don't need to have an opinion on every single topic. You don't need to be involved in everything. There are way too many topics in the world. And this is not a simple algebra problem. This involves humans. One human is already so complex. To figure out how to deal with millions... be humble. Don't be so attached to your thoughts... especially if they're not yours.
 
 **[January 23, 2026 Update]** I wrote this article with a liberal/progressive person in mind (not any specific one). A person who value signals, i.e.
 Someone with "correct opinions". "Be kind to one another". I had in mind environments where consensus is enforced through social pressure, reputational risk, and moral language. 
@@ -129,3 +133,8 @@ Rejecting mainstream consensus is not the same as thinking independently.
 I guess I chose the wording for this article maybe for some "poignant" effect, but the point is not that every independent thinker must and will absolutely have at least one controversial opinion. No. But...
 
 A non-independent thinker will have no controversial opinions.
+
+How I think, is I have a few fundamental beliefs, and then build off the rest of the pyramid on top. 
+
+Q: does it not make sense for many people, given that they have the same fundamental beliefs, come to the same conclusions on many topics. For example, if i think that everyone should have the right to do whatever they want with their bodies, then it makes sense (maybe gotta also consider other factors? other fundamental beliefs?) that i be pro-choice, and support gender transitioning operations (or wtv thats called). What else would I support?
+what about a religious person? are they more likely to be conservative? why?
