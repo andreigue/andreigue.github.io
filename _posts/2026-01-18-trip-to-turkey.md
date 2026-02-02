@@ -91,7 +91,7 @@ As a sidenote, take a look at some of the art on the walls of the Akhtamar Churc
 
 It was the seat of an independent Armenian Catholicosate from the 10th until 1895. This fact is a big deal, because there have only been three Catholicosates in the history of Armenia: Etchmiadzin, Akhtamar, and later, Cilicia. Just like the Byzantine Empire had multiple Patriarchates like in Constantinople, Antioch, Alexandria, and Jerusalem, each governing a region but recognizing a shared theological framework, the Armenian Church followed a similar logic.
 
-Today we only have one Catholicos for all Armenians, seated at Mother See of Holy Etchmiadzin. He is the supreme head of the Armenian Apostolic Church worldwide. Technically there is a second one, but he is second in rank, so it's not the same. I'm talking about the Catholicos of the Great House of Cilicia, seated in Antelias, Lebanon. (https://www.armenianorthodoxchurch.org/en).
+Today we only have one Catholicos for all Armenians, seated at Mother See of Holy Etchmiadzin. He is the supreme head of the Armenian Apostolic Church worldwide. Technically there is a second one, but he is second in rank, so it's not the same. I'm talking about the [Catholicos of the Great House of Cilicia](https://www.armenianorthodoxchurch.org/en), seated in Antelias, Lebanon.
 
 Before I explain why, it's important to know the following:
 
