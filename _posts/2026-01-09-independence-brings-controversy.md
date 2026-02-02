@@ -86,7 +86,9 @@ If you don't hold any "controversial" opinion, it is unlikely that you are think
 
 If all of your views line up perfectly with those of your family, your social circle, your community, and/or your favorite social media channel, then your beliefs are inherited, rather than developed. You are not reasoning, you are accepting and conforming.
 
-Pick a year. Any year. 1400, 1800, 1900, 1950, 2000, 2010.
+And just to be clear, a "controversial" idea to you and your surroundings could be a totally normal idea to many others. I don't mean "believing in aliens" or "9/11 was an inside job". It could be as simple as being pro-choice in an environment where pro-life is the default.
+
+Now pick a year. Any year. 1400, 1800, 1900, 1950, 2000, 2010.
 
 Was society right about everything at any of those points?
 
@@ -122,19 +124,3 @@ If I meet someone who has all of my same stances (not having an opinion on somet
 It's okay to not have it all figured out at the age of 20. 30. 40. 50. 60. 70. 80. 90. Chill.
 
 You don't need to have an opinion on every single topic. You don't need to be involved in everything. There are way too many topics in the world. And this is not a simple algebra problem. This involves humans. One human is already so complex. To figure out how to deal with millions... be humble. Don't be so attached to your thoughts... especially if they're not yours.
-
-**[January 23, 2026 Update]** I wrote this article with a liberal/progressive person in mind (not any specific one). A person who value signals, i.e.
-Someone with "correct opinions". "Be kind to one another". I had in mind environments where consensus is enforced through social pressure, reputational risk, and moral language. 
-
-I guess I wrote this article with the progressive/liberal/"big-city thinking" in mind. I was thinking about people who value signal. In an extreme case, think of a multinational corporation which sees that LGBTQ movements are popular, and so they join the parade as a corporation. I doubt the CEO or anyone at the highest levels care about gay people. But ... .
-
-Rejecting mainstream consensus is not the same as thinking independently. 
-
-I guess I chose the wording for this article maybe for some "poignant" effect, but the point is not that every independent thinker must and will absolutely have at least one controversial opinion. No. But...
-
-A non-independent thinker will have no controversial opinions.
-
-How I think, is I have a few fundamental beliefs, and then build off the rest of the pyramid on top. 
-
-Q: does it not make sense for many people, given that they have the same fundamental beliefs, come to the same conclusions on many topics. For example, if i think that everyone should have the right to do whatever they want with their bodies, then it makes sense (maybe gotta also consider other factors? other fundamental beliefs?) that i be pro-choice, and support gender transitioning operations (or wtv thats called). What else would I support?
-what about a religious person? are they more likely to be conservative? why?
