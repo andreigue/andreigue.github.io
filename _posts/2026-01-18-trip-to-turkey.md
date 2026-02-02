@@ -3,8 +3,6 @@ title: "Through the Ruins of Western Armenia"
 tags: [History, Thoughts]
 ---
 
-## Why I’m Writing This
-
 First of all, I want to acknowledge something. What we saw on this trip will not last forever. If my great grandchildren visit eastern Turkey, they will find fewer traces of a past armenian presence than we did. The ruins will be fewer, the outlines fainter, and the carvings thinner. And some places will be completely gone. What can still be touched today may one day exist only in photographs and in the words of those who took the time to record it. An example of this is city names. [(Note 1)](#1)
 
 By the way, even today the Azerbaijan government continues this pattern. President Ilham Aliyev and state media regularly refer to Armenian cities and regions using Azerbaijani or Turkic names, even when those places are internationally recognized as part of Armenia, such as Lake Sevan (which they call Lake Goycha), and Yerevan (which they call Irevan). This is done under the pretense that Armenians live on historically Azerbaijani land. And unfortunately without international law, disputes like these are not settled by history or truth, but by strength.
