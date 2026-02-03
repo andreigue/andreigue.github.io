@@ -31,7 +31,7 @@ First of all, keep in mind this map:
 
 ![Map of Armenians in Ottoman Empire](../images/turkey/Armenians_in_the_Ottoman_Empire_(1870s).png)
 
-This is a map of the percentage of Armenians in various regions of the Ottoman Empire before the genocide.
+This is a map of the percentage of Armenians in various regions of the Ottoman Empire before the genocide. Look into the [six vilayets of the Ottoman Empire](https://en.wikipedia.org/wiki/Six_Vilayets) for more details.
 
 As Armenians we intuitively know this map, because we hear from our surroundings "my father's side is from Bitlis", "my maternal grandmother's side is from Kars", "my grandparents are both from Mush", etc. We hear the names of all these places. So over time we may pick up some patterns.
 
