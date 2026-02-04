@@ -43,11 +43,9 @@ We passed through the following cities:
 
 Gyumri, Kars, Ani, Iğdır, Van, Akthamar Island, Bitlis, Muş, Yukarıyongalı (tiny Zaza village), Elâzığ, Harput, Malatya, Gürün, Kayseri, Ürgüp (Cappadocia), Gürün, Kemah Gorge, Erzincan, Erzurum, Kars, Akhalkalaki, Gyumri.
 
-I will not go into everything here, but I'll come notes about the trip:
+The best way to get to Eastern Turkey from Armenia is by land, through the Georgian border. So we had our Armenian driver take us to the Georgian-Turkish border, from where a Turkish driver took us to Kars.
 
-We had a driver take us to the Georgian-Turkish border
-
-We went through the armenian portion of Georgia, and I'll go on a little tangent about the Armenian portion of Georgia. [(Note 3)](#3)
+We went through the armenian portion of Georgia, and I'll go on a little tangent about the Armenian portion of Georgia. You can read if interested. [(Note 3)](#3)
 
 I was going to write the route and every interesting thing we saw, but I decided to focus on the history of some of the places, and notes for a future trip to Turkey [are left at the end](#a-potential-future-trip).
 

@@ -1,21 +1,19 @@
 ---
 layout: posts
 permalink: /projects/
-title: Some past projects
+title: Some Past Projects
 author_profile: true
 header:
     image: #"/images/typewriter.jpg/"
 ---
 
-
-
 [![View of networks](..\images\proj1.jpg)](https://youtu.be/Nk4SSFfV1Rc)
-[![Dynamic Malware Analysis using Cuckoo Sandbox University Project!]()](https://youtu.be/Nk4SSFfV1Rc)
+[![Dynamic Malware Analysis using Cuckoo Sandbox University Project]()](https://youtu.be/Nk4SSFfV1Rc)
 
 
 [![View of networks](..\images\proj2.jpg)](https://youtu.be/ShEX6RL_HXA)
-[![Trojan Horse Malware Program Demo!]()](https://youtu.be/ShEX6RL_HXA)
+[![Trojan Horse Malware Program Demo]()](https://youtu.be/ShEX6RL_HXA)
 
 
 [![View of networks](..\images\proj3.jpg)](https://www.youtube.com/watch?v=DtjMIZjkW-o)
-[![Drone face detection and recognition!]()](https://www.youtube.com/watch?v=DtjMIZjkW-o)
+[![Drone face detection and recognition]()](https://www.youtube.com/watch?v=DtjMIZjkW-o)
