@@ -28,10 +28,13 @@ In the modern age, a common practice done by spammers is to automate (through a 
 
 
 ### Notes:
+
 ### 1
-Note that email providers such as Yahoo Gmail and Outlook simply implement these softwares and take care of the hosting. All the emailing 
+Email providers such as Gmail, Yahoo, and Outlook do not represent email itself. They run and manage mail server software, providing hosting, storage, and filtering on top of the underlying email protocols.
+
 ### 2
 The Simple Mail Transport Protocol is a protocol governing email transmission and reception (sending and receiving emails between mail servers).
+
 ### 3 
 Actually, barcode numbers use a similar concept. The last digit of an ISBN (International Standard Book Number) [(as shown in this video by Numberphile)](https://www.youtube.com/watch?v=sPFWfAxIiwg) is used as a  "check number", i.e. a number which makes sure that the rest of the digits were correctly typed. It's a number that legitimizes the rest of the code. For example, if you were to change one digit in the ISBN, it wouldn't be a valid one. That last "check digit" would also have to be changed to a specific number in order to make the entire code be a legit one. This is better explained in the Numberphile video I linked above, or the [wikipedia page](https://en.wikipedia.org/wiki/Check_digit).
 
