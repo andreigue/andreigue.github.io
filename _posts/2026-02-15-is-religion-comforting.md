@@ -88,7 +88,7 @@ I just quickly checked, and the origins of religion are debated. Simply put, som
 
 There is a clear correlation between religiosity and socioeconomic status. That's clear. You can name countries like Italy (75%+ identify as Catholic Christians) or Greece (where 80%+ are Orthodox Christians) which are relatively rich and also religious, but these are exceptions, not the rule.
 
-And it is also important to note that correlation does not always imply causation. This is something I haven't dove too deep into. The proper thing to do is read articles/studies such as [this one](https://news.gallup.com/poll/142727/religiosity-highest-world-poorest-nations.aspx) and [this one](https://pure.rug.nl/ws/files/14556923/2009-RuiterS-Religious.pdf). 
+And it is also important to note that correlation does not always imply causation. This is something I haven't dove too deep into. The proper thing to do is read articles/studies such as [this one](https://news.gallup.com/poll/142727/religiosity-highest-world-poorest-nations.aspx), [this one](https://pure.rug.nl/ws/files/14556923/2009-RuiterS-Religious.pdf), or [this one](https://www.ifo.de/DocDL/cesifo1_wp4801.pdf). 
 
 From my understanding, "poverty" (however it is measured, but one way is to check the GDP per capita) is a proxy for many social changes such as education, urbanization, welfare capacity, political stability, and all these may also affect religiosity.
 
