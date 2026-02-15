@@ -104,6 +104,6 @@ Next, education. Education is a big one with many implications. It provides expo
 
 And finally, political stability. The more predictable, safe, and orderly a country’s political environment, the less people tend to rely on religion as a source of security and certainty. If there is no war, there is no corruption, the law works, there are no unpredictable life-altering events, reliance on religion drops.
 
-So my point is that GDP/poverty is not a single cause. The causal path is more indirect and multi-layered. It is oftentimes (if not always) wrong to simplify relationships and talk about isolated causal drivers.
+So my point is that GDP/poverty is not a single cause. Sure, being poor increases reliance on local religious networks. But the causal path is more indirect and multi-layered. It is oftentimes (if not always) wrong to simplify relationships and talk about isolated causal drivers.
 
 Also, all of this also doesn't mean that being religious will make you poor. Okay unless maybe in certain sects, such as televangelists (some of their "leaders"/voices are worth hundreds of millions).
