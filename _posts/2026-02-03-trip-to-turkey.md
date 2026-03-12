@@ -1,13 +1,11 @@
 ---
-title: "Through the Ruins of Western Armenia"
+title: "Through the Ruins of Eastern Turkey"
 tags: [History, Thoughts]
 ---
 
-First of all, I want to acknowledge something. What we saw on this trip will not last forever. If my great grandchildren visit eastern Turkey, they will find fewer traces of a past armenian presence than we did. The ruins will be fewer, the outlines fainter, and the carvings thinner. And some places will be completely gone. What can still be touched today may one day exist only in photographs and in the words of those who took the time to record it. An example of this is city names. [(Note 1)](#1)
+First of all, I want to acknowledge something. What we saw on this trip will not last forever. If my great grandchildren visit Eastern Turkey, they will find fewer traces of a past Armenian (as well as Greek and Assyrian) presence than we did. The ruins will be fewer, the outlines fainter, and the carvings thinner. And some places will be completely gone. What can still be touched today may one day exist only in photographs and in the words of those who took the time to record it. An example of this is city names. [(Note 1)](#1)
 
-By the way, even today the Azerbaijan government continues this pattern. President Ilham Aliyev and state media regularly refer to Armenian cities and regions using Azerbaijani or Turkic names, even when those places are internationally recognized as part of Armenia, such as Lake Sevan (which they call Lake Goycha), and Yerevan (which they call Irevan). This is done under the pretense that Armenians live on historically Azerbaijani land. And unfortunately without international law, disputes like these are not settled by history or truth, but by strength.
-
-And that is one reason I am writing this. Documenting this trip is a small form of preservation. And for the (over) 95% of Armenians from the diaspora who will never set foot in the villages their great grandparents fled from, all they have are stories like these. For them, these places exist only in black and white photographs and in documentaries.
+And that is one reason I am writing this. Documenting this trip is a small form of preservation. And for the 95% of Armenians from the diaspora who will never set foot in the villages their great grandparents fled from, all they have are stories like these. For them, these places exist only in black and white photographs and in documentaries.
 
 I am not from these towns myself, but my friends are. And so we decided to go see them.
 
@@ -302,7 +300,11 @@ Finally, I would recommend to explore all the Byzantine churches in Cappadocia, 
 
 ### 1
 
-Let's talk about names of cities. An obvious example to begin with is Istanbul, which used to be Constantinople, the City of (Roman Emperor) Constantine.
+Before going far into history, let's briefly mention a modern example. Since these things happen in stages, we can see some of the early stages of the cycle.
+
+President Ilham Aliyev and state media regularly refer to Armenian cities and regions using Azerbaijani or Turkic names, even when those places are internationally recognized as part of Armenia, such as Lake Sevan (which they call Lake Goycha), and Yerevan (which they call Irevan). This is done under the pretense that Armenians live on historically Azerbaijani land. And unfortunately without international law, disputes like these are not settled by history or truth, but by strength.
+
+Okay, back to what I wanted to talk about. Names of cities. An obvious example to begin with is Istanbul, which used to be Constantinople, the City of (Roman Emperor) Constantine.
 
 In 285 CE, the Roman Empire was divided in two for easier rule: one emperor in the East and one in the West. The Eastern Roman Empire became what we later call the Byzantine Empire, with Constantinople as its capital (named after Emperor Constantine in 330 CE). The Western Roman Empire collapsed in 476 CE, while the Eastern half survived another thousand years until it was captured by the Ottomans in 1453.
 
