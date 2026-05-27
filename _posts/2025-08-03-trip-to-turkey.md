@@ -1,6 +1,6 @@
 ---
 title: "Through the Ruins of Eastern Turkey"
-tags: [History, Thoughts]
+tags: [History]
 ---
 
 First of all, I want to acknowledge something. What we saw on this trip will not last forever. If my great grandchildren visit Eastern Turkey, they will find fewer traces of a past Armenian (as well as Greek and Assyrian) presence than we did. The ruins will be fewer, the outlines fainter, and the carvings thinner. And some places will be completely gone. What can still be touched today may one day exist only in photographs and in the words of those who took the time to record it. An example of this is city names. [(Note 1)](#1)
