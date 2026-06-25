@@ -4,8 +4,8 @@ tags: [Books, Thoughts]
 ---
 
 > "Have you no hope at all? Do you really think that when you die you die outright, and nothing remains?"
-I said: "Yes." 
-He dropped his eyes and sat down again. He was truly sorry for me, he said. It must make life unbearable for a man, to think as I did.
+<br>I said: "Yes." 
+<br>He dropped his eyes and sat down again. He was truly sorry for me, he said. It must make life unbearable for a man, to think as I did.
 
 ### *The Stranger, by Albert Camus*
 
