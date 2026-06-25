@@ -117,11 +117,11 @@ This marked the end of the observatory chronometer competitions. 1968.
 
 When they revived the chronometer competition in 2009, they included an interesting requirement: All parts and watches entered must be manufactured in Europe. This basically barred any Asian manufacturers from participating, and, in my opinion, strips this competition of any credibility it might have once had.
 
-While the Swiss used battery-powered movements to protect their dominance in 1968, something ironic was about to happen. Just a year later, in 1969, Seiko released the Astron, the world's first fully-integrated [(Note 1)](#1) quartz watch. 
+While the Swiss used battery-powered movements to protect their "dominance" in 1968 (by securing first three spots), it's extremely ironic because just one year later, in 1969, Seiko released the Astron, the world's first fully-integrated [(Note 1)](#1) quartz watch.
 
 This led to what Swiss watchmakers would later call the "quartz crisis". As electronic watches became cheaper, the mechanical watch industry in Switzerland nearly collapsed. In just a decade, two thirds of the jobs in the Swiss watchmaking industry vanished. Once a bunch of the dying companies were bought out (hence why there are like three companies that own most of the Swiss brands today), they redefined what watches represent to consumers by appealing to the artistry and the craft rather than the precision.
 
-This is my favorite story about watches. And makes me respect Seiko so much. Because they don't even use all this in their marketing. They don't put the Swiss down for all this. You know the story, now you can go [read what they put on their website, under the 1967 date](https://www.seikowatches.com/us-en/special/heritage/).
+This is my favorite story about watches. And makes me respect Seiko so much. Because they don't even use all this in their marketing. They don't put the Swiss down for all this. You know the story, now you can go [read what they wrote on their website, under the 1967 date](https://www.seikowatches.com/us-en/special/heritage/). A very humble culture.
 
 So next time you see a watch and it's not from Switzerland, remember there's more to watchmaking than Swiss marketing would have you believe.
 
@@ -129,6 +129,4 @@ So next time you see a watch and it's not from Switzerland, remember there's mor
 
 #### 1
 
-The term "fully integrated quartz" in watchmaking means all the components (the quartz crystal oscillator, the integrated circuit, the stepping motor, and the display) were miniaturized and engineered to work together in a single wristwatch case. Earlier attempts at electronic watches used batteries or some electronic components (like the ones used to "win" the 1968 Geneva competition), but weren't able to integrate all these parts into a practical wristwatch.
-
-The Seiko Astron was revolutionary because it was the first to successfully combine all these elements into a complete, wearable quartz watch. Prior electronic or battery powered watches still relied on mechanical parts for some of their functions, while the Astron represented a completely new way of keeping time using quartz crystal technology.
+The term "fully integrated quartz" in watchmaking means all the components (the quartz crystal oscillator, the integrated circuit, the stepping motor, and the display) were miniaturized and engineered to work together in a single wristwatch case. Earlier attempts at electronic watches used batteries or some electronic components (like the ones used to "win" the 1968 Geneva competition), but weren't able to integrate all these parts into a practical wristwatch. The Europeans still relied on mechanical parts for some of their functions, so that's why it wasn't "fully" quartz.

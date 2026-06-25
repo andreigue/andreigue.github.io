@@ -3,7 +3,7 @@ title: "Is religion comforting?"
 tags: [Thoughts]
 ---
 
-A few months ago, my Christian friend and I would often talk about Christianity, but it felt like we were talking past one another. We thought it might be useful to bring in other perspectives, so we organized a small discussion night with about twenty other people. We sat in a circle, and three of us had prepared short presentations to help kickstart the conversation and get the juices flowing. This article is what I presented that evening. And I added notes for clarifications.
+A few months ago, my Christian friend and I would often talk about Christianity, but it felt like we were talking past one another. We thought it might be useful to bring in other perspectives, so we organized a small discussion night with about twenty other people. We sat in a circle, and three of us had prepared short presentations to help kickstart the conversation and get the juices flowing. This article is what I presented (read out loud) that evening. And I added notes for clarifications.
 
 ## An Agnostic's Point of View
 
@@ -11,7 +11,7 @@ Imagine living in a cave twenty thousand years ago. You see a bush shaking in th
 
 So that night you sit around the fire with your tribe, maybe sharing food or even local hallucinogens, and you begin to tell stories.
 
-One hunter then says, “*My father went fishing last year, and the sky turned black, the air pushed him, and the darkness took him into the water*”. Naturally, the tribe concludes that the higher powers of wind, water, and darkness took him away.
+One hunter then says, “*My father went fishing last year, and the sky turned black, the air pushed him, and the darkness took him into the water*”. Naturally, the tribe concludes that the higher powers of wind, water, and darkness took him away. [(An extension to this example)](#0)
 
 Humans have always wanted to make sense of the world. And thats how religion began. It's humanity’s first attempt to understand and survive a mysterious world. [(Note 1)](#1)
 
@@ -75,6 +75,14 @@ It began when a frightened tribe imagined a god of darkness. And it continues to
 I also took the stance that religion is comforting, but since then I’ve realized that this isn’t true for everyone. For some people, especially those raised in strict religious environments who later encounter different beliefs, religion can feel more restrictive than reassuring. Instead of belonging, it can create tension, guilt, or the feeling of living a double life. For those trying to step away from a tight community or strong expectations, religion is not a source of comfort at all. It can feel like something they have to push against in order to be themselves.
 
 ## Notes
+
+#### 0
+
+Now image some other tribesman, let's call him tribesman A, gets caught in the sea. He's alone. He went fishing on a boat, the sky turned black all of a sudden, but somehow, the current wasn't strong. So tribesman A returns to his pregnant woman, and guess what he does around the campfire that night. He talks about this event. And the group starts discussing. Tribesman B tell him how the God of Water had spared his life. He continues on to say one of the following:
+
+1. You have a child coming up. The Gods seem to think that you have more work to do in this life and you need to raise your child. This will be a special child. I propose we make him our leader once he is born.
+2. There is a battle in the Heavens happening. The God of Darkness wanted to take your life, but for some reason the God of Water prevented this. Therefore the God of Water is more powerful than the God of Darkness, since he is able to stop him.
+3 [unfinished]
 
 #### 1
 
