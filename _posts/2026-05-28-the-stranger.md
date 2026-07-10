@@ -9,9 +9,7 @@ tags: [Books, Thoughts]
 
 ### *The Stranger, by Albert Camus*
 
-I’ve written before about [watches](https://andreigue.github.io/some-thoughts/) and why I think they are an extreme interest to have. It’s precisely because they are such an edge case that understanding their appeal made it easier for me to understand other interests.
-
-Meursault, the main character in Camus’s The Stranger, embodies an extreme mindset in the same way that a luxury watch is an extreme interest. Usually extremes are not good to live by, but seeing them embodied and exemplified through a character gets the point across better. By seeing Meursault’s detachment in such a sharp form, we become better equipped to recognize milder versions of it in ordinary life. So although it may seem at points in this article that I am praising Meursault’s coldness, I am not. I am interested in the less extreme version of what his character reveals.
+Meursault, the main character in Camus’s The Stranger, embodies an extreme mindset in the same way that a [luxury watch](https://andreigue.github.io/some-thoughts/) is an extreme interest. Usually extremes are not good to live by, but seeing them embodied and exemplified through a character gets the point across better. By seeing Meursault’s detachment in such a sharp form, we become better equipped to recognize milder versions of it in ordinary life. So although it may seem at points in this article that I am praising Meursault’s coldness, I am not. I am interested in the less extreme version of what his character reveals.
 
 Now I was going to leave the parallel between watches and The Stranger at that, but writing this, I just realized that there is an actual deep parallel between them.
 
@@ -29,7 +27,7 @@ So, you can find beauty staying solely within the confines of the physical realm
 
 However, you'd then miss everything that cannot be found inside the watch:
 
-It is now your reminder of how far you've come. What you've achieved. It now reminds you that \$15'000 is nothing to you. I mean, there it is sitting on your wrist, all day, getting accidentally brushed against hard surfaces and picking up light scratches. It's not like you were planning to resell it anyway. You don't need that money back. You don't want that money back. Your whole paradigm around money has changed. What you used to believe was expensive is now reachable. And maybe, because of that, you carry yourself a little differently too. You enter a room full of new people, and before you even open your mouth, something has already been communicated, whether through the watch itself or through the quiet confidence it gives you.
+As it is now your reminder of how far you've come. What you've achieved. It now reminds you that $15,000 is nothing to you. I mean, there it is sitting on your wrist, all day, getting accidentally brushed against hard surfaces and picking up light scratches. It's not like you were planning to resell it anyway. You don't need that money back. You don't want that money back. Your whole paradigm around money has changed. What you used to believe was expensive is now reachable. And maybe, because of that, you carry yourself a little differently too. You enter a room full of new people, and before you even open your mouth, something has already been communicated, whether through the watch itself or through the quiet confidence it gives you.
 
 And then there is the memory attached to it. The fleeting moments that you now call "the day my promotion". The joyful ride back home. The stupid smile you kept trying to hide at red lights. Greeting your spouse and kids and sharing the good news. Going to a fancy restaurant and ordering a Tomahawk steak for the first time in your life. The waiter opening the bottle of wine, and the feeling that life had opened up with it. The quiet trails of perfume claiming the space between tables. All of the aforementioned memories, along with pride, relief, disbelief, ambition, and the feeling that the world was now yours to reach for, get cemented into this one object, which just so happens to be a watch.
 
@@ -45,14 +43,11 @@ It's stories and feelings that we attach to objects, events, jobs, relationships
 
 Strip away that added layer, and what remains is a more open field of immediate physical experience.
 
-And that's how Meursault, the stranger, lives his life.
-
-He does not see a different reality from everyone else; he simply refuses, or is unable, to layer reality with the moral and emotional meanings that others instinctively add to it.
+And that's how Meursault, the stranger, lives his life. He simply refuses, or is unable, to layer reality with the moral and emotional meanings that others instinctively add to it.
 
 He describes his mother’s death with the same flat attention he gives to drinking coffee, feeling sunlight on his shoulder, or sand caught beneath the toenail of his big toe. He does not add layers of meaning onto anything. Nothing gets the privilege of being elevated. Nothing gets pushed into the sacred, the tragic, or the heroic. Everything stays on the same plane of immediate experience.
 
 It’s somewhat analogous to animals. If a lion is hungry, it hunts and eats. If it is tired, it sleeps. Threatened, reacts. Hot, seeks shade. There is no reflective layer of symbolic meaning added on top of these experiences. The lion does not stop to ask, “What is the purpose of my life?”, “Am I successful?”, or “What will society think of me?”
-
 
 ### Finding Common Ground with Absurdism
 
@@ -62,11 +57,11 @@ As I said in the beginning, Meursault represents absurdism taken to an extreme. 
 
 There are probably other ideas that I appreciate, but I'm on a time limit as I write these thoughts. One of the principles I've been trying to live by lately is to finish things, even if they're imperfect. Writing this article is another opportunity to practice that. It's me training detachment from the outcome.
 
-And that's a Buddhist concept. Buddhism says that attachment, in any form, is a major source of suffering. The moment you say anything remotely close to "I am a successful person because I own this watch", or "the quality of this article is a direct reflection of who I am", you've created a source of potential suffering. Because what if, one day, the economy crashes and you get fired from your job? What if someone thinks this article is complete garbage with zero substance?
+And that in itself is a Buddhist concept. Buddhism says that attachment, in any form, is a major source of suffering. The moment you say anything remotely close to "I am a successful person because I own this watch", or "the quality of this article is a direct reflection of who I am", you've created a source of potential suffering. Because what if, one day, the economy crashes and you get fired from your job? What if someone thinks this article is complete garbage with zero substance?
 
-Those are real risks. And if you benefit from the human element enough to justify those risks, then to a certain extent, creating and adding the human layer to things is worth it. It's what makes life worth living. How can you deeply love someone and not be attached to them? I'm not sure.
+Those are real risks. And if you benefit from the human element enough to justify those risks, then to a certain extent, creating and adding the human layer to things and events is worth it. It's what makes life worth living. How can you deeply love someone and not be attached to them? I'm not sure.
 
-And if having a \$15'000 Rolex will make you walk straighter, with your chest up and your voice louder and more confident, even if it is all in your head, that confidence can eventually lead to real-world results in the form of new opportunities. Because the snowball effect is real. The halo effect is real. The placebo effect is real. And so it is not unwise to embrace our instinctive tendency to attach meaning to things. But I think it's important to remain aware of it.
+And if having a $15,000 Rolex will make you walk straighter, with your chest up and your voice louder and more confident, even if it is all in your head, that confidence can eventually lead to real-world results in the form of new opportunities. Because the snowball effect is real. The halo effect is real. The placebo effect is real. And so it is not unwise to embrace our instinctive tendency to attach meaning to things. But I think it's important to remain aware of it.
 
 It reminds me of leverage in finance. One reason the West has grown so much economically is its willingness to use credit. We are comfortable borrowing money today to fund projects that we expect will create more value tomorrow. However leverage works in both directions. It amplifies both gains and losses. A prime example is the 2008 financial crisis. American banks were more willing to take on risk, while Canadian banks were generally more conservative. When the cracks started to show, the U.S. economy suffered much more than Canada’s.
 
@@ -86,6 +81,6 @@ Nobody knows what they're doing.
 
 Lots of people confidently and unapologetically claim to know. But they're either pretending, or they believe in something so strongly that it becomes their reality. It becomes the lens through which they view life.
 
-And that's okay. Because there is no one right answer. So as long as your boat floats, keep it. 
+And that's okay. Because there is no one right answer. There is no one right way to live life. So as long as your boat floats, sail it.
 
-But I'd prefer to say "I don't know, and I'm okay with that". It sounds absurd to some people, but I think it's pretty cool.
+But I'd prefer to say "I don't know, and I'm okay with that". It sounds absurd to some people, but I prefer it.
